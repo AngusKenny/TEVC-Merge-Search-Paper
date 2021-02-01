@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: COR2017.aux
+The style file: elsarticle-harv.bst
+Database file #1: references.bib
+Repeated entry---line 2579 of file references.bib
+ : @inbook{Pisinger2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty pages in boykov_experimental_2001
+Warning--empty pages in Kenny:2019
+Warning--empty journal in Luke2009
+Warning--empty journal in Papadimitriou1982
+Warning--can't use both author and editor fields in Pisinger2010
+Warning--empty chapter and pages in Pisinger2010
+Warning--empty journal in algo:polzin
+You've used 70 entries,
+            2990 wiz_defined-function locations,
+            1078 strings with 18137 characters,
+and the built_in function-call counts, 48889 in all, are:
+= -- 3844
+> -- 1699
+< -- 62
++ -- 681
+- -- 581
+* -- 5145
+:= -- 6838
+add.period$ -- 185
+call.type$ -- 70
+change.case$ -- 539
+chr.to.int$ -- 70
+cite$ -- 77
+duplicate$ -- 3773
+empty$ -- 3763
+format.name$ -- 811
+if$ -- 9422
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 693
+newline$ -- 340
+num.names$ -- 288
+pop$ -- 1386
+preamble$ -- 1
+purify$ -- 468
+quote$ -- 0
+skip$ -- 1252
+stack$ -- 0
+substring$ -- 2261
+swap$ -- 2680
+text.length$ -- 24
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 606
+warning$ -- 7
+while$ -- 342
+width$ -- 0
+write$ -- 979
+(There was 1 error message)

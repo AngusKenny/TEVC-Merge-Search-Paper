@@ -1,0 +1,6 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=10000,xmin=0,ymax=670000000,ymin=6.35961e+08,xlabel={Wall time [s]},ylabel=Objective value,scaled x ticks=base 10:-3]
+\addplot [thick,color=blue,mark=none] table [col sep=comma] {mine/plots/polish/zuck_med_merge_polish.csv};
+\addplot [thick,color=Red,solid,mark=none] table [col sep=comma] {mine/plots/grasp_best_inc.csv};
+\end{axis}
+\end{tikzpicture}

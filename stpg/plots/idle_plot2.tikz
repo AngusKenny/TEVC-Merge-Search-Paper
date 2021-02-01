@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=1000,xmin=0,ymax=820,ymin=750,xlabel=iterations,ylabel=solution cost]
+\addplot [color=black,solid,mark=none] table [col sep=comma] {stpg/plots/c03_100plot.dat};
+\addplot [color=black,dashed,mark=none] table [col sep=comma] {stpg/plots/c03_200plot.dat};
+\addplot [color=black,dotted,mark=none] table [col sep=comma] {stpg/plots/c03_400plot.dat};
+% Plot code
+\addlegendentry{$i=100$}
+\addlegendentry{$i=200$}
+\addlegendentry{$i=400$}
+\end{axis}
+\end{tikzpicture}

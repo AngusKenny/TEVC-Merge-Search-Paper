@@ -1,0 +1,415 @@
+\relax 
+\bibstyle{elsarticle-harv}
+\citation{Newman:2010}
+\citation{Meagher2014}
+\citation{Meagher2014}
+\citation{Bley:2010,espinoza_minelib:_2012}
+\providecommand \oddpage@label [2]{}
+\Newlabel{monash}{a}
+\Newlabel{deakin}{b}
+\Newlabel{bhp}{c}
+\Newlabel{uq}{d}
+\Newlabel{rmit}{e}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}}
+\@writefile{tdo}{\contentsline {todo}{\color@fb@x {}{black}{}{green!40}{\leavevmode {\color  {green!40}o}}\ {\bf  angus:} intro is too ``mining problem heavy''..\\some things to cover: \begin {itemize} \item large scale problems can be very complicated \item decomposition algorithms important \item local vs global search trade off (hybrid techniques) \item general technique would be nice as most are domain knowledge dependent \end {itemize} then after, introduce problems and say that they will demonstrate the versatility of the technique }{1}\protected@file@percent }
+\pgfsyspdfmark {pgfid1}{20112834}{14967025}
+\citation{fisher04}
+\citation{Wolsey1998}
+\citation{Geoffrion1972}
+\citation{BOLAND2009,Litvinchev:2003,Rogers:1991}
+\citation{Ahuja:2002}
+\citation{Ahuja:2002,Pisinger2010}
+\citation{Mitchell:1996}
+\citation{Gropp:1994}
+\citation{Blum2016,BlumBlesa16,Blum16-2,Lewis2019,Thiruvady2019}
+\citation{Blum2016}
+\citation{BlumBlesa16}
+\citation{Blum16-2}
+\citation{Lewis2019}
+\citation{Thiruvady2019}
+\citation{Papadimitriou1982}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Merge Search}{3}\protected@file@percent }
+\newlabel{sec:MS}{{2}{3}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces {\sf  Merge Search Matheuristic}\relax }}{3}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{alg:MS}{{1}{3}}
+\newlabel{step:nbhd}{{3}{3}}
+\newlabel{step:P}{{6}{3}}
+\newlabel{step:RandSplit}{{7}{3}}
+\newlabel{step:merge}{{8}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Description}{3}\protected@file@percent }
+\citation{Blum2016}
+\newlabel{eq:mip-init}{{1}{4}}
+\citation{Luke2009}
+\newlabel{prop:part}{{1}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Partitions formed by intersecting solutions}}{5}\protected@file@percent }
+\newlabel{fig:group_part}{{1}{5}}
+\newlabel{sec:merge:part:bound}{{2.1}{6}}
+\newlabel{def:split}{{2}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Splitting partitions by adding a random bit string}}{6}\protected@file@percent }
+\newlabel{fig:random_split}{{2}{6}}
+\citation{Pisinger2010}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Demonstrtation that Merge Search is equivalent to LNS}}{7}\protected@file@percent }
+\newlabel{fig:lns-merge}{{3}{7}}
+\newlabel{eq:merge_group}{{2}{7}}
+\newlabel{fig:merge-opt}{{4a}{8}}
+\newlabel{sub@fig:merge-opt}{{a}{8}}
+\newlabel{fig:merge-nhood}{{4b}{8}}
+\newlabel{sub@fig:merge-nhood}{{b}{8}}
+\newlabel{fig:merge-sol}{{4c}{8}}
+\newlabel{sub@fig:merge-sol}{{c}{8}}
+\newlabel{fig:merge-approx}{{4d}{8}}
+\newlabel{sub@fig:merge-approx}{{d}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Solving the reduced subproblem gives an approximate solution to the master problem}}{8}\protected@file@percent }
+\newlabel{fig:merge-solve}{{4}{8}}
+\citation{Blum2016}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Properties of Merge Search}{9}\protected@file@percent }
+\newlabel{thm:improve}{{1}{9}}
+\newlabel{thm:hill-climb}{{1}{9}}
+\newlabel{thm:optimal}{{2}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Comparison with CMSA}{9}\protected@file@percent }
+\citation{singh}
+\citation{Meagher2014}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Applying Merge Search to solve problems}{10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Open-pit mining problems}{10}\protected@file@percent }
+\citation{espinoza_minelib:_2012}
+\citation{Kenny:2017}
+\citation{Kenny:2018}
+\citation{Kenny:2019}
+\citation{np:karp}
+\citation{vlsi:cho}
+\citation{history:brazil}
+\citation{steiner:hwang}
+\citation{pd:polzin}
+\citation{algo:polzin,algo:daneshmand}
+\citation{memetic:klau}
+\citation{aco:singh,acogroup:nguyen}
+\citation{fastls:uchoa,effectivels:wade}
+\citation{partition:leitner}
+\citation{kp:dowsland}
+\citation{Kenny:2016}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Solving CPIT with Merge Search}{11}\protected@file@percent }
+\@writefile{tdo}{\contentsline {todo}{\color@fb@x {}{black}{}{green!40}{\leavevmode {\color  {green!40}o}}\ {\bf  angus:} is this enough information? should i include the pseudocode or something?}{11}\protected@file@percent }
+\pgfsyspdfmark {pgfid11}{20112834}{30009604}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}The Steiner tree problem in graphs}{11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Solving the STPG with Merge Search}{11}\protected@file@percent }
+\citation{pp:duin,pp:uchoa,stpg-reduce}
+\citation{Kenny:2016}
+\citation{goemans}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Partitioning variables by merging solutions}}{12}\protected@file@percent }
+\newlabel{fig:stpg-partition}{{5}{12}}
+\@writefile{tdo}{\contentsline {todo}{\color@fb@x {}{black}{}{green!40}{\leavevmode {\color  {green!40}o}}\ {\bf  angus:} should i actually include the formulation (or pseudocode) here?}{12}\protected@file@percent }
+\pgfsyspdfmark {pgfid13}{20112834}{6442875}
+\citation{espinoza_minelib:_2012}
+\citation{espinoza_minelib:_2012}
+\citation{steinlib}
+\citation{Kenny:2017}
+\citation{Kenny:2017}
+\citation{pp:duin,pp:uchoa,stpg-reduce}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets}{13}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Characteristics of \emph  {minelib}\nobreakspace  {}\citep  {espinoza_minelib:_2012} datasets.\relax }}{13}\protected@file@percent }
+\newlabel{tab:datasets}{{1}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Pre-processing}{13}\protected@file@percent }
+\citation{espinoza_minelib:_2012}
+\citation{Kenny:2017}
+\citation{Kenny:2018}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Characteristics of category $B$, $C$, $D$ and $E$ instances from the \textit  {steinlib} database}}{14}\protected@file@percent }
+\newlabel{tab:stpgprobs1}{{2}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Experimental setup}{14}\protected@file@percent }
+\@writefile{tdo}{\contentsline {todo}{\color@fb@x {}{black}{}{green!40}{\leavevmode {\color  {green!40}o}}\ {\bf  angus:} (will add appendix later)}{15}\protected@file@percent }
+\pgfsyspdfmark {pgfid14}{20112834}{32507217}
+\@writefile{tdo}{\contentsline {todo}{\color@fb@x {}{black}{}{green!40}{\leavevmode {\color  {green!40}o}}\ {\bf  angus:} should i add some details about the parameters used here?}{15}\protected@file@percent }
+\pgfsyspdfmark {pgfid15}{20112834}{31252471}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results and discussion}{15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}The CPIT problem:}{15}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Results on \emph  {minelib} dataset instances}}{15}\protected@file@percent }
+\newlabel{tab:mine:main}{{3}{15}}
+\newlabel{plot:newman-conv}{{6a}{17}}
+\newlabel{sub@plot:newman-conv}{{a}{17}}
+\newlabel{plot:zuck-small-conv}{{6b}{17}}
+\newlabel{sub@plot:zuck-small-conv}{{b}{17}}
+\newlabel{plot:kd-conv}{{6c}{17}}
+\newlabel{sub@plot:kd-conv}{{c}{17}}
+\newlabel{plot:zuck-med-conv}{{6d}{17}}
+\newlabel{sub@plot:zuck-med-conv}{{d}{17}}
+\newlabel{plot:marvin-conv}{{6e}{17}}
+\newlabel{sub@plot:marvin-conv}{{e}{17}}
+\newlabel{plot:zuck-large-conv}{{6f}{17}}
+\newlabel{sub@plot:zuck-large-conv}{{f}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Convergence plots for merge search on CPIT instances}}{17}\protected@file@percent }
+\newlabel{plot:mine:runtime}{{6}{17}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Runtime information for experiments on CPIT}}{18}\protected@file@percent }
+\newlabel{tab:mine:runtime}{{4}{18}}
+\newlabel{plot:time.1}{{7a}{18}}
+\newlabel{sub@plot:time.1}{{a}{18}}
+\newlabel{plot:time.2}{{7b}{18}}
+\newlabel{sub@plot:time.2}{{b}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Plot of wall time {[s]} for \texttt  {zuck\_small}{} and \texttt  {kd}{} instances}}{18}\protected@file@percent }
+\newlabel{plot:mine:time}{{7}{18}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Results of polishing the best merge search solution}}{19}\protected@file@percent }
+\newlabel{tab:mine:polish}{{5}{19}}
+\citation{minelib-improved}
+\newlabel{plot:polish.med1}{{8a}{20}}
+\newlabel{sub@plot:polish.med1}{{a}{20}}
+\newlabel{plot:polish.med2}{{8b}{20}}
+\newlabel{sub@plot:polish.med2}{{b}{20}}
+\newlabel{plot:polish.large1}{{8c}{20}}
+\newlabel{sub@plot:polish.large1}{{c}{20}}
+\newlabel{plot:polish.large2}{{8d}{20}}
+\newlabel{sub@plot:polish.large2}{{d}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Plot of merge search with solution polishing on \texttt  {zuck\_medium}{} and \texttt  {zuck\_large}{} instances}}{20}\protected@file@percent }
+\newlabel{plot:mine:polish}{{8}{20}}
+\citation{newman-improved,zuck-small-improved,JELVEZ20161169}
+\citation{newman-improved}
+\citation{zuck-small-improved}
+\citation{zuck-small-improved}
+\citation{zuck-small-improved}
+\citation{zuck-small-improved}
+\citation{JELVEZ20161169}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Recent updates to state-of-the-art results for \emph  {minelib} CPIT instances}}{21}\protected@file@percent }
+\newlabel{tab:mine:update}{{6}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}The Steiner tree problem in graphs:}{21}\protected@file@percent }
+\citation{goemans,stpg-improved,hypergraph}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Results on \emph  {steinlib} dataset \(B\) instances}}{22}\protected@file@percent }
+\newlabel{tab:stpg:results}{{7}{22}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Deterministic vs. random construction heuristic results}}{23}\protected@file@percent }
+\newlabel{tab:stpg:init:trunc}{{8}{23}}
+\@writefile{tdo}{\contentsline {todo}{\color@fb@x {}{black}{}{green!40}{\leavevmode {\color  {green!40}o}}\ {\bf  angus:} (will add appendix later)}{23}\protected@file@percent }
+\pgfsyspdfmark {pgfid40}{20112834}{18584604}
+\citation{np:karp}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Size of reduced sub-problem results}}{24}\protected@file@percent }
+\newlabel{tab:stpg:pop:trunc}{{9}{24}}
+\@writefile{tdo}{\contentsline {todo}{\color@fb@x {}{black}{}{green!40}{\leavevmode {\color  {green!40}o}}\ {\bf  angus:} should i go into more detail with the parameters? its already pretty long}{24}\protected@file@percent }
+\pgfsyspdfmark {pgfid49}{20112834}{19835123}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion and future work}{24}\protected@file@percent }
+\newlabel{fig:stpg_pop.1}{{9a}{25}}
+\newlabel{sub@fig:stpg_pop.1}{{a}{25}}
+\newlabel{fig:stpg_pop.2}{{9b}{25}}
+\newlabel{sub@fig:stpg_pop.2}{{b}{25}}
+\newlabel{fig:stpg_pop.3}{{9c}{25}}
+\newlabel{sub@fig:stpg_pop.3}{{c}{25}}
+\newlabel{fig:stpg_pop.4}{{9d}{25}}
+\newlabel{sub@fig:stpg_pop.4}{{d}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Effect of population size on number of partitions in the reduced sub-problem}}{25}\protected@file@percent }
+\newlabel{fig:stpg_pop_plots}{{9}{25}}
+\citation{minelib-improved}
+\citation{Hochbaum:2000,Meagher2014}
+\citation{Chicoisne2012,Lerchs65,UNDERWOOD199896}
+\citation{Lerchs65}
+\citation{UNDERWOOD199896}
+\citation{Chicoisne2012}
+\citation{zuckerberg2010}
+\citation{espinoza_minelib:_2012}
+\citation{JELVEZ20161169}
+\citation{Caccetta2003,Ramazan:2004,BOLAND2009}
+\citation{Caccetta2003}
+\citation{Ramazan:2004}
+\citation{BOLAND2009}
+\citation{Bley:2010}
+\citation{Kenny:2017}
+\citation{Bley:2010}
+\citation{Kenny:2017}
+\citation{munoz2012}
+\citation{Kenny:2017}
+\@writefile{toc}{\contentsline {section}{\numberline {7}AFTER HERE IS OLD STUFF}{27}\protected@file@percent }
+\@writefile{tdo}{\contentsline {todo}{\color@fb@x {}{black}{}{green!40}{\leavevmode {\color  {green!40}o}}\ {\bf  angus:} everything below here is just from the original paper, i will cut and paste bits from it and also my thesis}{27}\protected@file@percent }
+\pgfsyspdfmark {pgfid50}{20112834}{46016977}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Open Pit Mining}{27}\protected@file@percent }
+\newlabel{sec:opbs}{{8}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}The Open Pit Mining Problem}{27}\protected@file@percent }
+\newlabel{sec:prob}{{8.1}{27}}
+\citation{espinoza_minelib:_2012}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces An example of an open-pit mine split into blocks. The blocks are numbered from 1-11 and are associated with values (dollar amounts). At the bottom-left and bottom-right are two blocks of ore which provide profits of \textdollar 120 and \textdollar 100, respectively. All other blocks (shades of grey) have negative dollar amounts.\relax }}{28}\protected@file@percent }
+\newlabel{fig:pit}{{10}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Integer Programming Formulation of Open Pit Mining}{28}\protected@file@percent }
+\newlabel{sec:formulations}{{8.2}{28}}
+\newlabel{eq:obj}{{3}{29}}
+\newlabel{eq:prec}{{4}{29}}
+\newlabel{eq:once}{{5}{29}}
+\newlabel{eq:ydef}{{6}{29}}
+\newlabel{eq:resource}{{7}{29}}
+\newlabel{eq:vars}{{8}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Application of Merge Search to the PCPSP}{30}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Merge Search Example}{31}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces A problem with 3 blocks an two solutions. The mining time of each block varies depending on the solution; for example, Block 1 is mined at time-point 3 in the first solution whereas it is mined at time-point 7 in the second solution.\relax }}{31}\protected@file@percent }
+\newlabel{fig:MSorig}{{11}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The sets generated from the solutions in Figure\nobreakspace  {}11\hbox {}. The white region corresponds to both solutions having all variables 0 and the black region is one where all variables are 1. The grey areas are where the variables take on different values in both solutions; light grey is where the first solution is 1 and the second solution is 0; dark grey is the opposite, i.e., the first solution takes on value 0 and the second solution 1. \relax }}{31}\protected@file@percent }
+\newlabel{fig:MS1}{{12}{31}}
+\citation{zuckerberg2010}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The sets generated from the solutions in Figure\nobreakspace  {}11\hbox {} and the sets are the same as that of Figure\nobreakspace  {}12\hbox {}. The set in the light grey region is split into additional sets along the dotted lines. \relax }}{32}\protected@file@percent }
+\newlabel{fig:MS2}{{13}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Efficient Implementation of Merge Search and a Branch \& Bound Method}{32}\protected@file@percent }
+\newlabel{sec:meth}{{10}{32}}
+\citation{dorit_s._hochbaum_performance_2000}
+\citation{dorit_s._hochbaum_performance_2000}
+\citation{boykov_experimental_2001}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Preprocessing}{33}\protected@file@percent }
+\newlabel{sec:preprocess}{{10.1}{33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Maximum Closure Solver}{33}\protected@file@percent }
+\newlabel{sec:MC}{{10.2}{33}}
+\newlabel{eq:MC:obj}{{9}{33}}
+\newlabel{eq:MC:bounds}{{11}{33}}
+\citation{zuckerberg2010}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces CPU time (seconds) of 3 maximum closure methods with preprocessing of 30 solves (with different objective values) each on 3 data sets.\relax }}{34}\protected@file@percent }
+\newlabel{tab:MC}{{10}{34}}
+\citation{zuckerberg2010}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.3}Solving the LP relaxation}{35}\protected@file@percent }
+\newlabel{sec:bienstock}{{10.3}{35}}
+\newlabel{eq:Lobj}{{12}{35}}
+\newlabel{eq:Lprec}{{13}{35}}
+\newlabel{eq:Lincr}{{14}{35}}
+\newlabel{eq:Lvars}{{15}{35}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces {\sf  Bienstock--Zuckerberg Algorithm}\relax }}{35}\protected@file@percent }
+\newlabel{alg:bz}{{2}{35}}
+\newlabel{step:aggregate}{{7}{35}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.3.1}Rounding Heuristic}{35}\protected@file@percent }
+\newlabel{sec:round}{{10.3.1}{35}}
+\citation{openmp}
+\citation{Gropp:1994}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.4}Branch \& Bound}{36}\protected@file@percent }
+\newlabel{sec:BB}{{10.4}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.5}Parallel and Distributed Computing}{36}\protected@file@percent }
+\newlabel{sec:parallelms}{{10.5}{36}}
+\@writefile{toc}{\contentsline {section}{\numberline {11}Computational Experiments \& Results}{36}\protected@file@percent }
+\newlabel{sec:expts_res}{{11}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1}Problem Instances}{36}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Communication in the MPI framework with 10 nodes. Each node consists of at least two threads, a master (grey) and a slave (white). Via the interface, solutions are broadcast from each node to every other node.\relax }}{37}\protected@file@percent }
+\newlabel{fig:mpi-comm}{{14}{37}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Selected problem instances from MineLib\relax }}{37}\protected@file@percent }
+\newlabel{tab:instances}{{11}{37}}
+\citation{Kenny:2017}
+\citation{espinoza_minelib:_2012}
+\citation{Kenny:2017}
+\citation{Kenny:2017}
+\citation{Kenny:2017}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2}Computational Results}{38}\protected@file@percent }
+\newlabel{sec:ser_res}{{11.2}{38}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Results for the serial and parallel runs for each algorithm with a time limit of 5 hours. The problems Zuck$\_$small, Zuck$\_$medium, and Zuck$\_$large are listed as small, medium and large, respectively. The best MineLib results are also provided for comparisons. The last row specifies the best lower bound (Best LB) found across all the algorithms, including the MineLib results. Gaps (Gap $\%$) to the upper bounds are also provided for each instance.\relax }}{39}\protected@file@percent }
+\newlabel{tab:results}{{12}{39}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {11.2.1}Convergence of MS and P-MS}{39}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {11.2.2}Investigating Random Splitting}{39}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Convergence of MS and P-MS for the smaller instances including Zuck$\_$small, Kd, Marvin and Sm2. The y-axis show the gap to the best solutions found across all these instances.\relax }}{40}\protected@file@percent }
+\newlabel{fig:con_summary}{{15}{40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Convergence of P-MS by varying the number of processes (3,6,9,12) for the instances including \emph  {Zuck$\_$small, Zuck$\_$medium, Kd, Marvin} and \emph  {Sm2}. The y-axis show the gap to the best solution found by all runs across all these instances.\relax }}{40}\protected@file@percent }
+\newlabel{fig:concores}{{16}{40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces The performance of P-MS on the \emph  {Kd} dataset with different levels of random splitting: 100, 500, 1000, 5000, 10000. The y-axis shows the gap to the best solution found across all runs.\relax }}{41}\protected@file@percent }
+\newlabel{fig:kd_rs}{{17}{41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces The performance of P-MS on the \emph  {Marvin} dataset with different levels of random splitting: 100, 500, 1000, 5000, 10000. The y-axis shows the gap to the best solution found across all runs.\relax }}{41}\protected@file@percent }
+\newlabel{fig:m_rs}{{18}{41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces The performance of P-MS on the \emph  {Zuck$\_$small} dataset with different levels of random splitting: 100, 500, 1000, 5000, 10000. The y-axis shows the gap to the best solution found across all runs.\relax }}{42}\protected@file@percent }
+\newlabel{fig:zs_rs}{{19}{42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3}Investigating Synchronisation Frequency}{42}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces The performance of P-MS on the Kd dataset with different syncing times (in seconds): 0.1, 0.5, 1.0, 5.0, 10.0. The y-axis show the gap to the best solution found by all runs across.\relax }}{43}\protected@file@percent }
+\newlabel{fig:kd_sync}{{20}{43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces The performance of P-MS on the Marvin dataset with different syncing times (in seconds): 0.1, 0.5, 1.0, 5.0, 10.0. The y-axis show the gap to the best solution found by all runs across.\relax }}{43}\protected@file@percent }
+\newlabel{fig:m_sync}{{21}{43}}
+\citation{dorigo04}
+\citation{Kennedy95}
+\citation{Thiruvady2013}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces The performance of P-MS on the Zuck$\_$small dataset with different syncing times (in seconds): 0.1, 0.5, 1.0, 5.0, 10.0. The y-axis show the gap to the best solution found by all runs across.\relax }}{44}\protected@file@percent }
+\newlabel{fig:zs_sync}{{22}{44}}
+\@writefile{toc}{\contentsline {section}{\numberline {12}Conclusion}{44}\protected@file@percent }
+\newlabel{sec:conc}{{12}{44}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1}Future Work}{44}\protected@file@percent }
+\citation{marriott98}
+\citation{Kenny:2018}
+\citation{singhernst10}
+\citation{kimms00}
+\citation{Thiruvady14a,ernst_hybrid_2010}
+\@writefile{toc}{\let\numberline\tmptocnumberline}
+\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}A}Network Flow Structure}{45}\protected@file@percent }
+\newlabel{sec:network_flow}{{Appendix \nobreakspace  {}A}{45}}
+\newlabel{eq:Pobj}{{A.1}{45}}
+\newlabel{eq:Pprec}{{A.2}{45}}
+\newlabel{eq:Pbxle1}{{A.3}{45}}
+\newlabel{eq:Pxge0}{{A.4}{45}}
+\newlabel{eq:Pobj_1}{{A.5}{45}}
+\newlabel{eq:Dflow}{{A.6}{45}}
+\newlabel{eq:Dge0}{{A.7}{45}}
+\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}B}Incremental destination variables}{46}\protected@file@percent }
+\newlabel{sec:incremental}{{Appendix \nobreakspace  {}B}{46}}
+\newlabel{eq:yobj}{{B.1}{46}}
+\newlabel{eq:yprec}{{B.2}{46}}
+\newlabel{eq:yincr}{{B.3}{46}}
+\newlabel{eq:yresource}{{B.4}{46}}
+\newlabel{eq:yvars}{{B.5}{46}}
+\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}C}Aggregation Formulation}{47}\protected@file@percent }
+\newlabel{sec:agg}{{Appendix \nobreakspace  {}C}{47}}
+\newlabel{eq:Sobj}{{C.1}{47}}
+\newlabel{eq:Sprec}{{C.2}{47}}
+\newlabel{eq:Sresource}{{C.3}{47}}
+\newlabel{eq:Svars}{{C.4}{47}}
+\bibdata{references}
+\bibcite{Ahuja:2002}{{1}{2002}{{Ahuja et~al.}}{{Ahuja, Ergun, Orlin and Punnen}}}
+\bibcite{zuckerberg2010}{{2}{2010}{{Bienstock and Zuckerberg}}{{}}}
+\bibcite{Bley:2010}{{3}{2010}{{Bley et~al.}}{{Bley, Boland, Fricke and Froyland}}}
+\bibcite{Blum16-2}{{4}{2016}{{Blum}}{{}}}
+\bibcite{BlumBlesa16}{{5}{2016}{{Blum and Blesa}}{{}}}
+\bibcite{Blum2016}{{6}{2016}{{Blum et~al.}}{{Blum, Pinacho, L{\'o}pez-Ib{\'a}{\~n}ez and Lozano}}}
+\bibcite{BOLAND2009}{{7}{2009}{{Boland et~al.}}{{Boland, Dumitrescu, Froyland and Gleixner}}}
+\bibcite{boykov_experimental_2001}{{8}{2001}{{Boykov and Kolmogorov}}{{}}}
+\bibcite{history:brazil}{{9}{2014}{{Brazil et~al.}}{{Brazil, Graham, Thomas and Zachariasen}}}
+\newlabel{eq:Ssupply}{{C.6}{48}}
+\bibcite{stpg-improved}{{10}{2010}{{Byrka et~al.}}{{Byrka, Grandoni, Rothvo{\ss } and Sanit{\`a}}}}
+\bibcite{Caccetta2003}{{11}{2003}{{Caccetta and Hill}}{{}}}
+\bibcite{hypergraph}{{12}{2010}{{Chakrabarty et~al.}}{{Chakrabarty, K{\"o}nemann and Pritchard}}}
+\bibcite{openmp}{{13}{2007}{{Chapman et~al.}}{{Chapman, Jost and van~der Pas}}}
+\bibcite{Chicoisne2012}{{14}{2012}{{Chicoisne et~al.}}{{Chicoisne, Espinoza, Goycoolea, Moreno and Rubio}}}
+\bibcite{vlsi:cho}{{15}{2001}{{Cho}}{{}}}
+\bibcite{dorigo04}{{16}{2004}{{Dorigo and St\H {u}tzle}}{{}}}
+\bibcite{dorit_s._hochbaum_performance_2000}{{17}{2000}{{{Dorit S. Hochbaum} and {Anna Chen}}}{{}}}
+\bibcite{kp:dowsland}{{18}{1991}{{Dowsland}}{{}}}
+\bibcite{pp:duin}{{19}{2000}{{Duin}}{{}}}
+\bibcite{ernst_hybrid_2010}{{20}{2010}{{Ernst}}{{}}}
+\bibcite{espinoza_minelib:_2012}{{21}{2012}{{Espinoza et~al.}}{{Espinoza, Goycoolea, Moreno and Newman}}}
+\bibcite{fisher04}{{22}{2004}{{Fisher}}{{}}}
+\bibcite{Geoffrion1972}{{23}{1972}{{Geoffrion}}{{}}}
+\bibcite{goemans}{{24}{1993}{{Goemans and Myung}}{{}}}
+\bibcite{Gropp:1994}{{25}{1994}{{Gropp et~al.}}{{Gropp, Lusk and Skjellum}}}
+\bibcite{Hochbaum:2000}{{26}{2000}{{Hochbaum and Chen}}{{}}}
+\bibcite{steiner:hwang}{{27}{1992}{{Hwang and Richards}}{{}}}
+\bibcite{minelib-improved}{{28}{2019}{{J{\'e}lvez et~al.}}{{J{\'e}lvez, Morales and Nancel-Penard}}}
+\bibcite{JELVEZ20161169}{{29}{2016}{{J\'elvez et~al.}}{{J\'elvez, Morales, Nancel-Penard, Peypouquet and Reyes}}}
+\bibcite{np:karp}{{30}{1972}{{Karp}}{{}}}
+\bibcite{Kennedy95}{{31}{1995}{{Kennedy and Eberhart}}{{}}}
+\bibcite{Kenny:2018}{{32}{2018}{{Kenny et~al.}}{{Kenny, Li and Ernst}}}
+\bibcite{Kenny:2019}{{33}{2019}{{Kenny et~al.}}{{Kenny, Li, Ernst and Sun}}}
+\bibcite{Kenny:2017}{{34}{2017}{{Kenny et~al.}}{{Kenny, Li, Ernst and Thiruvady}}}
+\bibcite{Kenny:2016}{{35}{2016}{{Kenny et~al.}}{{Kenny, Li, Qin and Ernst}}}
+\bibcite{kimms00}{{36}{2001}{{Kimms}}{{}}}
+\bibcite{stpg-reduce}{{37}{2003}{{Kingston and Sheppard}}{{}}}
+\bibcite{memetic:klau}{{38}{2004}{{Klau et~al.}}{{Klau, Ljubi{\'c}, Moser, Mutzel, Neuner, Pferschy, Raidl and Weiskircher}}}
+\bibcite{steinlib}{{39}{2001}{{Koch et~al.}}{{Koch, Martin and Vo{\ss }}}}
+\bibcite{partition:leitner}{{40}{2014}{{Leitner et~al.}}{{Leitner, Ljubi{\'c}, Luipersbeck and Resch}}}
+\bibcite{Lerchs65}{{41}{1964}{{Lerchs and Grossman}}{{}}}
+\bibcite{Lewis2019}{{42}{2019}{{Lewis et~al.}}{{Lewis, Thiruvady and Morgan}}}
+\bibcite{Litvinchev:2003}{{43}{2003}{{Litvinchev and Tsurkov}}{{}}}
+\bibcite{Luke2009}{{44}{2009}{{Luke}}{{}}}
+\bibcite{marriott98}{{45}{1998}{{Marriott and Stuckey}}{{}}}
+\bibcite{munoz2012}{{46}{2012}{{Mart\'inez}}{{}}}
+\bibcite{Meagher2014}{{47}{2014}{{Meagher et~al.}}{{Meagher, Dimitrakopoulos and Avis}}}
+\bibcite{Mitchell:1996}{{48}{1996}{{Mitchell}}{{}}}
+\bibcite{Newman:2010}{{49}{2010}{{Newman et~al.}}{{Newman, Rubio, Caro, Weintraub and Eurek}}}
+\bibcite{acogroup:nguyen}{{50}{2013}{{Nguyen and Do}}{{}}}
+\bibcite{Papadimitriou1982}{{51}{1982}{{Papadimitrou and Steiglitz}}{{}}}
+\bibcite{Pisinger2010}{{52}{2010}{{Pisinger and Ropke}}{{}}}
+\bibcite{algo:polzin}{{53}{2003}{{Polzin}}{{}}}
+\bibcite{pd:polzin}{{54}{2000}{{Polzin and Vahdati}}{{}}}
+\bibcite{Ramazan:2004}{{55}{2004}{{Ramazan and Dimitrakopoulos}}{{}}}
+\bibcite{Rogers:1991}{{56}{1991}{{Rogers et~al.}}{{Rogers, Plante, Wong and Evans}}}
+\bibcite{newman-improved}{{57}{2017}{{Samavati et~al.}}{{Samavati, Essam, Nehring and Sarker}}}
+\bibcite{zuck-small-improved}{{58}{2018}{{Samavati et~al.}}{{Samavati, Essam, Nehring and Sarker}}}
+\bibcite{aco:singh}{{59}{2005}{{Singh et~al.}}{{Singh, Das, Gosavi and Pujar}}}
+\bibcite{singhernst10}{{60}{2011}{{Singh and Ernst}}{{}}}
+\bibcite{singh}{{61}{2012}{{Singh et~al.}}{{Singh, Sier, Ernst, Gavriliouk, Oyston, Giles and Welgama}}}
+\bibcite{Thiruvady2019}{{62}{2019}{{Thiruvady et~al.}}{{Thiruvady, Blum and Ernst}}}
+\bibcite{Thiruvady14a}{{63}{2014}{{Thiruvady et~al.}}{{Thiruvady, Ernst and Singh}}}
+\bibcite{Thiruvady2013}{{64}{2013}{{Thiruvady et~al.}}{{Thiruvady, Singh, Ernst and Meyer}}}
+\bibcite{pp:uchoa}{{65}{2002}{{Uchoa et~al.}}{{Uchoa, Poggi~de Arag{\~a}o and Ribeiro}}}
+\bibcite{fastls:uchoa}{{66}{2010}{{Uchoa and Werneck}}{{}}}
+\bibcite{UNDERWOOD199896}{{67}{1998}{{Underwood and Tolwinski}}{{}}}
+\bibcite{algo:daneshmand}{{68}{2004}{{Vahdati~Daneshmand}}{{}}}
+\bibcite{effectivels:wade}{{69}{2000}{{Wade and Rayward-Smith}}{{}}}
+\bibcite{Wolsey1998}{{70}{1998}{{Wolsey}}{{}}}

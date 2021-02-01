@@ -1,0 +1,5 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=3400,xmin=0,ymax=668800000,ymin=6.66934e+08,xlabel={Wall time [s]},ylabel=Objective value,scaled x ticks=base 10:-3]
+\addplot [thick,color=Red,solid,mark=none] table [col sep=comma] {mine/plots/just_grasp_best_inc.csv};
+\end{axis}
+\end{tikzpicture}

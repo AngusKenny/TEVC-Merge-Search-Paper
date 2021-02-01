@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=5000,xmin=0,ymax=669000000,ymin=636000000,xlabel=Generations,ylabel=Objective value,xticklabels = {0,0,1,2,3,4,5},legend pos=north west]
+\addplot [thick,color=blue,mark=none] table [col sep=comma] {mine/plots/merge_shortester_num.csv};
+% \addplot [thick,color=blue,solid,mark=none] table [col sep=comma] {mine/plots/zuck_med_blue.csv};
+% \addlegendentry{$ParallelMerge$}
+\addplot [thick,color=red,solid,mark=none] table [col sep=comma] {mine/plots/grasp_best_long_num.csv};
+% \addlegendentry{$ImprovedMerge$}
+% \addplot [thick,color=green,solid,mark=none] table [col sep=comma] {mine/plots/zuck_med_no_seed.csv};
+% \addlegendentry{$ImprovedMerge_{ns}$}
+% % \addplot [thick,color=black,dotted,mark=none] table [col sep=comma] {plots/zuck_med_green.csv};
+% \addplot [thick,color=blue,solid,mark=none] table [col sep=comma] {mine/plots/zuck_med_maroon.csv};
+% Plot code
+%\addlegendentry{$p_p=1$,$p_o=2$}
+%\addlegendentry{$p_p=2$,$p_o=2$}
+%\addlegendentry{$p_p=3$,$p_o=3$}
+\end{axis}
+\end{tikzpicture}

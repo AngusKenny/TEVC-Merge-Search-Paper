@@ -1,0 +1,5 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=2500,xmin=0,ymax=669000000,ymin=6.669E+08,xlabel={Wall time [s]},ylabel=Objective value,scaled x ticks=base 10:-3]
+\addplot [thick,color=Red,solid,mark=none] table [col sep=comma] {mine/plots/polish/zuck_med_grasp_polish.csv};
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=1000,xmin=0,ymax=820,ymin=750,xlabel=iterations,ylabel=solution cost]
+\addplot [color=black,dotted,mark=none] table [col sep=comma] {stpg/plots/c03_1_2plot.dat};
+\addplot [color=black,dashed,mark=none] table [col sep=comma] {stpg/plots/c03_2_2plot.dat};
+\addplot [color=black,solid,mark=none] table [col sep=comma] {stpg/plots/c03_3_3plot.dat};
+% Plot code
+\addlegendentry{$p_p=1$,$p_o=2$}
+\addlegendentry{$p_p=2$,$p_o=2$}
+\addlegendentry{$p_p=3$,$p_o=3$}
+\end{axis}
+\end{tikzpicture}

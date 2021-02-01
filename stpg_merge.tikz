@@ -1,0 +1,470 @@
+\begin{tikzpicture}[scale=0.02]
+\node [small-node,line width=5,color=Red] (n-0) at (377,259) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-0) {};
+\node [small-node-black] at (n-0) {};
+
+% \node [dummy] (h-1) at (n-0) {};
+
+\node [small-node] (n-1) at (349,156) {};
+
+\node [small-node] (n-2) at (264,104) {};
+% \node [small-node] at (n-2) {};
+
+\node [small-node,line width=5,color=Red] (n-3) at (176,84) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-3) {};
+\node [small-node-black] at (n-3) {};
+
+\node [small-node,line width=5,color=Red] (n-4) at (143,10) {};
+\node [small-node] at (n-4) {};
+
+% \node [dummy] (h-1) at (n-4) {};
+
+\node [small-node,line width=5,color=Red] (n-5) at (338,234) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-5) {};
+\node [small-node] at (n-5) {};
+
+\node [small-node,line width=5,color=Red] (n-6) at (298,172) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-6) {};
+\node [small-node-black] at (n-6) {};
+
+\node [small-node] (n-7) at (203,153) {};
+
+\node [small-node] (n-8) at (111,37) {};
+% \node [small-node] at (n-8) {};
+
+\node [small-node,line width=5,color=Red] (n-9) at (50,34) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-9) {};
+\node [small-node-black] at (n-9) {};
+
+\node [small-node,line width=5,color=Red] (n-10) at (128,164) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-10) {};
+\node [small-node] at (n-10) {};
+
+\node [small-node,line width=5,color=Red] (n-11) at (130,249) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-11) {};
+\node [small-node-black] at (n-11) {};
+
+\node [small-node,line width=5,color=Red] (n-12) at (239,224) {};
+\node [small-node] at (n-12) {};
+
+\node [small-node] (n-13) at (268,357) {};
+
+\node [small-node,line width=5,color=Red] (n-14) at (309,314) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-14) {};
+\node [small-node-black] at (n-14) {};
+
+\node [small-node,line width=5,color=Red] (n-15) at (218,370) {};
+\node [small-node] at (n-15) {};
+
+\node [small-node] (n-16) at (241,433) {};
+
+\node [small-node,line width=5,color=Red] (n-17) at (122,362) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-17) {};
+\node [small-node-black] at (n-17) {};
+
+\node [small-node,line width=5,color=Red] (n-18) at (203,292) {};
+\node [small-node] at (n-18) {};
+
+\node [small-node] (n-19) at (68,285) {};
+% \node [small-node] at (n-19) {};
+
+\node [small-node,line width=5,color=Red] (n-20) at (51,194) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-20) {};
+\node [small-node-black] at (n-20) {};
+
+\node [small-node] (n-21) at (10,118) {};
+
+\foreach \i in {0,...,21}{
+	\pgfmathtruncatemacro\j{\i+1};
+	\node at (n-\i) {\j};
+}
+
+\foreach \i in {0,3,6,9,11,14,17,20}{
+	\pgfmathtruncatemacro\j{\i+1};
+	\node at (n-\i) {\color{white}\j};
+}
+
+\draw (n-0) -- (n-1);
+\draw (n-0) -- (n-14);
+\draw (n-1) -- (n-2);
+\draw (n-1) -- (n-5);
+\draw (n-2) -- (n-3);
+\draw (n-2) -- (n-6);
+\draw (n-2) -- (n-7);
+\draw (n-3) -- (n-4);
+\draw (n-3) -- (n-8);
+\draw (n-3) -- (n-10);
+\draw (n-4) -- (n-9);
+\draw (n-5) -- (n-6);
+\draw (n-5) -- (n-14);
+\draw (n-6) -- (n-12);
+\draw (n-7) -- (n-10);
+\draw (n-7) -- (n-12);
+\draw (n-8) -- (n-9);
+\draw (n-9) -- (n-21);
+\draw (n-10) -- (n-11);
+\draw (n-10) -- (n-20);
+\draw (n-11) -- (n-18);
+\draw (n-11) -- (n-19);
+\draw (n-12) -- (n-18);
+\draw (n-13) -- (n-14);
+\draw (n-13) -- (n-16);
+\draw (n-13) -- (n-18);
+\draw (n-14) -- (n-15);
+\draw (n-15) -- (n-16);
+\draw (n-15) -- (n-17);
+\draw (n-17) -- (n-19);
+\draw (n-19) -- (n-20);
+\draw (n-20) -- (n-21);
+
+\draw [color=Red, line width=3] (n-0) -- (n-14);
+\draw [color=Red, line width=3] (n-3) -- (n-4);
+\draw [color=Red, line width=3] (n-3) -- (n-10);
+\draw [color=Red, line width=3] (n-4) -- (n-9);
+\draw [color=Red, line width=3] (n-5) -- (n-6);
+\draw [color=Red, line width=3](n-5) -- (n-14);
+\draw [color=Red, line width=3](n-6) -- (n-12);
+\draw [color=Red, line width=3] (n-10) -- (n-11);
+\draw [color=Red, line width=3](n-10) -- (n-20);
+\draw [color=Red, line width=3](n-11) -- (n-18);
+\draw [color=Red, line width=3] (n-12) -- (n-18);
+\draw [color=Red, line width=3](n-14) -- (n-15);
+\draw [color=Red, line width=3](n-15) -- (n-17);
+
+% \draw [color=blue, line width=3,small even dash](n-14) -- (n-5);
+% \draw [color=blue, line width=3,small even dash](n-5) -- (n-6);
+% \draw [color=blue, line width=3](n-2) -- (n-3);
+% \draw [color=blue, line width=3](n-3) -- (n-8);
+% \draw [color=blue, line width=3](n-8) -- (n-9);
+% \draw [color=blue, line width=3](n-2) -- (n-6);
+% \draw [color=blue, line width=3,small even dash](n-3) -- (n-10);
+% \draw [color=blue, line width=3,small even dash](n-10) -- (n-20);
+% \draw [color=blue, line width=3,small even dash](n-10) -- (n-11);
+% \draw [color=blue, line width=3](n-20) -- (n-19);
+% \draw [color=blue, line width=3](n-19) -- (n-17);
+% \draw [color=blue, line width=3,small even dash](n-14) -- (n-0);
+
+
+
+%\node [hi-light] (h-1) at (n-12) {};
+%\node [hi-light] (h-2) at (n-0) {};
+
+\coordinate (shift1) at (-450,0);
+\begin{scope}[shift=(shift1)]
+\node [small-node,line width=5,color=blue] (n-0) at (377,259) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-0) {};
+\node [small-node-black] at (n-0) {};
+
+% \node [dummy] (h-1) at (n-0) {};
+
+\node [small-node] (n-1) at (349,156) {};
+
+\node [small-node,line width=5,color=blue] (n-2) at (264,104) {};
+\node [small-node] at (n-2) {};
+
+\node [small-node,line width=5,color=blue] (n-3) at (176,84) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-3) {};
+\node [small-node-black] at (n-3) {};
+
+\node [small-node] (n-4) at (143,10) {};
+% \node [small-node] at (n-4) {};
+
+% \node [dummy] (h-1) at (n-4) {};
+
+\node [small-node,line width=5,color=blue] (n-5) at (338,234) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-5) {};
+\node [small-node] at (n-5) {};
+
+\node [small-node,line width=5,color=blue] (n-6) at (298,172) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-6) {};
+\node [small-node-black] at (n-6) {};
+
+\node [small-node] (n-7) at (203,153) {};
+
+\node [small-node,line width=5,color=blue] (n-8) at (111,37) {};
+\node [small-node] at (n-8) {};
+
+\node [small-node,line width=5,color=blue] (n-9) at (50,34) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-9) {};
+\node [small-node-black] at (n-9) {};
+
+\node [small-node,line width=5,color=blue] (n-10) at (128,164) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-10) {};
+\node [small-node] at (n-10) {};
+
+\node [small-node,line width=5,color=blue] (n-11) at (130,249) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-11) {};
+\node [small-node-black] at (n-11) {};
+
+\node [small-node] (n-12) at (239,224) {};
+% \node [small-node] at (n-12) {};
+
+\node [small-node] (n-13) at (268,357) {};
+
+\node [small-node,line width=5,color=blue] (n-14) at (309,314) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-14) {};
+\node [small-node-black] at (n-14) {};
+
+\node [small-node] (n-15) at (218,370) {};
+% \node [small-node] at (n-15) {};
+
+\node [small-node] (n-16) at (241,433) {};
+
+\node [small-node,line width=5,color=blue] (n-17) at (122,362) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-17) {};
+\node [small-node-black] at (n-17) {};
+
+\node [small-node] (n-18) at (203,292) {};
+% \node [small-node] at (n-18) {};
+
+\node [small-node,line width=5,color=blue] (n-19) at (68,285) {};
+\node [small-node] at (n-19) {};
+
+\node [small-node,line width=5,color=blue] (n-20) at (51,194) {};
+% \node [small-node,line width=5,color=blue,small even dash] at (n-20) {};
+\node [small-node-black] at (n-20) {};
+
+\node [small-node] (n-21) at (10,118) {};
+
+\foreach \i in {0,...,21}{
+	\pgfmathtruncatemacro\j{\i+1};
+	\node at (n-\i) {\j};
+}
+
+\foreach \i in {0,3,6,9,11,14,17,20}{
+	\pgfmathtruncatemacro\j{\i+1};
+	\node at (n-\i) {\color{white}\j};
+}
+
+\draw (n-0) -- (n-1);
+\draw (n-0) -- (n-14);
+\draw (n-1) -- (n-2);
+\draw (n-1) -- (n-5);
+\draw (n-2) -- (n-3);
+\draw (n-2) -- (n-6);
+\draw (n-2) -- (n-7);
+\draw (n-3) -- (n-4);
+\draw (n-3) -- (n-8);
+\draw (n-3) -- (n-10);
+\draw (n-4) -- (n-9);
+\draw (n-5) -- (n-6);
+\draw (n-5) -- (n-14);
+\draw (n-6) -- (n-12);
+\draw (n-7) -- (n-10);
+\draw (n-7) -- (n-12);
+\draw (n-8) -- (n-9);
+\draw (n-9) -- (n-21);
+\draw (n-10) -- (n-11);
+\draw (n-10) -- (n-20);
+\draw (n-11) -- (n-18);
+\draw (n-11) -- (n-19);
+\draw (n-12) -- (n-18);
+\draw (n-13) -- (n-14);
+\draw (n-13) -- (n-16);
+\draw (n-13) -- (n-18);
+\draw (n-14) -- (n-15);
+\draw (n-15) -- (n-16);
+\draw (n-15) -- (n-17);
+\draw (n-17) -- (n-19);
+\draw (n-19) -- (n-20);
+\draw (n-20) -- (n-21);
+
+% \draw [color=Red, line width=3] (n-0) -- (n-14);
+% \draw [color=Red, line width=3] (n-3) -- (n-4);
+% \draw [color=Red, line width=3] (n-3) -- (n-10);
+% \draw [color=Red, line width=3] (n-4) -- (n-9);
+% \draw [color=Red, line width=3] (n-5) -- (n-6);
+% \draw [color=Red, line width=3](n-5) -- (n-14);
+% \draw [color=Red, line width=3](n-6) -- (n-12);
+% \draw [color=Red, line width=3] (n-10) -- (n-11);
+% \draw [color=Red, line width=3](n-10) -- (n-20);
+% \draw [color=Red, line width=3](n-11) -- (n-18);
+% \draw [color=Red, line width=3] (n-12) -- (n-18);
+% \draw [color=Red, line width=3](n-14) -- (n-15);
+% \draw [color=Red, line width=3](n-15) -- (n-17);
+
+\draw [color=blue, line width=3](n-14) -- (n-5);
+\draw [color=blue, line width=3](n-5) -- (n-6);
+\draw [color=blue, line width=3](n-2) -- (n-3);
+\draw [color=blue, line width=3](n-3) -- (n-8);
+\draw [color=blue, line width=3](n-8) -- (n-9);
+\draw [color=blue, line width=3](n-2) -- (n-6);
+\draw [color=blue, line width=3](n-3) -- (n-10);
+\draw [color=blue, line width=3](n-10) -- (n-20);
+\draw [color=blue, line width=3](n-10) -- (n-11);
+\draw [color=blue, line width=3](n-20) -- (n-19);
+\draw [color=blue, line width=3](n-19) -- (n-17);
+\draw [color=blue, line width=3](n-14) -- (n-0);
+
+
+
+%\node [hi-light] (h-1) at (n-12) {};
+%\node [hi-light] (h-2) at (n-0) {};
+\end{scope}
+
+\coordinate (shift2) at (-225,-450);
+\begin{scope}[shift=(shift2)]
+\node [small-node,line width=5,color=Red] (n-0) at (377,259) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-0) {};
+\node [small-node-black] at (n-0) {};
+
+% \node [dummy] (h-1) at (n-0) {};
+
+\node [small-node] (n-1) at (349,156) {};
+
+\node [small-node,line width=5,color=blue] (n-2) at (264,104) {};
+\node [small-node] at (n-2) {};
+
+\node [small-node,line width=5,color=Red] (n-3) at (176,84) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-3) {};
+\node [small-node-black] at (n-3) {};
+
+\node [small-node,line width=5,color=Red] (n-4) at (143,10) {};
+\node [small-node] at (n-4) {};
+
+% \node [dummy] (h-1) at (n-4) {};
+
+\node [small-node,line width=5,color=Red] (n-5) at (338,234) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-5) {};
+\node [small-node] at (n-5) {};
+
+\node [small-node,line width=5,color=Red] (n-6) at (298,172) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-6) {};
+\node [small-node-black] at (n-6) {};
+
+\node [small-node] (n-7) at (203,153) {};
+
+\node [small-node,line width=5,color=blue] (n-8) at (111,37) {};
+\node [small-node] at (n-8) {};
+
+\node [small-node,line width=5,color=Red] (n-9) at (50,34) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-9) {};
+\node [small-node-black] at (n-9) {};
+
+\node [small-node,line width=5,color=Red] (n-10) at (128,164) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-10) {};
+\node [small-node] at (n-10) {};
+
+\node [small-node,line width=5,color=Red] (n-11) at (130,249) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-11) {};
+\node [small-node-black] at (n-11) {};
+
+\node [small-node,line width=5,color=Red] (n-12) at (239,224) {};
+\node [small-node] at (n-12) {};
+
+\node [small-node] (n-13) at (268,357) {};
+
+\node [small-node,line width=5,color=Red] (n-14) at (309,314) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-14) {};
+\node [small-node-black] at (n-14) {};
+
+\node [small-node,line width=5,color=Red] (n-15) at (218,370) {};
+\node [small-node] at (n-15) {};
+
+\node [small-node] (n-16) at (241,433) {};
+
+\node [small-node,line width=5,color=Red] (n-17) at (122,362) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-17) {};
+\node [small-node-black] at (n-17) {};
+
+\node [small-node,line width=5,color=Red] (n-18) at (203,292) {};
+\node [small-node] at (n-18) {};
+
+\node [small-node,line width=5,color=blue] (n-19) at (68,285) {};
+\node [small-node] at (n-19) {};
+
+\node [small-node,line width=5,color=Red] (n-20) at (51,194) {};
+\node [small-node,line width=5,color=blue,small even dash] at (n-20) {};
+\node [small-node-black] at (n-20) {};
+
+\node [small-node] (n-21) at (10,118) {};
+
+\foreach \i in {0,...,21}{
+	\pgfmathtruncatemacro\j{\i+1};
+	\node at (n-\i) {\j};
+}
+
+\foreach \i in {0,3,6,9,11,14,17,20}{
+	\pgfmathtruncatemacro\j{\i+1};
+	\node at (n-\i) {\color{white}\j};
+}
+
+\draw (n-0) -- (n-1);
+\draw (n-0) -- (n-14);
+\draw (n-1) -- (n-2);
+\draw (n-1) -- (n-5);
+\draw (n-2) -- (n-3);
+\draw (n-2) -- (n-6);
+\draw (n-2) -- (n-7);
+\draw (n-3) -- (n-4);
+\draw (n-3) -- (n-8);
+\draw (n-3) -- (n-10);
+\draw (n-4) -- (n-9);
+\draw (n-5) -- (n-6);
+\draw (n-5) -- (n-14);
+\draw (n-6) -- (n-12);
+\draw (n-7) -- (n-10);
+\draw (n-7) -- (n-12);
+\draw (n-8) -- (n-9);
+\draw (n-9) -- (n-21);
+\draw (n-10) -- (n-11);
+\draw (n-10) -- (n-20);
+\draw (n-11) -- (n-18);
+\draw (n-11) -- (n-19);
+\draw (n-12) -- (n-18);
+\draw (n-13) -- (n-14);
+\draw (n-13) -- (n-16);
+\draw (n-13) -- (n-18);
+\draw (n-14) -- (n-15);
+\draw (n-15) -- (n-16);
+\draw (n-15) -- (n-17);
+\draw (n-17) -- (n-19);
+\draw (n-19) -- (n-20);
+\draw (n-20) -- (n-21);
+
+\draw [color=Red, line width=3] (n-0) -- (n-14);
+\draw [color=Red, line width=3] (n-3) -- (n-4);
+\draw [color=Red, line width=3] (n-3) -- (n-10);
+\draw [color=Red, line width=3] (n-4) -- (n-9);
+\draw [color=Red, line width=3] (n-5) -- (n-6);
+\draw [color=Red, line width=3](n-5) -- (n-14);
+\draw [color=Red, line width=3](n-6) -- (n-12);
+\draw [color=Red, line width=3] (n-10) -- (n-11);
+\draw [color=Red, line width=3](n-10) -- (n-20);
+\draw [color=Red, line width=3](n-11) -- (n-18);
+\draw [color=Red, line width=3] (n-12) -- (n-18);
+\draw [color=Red, line width=3](n-14) -- (n-15);
+\draw [color=Red, line width=3](n-15) -- (n-17);
+
+\draw [color=blue, line width=3,small even dash](n-14) -- (n-5);
+\draw [color=blue, line width=3,small even dash](n-5) -- (n-6);
+\draw [color=blue, line width=3](n-2) -- (n-3);
+\draw [color=blue, line width=3](n-3) -- (n-8);
+\draw [color=blue, line width=3](n-8) -- (n-9);
+\draw [color=blue, line width=3](n-2) -- (n-6);
+\draw [color=blue, line width=3,small even dash](n-3) -- (n-10);
+\draw [color=blue, line width=3,small even dash](n-10) -- (n-20);
+\draw [color=blue, line width=3,small even dash](n-10) -- (n-11);
+\draw [color=blue, line width=3](n-20) -- (n-19);
+\draw [color=blue, line width=3](n-19) -- (n-17);
+\draw [color=blue, line width=3,small even dash](n-14) -- (n-0);
+
+
+
+%\node [hi-light] (h-1) at (n-12) {};
+%\node [hi-light] (h-2) at (n-0) {};
+\end{scope}
+
+\coordinate (tail1) at (260,70);
+\coordinate (head1) at (140,-120);
+
+\coordinate (tail2) at (-250,50);
+\coordinate (head2) at (-160,-70);
+
+\draw [line width=6,shorten >=10pt,decoration={markings,mark=at position 1 with %
+      {\arrow[scale=1.0,>=triangle 45]{>}}},postaction={decorate}] (tail1) -- (head1);
+
+\draw [line width=6,shorten >=10pt,decoration={markings,mark=at position 1 with %
+      {\arrow[scale=1.0,>=triangle 45]{>}}},postaction={decorate}] (tail2) -- (head2);
+
+\end{tikzpicture}

@@ -1,0 +1,6 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=180,xmin=0,ymax=4300,ymin=0,xlabel={Window movements},ylabel={Wall time [s]},scaled y ticks=base 10:-3]
+\addplot [thick,color=Red,mark=none] table [col sep=comma] {mine/plots/time/zuck_small_grasp_time.csv };
+\addplot [thick,color=blue,mark=none] table [col sep=comma] {mine/plots/time/kd_grasp_time.csv };
+\end{axis}
+\end{tikzpicture}

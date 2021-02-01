@@ -1,0 +1,163 @@
+---------- Forwarded message ---------
+From: COR Editorial Office <eesserver@eesmail.elsevier.com>
+Date: Mon, 30 Sep 2019 at 23:30
+Subject: Your Submission
+To: <dhananjay.thiruvady@monash.edu>
+
+
+Ms. Ref. No.:  COR-D-19-00552
+Title: Mixed Integer Programming Based Merge Search for Open Pit Block Scheduling
+Computers & Operations Research
+
+Dear Dr. Dhananjay Thiruvady,
+
+The reviewers have commented on your above paper. They indicated that it is not acceptable for publication in its present form.
+
+However, if you feel that you can suitably address the reviewers' comments (included below), I invite you to revise and resubmit your manuscript. You will find your submission record under the menu item, 'Submissions Needing Revision'.
+
+Please carefully address the issues raised in the comments.
+
+If you are unable to find any comments below, please click "View Reviewer Attachments" under "Action Links". The reviewers may have uploaded the comments as an attachment.
+
+
+If you are submitting a revised manuscript, please also:
+
+a) outline each change made (point by point) as raised in the reviewer comments
+
+  AND/OR
+
+b) provide a suitable rebuttal to each reviewer comment not addressed
+
+
+To submit your revision, please do the following:
+
+1. Go to: https://ees.elsevier.com/cor/
+
+2. Enter your login details
+
+3. Click [Author Login]
+This takes you to the Author Main Menu.
+
+4. Click [Submissions Needing Revision]
+
+NOTE: Upon submitting your revised manuscript, please upload the source files for your article. For additional details regarding acceptable file formats, please refer to the Guide for Authors at: http://www.elsevier.com/journals/computers-and-operations-research/0305-0548/guide-for-authors
+
+When submitting your revised paper, we ask that you include the following items:
+
+Manuscript and Figure Source Files (mandatory)
+
+We cannot accommodate PDF manuscript files for production purposes. We also ask that when submitting your revision you follow the journal formatting guidelines.  Figures and tables may be embedded within the source file for the submission as long as they are of sufficient resolution for Production. For any figure that cannot be embedded within the source file (such as *.PSD Photoshop files), the original figure needs to be uploaded separately. Refer to the Guide for Authors for additional information.
+http://www.elsevier.com/journals/computers-and-operations-research/0305-0548/guide-for-authors
+
+Highlights (mandatory)
+
+Highlights consist of a short collection of bullet points that convey the core findings of the article and should be submitted in a separate file in the online submission system. Please use 'Highlights' in the file name and include 3 to 5 bullet points (maximum 85 characters, including spaces, per bullet point). See the following website for more information
+http://www.elsevier.com/highlights
+
+Graphical Abstract (optional)
+
+Graphical Abstracts should summarize the contents of the article in a concise, pictorial form designed to capture the attention of a wide readership online. Refer to the following website for more information: http://www.elsevier.com/graphicalabstracts
+
+
+
+
+
+Include interactive data visualizations in your publication and let your readers interact and engage more closely with your research. Follow the instructions here: https://www.elsevier.com/authors/author-services/data-visualization to find out about available data visualization options and how to include them with your article.
+
+MethodsX file (optional)
+
+We invite you to submit a method article alongside your research article. This is an opportunity to get full credit for the time and money you have spent on developing research methods, and to increase the visibility and impact of your work. If your research article is accepted, your method article will be automatically transferred over to the open access journal, MethodsX, where it will be editorially reviewed and published as a separate method article upon acceptance. Both articles will be linked on ScienceDirect. Please use the MethodsX template available here when preparing your article: https://www.elsevier.com/MethodsX-template. Open access fees apply.
+
+
+I look forward to receiving your revised manuscript.
+
+
+Yours sincerely,
+
+Francisco Saldanha da Gama
+Editor-in-Chief
+Computers & Operations Research
+
+Data in Brief (optional):
+
+We invite you to convert your supplementary data (or a part of it) into an additional journal publication in Data in Brief, a multi-disciplinary open access journal. Data in Brief articles are a fantastic way to describe supplementary data and associated metadata, or full raw datasets deposited in an external repository, which are otherwise unnoticed. A Data in Brief article (which will be reviewed, formatted, indexed, and given a DOI) will make your data easier to find, reproduce, and cite.
+
+You can submit to Data in Brief via the Computers & Operations Research submission system when you upload your revised Computers & Operations Research manuscript. To do so, complete the template and follow the co-submission instructions found here: www.elsevier.com/dib-template. If your Computers & Operations Research manuscript is accepted, your Data in Brief submission will automatically be transferred to Data in Brief for editorial review and publication.
+
+Please note: an open access Article Publication Charge (APC) is payable by the author or research funder to cover the costs associated with publication in Data in Brief and ensure your data article is immediately and permanently free to access by all. For the current APC see: www.elsevier.com/journals/data-in-brief/2352-3409/open-access-journal
+
+Please contact the Data in Brief editorial office at dib-me@elsevier.com or visit the Data in Brief homepage (www.journals.elsevier.com/data-in-brief/) if you have questions or need further information.
+
+Note: While submitting the revised manuscript, please double check the author names provided in the submission so that authorship related changes are made in the revision stage. If your manuscript is accepted, any authorship change will involve approval from co-authors and respective editor handling the submission and this may cause a significant delay in publishing your manuscript.
+
+
+Reviewers' comments:
+
+=========================================================================
+Area Editor:
+As you can see from the reports, the three reviewers are critical about your work. 
+If you can successfully address the issues raised by the reviewers,
+we would consider a revised version of your manuscript.
+=========================================================================
+
+
+
+
+Reviewer #1: Please see attached pdf
+
+
+
+
+Reviewer #2: The paper deals with a scheduling problem arising in surface mine-planning, which entails determining the set of blocks to extract at each period of the life-of-the-mine and deciding where to send the extracted blocks (a processor versus a waste dump). The authors propose a mathematical model, which is similar to those previously developed in the literature. The proposed model is solved using a heuristic (the so-called Merge Search method), where at each iteration different solutions are generated, then combined into a single solution. This process is repeated until a stopping criterion is met (a fixed amount of CPU time in the paper). To make the search more effective, a parallel implementation of the algorithm is proposed.
+The problem addressed is of practical interest. However, the contributions of the paper to the literature are not obvious. In general, and without loss of generality, heuristics papers fall under one of three categories: a) new methodology (not clear if it's the case here since the authors use approaches proposed in the literature and do not clearly identify the differences between what has already been done and their paper), b) known methodology, but novel application (not the case here), or c) known methodology, known application, but better results than previous research (not the case here). The current version of the paper fails to fit positively in any of the aforementioned categories. Please find my comments/suggestions below.
+
+Detailed comments
+Section 1
+*       The literature review in this section is misleading. While the focus of the paper is on the PCPSP, the authors give references to papers where general methods for solving MIPs are proposed. It is more appropriate to give references to papers where these methods are applied to solve the PCPSP. Also, from the description given, it is not clear if Merge Search is related to LNS or to CMSA.
+*       The elements mentioned by the authors as differentiating Merge Search from "any other existing method" are questionable. On the one hand, in any other method, using different input parameters can have an impact on solution time. On the other hand, many methods (especially population-based methods such as the one proposed in the paper) lend themselves naturally to parallelization.
+*       The authors mention that developing a Branch-and-Bound method is one of the contributions of the paper. However, in Section 4.4, it is mentioned that the method failed to solve any of the instances in a reasonable amount of time.
+*       Many terms are introduced without being defined, which makes it hard for the reader to follow (e.g. restricted MIP, active variables, etc.)
+Section 2
+*       I don't see the importance of the example given in Figure 1 and the discussion that follows since the PCPSP is well-defined and studied in the literature. The authors talk about other problem variants (UPIT, CPIT), which is quite confusing. The relationship between these variants and the PCPSP, as well as the significance of the paper's contributions should be made clearer. The paper needs to be contrasted better with previous papers in the literature dealing with the same problem.
+*       Regarding the mathematical formulation, nothing is new. The "by formulation" has been proposed in the literature since the early 2000's (Caccetta and Hill, 2003). It has since then been used in different papers (e.g. Boland et al., 2009 ; Bley et al., 2010 ; Vossen et al. (2016) Hierarchical Benders Decomposition for Open-Pit Mine Block Sequencing, Operations Research) because it provides tighter bounds compared to the "at formulation". However, this is not mentioned by the authors.
+Section 3
+*       The description of Merge Search provided in this section is not clear. Moreover, it is too general and lacks specificities. For example,
+o       How is the initial solution generated?
+o       In different places, the authors talk about neighborhood search. What are the transformations that are applied to the current solution to define the set of neighbor solutions? What is the search space? How is the cycling issue dealt with? In other terms, what ensure that previously generated neighbor solutions are not visited again and again?
+o       What do the authors mean by diversification and how is it achieved?
+*       What is the point of proving that the method converges to an optimal solution in infinite computing time? Is that practical?
+*       More important, what is the difference between the Merge Search procedure proposed by the authors and that developed in a previous paper (Kenny et al. 2018) for the same problem (PCPSP)? What is the difference between the method proposed by the authors and a simple fix-and-optimize scheme or a sliding time window heuristic?
+Section 4
+*       As far as I can see, there is nothing new in the preprocessing scheme used by the authors. The techniques described are common and are used in different papers (e.g. Cullenbine et al. (2011), A sliding time window heuristic for open pit mine block sequencing, Optimization Letters)
+*       Same comment for the maximum closure algorithm and the Bienstock-Zuckerberg algorithm used to solve the LP relaxation
+*       Solving the LP relaxation and using a rounding heuristic to get a feasible solution is also a quite common approach for solving the PCPSP. How is "the distribution of the blocks in each period refined to improve the total profit"? What are the differences between the rounding heuristic proposed by the authors and that in Chicoisne et al., 2012 for example?
+*       Like other population-based methods, the proposed method lends itself naturally to parallelization. Therefore, I don't see any major scientific contribution here either
+*       Last but not least, how do all these "pieces" (Pre-processing, Max closure, LP relaxation etc.) relate to the Merge Search procedure in Algorithm 1? What is used when and how?
+Section 5
+*       I don't see the point of comparing P-MS and MS to BZ. It is obvious that both methods will provide results at least as good as BZ since they start with the BZ solution and try to improve it.
+*       Why do the authors use in the comparison the results published in Espinoza et al., 2012 if these results have been improved in subsequent papers such as Kenny et al. (2017) as the authors mention? Note that other improved results for the instances in MineLib are presented in other papers (e.g. Lamghari et al. (2014) A hybrid method based on linear programming and variable neighborhood descent for scheduling production in open pit mines, Journal of Global Optimization; Jelvez et al. (2016) Aggregation heuristic for the open-pit block scheduling problem, European Journal of Operational Research). I recommend looking at these papers and comparing the authors' results to the best-known results in terms of solution quality and solution time.
+*       The proposed method was able to solve neither small instances such as Newman 1, with only 1,060 blocks, nor large instances such as McLaughlin, with one million blocks, and that within 5 hours. Other methods proposed in the literature provide near optimal solutions for these instances in few seconds up to few minutes (see Lamghari et al. (2014 and Jelvez et al. (2016), for example).  This puts in doubt the efficiency of the solution method proposed in the paper.
+
+Minor comments
+*       The sentence on page 2, Section 1 "Merge Search combines LNS, genetic algorithms and the efficiency of solving MIPs" does not make sense. How can we combine an algorithm with efficiency?
+*       The sentence on page 3, Section 2 "… investigate this problem and propose a network flow algorithm, which is solved by mathematical programming" does not make sense either. An algorithm is not solved.
+*       Same comment for the definition of constraint d) on page 4 "the resource limits consumed in sending blocks to their destinations must not satisfied"
+*       The discussion that follows Algorithm 1 on page 6 is somehow contradictory. On the one hand, it is mentioned in Step 3 that the neighbor solutions generated are different. On the other hand, it is mentioned in Step 6 that they are similar
+*       In Section 5, the authors do not provide the values used for MS and P-MS parameters (e.g. the number of neighbor solutions, m). Such parameters should be given to allow the reproducibility of the algorithms
+
+
+
+Reviewer #3: No input was timely received.
+
+
+Reviewer #4: See attached report
+
+
+
+
+
+******************************************
+Please note that the editorial process varies considerably from journal to journal. To view a sample editorial process, please click here:
+http://ees.elsevier.com/eeshelp/sample_editorial_process.pdf
+
+For further assistance, please visit our customer support site at http://help.elsevier.com/app/answers/list/p/7923. Here you can search for solutions on a range of topics, find answers to frequently asked questions and learn more about EES via interactive tutorials. You will also find our 24/7 support contact details should you need any further assistance from one of our customer support representatives.

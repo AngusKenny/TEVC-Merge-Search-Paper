@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=1000,xmin=0,ymax=185,ymin=160,xlabel=iterations,ylabel=solution cost]
+\addplot [color=black,solid,mark=none] table [col sep=comma] {stpg/plots/B13plot1.dat};
+\addplot [color=black,dashed,mark=none] table [col sep=comma] {stpg/plots/B13plot2.dat};
+% Plot code
+\end{axis}
+\end{tikzpicture}

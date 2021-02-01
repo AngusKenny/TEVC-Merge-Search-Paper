@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+\draw (0,0) rectangle (20,13.5);
+
+\draw [fill opacity=0.4,fill=Red] (8,8.5) circle (4cm);
+\draw [fill opacity=0.4,fill=Green] (12,8.5) circle (4cm);
+\draw [fill opacity=0.3,fill=blue] (10,5) circle (4cm);
+
+\node [scale=1.5] (m) at (21.5,12.5) {$x$};
+\node [scale=1.5] (m_dummy) at (-1.5,12.5) {\color{white}$x$};
+\node [scale=1.5] (s1) at (4,12) {{\color{Red}$s_1$}};
+\node [scale=1.5] (s2) at (16,12) {{\color{Green}$s_2$}};
+\node [scale=1.5] (s3) at (14,1.5) {{\color{blue}$s_3$}};
+
+\foreach \x/\y [count=\i] in {17/4,6/9.5,10/10.5,14/9.5,7.5/6,10/7.25,12.5/6,10/3}{
+	\node (p\i) at (\x,\y) {$P_\i$};
+}
+
+\end{tikzpicture}

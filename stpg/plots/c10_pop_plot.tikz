@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=5000,xmin=0,ymax=1000,ymin=0,xlabel=population size,ylabel=number of partitions]
+\addplot [color=red,solid,mark=none] table [col sep=comma] {stpg/plots/c10_pop_plot.dat};
+\addplot [color=blue,dashed,mark=none] table [col sep=comma] {stpg/plots/c10_pop_plot_lines.dat};
+% Plot code
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,6 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=8600,xmin=0,ymax=57700000,ymin=4.828E+07,xlabel={Wall time [s]},ylabel=Objective value,scaled x ticks=base 10:-3]
+\addplot [thick,color=blue,solid,mark=none] table [col sep=comma] {mine/plots/polish/zuck_large_merge_polish.csv};
+\addplot [thick,color=Red,solid,mark=none] table [col sep=comma] {mine/plots/polish/zuck_large_grasp_polish_add.csv};
+\end{axis}
+\end{tikzpicture}

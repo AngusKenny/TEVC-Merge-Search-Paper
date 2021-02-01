@@ -1,0 +1,82 @@
+% ----- PSO VELOCITY DIAGRAM -----
+\begin{tikzpicture}[scale=0.25]
+
+% \foreach \x/\y in {0/2,6/8}{
+% 	\fill[Red!20] (\x,0) rectangle (\y,14);	
+% }
+
+\foreach \x/\y in {4/6,12/16,20/22,26/28}{
+	\fill[Red!40] (\x,0) rectangle (\y,14);	
+}
+
+\foreach \x/\y in {8/10,16/18,22/24,28/32}{
+	\fill[Green!40] (\x,0) rectangle (\y,14);	
+}
+
+\foreach \x/\y\v in {0/2/15,2/4/25,6/8/35,10/12/45,18/20/55,24/26/65}{
+	\fill[blue!\v] (\x,0) rectangle (\y,14);	
+}
+
+
+% \foreach \x/\y in {10/16,18/20}{
+% 	\fill[blue!20] (\x,0) rectangle (\y,14);	
+% }
+
+
+
+% \foreach \x/\y in {26/28,30/32}{
+% 	\fill[Green!20] (\x,0) rectangle (\y,14);	
+% }
+
+
+% \foreach \x in {0,2,6,8,10,16,18,20,22,26,28,30,32}{
+% 	\draw[dashed] (\x,2) -- (\x,12);
+% }
+
+\draw[step=2cm,thin] (0,0) grid (32,14);
+% \draw[step=2cm,thin] (0,4) grid (32,6);
+% \draw[step=2cm,thin] (0,8) grid (32,10);
+% \draw[step=2cm,thin] (0,12) grid (32,14);
+
+\node at (-2,13) {\footnotesize $M_1$};
+\node at (-2,11) {\footnotesize $M_2$};
+\node at (-2,9) {\footnotesize $M_3$};
+\node at (-2,7) {\footnotesize $M_4$};
+\node at (-2,5) {\footnotesize $M_5$};
+\node at (-2,3) {\footnotesize $M_6$};
+% \node at (34,13) {\color{white}\footnotesize $\S{S}_M$};
+\node at (-2,1) {\footnotesize $s$};
+
+\foreach \x [count=\v] in {1,3,...,31}{
+  \node at (\x,15) {\footnotesize $x_{\v}$};
+}
+
+\foreach \x/\v in {1/0,3/0,5/0,7/0,9/0,11/1,13/0,15/0,17/0,19/0,21/0,23/0,25/0,27/0,29/0,31/0}{
+  \node at (\x,13) {$\v$};
+}
+
+\foreach \x/\v in {1/0,3/0,5/0,7/0,9/0,11/0,13/0,15/0,17/0,19/0,21/0,23/0,25/1,27/0,29/0,31/0}{
+  \node at (\x,11) {$\v$};
+}
+
+\foreach \x/\v in {1/0,3/1,5/0,7/0,9/0,11/0,13/0,15/0,17/0,19/0,21/0,23/0,25/0,27/0,29/0,31/0}{
+  \node at (\x,9) {$\v$};
+}
+
+\foreach \x/\v in {1/0,3/0,5/0,7/0,9/0,11/0,13/0,15/0,17/0,19/1,21/0,23/0,25/0,27/0,29/0,31/0}{
+  \node at (\x,7) {$\v$};
+}
+
+\foreach \x/\v in {1/1,3/0,5/0,7/0,9/0,11/0,13/0,15/0,17/0,19/0,21/0,23/0,25/0,27/0,29/0,31/0}{
+  \node at (\x,5) {$\v$};
+}
+
+\foreach \x/\v in {1/0,3/0,5/0,7/1,9/0,11/0,13/0,15/0,17/0,19/0,21/0,23/0,25/0,27/0,29/0,31/0}{
+  \node at (\x,3) {$\v$};
+}
+
+\foreach \x/\v in {1/1,3/0,5/0,7/1,9/1,11/0,13/0,15/0,17/1,19/0,21/0,23/1,25/0,27/0,29/1,31/1}{
+  \node at (\x,1) {$\v$};
+}
+
+\end{tikzpicture}

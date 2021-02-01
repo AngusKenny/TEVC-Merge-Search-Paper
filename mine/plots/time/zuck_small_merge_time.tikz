@@ -1,0 +1,6 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=40000,xmin=0,ymax=4500,ymin=0,xlabel={Iterations},ylabel={Wall time [s]},scaled y ticks=base 10:-3,scaled x ticks=base 10:-3]
+\addplot [thick,color=Red,mark=none] table [col sep=comma] {mine/plots/time/zuck_small_merge_time.csv };
+\addplot [thick,color=blue,mark=none] table [col sep=comma] {mine/plots/time/kd_merge_time.csv };
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,5 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=4200,xmin=0,ymax=56000000,ymin=5.204E+07,xlabel={Wall time [s]},ylabel=Objective value,scaled x ticks=base 10:-3]
+\addplot [thick,color=red,mark=none] table [col sep=comma] {mine/plots/conv/zuck_large_conv.csv };
+\end{axis}
+\end{tikzpicture}

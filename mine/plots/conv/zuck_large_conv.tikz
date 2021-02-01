@@ -1,0 +1,6 @@
+\begin{tikzpicture}
+\begin{axis}[xmax=7400,xmin=0,ymax=56000000,ymin=4.828E+07,xlabel={Wall time [s]},ylabel=Objective value,scaled x ticks=base 10:-3]
+\addplot [thick,color=Red,mark=none] table [col sep=comma] {mine/plots/conv/zuck_large_grasp_conv.csv };
+\addplot [thick,color=blue,mark=none] table [col sep=comma] {mine/plots/conv/zuck_large_conv.csv };
+\end{axis}
+\end{tikzpicture}
