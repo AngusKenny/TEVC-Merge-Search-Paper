@@ -1,0 +1,2146 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.1)  2 FEB 2021 11:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**COR2017.tex
+(./COR2017.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(c:/texlive/2020/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+(c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count177
+\l__pdf_internal_box=\box47
+))
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+(c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count178
+)
+\@bls=\dimen138
+
+(c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(c:/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+\c@tnote=\count187
+\c@fnote=\count188
+\c@cnote=\count189
+\c@ead=\count190
+\c@author=\count191
+\@eadauthor=\toks16
+\c@affn=\count192
+\absbox=\box48
+\elsarticlehighlightsbox=\box49
+\elsarticlegrabsbox=\box50
+\keybox=\box51
+\Columnwidth=\dimen142
+\space@left=\dimen143
+\els@boxa=\box52
+\els@boxb=\box53
+\leftMargin=\dimen144
+\@enLab=\toks17
+\@sep=\skip49
+\@@sep=\skip50
+ (./COR2017.spl) (c:/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count193
+)
+\splwrite=\write3
+\openout3 = `COR2017.spl'.
+
+\appnamewidth=\dimen145
+)
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
+LaTeX Info: Redefining \not on input line 1043.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks18
+)
+(c:/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box54
+\UL@hyphenbox=\box55
+\UL@skip=\skip53
+\UL@hook=\toks19
+\UL@height=\dimen154
+\UL@pe=\count197
+\UL@pixel=\dimen155
+\ULC@box=\box56
+Package: ulem 2019/11/18
+\ULdepth=\dimen156
+)
+(c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+)
+(c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 11
+2.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/t1txr.fd
+File: t1txr.fd 2000/12/15 v3.1
+))
+(c:/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlargesymbols=\mathgroup13
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count198
+\@cmidlb=\count199
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count266
+\@lastruleclass=\count267
+\@thisrulewidth=\dimen169
+)
+(c:/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count268
+\multirow@dima=\skip55
+\bigstrutjot=\dimen170
+)
+(c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen171
+\ar@mcellbox=\box57
+\extrarowheight=\dimen172
+\NC@list=\toks22
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box58
+)
+(c:/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count269
+\float@exts=\toks23
+\float@box=\box59
+\@float@everytoks=\toks24
+\@floatcapt=\box60
+)
+(c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(c:/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks25
+\minrowclearance=\skip58
+)
+\rownum=\count270
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+(c:/texlive/2020/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(c:/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box61
+\sift@deathcycles=\count271
+\@vwid@loff=\dimen173
+\@vwid@roff=\dimen174
+)
+\c@taburow=\count272
+\tabu@nbcols=\count273
+\tabu@cnt=\count274
+\tabu@Xcol=\count275
+\tabu@alloc=\count276
+\tabu@nested=\count277
+\tabu@target=\dimen175
+\tabu@spreadtarget=\dimen176
+\tabu@naturalX=\dimen177
+\tabucolX=\dimen178
+\tabu@Xsum=\dimen179
+\extrarowdepth=\dimen180
+\abovetabulinesep=\dimen181
+\belowtabulinesep=\dimen182
+\tabustrutrule=\dimen183
+\tabu@thebody=\toks26
+\tabu@footnotes=\toks27
+\tabu@box=\box62
+\tabu@arstrutbox=\box63
+\tabu@hleads=\box64
+\tabu@vleads=\box65
+\tabu@cellskip=\skip59
+)
+(c:/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count278
+\LTcapwidth=\dimen184
+\LT@head=\box66
+\LT@firsthead=\box67
+\LT@foot=\box68
+\LT@lastfoot=\box69
+\LT@cols=\count279
+\LT@rows=\count280
+\c@LT@tables=\count281
+\c@LT@chunks=\count282
+\LT@p@ftn=\toks28
+)
+(c:/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+(c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count283
+\c@ALG@rem=\count284
+\c@ALG@nested=\count285
+\ALG@tlm=\skip64
+\ALG@thistlm=\skip65
+\c@ALG@Lnr=\count286
+\c@ALG@blocknr=\count287
+\c@ALG@storecount=\count288
+\c@ALG@tmpcounter=\count289
+\ALG@tmplength=\skip66
+) (c:/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen185
+\WF@size=\dimen186
+\c@WF@wrappedlines=\count290
+\WF@box=\box70
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/texlive/2020/texmf-dist/tex/latex/floatflt/floatflt.sty
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count291
+\figbox=\box71
+\tabbox=\box72
+\pagebox=\box73
+\ffigcount=\count292
+\ftabcount=\count293
+\fftest=\count294
+\hangcount=\count295
+\nosuccesstryfig=\count296
+\nosuccesstrytab=\count297
+\figgutter=\dimen187
+\tabgutter=\dimen188
+\htdone=\dimen189
+\pageht=\dimen190
+\startpageht=\dimen191
+\tabbredd=\dimen192
+\floatfltwidth=\dimen193
+\fltitemwidth=\dimen194
+\outputpretest=\toks30
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen195
+))
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip67
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen196
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+\big@size=\dimen197
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count303
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip17
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks32
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks33
+\eqnshift@=\dimen198
+\alignsep@=\dimen199
+\tagshift@=\dimen256
+\tagwidth@=\dimen257
+\totwidth@=\dimen258
+\lineht@=\dimen259
+\@envbody=\toks34
+\multlinegap=\skip68
+\multlinetaggap=\skip69
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+79.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+9.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks36
+\thm@bodyfont=\toks37
+\thm@headfont=\toks38
+\thm@notefont=\toks39
+\thm@headpunct=\toks40
+\thm@preskip=\skip70
+\thm@postskip=\skip71
+\thm@headsep=\skip72
+\dth@everypar=\toks41
+LaTeX Info: Redefining \qed on input line 273.
+LaTeX Info: Redefining \textsquare on input line 427.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2020/08/18 v1.1.3 Todonotes source and documentation.
+Package: todonotes 2018/11/22
+
+(c:/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks42
+\XKV@tempa@toks=\toks43
+)
+\XKV@depth=\count310
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks44
+\pgfutil@tempdima=\dimen260
+\pgfutil@tempdimb=\dimen261
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box76
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks45
+\pgfkeys@temptoks=\toks46
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks47
+))
+\pgf@x=\dimen262
+\pgf@y=\dimen263
+\pgf@xa=\dimen264
+\pgf@ya=\dimen265
+\pgf@xb=\dimen266
+\pgf@yb=\dimen267
+\pgf@xc=\dimen268
+\pgf@yc=\dimen269
+\pgf@xd=\dimen270
+\pgf@yd=\dimen271
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count311
+\c@pgf@countb=\count312
+\c@pgf@countc=\count313
+\c@pgf@countd=\count314
+\t@pgf@toka=\toks48
+\t@pgf@tokb=\toks49
+\t@pgf@tokc=\toks50
+\pgf@sys@id@count=\count315
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count316
+\pgfsyssoftpath@bigbuffer@items=\count317
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen272
+\pgfmath@count=\count318
+\pgfmath@box=\box77
+\pgfmath@toks=\toks51
+\pgfmath@stack@operand=\toks52
+\pgfmath@stack@operation=\toks53
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count319
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen273
+\pgf@picmaxx=\dimen274
+\pgf@picminy=\dimen275
+\pgf@picmaxy=\dimen276
+\pgf@pathminx=\dimen277
+\pgf@pathmaxx=\dimen278
+\pgf@pathminy=\dimen279
+\pgf@pathmaxy=\dimen280
+\pgf@xx=\dimen281
+\pgf@xy=\dimen282
+\pgf@yx=\dimen283
+\pgf@yy=\dimen284
+\pgf@zx=\dimen285
+\pgf@zy=\dimen286
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen287
+\pgf@path@lasty=\dimen288
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen289
+\pgf@shorten@start@additional=\dimen290
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box78
+\pgf@hbox=\box79
+\pgf@layerbox@main=\box80
+\pgf@picture@serial@count=\count320
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen291
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen292
+\pgf@pt@y=\dimen293
+\pgf@pt@temp=\dimen294
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen295
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen296
+\pgf@sys@shading@range@num=\count321
+\pgf@shadingcount=\count322
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box81
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box82
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen297
+\pgf@nodesepend=\dimen298
+)
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen299
+\pgffor@skip=\dimen300
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count323
+\pgfplotmarksize=\dimen301
+)
+\tikz@lastx=\dimen302
+\tikz@lasty=\dimen303
+\tikz@lastxsaved=\dimen304
+\tikz@lastysaved=\dimen305
+\tikz@lastmovetox=\dimen306
+\tikz@lastmovetoy=\dimen307
+\tikzleveldistance=\dimen308
+\tikzsiblingdistance=\dimen309
+\tikz@figbox=\box83
+\tikz@figbox@bg=\box84
+\tikz@tempbox=\box85
+\tikz@tempbox@bg=\box86
+\tikztreelevel=\count324
+\tikznumberofchildren=\count325
+\tikznumberofcurrentchild=\count326
+\tikz@fig@count=\count327
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count328
+\pgfmatrixcurrentcolumn=\count329
+\pgf@matrix@numberofcolumns=\count330
+)
+\tikz@expandcount=\count331
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.te
+x
+File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (c:/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count332
+\calc@Bcount=\count333
+\calc@Adimen=\dimen310
+\calc@Bdimen=\dimen311
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count334
+\calc@Cskip=\skip75
+)
+\c@@todonotes@numberoftodonotes=\count335
+)
+(c:/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks56
+\c@algorithm=\count336
+)
+(c:/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (c:/texlive/2020/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip76
+\plpartopsep=\skip77
+\plitemsep=\skip78
+\plparsep=\skip79
+\pl@lab=\toks57
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count337
+\rotFPtop=\skip80
+\rotFPbot=\skip81
+\rot@float@box=\box87
+\rot@mess@toks=\toks58
+)
+(c:/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(c:/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(c:/texlive/2020/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box88
+)
+\tc@llx=\dimen312
+\tc@lly=\dimen313
+\tc@urx=\dimen314
+\tc@ury=\dimen315
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(c:/texlive/2020/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen316
+\adjbox@Height=\dimen317
+\adjbox@Depth=\dimen318
+\adjbox@Totalheight=\dimen319
+\adjbox@pwidth=\dimen320
+\adjbox@pheight=\dimen321
+\adjbox@pdepth=\dimen322
+\adjbox@ptotalheight=\dimen323
+
+(c:/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count338
+))
+(c:/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen324
+\captionmargin@=\dimen325
+\captionwidth=\dimen326
+\caption@tempdima=\dimen327
+\caption@indent=\dimen328
+\caption@parindent=\dimen329
+\caption@hangindent=\dimen330
+Package caption Info: elsarticle document class detected.
+
+(c:/texlive/2020/texmf-dist/tex/latex/caption/caption-elsarticle.sto
+File: caption-elsarticle.sto 2020/08/22 v2.0 Adaption of the caption package to
+ the elsarticle document class (AR)
+))
+\c@caption@flags=\count339
+\c@continuedfloat=\count340
+Package caption Info: float package is loaded.
+Package caption Info: floatflt package is loaded.
+Package caption Info: longtable package is loaded.
+
+(c:/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count341
+\c@subtable=\count342
+)
+(c:/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks59
+\t@pgfplots@tokb=\toks60
+\t@pgfplots@tokc=\toks61
+\pgfplots@tmpa=\dimen331
+\c@pgfplots@coordindex=\count343
+\c@pgfplots@scanlineindex=\count344
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
+x))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_loader.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+cture.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+ctureext.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
+de.tex
+\c@pgfplotsarray@tmp=\count345
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
+ode.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
+ode.tex
+\c@pgfplotstable@counta=\count346
+\t@pgfplotstable@a=\toks62
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
+de.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.
+tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.te
+x)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
+ading.code.tex
+\c@pgfplotslibrarysurf@no=\count347
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
+ding.pgfsys-pdftex.def)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.t
+ex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.t
+ex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
+ex
+\pgfdecoratedcompleteddistance=\dimen332
+\pgfdecoratedremainingdistance=\dimen333
+\pgfdecoratedinputsegmentcompleteddistance=\dimen334
+\pgfdecoratedinputsegmentremainingdistance=\dimen335
+\pgf@decorate@distancetomove=\dimen336
+\pgf@decorate@repeatstate=\count348
+\pgfdecorationsegmentamplitude=\dimen337
+\pgfdecorationsegmentlength=\dimen338
+)
+\tikz@lib@dec@box=\box89
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathmorphing.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathmorphing.code.tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathreplacing.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathreplacing.code.tex))
+\pgfplots@numplots=\count349
+\pgfplots@xmin@reg=\dimen339
+\pgfplots@xmax@reg=\dimen340
+\pgfplots@ymin@reg=\dimen341
+\pgfplots@ymax@reg=\dimen342
+\pgfplots@zmin@reg=\dimen343
+\pgfplots@zmax@reg=\dimen344
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
+tex
+File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (c:/texlive/2020/texmf-dist/tex/latex/tikzscale/tikzscale.sty
+Package: tikzscale 2013/05/22 v0.2.6 tikzscale LaTeX package
+
+(c:/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2020/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count350
+\decimalpart=\count351
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+\tikzscale@measuredSize=\box90
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarychains.code.tex
+File: tikzlibrarychains.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\arrowsize=\dimen345
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+ultipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodepartlowerbox=\box91
+\pgfnodeparttwobox=\box92
+\pgfnodepartthreebox=\box93
+\pgfnodepartfourbox=\box94
+\pgfnodeparttwentybox=\box95
+\pgfnodepartnineteenbox=\box96
+\pgfnodeparteighteenbox=\box97
+\pgfnodepartseventeenbox=\box98
+\pgfnodepartsixteenbox=\box99
+\pgfnodepartfifteenbox=\box100
+\pgfnodepartfourteenbox=\box101
+\pgfnodepartthirteenbox=\box102
+\pgfnodeparttwelvebox=\box103
+\pgfnodepartelevenbox=\box104
+\pgfnodeparttenbox=\box105
+\pgfnodepartninebox=\box106
+\pgfnodeparteightbox=\box107
+\pgfnodepartsevenbox=\box108
+\pgfnodepartsixbox=\box109
+\pgfnodepartfivebox=\box110
+)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.g
+eometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+isc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.s
+ymbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.a
+rrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.callouts.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.c
+allouts.code.tex)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.markings.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.markings.code.tex))
+\c@corollary=\count352
+\c@lemma=\count353
+\c@definition=\count354
+\tikzscale@accuracy=\skip82
+ (./COR2017.aux)
+\openout1 = `COR2017.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 257.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+257.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 257.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+257.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 257.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+257.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 257.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 2
+57.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 257.
+
+(c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count355
+\scratchdimen=\dimen346
+\scratchbox=\box111
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen347
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks64
+) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
+your preamble.
+ on input line 257.
+
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10.95> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 260.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 2
+64.
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
+64.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 264
+.
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 264
+.
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
+64.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
+75.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+)
+Overfull \hbox (2.08049pt too wide) has occurred while \output is active
+[] 
+ []
+
+[1
+
+
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Trying to load font information for T1+txss on input line 3
+14.
+
+(c:/texlive/2020/texmf-dist/tex/latex/txfonts/t1txss.fd
+File: t1txss.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 314.
+ [3] [4]
+Overfull \hbox (8.00542pt too wide) in paragraph at lines 383--384
+[]\T1/txr/m/n/10.95 The sim-plest way to par-ti-tion the de-ci-sion vari-ables 
+for a prob-lem with a pop-u-la-tion of so-lu-tions $\OML/txmi/m/it/10.95 S \OT1
+/txr/m/n/10.95 = \OMS/txsy/m/n/10.95 f\OML/txmi/m/it/10.95 s[]; [] ; s[]\OMS/tx
+sy/m/n/10.95 g [
+ []
+
+LaTeX Font Info:    Font shape `T1/txr/b/it' in size <10.95> not available
+(Font)              Font shape `T1/txr/bx/it' tried instead on input line 390.
+(./group_part.tikz) (./group_part.tikz) (./group_part.tikz) (./group_part.tikz)
+(./group_part.tikz) (./group_part.tikz) (./group_part.tikz) [5] (./split1.tikz)
+[6] (./lns-merge.tikz) [7]
+Package epstopdf Info: Source file: <merge-opt2.eps>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 9072 bytes
+(epstopdf)             Output file: <merge-opt2-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 5693 bytes
+(epstopdf)             Command: <repstopdf --outfile=merge-opt2-eps-converted-t
+o.pdf merge-opt2.eps>
+(epstopdf)             \includegraphics on input line 478.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./merge-opt2-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<merge-opt2-eps-converted-to.pdf, id=64, 589.20125pt x 312.16624pt>
+File: merge-opt2-eps-converted-to.pdf Graphic file (type pdf)
+<use merge-opt2-eps-converted-to.pdf>
+Package pdftex.def Info: merge-opt2-eps-converted-to.pdf  used on input line 47
+8.
+(pdftex.def)             Requested size: 175.17244pt x 92.8075pt.
+Package epstopdf Info: Source file: <merge-nhood_red.eps>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 12530 bytes
+(epstopdf)             Output file: <merge-nhood_red-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 6590 bytes
+(epstopdf)             Command: <repstopdf --outfile=merge-nhood_red-eps-conver
+ted-to.pdf merge-nhood_red.eps>
+(epstopdf)             \includegraphics on input line 479.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./merge-nhood_red-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<merge-nhood_red-eps-converted-to.pdf, id=65, 589.20125pt x 311.1625pt>
+File: merge-nhood_red-eps-converted-to.pdf Graphic file (type pdf)
+<use merge-nhood_red-eps-converted-to.pdf>
+Package pdftex.def Info: merge-nhood_red-eps-converted-to.pdf  used on input li
+ne 479.
+(pdftex.def)             Requested size: 175.17244pt x 92.50908pt.
+Package epstopdf Info: Source file: <merge-sol.eps>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 11667 bytes
+(epstopdf)             Output file: <merge-sol-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 6257 bytes
+(epstopdf)             Command: <repstopdf --outfile=merge-sol-eps-converted-to
+.pdf merge-sol.eps>
+(epstopdf)             \includegraphics on input line 480.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./merge-sol-eps-converted-to.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+<merge-sol-eps-converted-to.pdf, id=66, 589.20125pt x 312.16624pt>
+File: merge-sol-eps-converted-to.pdf Graphic file (type pdf)
+<use merge-sol-eps-converted-to.pdf>
+Package pdftex.def Info: merge-sol-eps-converted-to.pdf  used on input line 480
+.
+(pdftex.def)             Requested size: 175.17244pt x 92.8075pt.
+Package epstopdf Info: Source file: <merge-approx.eps>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 9666 bytes
+(epstopdf)             Output file: <merge-approx-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 5857 bytes
+(epstopdf)             Command: <repstopdf --outfile=merge-approx-eps-converted
+-to.pdf merge-approx.eps>
+(epstopdf)             \includegraphics on input line 481.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./merge-approx-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<merge-approx-eps-converted-to.pdf, id=67, 589.20125pt x 312.16624pt>
+File: merge-approx-eps-converted-to.pdf Graphic file (type pdf)
+<use merge-approx-eps-converted-to.pdf>
+Package pdftex.def Info: merge-approx-eps-converted-to.pdf  used on input line 
+481.
+(pdftex.def)             Requested size: 175.17244pt x 92.8075pt.
+[8 <./merge-opt2-eps-converted-to.pdf> <./merge-nhood_red-eps-converted-to.pdf>
+ <./merge-sol-eps-converted-to.pdf> <./merge-approx-eps-converted-to.pdf>]
+[9] [10] [11] (./stpg_merge.tikz
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) [12]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
+76.
+
+(c:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13] [14] (../mine/tables/main_table.tex) [15]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 792.
+
+(../mine/plots/conv/newman1_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/newm
+an1_grasp_conv.csv ', but there is also a '..//mine/plots/conv/newman1_grasp_co
+nv.csv .tex'. TeX will automatically append the suffix '.tex', so I will now op
+en '..//mine/plots/conv/newman1_grasp_conv.csv .tex'. Please make sure you don'
+t accidentally load TeX files - this may produce unrecoverable errors. on input
+ line 3.
+
+PGFPlots: reading {..//mine/plots/conv/newman1_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/newm
+an1_conv.csv ', but there is also a '..//mine/plots/conv/newman1_conv.csv .tex'
+. TeX will automatically append the suffix '.tex', so I will now open '..//mine
+/plots/conv/newman1_conv.csv .tex'. Please make sure you don't accidentally loa
+d TeX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {..//mine/plots/conv/newman1_conv.csv }
+) (../mine/plots/conv/zuck_small_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/zuck
+_small_grasp_conv.csv ', but there is also a '..//mine/plots/conv/zuck_small_gr
+asp_conv.csv .tex'. TeX will automatically append the suffix '.tex', so I will 
+now open '..//mine/plots/conv/zuck_small_grasp_conv.csv .tex'. Please make sure
+ you don't accidentally load TeX files - this may produce unrecoverable errors.
+ on input line 3.
+
+PGFPlots: reading {..//mine/plots/conv/zuck_small_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/zuck
+_small_conv.csv ', but there is also a '..//mine/plots/conv/zuck_small_conv.csv
+ .tex'. TeX will automatically append the suffix '.tex', so I will now open '..
+//mine/plots/conv/zuck_small_conv.csv .tex'. Please make sure you don't acciden
+tally load TeX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {..//mine/plots/conv/zuck_small_conv.csv }
+) (../mine/plots/conv/kd_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/kd_g
+rasp_conv.csv ', but there is also a '..//mine/plots/conv/kd_grasp_conv.csv .te
+x'. TeX will automatically append the suffix '.tex', so I will now open '..//mi
+ne/plots/conv/kd_grasp_conv.csv .tex'. Please make sure you don't accidentally 
+load TeX files - this may produce unrecoverable errors. on input line 3.
+
+PGFPlots: reading {..//mine/plots/conv/kd_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/kd_c
+onv.csv ', but there is also a '..//mine/plots/conv/kd_conv.csv .tex'. TeX will
+ automatically append the suffix '.tex', so I will now open '..//mine/plots/con
+v/kd_conv.csv .tex'. Please make sure you don't accidentally load TeX files - t
+his may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {..//mine/plots/conv/kd_conv.csv }
+) (../mine/plots/conv/zuck_med_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/zuck
+_med_grasp_conv.csv ', but there is also a '..//mine/plots/conv/zuck_med_grasp_
+conv.csv .tex'. TeX will automatically append the suffix '.tex', so I will now 
+open '..//mine/plots/conv/zuck_med_grasp_conv.csv .tex'. Please make sure you d
+on't accidentally load TeX files - this may produce unrecoverable errors. on in
+put line 3.
+
+PGFPlots: reading {..//mine/plots/conv/zuck_med_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/zuck
+_med_conv.csv ', but there is also a '..//mine/plots/conv/zuck_med_conv.csv .te
+x'. TeX will automatically append the suffix '.tex', so I will now open '..//mi
+ne/plots/conv/zuck_med_conv.csv .tex'. Please make sure you don't accidentally 
+load TeX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {..//mine/plots/conv/zuck_med_conv.csv }
+) (../mine/plots/conv/marvin_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/marv
+in_grasp_conv.csv ', but there is also a '..//mine/plots/conv/marvin_grasp_conv
+.csv .tex'. TeX will automatically append the suffix '.tex', so I will now open
+ '..//mine/plots/conv/marvin_grasp_conv.csv .tex'. Please make sure you don't a
+ccidentally load TeX files - this may produce unrecoverable errors. on input li
+ne 3.
+
+PGFPlots: reading {..//mine/plots/conv/marvin_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/marv
+in_conv.csv ', but there is also a '..//mine/plots/conv/marvin_conv.csv .tex'. 
+TeX will automatically append the suffix '.tex', so I will now open '..//mine/p
+lots/conv/marvin_conv.csv .tex'. Please make sure you don't accidentally load T
+eX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {..//mine/plots/conv/marvin_conv.csv }
+) (../mine/plots/conv/zuck_large_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/zuck
+_large_grasp_conv.csv ', but there is also a '..//mine/plots/conv/zuck_large_gr
+asp_conv.csv .tex'. TeX will automatically append the suffix '.tex', so I will 
+now open '..//mine/plots/conv/zuck_large_grasp_conv.csv .tex'. Please make sure
+ you don't accidentally load TeX files - this may produce unrecoverable errors.
+ on input line 3.
+
+PGFPlots: reading {..//mine/plots/conv/zuck_large_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/conv/zuck
+_large_conv.csv ', but there is also a '..//mine/plots/conv/zuck_large_conv.csv
+ .tex'. TeX will automatically append the suffix '.tex', so I will now open '..
+//mine/plots/conv/zuck_large_conv.csv .tex'. Please make sure you don't acciden
+tally load TeX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {..//mine/plots/conv/zuck_large_conv.csv }
+) (../mine/tables/runtime_table.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16] [17] (../mine/plots/time/zuck_small_grasp_time.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/time/zuck
+_small_grasp_time.csv ', but there is also a '..//mine/plots/time/zuck_small_gr
+asp_time.csv .tex'. TeX will automatically append the suffix '.tex', so I will 
+now open '..//mine/plots/time/zuck_small_grasp_time.csv .tex'. Please make sure
+ you don't accidentally load TeX files - this may produce unrecoverable errors.
+ on input line 3.
+
+PGFPlots: reading {..//mine/plots/time/zuck_small_grasp_time.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/time/kd_g
+rasp_time.csv ', but there is also a '..//mine/plots/time/kd_grasp_time.csv .te
+x'. TeX will automatically append the suffix '.tex', so I will now open '..//mi
+ne/plots/time/kd_grasp_time.csv .tex'. Please make sure you don't accidentally 
+load TeX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {..//mine/plots/time/kd_grasp_time.csv }
+) (../mine/plots/time/zuck_small_merge_time.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/time/zuck
+_small_merge_time.csv ', but there is also a '..//mine/plots/time/zuck_small_me
+rge_time.csv .tex'. TeX will automatically append the suffix '.tex', so I will 
+now open '..//mine/plots/time/zuck_small_merge_time.csv .tex'. Please make sure
+ you don't accidentally load TeX files - this may produce unrecoverable errors.
+ on input line 3.
+
+PGFPlots: reading {..//mine/plots/time/zuck_small_merge_time.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table '..//mine/plots/time/kd_m
+erge_time.csv ', but there is also a '..//mine/plots/time/kd_merge_time.csv .te
+x'. TeX will automatically append the suffix '.tex', so I will now open '..//mi
+ne/plots/time/kd_merge_time.csv .tex'. Please make sure you don't accidentally 
+load TeX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {..//mine/plots/time/kd_merge_time.csv }
+) [18] (../mine/tables/polish_table.tex)
+(../mine/plots/polish/zuck_med_polish.tikz
+PGFPlots: reading {..//mine/plots/polish/zuck_med_merge_polish.csv}
+PGFPlots: reading {..//mine/plots/polish/zuck_med_grasp_polish_add.csv}
+)
+(../mine/plots/polish/zuck_med_grasp_polish.tikz
+PGFPlots: reading {..//mine/plots/polish/zuck_med_grasp_polish.csv}
+)
+(../mine/plots/polish/zuck_large_polish.tikz
+PGFPlots: reading {..//mine/plots/polish/zuck_large_merge_polish.csv}
+PGFPlots: reading {..//mine/plots/polish/zuck_large_grasp_polish_add.csv}
+)
+(../mine/plots/polish/zuck_large_grasp_polish.tikz
+PGFPlots: reading {..//mine/plots/polish/zuck_large_grasp_polish.csv}
+) [19] [20]
+(../mine/tables/updated_table.tex)
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 1022.
+ (../stpg/tables/bd_data.tex)
+(../stpg/tables/ce_data.tex)
+Overfull \hbox (3.9822pt too wide) in paragraph at lines 1024--1061
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21] [22] (../stpg/tables/trunc_init.tex)
+
+LaTeX Warning: Reference `tab:app:init' on page 23 undefined on input line 1092
+.
+
+(../stpg/tables/trunc_pop.tex)
+
+LaTeX Warning: Reference `tab:app:pop' on page 23 undefined on input line 1111.
+
+
+[23] (../stpg/plots/b10_pop_plot.tikz
+PGFPlots: reading {..//stpg/plots/b10_pop_plot.dat}
+PGFPlots: reading {..//stpg/plots/b10_pop_plot_lines.dat}
+) (../stpg/plots/c10_pop_plot.tikz
+PGFPlots: reading {..//stpg/plots/c10_pop_plot.dat}
+PGFPlots: reading {..//stpg/plots/c10_pop_plot_lines.dat}
+)
+(../stpg/plots/d10_pop_plot.tikz
+PGFPlots: reading {..//stpg/plots/d10_pop_plot.dat}
+PGFPlots: reading {..//stpg/plots/d10_pop_plot_lines.dat}
+) (../stpg/plots/e10_pop_plot.tikz
+PGFPlots: reading {..//stpg/plots/e10_pop_plot.dat}
+PGFPlots: reading {..//stpg/plots/e10_pop_plot_lines.dat}
+) [24]
+[25] [26] [27]
+<pit.png, id=160, 480.29437pt x 181.42781pt>
+File: pit.png Graphic file (type png)
+<use pit.png>
+Package pdftex.def Info: pit.png  used on input line 1226.
+(pdftex.def)             Requested size: 341.43306pt x 128.9752pt.
+ [28 <./pit.png>] [29] [30]
+<OPBS-MS-orig.png, id=172, 683.55376pt x 227.85126pt>
+File: OPBS-MS-orig.png Graphic file (type png)
+<use OPBS-MS-orig.png>
+Package pdftex.def Info: OPBS-MS-orig.png  used on input line 1368.
+(pdftex.def)             Requested size: 398.33858pt x 132.7831pt.
+<OPBS-MS.png, id=173, 683.55376pt x 227.85126pt>
+File: OPBS-MS.png Graphic file (type png)
+<use OPBS-MS.png>
+Package pdftex.def Info: OPBS-MS.png  used on input line 1377.
+(pdftex.def)             Requested size: 398.33858pt x 132.7831pt.
+ [31 <./OPBS-MS-orig.png> <./OPBS-MS.png>]
+<OPBS-MS2.png, id=180, 683.55376pt x 227.85126pt>
+File: OPBS-MS2.png Graphic file (type png)
+<use OPBS-MS2.png>
+Package pdftex.def Info: OPBS-MS2.png  used on input line 1386.
+(pdftex.def)             Requested size: 398.33858pt x 132.7831pt.
+ [32 <./OPBS-MS2.png>]
+
+LaTeX Warning: Reference `tab:MC' on page 33 undefined on input line 1452.
+
+[33] [34] [35]
+<MPI-comm.pdf, id=194, 1081.20477pt x 569.05513pt>
+File: MPI-comm.pdf Graphic file (type pdf)
+<use MPI-comm.pdf>
+Package pdftex.def Info: MPI-comm.pdf  used on input line 1601.
+(pdftex.def)             Requested size: 426.79134pt x 224.62236pt.
+ [36 <./MPI-comm.pdf>] [37] [38]
+<Convergence_summary.png, id=496, 722.7pt x 430.7292pt>
+File: Convergence_summary.png Graphic file (type png)
+<use Convergence_summary.png>
+Package pdftex.def Info: Convergence_summary.png  used on input line 1728.
+(pdftex.def)             Requested size: 426.79134pt x 254.3712pt.
+<CoreConvergenceMS.pdf, id=497, 722.7pt x 505.89pt>
+File: CoreConvergenceMS.pdf Graphic file (type pdf)
+<use CoreConvergenceMS.pdf>
+Package pdftex.def Info: CoreConvergenceMS.pdf  used on input line 1738.
+(pdftex.def)             Requested size: 426.79134pt x 298.75812pt.
+<kd_ransplit.png, id=498, 599.841pt x 365.6862pt>
+File: kd_ransplit.png Graphic file (type png)
+<use kd_ransplit.png>
+Package pdftex.def Info: kd_ransplit.png  used on input line 1748.
+(pdftex.def)             Requested size: 398.33858pt x 242.84904pt.
+<marvin_ransplit.png, id=499, 611.4042pt x 368.577pt>
+File: marvin_ransplit.png Graphic file (type png)
+<use marvin_ransplit.png>
+Package pdftex.def Info: marvin_ransplit.png  used on input line 1755.
+(pdftex.def)             Requested size: 398.33858pt x 240.14023pt.
+<zs_ransplit.png, id=500, 609.2361pt x 367.1316pt>
+File: zs_ransplit.png Graphic file (type png)
+<use zs_ransplit.png>
+Package pdftex.def Info: zs_ransplit.png  used on input line 1762.
+(pdftex.def)             Requested size: 398.33858pt x 240.0444pt.
+ [39 <./Convergence_summary.png>] [40 <./CoreConvergenceMS.pdf> <./kd_ransplit.
+png>] [41 <./marvin_ransplit.png> <./zs_ransplit.png>]
+<kd_sync.png, id=520, 605.6226pt x 367.1316pt>
+File: kd_sync.png Graphic file (type png)
+<use kd_sync.png>
+Package pdftex.def Info: kd_sync.png  used on input line 1779.
+(pdftex.def)             Requested size: 398.33858pt x 241.4841pt.
+<marvin_sync.png, id=521, 615.7404pt x 371.4678pt>
+File: marvin_sync.png Graphic file (type png)
+<use marvin_sync.png>
+Package pdftex.def Info: marvin_sync.png  used on input line 1786.
+(pdftex.def)             Requested size: 398.33858pt x 240.31758pt.
+<zs_sync.png, id=522, 607.7907pt x 372.9132pt>
+File: zs_sync.png Graphic file (type png)
+<use zs_sync.png>
+Package pdftex.def Info: zs_sync.png  used on input line 1793.
+(pdftex.def)             Requested size: 398.33858pt x 244.40503pt.
+ [42 <./kd_sync.png>] [43 <./marvin_sync.png> <./zs_sync.png>] [44] [45] [46] (
+./COR2017.bbl [47] [48] [49] [50]) [51] (./COR2017.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 35902 strings out of 479304
+ 841593 string characters out of 5871220
+ 1437829 words of memory out of 5000000
+ 52213 multiletter control sequences out of 15000+600000
+ 482124 words of font info for 173 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,18n,131p,1544b,2368s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
+ive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2020/texmf-dist/fonts/t
+ype1/public/txfonts/rtcxi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/tx
+fonts/rtcxr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb
+><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb><c:/texlive/20
+20/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2020/texmf-dist/
+fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/pub
+lic/cm-super/sftt0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
+er/sftt0900.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt109
+5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txex.pfb><c:/texli
+ve/2020/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><c:/texlive/2020/texmf-d
+ist/fonts/type1/public/txfonts/txsyc.pfb><c:/texlive/2020/texmf-dist/fonts/type
+1/urw/helvetic/uhvr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texli
+ve/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on COR2017.pdf (51 pages, 813501 bytes).
+PDF statistics:
+ 620 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+

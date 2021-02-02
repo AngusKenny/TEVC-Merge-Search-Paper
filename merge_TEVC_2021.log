@@ -1,0 +1,1943 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.1)  2 FEB 2021 14:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**merge_TEVC_2021.tex
+(./merge_TEVC_2021.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> (./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen138
+\@IEEEtrantmpdimenB=\dimen139
+\@IEEEtrantmpdimenC=\dimen140
+\@IEEEtrantmpcountA=\count177
+\@IEEEtrantmpcountB=\count178
+\@IEEEtrantmpcountC=\count179
+\@IEEEtrantmptoksA=\toks15
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+(c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen141
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen142
+\CLASSINFOnormalsizeunitybaselineskip=\dimen143
+\IEEEnormaljot=\dimen144
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen145
+\IEEEquantizedlengthdiff=\dimen146
+\IEEEquantizedtextheightdiff=\dimen147
+\IEEEilabelindentA=\dimen148
+\IEEEilabelindentB=\dimen149
+\IEEEilabelindent=\dimen150
+\IEEEelabelindent=\dimen151
+\IEEEdlabelindent=\dimen152
+\IEEElabelindent=\dimen153
+\IEEEiednormlabelsep=\dimen154
+\IEEEiedmathlabelsep=\dimen155
+\IEEEiedtopsep=\skip47
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@IEEEsubequation=\count184
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count185
+\c@table=\count186
+\@IEEEeqnnumcols=\count187
+\@IEEEeqncolcnt=\count188
+\@IEEEsubeqnnumrollback=\count189
+\@IEEEquantizeheightA=\dimen156
+\@IEEEquantizeheightB=\dimen157
+\@IEEEquantizeheightC=\dimen158
+\@IEEEquantizeprevdepth=\dimen159
+\@IEEEquantizemultiple=\count190
+\@IEEEquantizeboxA=\box47
+\@IEEEtmpitemindent=\dimen160
+\IEEEPARstartletwidth=\dimen161
+\c@IEEEbiography=\count191
+\@IEEEtranrubishbin=\box48
+) (./TEVC_style.sty (c:/texlive/2020/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+(c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(c:/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)))
+(c:/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count192
+\@cmidlb=\count193
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count194
+\@lastruleclass=\count195
+\@thisrulewidth=\dimen174
+)
+(c:/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cntb=\count196
+\multirow@dima=\skip51
+\bigstrutjot=\dimen175
+)
+(c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box49
+\extrarowheight=\dimen177
+\NC@list=\toks18
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box50
+)
+(c:/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count197
+\float@exts=\toks19
+\float@box=\box51
+\@float@everytoks=\toks20
+\@floatcapt=\box52
+)
+(c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(c:/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks21
+\minrowclearance=\skip54
+)
+\rownum=\count198
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+(c:/texlive/2020/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(c:/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box53
+\sift@deathcycles=\count199
+\@vwid@loff=\dimen178
+\@vwid@roff=\dimen179
+)
+\c@taburow=\count266
+\tabu@nbcols=\count267
+\tabu@cnt=\count268
+\tabu@Xcol=\count269
+\tabu@alloc=\count270
+\tabu@nested=\count271
+\tabu@target=\dimen180
+\tabu@spreadtarget=\dimen181
+\tabu@naturalX=\dimen182
+\tabucolX=\dimen183
+\tabu@Xsum=\dimen184
+\extrarowdepth=\dimen185
+\abovetabulinesep=\dimen186
+\belowtabulinesep=\dimen187
+\tabustrutrule=\dimen188
+\tabu@thebody=\toks22
+\tabu@footnotes=\toks23
+\tabu@box=\box54
+\tabu@arstrutbox=\box55
+\tabu@hleads=\box56
+\tabu@vleads=\box57
+\tabu@cellskip=\skip55
+)
+(c:/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count272
+\LTcapwidth=\dimen189
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@cols=\count273
+\LT@rows=\count274
+\c@LT@tables=\count275
+\c@LT@chunks=\count276
+\LT@p@ftn=\toks24
+)
+(c:/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+(c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count277
+\c@ALG@rem=\count278
+\c@ALG@nested=\count279
+\ALG@tlm=\skip60
+\ALG@thistlm=\skip61
+\c@ALG@Lnr=\count280
+\c@ALG@blocknr=\count281
+\c@ALG@storecount=\count282
+\c@ALG@tmpcounter=\count283
+\ALG@tmplength=\skip62
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+\Gin@req@height=\dimen190
+\Gin@req@width=\dimen191
+)
+(c:/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen192
+\WF@size=\dimen193
+\c@WF@wrappedlines=\count284
+\WF@box=\box62
+\WF@everypar=\toks26
+Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/texlive/2020/texmf-dist/tex/latex/floatflt/floatflt.sty
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count285
+\figbox=\box63
+\tabbox=\box64
+\pagebox=\box65
+\ffigcount=\count286
+\ftabcount=\count287
+\fftest=\count288
+\hangcount=\count289
+\nosuccesstryfig=\count290
+\nosuccesstrytab=\count291
+\figgutter=\dimen194
+\tabgutter=\dimen195
+\htdone=\dimen196
+\pageht=\dimen197
+\startpageht=\dimen198
+\tabbredd=\dimen199
+\floatfltwidth=\dimen256
+\fltitemwidth=\dimen257
+\outputpretest=\toks27
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen258
+))
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen259
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count292
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count293
+\leftroot@=\count294
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count295
+\DOTSCASE@=\count296
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+\big@size=\dimen260
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count297
+\c@MaxMatrixCols=\count298
+\dotsspace@=\muskip17
+\c@parentequation=\count299
+\dspbrk@lvl=\count300
+\tag@help=\toks29
+\row@=\count301
+\column@=\count302
+\maxfields@=\count303
+\andhelp@=\toks30
+\eqnshift@=\dimen261
+\alignsep@=\dimen262
+\tagshift@=\dimen263
+\tagwidth@=\dimen264
+\totwidth@=\dimen265
+\lineht@=\dimen266
+\@envbody=\toks31
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks33
+\thm@bodyfont=\toks34
+\thm@headfont=\toks35
+\thm@notefont=\toks36
+\thm@headpunct=\toks37
+\thm@preskip=\skip66
+\thm@postskip=\skip67
+\thm@headsep=\skip68
+\dth@everypar=\toks38
+)
+(c:/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks39
+\c@algorithm=\count304
+)
+(c:/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (c:/texlive/2020/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip69
+\plpartopsep=\skip70
+\plitemsep=\skip71
+\plparsep=\skip72
+\pl@lab=\toks40
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count305
+\rotFPtop=\skip73
+\rotFPbot=\skip74
+\rot@float@box=\box68
+\rot@mess@toks=\toks41
+)
+(c:/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(c:/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks42
+\XKV@tempa@toks=\toks43
+)
+\XKV@depth=\count306
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(c:/texlive/2020/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box69
+)
+\tc@llx=\dimen267
+\tc@lly=\dimen268
+\tc@urx=\dimen269
+\tc@ury=\dimen270
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(c:/texlive/2020/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen271
+\adjbox@Height=\dimen272
+\adjbox@Depth=\dimen273
+\adjbox@Totalheight=\dimen274
+\adjbox@pwidth=\dimen275
+\adjbox@pheight=\dimen276
+\adjbox@pdepth=\dimen277
+\adjbox@ptotalheight=\dimen278
+
+(c:/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count307
+))
+(c:/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen279
+\captionmargin@=\dimen280
+\captionwidth=\dimen281
+\caption@tempdima=\dimen282
+\caption@indent=\dimen283
+\caption@parindent=\dimen284
+\caption@hangindent=\dimen285
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi  on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count308
+\c@continuedfloat=\count309
+Package caption Info: float package is loaded.
+Package caption Info: floatflt package is loaded.
+Package caption Info: longtable package is loaded.
+(c:/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count310
+\c@subtable=\count311
+)
+(c:/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks44
+\pgfutil@tempdima=\dimen286
+\pgfutil@tempdimb=\dimen287
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box70
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks45
+\pgfkeys@temptoks=\toks46
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks47
+))
+\pgf@x=\dimen288
+\pgf@y=\dimen289
+\pgf@xa=\dimen290
+\pgf@ya=\dimen291
+\pgf@xb=\dimen292
+\pgf@yb=\dimen293
+\pgf@xc=\dimen294
+\pgf@yc=\dimen295
+\pgf@xd=\dimen296
+\pgf@yd=\dimen297
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count312
+\c@pgf@countb=\count313
+\c@pgf@countc=\count314
+\c@pgf@countd=\count315
+\t@pgf@toka=\toks48
+\t@pgf@tokb=\toks49
+\t@pgf@tokc=\toks50
+\pgf@sys@id@count=\count316
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count317
+\pgfsyssoftpath@bigbuffer@items=\count318
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen298
+\pgfmath@count=\count319
+\pgfmath@box=\box71
+\pgfmath@toks=\toks51
+\pgfmath@stack@operand=\toks52
+\pgfmath@stack@operation=\toks53
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count320
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen299
+\pgf@picmaxx=\dimen300
+\pgf@picminy=\dimen301
+\pgf@picmaxy=\dimen302
+\pgf@pathminx=\dimen303
+\pgf@pathmaxx=\dimen304
+\pgf@pathminy=\dimen305
+\pgf@pathmaxy=\dimen306
+\pgf@xx=\dimen307
+\pgf@xy=\dimen308
+\pgf@yx=\dimen309
+\pgf@yy=\dimen310
+\pgf@zx=\dimen311
+\pgf@zy=\dimen312
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen313
+\pgf@path@lasty=\dimen314
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen315
+\pgf@shorten@start@additional=\dimen316
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count321
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen317
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen318
+\pgf@pt@y=\dimen319
+\pgf@pt@temp=\dimen320
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen321
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen322
+\pgf@sys@shading@range@num=\count322
+\pgf@shadingcount=\count323
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box75
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box76
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen323
+\pgf@nodesepend=\dimen324
+)
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen325
+\pgffor@skip=\dimen326
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count324
+\pgfplotmarksize=\dimen327
+)
+\tikz@lastx=\dimen328
+\tikz@lasty=\dimen329
+\tikz@lastxsaved=\dimen330
+\tikz@lastysaved=\dimen331
+\tikz@lastmovetox=\dimen332
+\tikz@lastmovetoy=\dimen333
+\tikzleveldistance=\dimen334
+\tikzsiblingdistance=\dimen335
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count325
+\tikznumberofchildren=\count326
+\tikznumberofcurrentchild=\count327
+\tikz@fig@count=\count328
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count329
+\pgfmatrixcurrentcolumn=\count330
+\pgf@matrix@numberofcolumns=\count331
+)
+\tikz@expandcount=\count332
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks56
+\t@pgfplots@tokb=\toks57
+\t@pgfplots@tokc=\toks58
+\pgfplots@tmpa=\dimen336
+\c@pgfplots@coordindex=\count333
+\c@pgfplots@scanlineindex=\count334
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
+x))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_loader.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+cture.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+ctureext.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
+de.tex
+\c@pgfplotsarray@tmp=\count335
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
+ode.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
+ode.tex
+\c@pgfplotstable@counta=\count336
+\t@pgfplotstable@a=\toks59
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
+de.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.
+tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.te
+x)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
+ading.code.tex
+\c@pgfplotslibrarysurf@no=\count337
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
+ding.pgfsys-pdftex.def)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.t
+ex
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.t
+ex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
+ex
+\pgfdecoratedcompleteddistance=\dimen337
+\pgfdecoratedremainingdistance=\dimen338
+\pgfdecoratedinputsegmentcompleteddistance=\dimen339
+\pgfdecoratedinputsegmentremainingdistance=\dimen340
+\pgf@decorate@distancetomove=\dimen341
+\pgf@decorate@repeatstate=\count338
+\pgfdecorationsegmentamplitude=\dimen342
+\pgfdecorationsegmentlength=\dimen343
+)
+\tikz@lib@dec@box=\box81
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathmorphing.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathmorphing.code.tex))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathreplacing.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathreplacing.code.tex))
+\pgfplots@numplots=\count339
+\pgfplots@xmin@reg=\dimen344
+\pgfplots@xmax@reg=\dimen345
+\pgfplots@ymin@reg=\dimen346
+\pgfplots@ymax@reg=\dimen347
+\pgfplots@zmin@reg=\dimen348
+\pgfplots@zmax@reg=\dimen349
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
+tex
+File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (c:/texlive/2020/texmf-dist/tex/latex/tikzscale/tikzscale.sty
+Package: tikzscale 2013/05/22 v0.2.6 tikzscale LaTeX package
+
+(c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count340
+)
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count341
+\l__pdf_internal_box=\box82
+))
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+(c:/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2020/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count342
+\decimalpart=\count343
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+\tikzscale@measuredSize=\box83
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarychains.code.tex
+File: tikzlibrarychains.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\arrowsize=\dimen350
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+ultipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodepartlowerbox=\box84
+\pgfnodeparttwobox=\box85
+\pgfnodepartthreebox=\box86
+\pgfnodepartfourbox=\box87
+\pgfnodeparttwentybox=\box88
+\pgfnodepartnineteenbox=\box89
+\pgfnodeparteighteenbox=\box90
+\pgfnodepartseventeenbox=\box91
+\pgfnodepartsixteenbox=\box92
+\pgfnodepartfifteenbox=\box93
+\pgfnodepartfourteenbox=\box94
+\pgfnodepartthirteenbox=\box95
+\pgfnodeparttwelvebox=\box96
+\pgfnodepartelevenbox=\box97
+\pgfnodeparttenbox=\box98
+\pgfnodepartninebox=\box99
+\pgfnodeparteightbox=\box100
+\pgfnodepartsevenbox=\box101
+\pgfnodepartsixbox=\box102
+\pgfnodepartfivebox=\box103
+)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.g
+eometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+isc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.s
+ymbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.a
+rrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.callouts.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.c
+allouts.code.tex)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.markings.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.markings.code.tex))
+\c@corollary=\count344
+\c@lemma=\count345
+\c@definition=\count346
+)
+\tikzscale@accuracy=\skip75
+ (./merge_TEVC_2021.aux)
+\openout1 = `merge_TEVC_2021.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 353.
+LaTeX Font Info:    ... okay on input line 353.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 353.
+LaTeX Font Info:    ... okay on input line 353.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 353.
+LaTeX Font Info:    ... okay on input line 353.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 353.
+LaTeX Font Info:    ... okay on input line 353.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 353.
+LaTeX Font Info:    ... okay on input line 353.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 353.
+LaTeX Font Info:    ... okay on input line 353.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 353.
+LaTeX Font Info:    ... okay on input line 353.
+
+-- Lines per column: 58 (exact).
+(c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count347
+\scratchdimen=\dimen351
+\scratchbox=\box104
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen352
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks61
+) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
+your preamble.
+ on input line 353.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 436.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 436
+.
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 436
+.
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `Newman:2010' on page 1 undefined on input line 475.
+
+
+LaTeX Warning: Citation `Meagher2014' on page 1 undefined on input line 477.
+
+
+LaTeX Warning: Citation `Meagher2014' on page 1 undefined on input line 480.
+
+
+LaTeX Warning: Citation `Bley:2010' on page 1 undefined on input line 481.
+
+
+LaTeX Warning: Citation `espinoza_minelib:_2012' on page 1 undefined on input l
+ine 481.
+
+
+LaTeX Warning: Citation `fisher04' on page 1 undefined on input line 494.
+
+
+LaTeX Warning: Citation `Wolsey1998' on page 1 undefined on input line 494.
+
+
+LaTeX Warning: Citation `Geoffrion1972' on page 1 undefined on input line 494.
+
+
+LaTeX Warning: Citation `BOLAND2009' on page 1 undefined on input line 494.
+
+
+LaTeX Warning: Citation `Litvinchev:2003' on page 1 undefined on input line 494
+.
+
+
+LaTeX Warning: Citation `Rogers:1991' on page 1 undefined on input line 494.
+
+
+LaTeX Warning: Citation `Ahuja:2002' on page 1 undefined on input line 494.
+
+
+LaTeX Warning: Citation `Ahuja:2002' on page 1 undefined on input line 494.
+
+
+LaTeX Warning: Citation `Pisinger2010' on page 1 undefined on input line 494.
+
+
+LaTeX Warning: Citation `Mitchell:1996' on page 1 undefined on input line 496.
+
+
+LaTeX Warning: Citation `Gropp:1994' on page 1 undefined on input line 496.
+
+[1{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+
+LaTeX Warning: Citation `Blum2016' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `BlumBlesa16' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Blum16-2' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Lewis2019' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Thiruvady2019' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Blum2016' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `BlumBlesa16' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Blum16-2' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Lewis2019' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Thiruvady2019' on page 2 undefined on input line 498.
+
+
+LaTeX Warning: Reference `sec:opbs' on page 2 undefined on input line 502.
+
+
+LaTeX Warning: Reference `sec:meth' on page 2 undefined on input line 504.
+
+
+LaTeX Warning: Reference `sec:expts_res' on page 2 undefined on input line 505.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 51
+3.
+
+(c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+Overfull \hbox (156.46431pt too wide) detected at line 526
+[] \OML/cmm/m/it/10 P \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML
+/cmm/m/it/10 ; [] ; n\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ;  P \OMS/cmsy/m/n/10 \
+ \OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ; 8 \OML/cmm/m/it/10 P \
+OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 2 P\OML/
+cmm/m/it/10 ;  [] s[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 s[] \OMS/cmsy/m/n/10 8
+ \OML/cmm/m/it/10 s \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 S;  P \OMS/cmsy/m/n/10 
+2 P\OML/cmm/m/it/10 ;  i; j \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 P
+ []
+
+
+LaTeX Warning: Citation `Papadimitriou1982' on page 2 undefined on input line 5
+40.
+
+[2]
+
+LaTeX Warning: Citation `Blum2016' on page 3 undefined on input line 558.
+
+
+LaTeX Warning: Citation `Luke2009' on page 3 undefined on input line 584.
+
+[3] (./img/group_part.tikz) (./img/group_part.tikz) (./img/group_part.tikz)
+(./img/group_part.tikz) (./img/group_part.tikz) (./img/group_part.tikz)
+(./img/group_part.tikz) (./img/split1.tikz) [4]
+
+LaTeX Warning: Citation `Pisinger2010' on page 5 undefined on input line 648.
+
+(./img/lns-merge.tikz)
+Package epstopdf Info: Source file: <img/merge-opt2.eps>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 9072 bytes
+(epstopdf)             Output file: <img/merge-opt2-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-02 13:22:30
+(epstopdf)                    size: 5669 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/merge-opt2-eps-convert
+ed-to.pdf img/merge-opt2.eps>
+(epstopdf)             \includegraphics on input line 677.
+Package epstopdf Info: Output file is already uptodate.
+<img/merge-opt2-eps-converted-to.pdf, id=40, 589.20125pt x 312.16624pt>
+File: img/merge-opt2-eps-converted-to.pdf Graphic file (type pdf)
+<use img/merge-opt2-eps-converted-to.pdf>
+Package pdftex.def Info: img/merge-opt2-eps-converted-to.pdf  used on input lin
+e 677.
+(pdftex.def)             Requested size: 118.6778pt x 62.87512pt.
+Package epstopdf Info: Source file: <img/merge-nhood_red.eps>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 12530 bytes
+(epstopdf)             Output file: <img/merge-nhood_red-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-02 13:22:32
+(epstopdf)                    size: 6564 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/merge-nhood_red-eps-co
+nverted-to.pdf img/merge-nhood_red.eps>
+(epstopdf)             \includegraphics on input line 678.
+Package epstopdf Info: Output file is already uptodate.
+<img/merge-nhood_red-eps-converted-to.pdf, id=41, 589.20125pt x 311.1625pt>
+File: img/merge-nhood_red-eps-converted-to.pdf Graphic file (type pdf)
+<use img/merge-nhood_red-eps-converted-to.pdf>
+Package pdftex.def Info: img/merge-nhood_red-eps-converted-to.pdf  used on inpu
+t line 678.
+(pdftex.def)             Requested size: 118.6778pt x 62.67296pt.
+Package epstopdf Info: Source file: <img/merge-sol.eps>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 11667 bytes
+(epstopdf)             Output file: <img/merge-sol-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-02 13:22:34
+(epstopdf)                    size: 6231 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/merge-sol-eps-converte
+d-to.pdf img/merge-sol.eps>
+(epstopdf)             \includegraphics on input line 679.
+Package epstopdf Info: Output file is already uptodate.
+<img/merge-sol-eps-converted-to.pdf, id=42, 589.20125pt x 312.16624pt>
+File: img/merge-sol-eps-converted-to.pdf Graphic file (type pdf)
+<use img/merge-sol-eps-converted-to.pdf>
+Package pdftex.def Info: img/merge-sol-eps-converted-to.pdf  used on input line
+ 679.
+(pdftex.def)             Requested size: 118.6778pt x 62.87512pt.
+Package epstopdf Info: Source file: <img/merge-approx.eps>
+(epstopdf)                    date: 2021-02-02 09:35:57
+(epstopdf)                    size: 9666 bytes
+(epstopdf)             Output file: <img/merge-approx-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-02 13:22:36
+(epstopdf)                    size: 5832 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/merge-approx-eps-conve
+rted-to.pdf img/merge-approx.eps>
+(epstopdf)             \includegraphics on input line 680.
+Package epstopdf Info: Output file is already uptodate.
+<img/merge-approx-eps-converted-to.pdf, id=43, 589.20125pt x 312.16624pt>
+File: img/merge-approx-eps-converted-to.pdf Graphic file (type pdf)
+<use img/merge-approx-eps-converted-to.pdf>
+Package pdftex.def Info: img/merge-approx-eps-converted-to.pdf  used on input l
+ine 680.
+(pdftex.def)             Requested size: 118.6778pt x 62.87512pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+
+LaTeX Warning: Citation `Blum2016' on page 6 undefined on input line 764.
+
+[6 <./img/merge-opt2-eps-converted-to.pdf> <./img/merge-nhood_red-eps-converted
+-to.pdf> <./img/merge-sol-eps-converted-to.pdf> <./img/merge-approx-eps-convert
+ed-to.pdf>]
+
+LaTeX Warning: Citation `singh' on page 7 undefined on input line 792.
+
+
+LaTeX Warning: Citation `Meagher2014' on page 7 undefined on input line 794.
+
+
+LaTeX Warning: Citation `espinoza_minelib:_2012' on page 7 undefined on input l
+ine 798.
+
+
+LaTeX Warning: Citation `Kenny:2017' on page 7 undefined on input line 802.
+
+
+LaTeX Warning: Citation `Kenny:2018' on page 7 undefined on input line 802.
+
+
+LaTeX Warning: Citation `Kenny:2019' on page 7 undefined on input line 802.
+
+
+LaTeX Warning: Citation `np:karp' on page 7 undefined on input line 812.
+
+
+LaTeX Warning: Citation `vlsi:cho' on page 7 undefined on input line 816.
+
+
+LaTeX Warning: Citation `history:brazil' on page 7 undefined on input line 817.
+
+
+
+LaTeX Warning: Citation `steiner:hwang' on page 7 undefined on input line 819.
+
+
+LaTeX Warning: Citation `pd:polzin' on page 7 undefined on input line 821.
+
+
+LaTeX Warning: Citation `algo:polzin' on page 7 undefined on input line 823.
+
+
+LaTeX Warning: Citation `algo:daneshmand' on page 7 undefined on input line 823
+.
+
+
+LaTeX Warning: Citation `memetic:klau' on page 7 undefined on input line 829.
+
+
+LaTeX Warning: Citation `aco:singh' on page 7 undefined on input line 830.
+
+
+LaTeX Warning: Citation `acogroup:nguyen' on page 7 undefined on input line 830
+.
+
+
+LaTeX Warning: Citation `fastls:uchoa' on page 7 undefined on input line 831.
+
+
+LaTeX Warning: Citation `effectivels:wade' on page 7 undefined on input line 83
+1.
+
+
+LaTeX Warning: Citation `partition:leitner' on page 7 undefined on input line 8
+32.
+
+[7]
+
+LaTeX Warning: Citation `kp:dowsland' on page 8 undefined on input line 838.
+
+
+LaTeX Warning: Citation `Kenny:2016' on page 8 undefined on input line 844.
+
+
+LaTeX Warning: Citation `pp:duin' on page 8 undefined on input line 846.
+
+
+LaTeX Warning: Citation `pp:uchoa' on page 8 undefined on input line 846.
+
+
+LaTeX Warning: Citation `stpg-reduce' on page 8 undefined on input line 846.
+
+
+LaTeX Warning: Citation `Kenny:2016' on page 8 undefined on input line 846.
+
+(./img/stpg_merge.tikz
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `goemans' on page 8 undefined on input line 858.
+
+
+LaTeX Warning: Citation `espinoza_minelib:_2012' on page 8 undefined on input l
+ine 870.
+
+
+LaTeX Warning: Citation `espinoza_minelib:_2012' on page 8 undefined on input l
+ine 870.
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 87
+5.
+(c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [8]
+
+LaTeX Warning: Citation `steinlib' on page 9 undefined on input line 890.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Kenny:2017' on page 9 undefined on input line 931.
+
+
+LaTeX Warning: Citation `Kenny:2017' on page 9 undefined on input line 933.
+
+
+LaTeX Warning: Citation `pp:duin' on page 9 undefined on input line 936.
+
+
+LaTeX Warning: Citation `pp:uchoa' on page 9 undefined on input line 936.
+
+
+LaTeX Warning: Citation `stpg-reduce' on page 9 undefined on input line 936.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
+39.
+(c:/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+LaTeX Warning: Citation `espinoza_minelib:_2012' on page 9 undefined on input l
+ine 942.
+
+
+LaTeX Warning: Citation `Kenny:2017' on page 9 undefined on input line 942.
+
+
+LaTeX Warning: Citation `Kenny:2018' on page 9 undefined on input line 942.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+(./mine/tables/main_table.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 991.
+
+(./mine/plots/conv/newman1_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/newman1_
+grasp_conv.csv ', but there is also a 'mine/plots/conv/newman1_grasp_conv.csv .
+tex'. TeX will automatically append the suffix '.tex', so I will now open 'mine
+/plots/conv/newman1_grasp_conv.csv .tex'. Please make sure you don't accidental
+ly load TeX files - this may produce unrecoverable errors. on input line 3.
+
+PGFPlots: reading {mine/plots/conv/newman1_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/newman1_
+conv.csv ', but there is also a 'mine/plots/conv/newman1_conv.csv .tex'. TeX wi
+ll automatically append the suffix '.tex', so I will now open 'mine/plots/conv/
+newman1_conv.csv .tex'. Please make sure you don't accidentally load TeX files 
+- this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {mine/plots/conv/newman1_conv.csv }
+) (./mine/plots/conv/zuck_small_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/zuck_sma
+ll_grasp_conv.csv ', but there is also a 'mine/plots/conv/zuck_small_grasp_conv
+.csv .tex'. TeX will automatically append the suffix '.tex', so I will now open
+ 'mine/plots/conv/zuck_small_grasp_conv.csv .tex'. Please make sure you don't a
+ccidentally load TeX files - this may produce unrecoverable errors. on input li
+ne 3.
+
+PGFPlots: reading {mine/plots/conv/zuck_small_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/zuck_sma
+ll_conv.csv ', but there is also a 'mine/plots/conv/zuck_small_conv.csv .tex'. 
+TeX will automatically append the suffix '.tex', so I will now open 'mine/plots
+/conv/zuck_small_conv.csv .tex'. Please make sure you don't accidentally load T
+eX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {mine/plots/conv/zuck_small_conv.csv }
+) (./mine/plots/conv/kd_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/kd_grasp
+_conv.csv ', but there is also a 'mine/plots/conv/kd_grasp_conv.csv .tex'. TeX 
+will automatically append the suffix '.tex', so I will now open 'mine/plots/con
+v/kd_grasp_conv.csv .tex'. Please make sure you don't accidentally load TeX fil
+es - this may produce unrecoverable errors. on input line 3.
+
+PGFPlots: reading {mine/plots/conv/kd_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/kd_conv.
+csv ', but there is also a 'mine/plots/conv/kd_conv.csv .tex'. TeX will automat
+ically append the suffix '.tex', so I will now open 'mine/plots/conv/kd_conv.cs
+v .tex'. Please make sure you don't accidentally load TeX files - this may prod
+uce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {mine/plots/conv/kd_conv.csv }
+) (./mine/plots/conv/zuck_med_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/zuck_med
+_grasp_conv.csv ', but there is also a 'mine/plots/conv/zuck_med_grasp_conv.csv
+ .tex'. TeX will automatically append the suffix '.tex', so I will now open 'mi
+ne/plots/conv/zuck_med_grasp_conv.csv .tex'. Please make sure you don't acciden
+tally load TeX files - this may produce unrecoverable errors. on input line 3.
+
+PGFPlots: reading {mine/plots/conv/zuck_med_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/zuck_med
+_conv.csv ', but there is also a 'mine/plots/conv/zuck_med_conv.csv .tex'. TeX 
+will automatically append the suffix '.tex', so I will now open 'mine/plots/con
+v/zuck_med_conv.csv .tex'. Please make sure you don't accidentally load TeX fil
+es - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {mine/plots/conv/zuck_med_conv.csv }
+) (./mine/plots/conv/marvin_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/marvin_g
+rasp_conv.csv ', but there is also a 'mine/plots/conv/marvin_grasp_conv.csv .te
+x'. TeX will automatically append the suffix '.tex', so I will now open 'mine/p
+lots/conv/marvin_grasp_conv.csv .tex'. Please make sure you don't accidentally 
+load TeX files - this may produce unrecoverable errors. on input line 3.
+
+PGFPlots: reading {mine/plots/conv/marvin_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/marvin_c
+onv.csv ', but there is also a 'mine/plots/conv/marvin_conv.csv .tex'. TeX will
+ automatically append the suffix '.tex', so I will now open 'mine/plots/conv/ma
+rvin_conv.csv .tex'. Please make sure you don't accidentally load TeX files - t
+his may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {mine/plots/conv/marvin_conv.csv }
+) (./mine/plots/conv/zuck_large_conv.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/zuck_lar
+ge_grasp_conv.csv ', but there is also a 'mine/plots/conv/zuck_large_grasp_conv
+.csv .tex'. TeX will automatically append the suffix '.tex', so I will now open
+ 'mine/plots/conv/zuck_large_grasp_conv.csv .tex'. Please make sure you don't a
+ccidentally load TeX files - this may produce unrecoverable errors. on input li
+ne 3.
+
+PGFPlots: reading {mine/plots/conv/zuck_large_grasp_conv.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table 'mine/plots/conv/zuck_lar
+ge_conv.csv ', but there is also a 'mine/plots/conv/zuck_large_conv.csv .tex'. 
+TeX will automatically append the suffix '.tex', so I will now open 'mine/plots
+/conv/zuck_large_conv.csv .tex'. Please make sure you don't accidentally load T
+eX files - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {mine/plots/conv/zuck_large_conv.csv }
+)
+Underfull \vbox (badness 1661) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+
+(./mine/tables/runtime_table.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11] (./mine/plots/time/zuck_small_grasp_time.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table 'mine/plots/time/zuck_sma
+ll_grasp_time.csv ', but there is also a 'mine/plots/time/zuck_small_grasp_time
+.csv .tex'. TeX will automatically append the suffix '.tex', so I will now open
+ 'mine/plots/time/zuck_small_grasp_time.csv .tex'. Please make sure you don't a
+ccidentally load TeX files - this may produce unrecoverable errors. on input li
+ne 3.
+
+PGFPlots: reading {mine/plots/time/zuck_small_grasp_time.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table 'mine/plots/time/kd_grasp
+_time.csv ', but there is also a 'mine/plots/time/kd_grasp_time.csv .tex'. TeX 
+will automatically append the suffix '.tex', so I will now open 'mine/plots/tim
+e/kd_grasp_time.csv .tex'. Please make sure you don't accidentally load TeX fil
+es - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {mine/plots/time/kd_grasp_time.csv }
+) (./mine/plots/time/zuck_small_merge_time.tikz
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+
+Package pgfplots Warning: You requested to open table 'mine/plots/time/zuck_sma
+ll_merge_time.csv ', but there is also a 'mine/plots/time/zuck_small_merge_time
+.csv .tex'. TeX will automatically append the suffix '.tex', so I will now open
+ 'mine/plots/time/zuck_small_merge_time.csv .tex'. Please make sure you don't a
+ccidentally load TeX files - this may produce unrecoverable errors. on input li
+ne 3.
+
+PGFPlots: reading {mine/plots/time/zuck_small_merge_time.csv }
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Package pgfplots Warning: You requested to open table 'mine/plots/time/kd_merge
+_time.csv ', but there is also a 'mine/plots/time/kd_merge_time.csv .tex'. TeX 
+will automatically append the suffix '.tex', so I will now open 'mine/plots/tim
+e/kd_merge_time.csv .tex'. Please make sure you don't accidentally load TeX fil
+es - this may produce unrecoverable errors. on input line 4.
+
+PGFPlots: reading {mine/plots/time/kd_merge_time.csv }
+) (./mine/tables/polish_table.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12] (./mine/plots/polish/zuck_med_polish.tikz
+PGFPlots: reading {mine/plots/polish/zuck_med_merge_polish.csv}
+PGFPlots: reading {mine/plots/polish/zuck_med_grasp_polish_add.csv}
+)
+Underfull \hbox (badness 1831) in paragraph at lines 1144--1144
+[]\T1/ptm/m/n/9 (a) |Merge with pol-ish-ing on
+ []
+
+(./mine/plots/polish/zuck_med_grasp_polish.tikz
+PGFPlots: reading {mine/plots/polish/zuck_med_grasp_polish.csv}
+)
+(./mine/plots/polish/zuck_large_polish.tikz
+PGFPlots: reading {mine/plots/polish/zuck_large_merge_polish.csv}
+PGFPlots: reading {mine/plots/polish/zuck_large_grasp_polish_add.csv}
+)
+Underfull \hbox (badness 1831) in paragraph at lines 1165--1165
+[]\T1/ptm/m/n/9 (c) |Merge with pol-ish-ing on
+ []
+
+(./mine/plots/polish/zuck_large_grasp_polish.tikz
+PGFPlots: reading {mine/plots/polish/zuck_large_grasp_polish.csv}
+)
+
+LaTeX Warning: Citation `minelib-improved' on page 13 undefined on input line 1
+189.
+
+
+LaTeX Warning: Citation `newman-improved' on page 13 undefined on input line 11
+91.
+
+
+LaTeX Warning: Citation `zuck-small-improved' on page 13 undefined on input lin
+e 1191.
+
+
+LaTeX Warning: Citation `JELVEZ20161169' on page 13 undefined on input line 119
+1.
+
+(./mine/tables/updated_table.tex
+
+LaTeX Warning: Citation `newman-improved' on page 13 undefined on input line 2.
+
+
+
+LaTeX Warning: Citation `zuck-small-improved' on page 13 undefined on input lin
+e 6.
+
+
+LaTeX Warning: Citation `zuck-small-improved' on page 13 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Citation `zuck-small-improved' on page 13 undefined on input lin
+e 14.
+
+
+LaTeX Warning: Citation `zuck-small-improved' on page 13 undefined on input lin
+e 17.
+
+
+LaTeX Warning: Citation `JELVEZ20161169' on page 13 undefined on input line 21.
+
+
+) (./stpg/tables/bd_data.tex) (./stpg/tables/ce_data.tex)
+Overfull \hbox (3.37424pt too wide) in paragraph at lines 1219--1256
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+
+LaTeX Warning: Citation `goemans' on page 15 undefined on input line 1265.
+
+
+LaTeX Warning: Citation `stpg-improved' on page 15 undefined on input line 1265
+.
+
+
+LaTeX Warning: Citation `hypergraph' on page 15 undefined on input line 1265.
+
+(./stpg/tables/trunc_init.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:app:init' on page 15 undefined on input line 1287
+.
+
+(./stpg/tables/trunc_pop.tex)
+
+LaTeX Warning: Reference `tab:app:pop' on page 15 undefined on input line 1306.
+
+
+[15] (./stpg/plots/b10_pop_plot.tikz
+PGFPlots: reading {stpg/plots/b10_pop_plot.dat}
+PGFPlots: reading {stpg/plots/b10_pop_plot_lines.dat}
+) (./stpg/plots/c10_pop_plot.tikz
+PGFPlots: reading {stpg/plots/c10_pop_plot.dat}
+PGFPlots: reading {stpg/plots/c10_pop_plot_lines.dat}
+)
+(./stpg/plots/d10_pop_plot.tikz
+PGFPlots: reading {stpg/plots/d10_pop_plot.dat}
+PGFPlots: reading {stpg/plots/d10_pop_plot_lines.dat}
+) (./stpg/plots/e10_pop_plot.tikz
+PGFPlots: reading {stpg/plots/e10_pop_plot.dat}
+PGFPlots: reading {stpg/plots/e10_pop_plot_lines.dat}
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `np:karp' on page 16 undefined on input line 1360.
+
+
+LaTeX Warning: Citation `minelib-improved' on page 16 undefined on input line 1
+376.
+
+[16] [17] (./merge_TEVC_2021.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 33915 strings out of 479304
+ 821261 string characters out of 5871220
+ 1438668 words of memory out of 5000000
+ 50299 multiletter control sequences out of 15000+600000
+ 545970 words of font info for 200 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 103i,18n,131p,1552b,2345s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2020/t
+exmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><
+c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/courier/uc
+rr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/te
+xlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-d
+ist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/u
+rw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on merge_TEVC_2021.pdf (17 pages, 427288 bytes).
+PDF statistics:
+ 196 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+

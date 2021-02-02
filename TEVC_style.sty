@@ -1,0 +1,225 @@
+\usepackage{cite}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{bm}  
+% \usepackage{subfig}
+\usepackage{lscape}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{float}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{tabu,url}
+\usepackage{longtable}
+\usepackage{algorithmicx}
+\usepackage{graphicx}
+\usepackage{wrapfig}  %% wrapped figure
+\usepackage{floatflt} %% floating figure (alternative to wrap fig)
+\usepackage{amstext,amsmath,amssymb,amsfonts,amsthm}
+% \usepackage[colorinlistoftodos]{todonotes} 
+% \def\cmnt[#1]#2{\todo[inline,color=green!40]{{\bf #1:} #2}} % using \comment here played havoc with the syntax highligher on sublime text so changed to \cmnt
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{paralist}
+\usepackage{rotating}
+\usepackage{adjustbox}
+% \usepackage{subfig}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\usepackage{subcaption}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{tikzscale}
+\usetikzlibrary{chains,through,arrows,automata,positioning,shapes,decorations.markings}
+
+\tikzset{
+    med-node/.style={
+        shape=circle,
+        fill=white,
+        draw,
+        minimum size=+5mm},
+    small-node/.style={
+        shape=circle,
+        fill=white,
+        draw,
+        minimum size=+4mm},
+    small-node-grey/.style={
+        shape=circle,
+        color=black!30,
+        fill=white,
+        draw,
+        minimum size=+4mm},
+    small-black/.style={
+        shape=circle,
+        fill=black,
+        draw,
+        minimum size=+4mm},
+    black-node/.style={
+        shape=circle,
+        fill,
+        draw,
+        minimum size=+10mm},
+    Red-node/.style={
+        shape=circle,
+        fill=Red,
+        color=Red,
+        draw,
+        minimum size=+10mm},
+    dot-node/.style={
+        minimum size=+20mm},
+    hi-light/.style={
+        %color=blue,
+        line width=2,
+        shape=circle,
+        draw,
+        minimum size=+8mm},
+    node-hi-light/.style={
+        line width=5,
+        shape=circle,
+        color=green,
+        draw,
+        minimum size=+14mm
+    },
+    line-hi-light/.style={
+        line width=10,
+        color=green
+    },
+    wide-hi-light/.style={
+        line width=20,
+        color=blue,
+        opacity=0.2
+    },
+    cut-hi-light/.style={
+        line width=6,
+        dash pattern=on 10pt off 10pt,
+        color=Red
+    },
+    cut-node-hi-light/.style={
+        line width=5,
+        shape=circle,
+        color=Red,
+        dash pattern=on 10pt off 10pt,
+        draw,
+        minimum size=+14mm
+    },
+    dummy/.style={
+        color=white,
+        line width=2,
+        shape=circle,
+        draw,
+        minimum size=+8mm},
+    small-node-black/.style={
+        shape=circle,
+        fill,
+        draw,
+        minimum size=+4mm},
+    tiny-black/.style={
+        shape=circle,
+        fill,
+        draw,
+        minimum size=+2mm},
+    tiny-node/.style={
+        shape=circle,
+        draw,
+        minimum size=+2mm},
+    tiniest-black/.style={
+        shape=circle,
+        fill,
+        draw,
+        minimum size=+1mm},
+    tiny-grey/.style={
+        color=gray,
+        shape=circle,
+        fill=gray,
+        draw,
+        minimum size=+2mm},
+    ant/.style={
+        color=Red,
+        regular polygon,
+        regular polygon sides=3,
+        fill=Red,
+        draw,
+        minimum size=+2mm,
+        scale=0.5},
+    prec/.style={
+      triangle 45-,
+      line width=0.4mm},
+    prec-large/.style={
+      triangle 45-,
+      line width=1mm},
+    flow/.style={
+      triangle 45-},
+    exp-flow/.style={
+      -triangle 45},
+    flow-d/.style={
+      triangle 45-,
+      dashed},
+    closure/.style={
+      line width=1mm},
+    tiny-arrow/.style={
+      decoration={markings,mark=at position 1 with %
+      {\arrow[scale=2,>=stealth]{>}}},postaction={decorate}},
+    small-arrow/.style={
+      decoration={markings,mark=at position 1 with %
+      {\arrow[scale=3,>=stealth]{>}}},postaction={decorate}},
+    big-arrow/.style={
+      decoration={markings,mark=at position 1 with %
+      {\arrow[scale=10,>=stealth]{>}}},postaction={decorate}},
+    med-arrow/.style={
+      decoration={markings,mark=at position 1 with %
+      {\arrow[scale=5,>=stealth]{>}}},postaction={decorate}},
+    med-flow/.style={line width=0.5mm,
+      decoration={markings,mark=at position 1 with %
+      {\arrow[scale=1.5,>=triangle 45]{>}}},postaction={decorate}},
+    sm-flow/.style={
+      decoration={markings,mark=at position 1 with %
+      {\arrow[scale=0.5,>=triangle 45]{>}}},postaction={decorate}},
+    sm-flow-sat/.style={line width=0.4mm,color=Red,
+      decoration={markings,mark=at position 1 with %
+      {\arrow[scale=0.5,>=triangle 45]{>}}},postaction={decorate}},  
+    closure dash/.style={dash pattern=on 10pt off 10pt},
+    small dash/.style={dash pattern=on 5pt off 3pt},
+    small even dash/.style={dash pattern=on 6pt off 6pt},
+    flow dash/.style={dash pattern=on 20pt off 20pt},
+    sm-triangle/.style={
+      decoration={markings,mark=at position 1 with %
+      {\arrow[scale=0.7,>=triangle 45]{>}}},postaction={decorate}},
+}
+
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+
+\newcommand{\minelib}{\emph{minelib}}
+\newcommand{\newman}{\texttt{newman1}}
+\newcommand{\zucksmall}{\texttt{zuck\_small}}
+\newcommand{\zuckmed}{\texttt{zuck\_medium}}
+\newcommand{\zucklarge}{\texttt{zuck\_large}}
+\newcommand{\marvin}{\texttt{marvin}}
+\newcommand{\dmine}{\texttt{kd}}
+\newcommand{\NP}{$\mathcal{NP}$}
+
+\newcommand{\ts}{\textsuperscript}
+
+\newcommand{\opt}[1]{#1\textbf{\(^*\)}}
+\newcommand{\best}[1]{\textbf{#1}}
+
+\newcommand\redsout{\bgroup\markoverwith{\textcolor{red}{\rule[0.5ex]{2pt}{0.4pt}}}\ULon}
+
+\def\bx{\bar{x}}
+\def\by{\bar{y}}
+\def\bbx{\bm{\bar x}}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\V}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\M}[1]{\ensuremath{\boldsymbol{#1}}}
+\renewcommand{\S}[1]{\ensuremath{\mathcal{#1}}}
+\renewcommand{\O}{\ensuremath{\mathcal{O}}}
+\newcommand{\Min}{\ensuremath{\text{minimise}}}
+\newcommand{\Max}{\ensuremath{\text{maximise}}}
+\newcommand{\ST}{\ensuremath{\text{subject to}}}
+\newcommand{\Bin}{\ensuremath{\mathbb{Z}_2}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\Nat}{\mathbb{N}}
+\newcommand{\Int}{\mathbb{Z}}
+\newcommand{\bemph}[1]{\textbf{\emph{#1}}}

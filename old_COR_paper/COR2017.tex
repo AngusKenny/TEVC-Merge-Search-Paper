@@ -30,6 +30,9 @@
 \usepackage{graphicx}
 \usepackage{subcaption}
 \usepackage{pgfplots}
+\pgfplotsset{
+    table/search path={{../}},
+}
 \usepackage{tikz}
 \usepackage{tikzscale}
 \usetikzlibrary{chains,through,arrows,automata,positioning,shapes,decorations.markings}
@@ -187,6 +190,8 @@
       decoration={markings,mark=at position 1 with %
       {\arrow[scale=0.7,>=triangle 45]{>}}},postaction={decorate}},
 }
+
+\graphicspath{{../}}
 
 \newtheorem{corollary}{Corollary}
 \newtheorem{lemma}{Lemma}
@@ -764,7 +769,7 @@ In this table, it can be seen that the two merge search algorithms consistently 
 \cmidrule(lr){2-2}\cmidrule(lr){3-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9}
 Instance & & & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}  \\ \midrule
 %
-\input{mine/tables/main_table}
+\input ../mine/tables/main_table.tex
 %
 \bottomrule
 
@@ -868,7 +873,7 @@ Table~\ref{tab:mine:runtime} gives the runtime information (wall time and CPU ti
 \cmidrule(lr){2-3}\cmidrule(lr){4-5} \cmidrule(lr){6-7}\cmidrule(lr){8-9}
 Instance & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}& \multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}& \multicolumn{1}{c}{\(\sigma\)}\\ \midrule
 
-\input{mine/tables/runtime_table}
+\input ../mine/tables/runtime_table.tex
 
 \bottomrule
 \multicolumn{9}{l}{\(^*\)population size for \zucklarge{} set at 500 for merge search due to insufficient memory.}
@@ -923,7 +928,7 @@ As the quality of the solutions produced by the random construction heuristic is
 Instance & \multicolumn{1}{c}{LP UB} & \multicolumn{1}{c}{\emph{minelib}} & \multicolumn{1}{c}{merge search} & polished merge\\ 
 \midrule
 %
-\input{mine/tables/polish_table}
+\input ../mine/tables/polish_table.tex
 %
 \bottomrule
 \end{tabular}
@@ -1000,7 +1005,7 @@ According to this aggregation of results, recently there are three separate stud
 Instance & \multicolumn{1}{c}{LP UB} & \multicolumn{1}{c}{\emph{minelib}} & \multicolumn{1}{c}{polished merge} & \multicolumn{1}{c}{publication} & \multicolumn{1}{c}{gap}\\ 
 \midrule
 %
-\input{mine/tables/updated_table}
+\input ../mine/tables/updated_table.tex
 %
 \bottomrule
 \end{tabular}
@@ -1027,7 +1032,7 @@ Although the results from this study do not improve on every known bound in the 
 \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10} 
 Inst. & Opt. & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}\\ \midrule
 %
-\input{stpg/tables/bd_data}
+\input ../stpg/tables/bd_data.tex
 %
 \bottomrule
 \end{tabular}
@@ -1043,7 +1048,7 @@ Inst. & Opt. & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \mul
 \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10} 
 Inst. & Opt. & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}\\ \midrule
 %
-\input{stpg/tables/ce_data}
+\input ../stpg/tables/ce_data.tex
 %
 \bottomrule
 \end{tabular}
@@ -1078,7 +1083,7 @@ The fact that pure local search outperformed GRASP in nearly every problem insta
 \cmidrule(lr){2-3} \cmidrule(lr){4-5} 
 Instance & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & difference\\ \midrule
 %
-\input{stpg/tables/trunc_init}
+\input ../stpg/tables/trunc_init.tex
 %
 \bottomrule
 \end{tabular}
@@ -1096,7 +1101,7 @@ Table~\ref{tab:stpg:init:trunc} illustrates the difference between using the det
 \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10} 
 Instance & size & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}\\ \midrule
 %
-\input{stpg/tables/trunc_pop}
+\input ../stpg/tables/trunc_pop.tex
 %
 \bottomrule
 \end{tabular}
@@ -1448,26 +1453,26 @@ Table~\ref{tab:MC} below provides  brief experimental results that indicate the 
 instances of max closure problems encountered in this work. Each method was run repeatedly during the solution of the LP relaxation using the algorithm 
 described in Section~\ref{sec:bienstock} (approximately 30 times each). See Table~\ref{tab:instances} for more information about the instances.
 
-\begin{table}[!htb]
-\centering
-\caption{CPU time (seconds) of 3 maximum closure methods with preprocessing of 30 solves (with different objective values) each on 3 data sets.}
-\label{tab:MC}
-\begin{tabular}{lccrrrrrr}
-\toprule
-Instance	&&	Method	&&	fastest	&&	average	&&	slowest \\
-\cmidrule{1-1}\cmidrule{3-3}\cmidrule{5-5}\cmidrule{7-7}\cmidrule{9-9}
-Zuck\_small && P &&   8.47 &&  10.43 &&  14.14\\
-Zuck\_small && N &&   0.22 &&   6.60 &&  37.44\\
-Zuck\_small && B &&   1.22 &&   4.10 &&   8.73\\
-KD         && P &&   4.30 &&   7.97 &&  10.19\\
-KD         && N &&   0.15 &&   5.78 &&  15.33\\
-KD         && B &&   0.56 &&   5.17 &&  13.29\\
-Zuck\_medium&& P &&  64.27 &&  86.70 && 122.04\\
-Zuck\_medium&& N &&   1.14 &&  70.99 && 334.31\\
-Zuck\_medium&& B &&  17.61 &&  57.50 && 150.20\\
-\bottomrule
-\end{tabular}
-\end{table}
+% \begin{table}[!htb]
+% \centering
+% \caption{CPU time (seconds) of 3 maximum closure methods with preprocessing of 30 solves (with different objective values) each on 3 data sets.}
+% \label{tab:MC}
+% \begin{tabular}{lccrrrrrr}
+% \toprule
+% Instance	&&	Method	&&	fastest	&&	average	&&	slowest \\
+% \cmidrule{1-1}\cmidrule{3-3}\cmidrule{5-5}\cmidrule{7-7}\cmidrule{9-9}
+% Zuck\_small && P &&   8.47 &&  10.43 &&  14.14\\
+% Zuck\_small && N &&   0.22 &&   6.60 &&  37.44\\
+% Zuck\_small && B &&   1.22 &&   4.10 &&   8.73\\
+% KD         && P &&   4.30 &&   7.97 &&  10.19\\
+% KD         && N &&   0.15 &&   5.78 &&  15.33\\
+% KD         && B &&   0.56 &&   5.17 &&  13.29\\
+% Zuck\_medium&& P &&  64.27 &&  86.70 && 122.04\\
+% Zuck\_medium&& N &&   1.14 &&  70.99 && 334.31\\
+% Zuck\_medium&& B &&  17.61 &&  57.50 && 150.20\\
+% \bottomrule
+% \end{tabular}
+% \end{table}
 
 Based on these results we note that the method recommended in the literature is the slowest. We would recommend method {\bf B} as having the best performance on average. However, given the smaller memory footprint (observed anecdotally but not measured systematically) and the occasionally faster run times of the network flow method (N), this could also be considered. For the implementation of these methods it should be noted that:
 \begin{description}
