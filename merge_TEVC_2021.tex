@@ -438,8 +438,14 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract or keywords.
 \begin{abstract}
-Open-pit mine scheduling is a challenging optimisation problem in the mining industry. It tries to create the best possible open-cut mine plan in order to maximise the 
-net present value of an ore body. This leads to very large mixed integer programming problems that have a strong network structure which can be exploited to obtain a solution to the linear programming relaxation by repeatedly solving maximum flow problems. As these problems are too large and challenging to solve exactly, we have developed an efficient parallel  optimisation method to search for good heuristic solutions. The novel matheuristic proposed in this paper, called {\it Merge Search},  is able to combine a very large pool of solutions via variable aggregation, thereby using their best components to find higher quality solutions. The approach is built around a mixed integer programming formulation, where the formulation is made efficient via preprocessing. A key aspect of this study is to investigate an efficient parallelisation of Merge Search through distributed computing. We demonstrate empirically that this is the best performing method for the mine scheduling problem, finding better quality solutions for a number of problem instances available in the literature. The parallelisation also substantially improves the convergence characteristics of the method, even providing drastic improvements at the beginning of the search. Furthermore, we investigate the efficacy a parallel Branch \& Bound search. While the problems are too hard to be solved exactly, this improves upon the best known upper (relaxed) bounds for all problem instances. 
+Exact methods are useful when solving combinatorial optimisation problems, although their time complexity is often high. Conversely, meta-heuristics are adept at finding feasible solutions in reasonable time, but their stochastic nature can make it hard to refine solutions effectively. To this end, a class of algorithms known as matheuristics was developed, which harness the strengths of both these methods.
+
+This paper presents a matheuristic called merge search, an iterative decomposition algorithm which creates a reduced sub-problem by grouping variables that share common values across a population of solutions. Merge search can be thought of as a generalisation of crossover, from evolutionary algorithms; instead of combining two solutions to create a single offspring solution, the sub-space that is spanned by the entire population is searched for the optimal way to combine all solutions.
+
+Merge search is applied to two very different NP-Hard problems: the constrained pit limit (CPIT) problem, from the field of open-pit mining; and the well-studied Steiner tree problem in graphs (STPG). The CPIT results are used to show the effectiveness of merge search, improving the best-known bounds in two of the six instances tested; while the STPG results demonstrate the versatility of this method. 
+
+% Open-pit mine scheduling is a challenging optimisation problem in the mining industry. It tries to create the best possible open-cut mine plan in order to maximise the 
+% net present value of an ore body. This leads to very large mixed integer programming problems that have a strong network structure which can be exploited to obtain a solution to the linear programming relaxation by repeatedly solving maximum flow problems. As these problems are too large and challenging to solve exactly, we have developed an efficient parallel  optimisation method to search for good heuristic solutions. The novel matheuristic proposed in this paper, called {\it Merge Search},  is able to combine a very large pool of solutions via variable aggregation, thereby using their best components to find higher quality solutions. The approach is built around a mixed integer programming formulation, where the formulation is made efficient via preprocessing. A key aspect of this study is to investigate an efficient parallelisation of Merge Search through distributed computing. We demonstrate empirically that this is the best performing method for the mine scheduling problem, finding better quality solutions for a number of problem instances available in the literature. The parallelisation also substantially improves the convergence characteristics of the method, even providing drastic improvements at the beginning of the search. Furthermore, we investigate the efficacy a parallel Branch \& Bound search. While the problems are too hard to be solved exactly, this improves upon the best known upper (relaxed) bounds for all problem instances. 
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -472,6 +478,29 @@ IEEE, IEEEtran, journal, \LaTeX, paper, template.
 % \protect\end{itemize}
 % then after, introduce problems and say that they will demonstrate the versatility of the technique
 % }
+\IEEEPARstart{C}{ombinatorial} optimisation problems, at their very basis, involve searching a finite (but often \emph{very} large) and discrete search space to find an optimal object~\cite{copalg}. 
+Optimisation problems modelling situations in the real-world can be very messy and complex, often involving many variables and constraints~\cite{deb_book}. Traditional mathematical solvers are not well-suited to these messier, large-scale problems; making finding ways to decompose complex problems into smaller, more manageable sub-problems an important topic of study~\cite{hybridmeta}.
+
+There are several factors that can contribute to how difficult a problem is to solve~\cite{int_and_cop}. The first being the number of decision variables that need to be considered. 
+The second factor is the interaction between decision variables. If a problem is completely separable, it can be solved by completely decomposing it into its individual variables and optimising them separately. The other extreme to this is when it is completely inseparable, meaning the entire problem must be solved at once. Most problems tend to fall somewhere between these two ends of the spectrum, making a search for an effective way to ascertain these interactions an important area of research~\cite{decomp,omidvar}.
+Finally (although there are many others), the number, and type, of constraints are also a factor that can contribute to a problem's complexity. Constraints can take many different forms, from production limits~\cite{introlinear}; to precedence constraints, where a variable may not be selected until all variables from a specified set are also selected~\cite{cpit}; to constraints on the types of values the variables can take --- restricting decision variables to integer values can make a problem much harder than if they were real-valued~\cite{convex}. 
+
+
+
+%Optimisation as a research field is huge and an introductory chapter cannot possibly do justice to the whole area; for further information the reader is directed to the following textbook resources~\cite{copalg,int_and_cop,convex}.\par
+
+The most effective method of solving large scale problems is by a method called \emph{divide-and-conquer}~\cite{alg:levitin}. In this technique, a large problem is decomposed into several smaller problems with fewer variables or constraints, which can then be solved and the information from the solutions to these sub-problems used to inform the over-all global search. There are many ways to decompose problems to make them more manageable. One way is to divide the variables into subsets and solve a version of the main problem on each subset of variables and then perform some repair operation to ``stitch together'' the results of all the sub-problems~\cite{memetic:klau}. Another way is to start with a small subset of variables and solve the problem for those variables, and iteratively add more and more variables to the main problem by solving smaller sub-problems to choose them~\cite{cg}. Still another way is to aggregate the variables into a number of groups that each act as a single variable in the sub-problem, which is then solved and the groups iteratively disaggregated to achieve better quality solutions~\cite{aggregate}. Whichever method is chosen, it is not trivial to decide the best way to decompose any problem; so an efficient method of automatically determining an effective problem decomposition would be very valuable to the research community at-large.\par
+
+Another major issue that arises when solving large scale combinatorial problems is the problem of global vs. local search~\cite{metacop}. The exponential size of the search space and the intricate interactions between decision variables mean that the fitness landscape for many problems can be extremely complex, with many local optima and basins of attraction that must be escaped in order to find the global optimum. This complex fitness landscape and integer values for variables mean that most gradient-based search methods are not very effective tools for solving these problems.\par
+
+Population-based meta-heuristic algorithms are particularly adept at performing global search, as they use various techniques to intelligently sample a wide region of the search space. This wide-ranging sampling allows them to identify areas of the search space that are the most promising and helps them to avoid getting caught in local optima; however, having identified these promising regions, they are typically not very good at producing refined solutions from within them~\cite{metacop}. Conversely, mathematical programming methods are very poor at global search, as the large number of decision variables and constraints make the problems intractable; but once a good area of the search space has been identified, and the problem can be reduced to the variables and constraints only concerning this area, these techniques are very good at finding the locally optimum solution.\par
+
+It is this trade-off between exploration and exploitation that is the basis for the family of algorithms called \emph{hybrid meta-heuristics}~\cite{talbi,matheuristics}. These methods typically combine a meta-heuristic, which performs general global search or decomposes the problem into a reduced sub-problem; and a mathematical programming solver which provides refined solutions to the sub-problems that the meta-heuristic produces. This interplay between the two elements goes back-and-forth, iteratively improving the solutions they are producing by harnessing the strengths of both kinds of algorithms. These techniques have become a subject of a great deal of research lately~\cite{hybridmeta}, as they have been shown to be effective on many different types of problems; and a good way to address a lot of the issues encountered when attempting to solve complex, large scale problems.\par
+
+Finally, many techniques in the literature are very good at solving a particular problem, but cannot be generalised to solve other problems. These techniques often rely on domain knowledge of the problem having being ``hard-coded'' into the problem model, or on some customised representation of the problem that does not translate well to another domain. As the solution to most combinatorial optimisation problems can be represented as a binary string, there is opportunity for a technique that operates purely on these basic representations to generalised into a framework for solving any problem of this type, irrespective of the domain.\par
+
+
+
 \IEEEPARstart{I}{n} the mining industry in Australia, open-pit mining is a problem of significant interest~\cite{Newman:2010}. The planning and production scheduling 
 associated with mines can lead to significant cost savings and profits for the operators of the mines. In particular, determining the value of a mine 
 and the areas of excavation in the shortest possible time-frame can lead to very large gains~\cite{Meagher2014}. 
@@ -1576,20 +1605,21 @@ The authors would like to thank...
 % http://mirror.ctan.org/biblio/bibtex/contrib/doc/
 % The IEEEtran BibTeX style support page is at:
 % http://www.michaelshell.org/tex/ieeetran/bibtex/
-%\bibliographystyle{IEEEtran}
+\bibliographystyle{IEEEtran}
 % argument is your BibTeX string definitions and bibliography database(s)
-%\bibliography{IEEEabrv,../bib/paper}
+% \bibliography{IEEEabrv,../bib/paper}
+\bibliography{TEVC_refs.bib}
 %
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
+% \begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+% \bibitem{IEEEhowto:kopka}
+% H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%   0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
 
-\end{thebibliography}
+% \end{thebibliography}
 
 % biography section
 % 

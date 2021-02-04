@@ -5,18 +5,6 @@
 		[
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "COR2017.tex",
-			"settings":
-			{
-				"buffer_size": 196185,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
-	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
 	[
@@ -65,17 +53,21 @@
 			],
 			[
 				"Packages/LaTeXTools/LaTeX.sublime-build",
-				"PdfLaTeX"
+				"Basic Builder"
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Basic Builder",
 	"command_palette":
 	{
 		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: inst",
 				"Package Control: Install Package"
@@ -107,17 +99,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/H/code/TEVC-Merge-Search-Paper",
-		"/H/code/TEVC-Merge-Search-Paper/IEEETransactions_LaTeX",
-		"/H/code/TEVC-Merge-Search-Paper/IEEETransactions_LaTeX/IEEEtran",
-		"/H/code/TEVC-Merge-Search-Paper/mine",
-		"/H/code/TEVC-Merge-Search-Paper/mine/tables",
-		"/H/code/TEVC-Merge-Search-Paper/old_COR_paper"
-	],
 	"file_history":
 	[
+		"/H/code/TEVC-Merge-Search-Paper/IEEETransactions_LaTeX/Transactions-Bibliography/IEEEtran.bst",
+		"/H/code/TEVC-Merge-Search-Paper/IEEETransactions_LaTeX/Transactions-Bibliography/IEEEfull.bib",
+		"/C/Users/z3532853/Downloads/Preferences.sublime-settings",
+		"/C/Users/z3532853/Downloads/Default (Linux).sublime-keymap",
+		"/H/code/TEVC-Merge-Search-Paper/mine/plots/polish/zuck_large_grasp_polish.tikz",
+		"/H/code/TEVC-Merge-Search-Paper/mine/tables/runtime_table.tex",
+		"/H/code/TEVC-Merge-Search-Paper/img/group_part.tikz",
+		"/H/code/TEVC-Merge-Search-Paper/old_COR_paper/old_COR_paper.sublime-project",
 		"/H/code/TEVC-Merge-Search-Paper/COR2017.tex",
 		"/C/Users/z3532853/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
 		"/H/code/TEVC-Merge-Search-Paper/mine/tables/main_table.tex",
@@ -126,7 +117,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -140,6 +131,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"newman",
+			"\\input ../",
+			"cmnt",
+			"\\citet",
+			"\\citep",
+			"\\input ",
 			"\\includegraphics{",
 			"\\input ",
 			"\\input{",
@@ -153,6 +150,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\\input ",
+			"\\cite",
+			"\\input ../",
 			"\\includegraphics{../",
 			"\\input ../"
 		],
@@ -162,50 +162,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "COR2017.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 196185,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								76032,
-								76032
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 23469.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"sheets":
-			[
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 27.0
@@ -253,7 +209,6 @@
 		"height": 126.0
 	},
 	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
-	"project": "old_COR_paper.sublime-project",
 	"replace":
 	{
 		"height": 70.0
@@ -286,7 +241,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
