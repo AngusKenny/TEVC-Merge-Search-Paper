@@ -40,6 +40,10 @@ L.~A. Wolsey and G.~L. Nemhauser, \emph{Integer and combinatorial
   optimization}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons,
   1999, vol.~55.
 
+\bibitem{convex}
+S.~Boyd and L.~Vandenberghe, \emph{Convex optimization}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Cambridge university press, 2004.
+
 \bibitem{decomp}
 G.~B. Dantzig and P.~Wolfe, ``Decomposition principle for linear programs,''
   \emph{Operations research}, vol.~8, no.~1, pp. 101--111, 1960.
@@ -49,23 +53,225 @@ M.~N. Omidvar, X.~Li, Y.~Mei, and X.~Yao, ``Cooperative co-evolution with
   differential grouping for large scale optimization,'' \emph{IEEE Transactions
   on evolutionary computation}, vol.~18, no.~3, pp. 378--393, 2013.
 
-\bibitem{introlinear}
-D.~Bertsimas and J.~N. Tsitsiklis, \emph{Introduction to linear
-  optimization}.\hskip 1em plus 0.5em minus 0.4em\relax Athena Scientific
-  Belmont, MA, 1997, vol.~6.
+\bibitem{alg:levitin}
+A.~Levitin, \emph{Introduction to the Design and Analysis of Algorithms (3rd
+  Ed.)}.\hskip 1em plus 0.5em minus 0.4em\relax Pearson Education, 2012.
+
+\bibitem{minelib}
+\BIBentryALTinterwordspacing
+D.~Espinoza, M.~Goycoolea, E.~Moreno, and A.~N. Newman, ``Minelib: A library of
+  open-pit mining problems,'' \emph{Annals of Operations Research}, vol.
+  206(1), pp. 91--114, 2012. [Online]. Available:
+  \url{http://mansci-web.uai.cl/minelib/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{steinlib}
+T.~Koch, A.~Martin, and S.~Vo{\ss}, ``Steinlib: An updated library on steiner
+  tree problems in graphs,'' in \emph{Steiner trees in industry}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer, 2001, pp. 285--325.
+
+\bibitem{grasp:feo}
+T.~A. Feo and M.~G. Resende, ``Greedy randomized adaptive search procedures,''
+  \emph{Journal of global optimization}, vol.~6, no.~2, pp. 109--133, 1995.
+
+\bibitem{matheuristics}
+M.~A. Boschetti, V.~Maniezzo, M.~Roffilli, and A.~B. R{\"o}hler,
+  ``Matheuristics: Optimization, simulation and control,'' in
+  \emph{International Workshop on Hybrid Metaheuristics}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Springer, 2009, pp. 171--177.
+
+\bibitem{path-relinking}
+F.~Glover, M.~Laguna, and R.~Mart{\'i}, ``Fundamentals of scatter search and
+  path relinking,'' \emph{Control and cybernetics}, vol.~29, no.~3, pp.
+  653--684, 2000.
+
+\bibitem{scatter-search}
+------, ``Scatter search,'' in \emph{Advances in evolutionary computing}.\hskip
+  1em plus 0.5em minus 0.4em\relax Springer, 2003, pp. 519--537.
+
+\bibitem{merge-tsp}
+D.~Applegate, R.~Bixby, W.~Cook, and V.~Chv{\'a}tal, ``On the solution of
+  traveling salesman problems,'' 1998.
+
+\bibitem{kernel1}
+E.~Angelelli, R.~Mansini, and M.~G. Speranza, ``Kernel search: A new heuristic
+  framework for portfolio selection,'' \emph{Computational Optimization and
+  Applications}, vol.~51, no.~1, pp. 345--361, 2012.
+
+\bibitem{kernel2}
+------, ``Kernel search: A general heuristic for the multi-dimensional knapsack
+  problem,'' \emph{Computers \& Operations Research}, vol.~37, no.~11, pp.
+  2017--2026, 2010.
+
+\bibitem{cmsa}
+C.~Blum, P.~Pinacho, M.~L\'{o}pez-Ib\'{a}$\tilde{\text{n}}$ez, and J.~A.
+  Lozano, ``Construct, merge, solve \& adapt a new general algorithm for
+  combinatorial optimization,'' \emph{Computers \& Operations Research},
+  vol.~68, pp. 75 -- 88, 2016.
+
+\bibitem{talbi}
+E.-G. Talbi, ``A taxonomy of hybrid metaheuristics,'' \emph{Journal of
+  heuristics}, vol.~8, no.~5, pp. 541--564, 2002.
+
+\bibitem{hybrid-decomp}
+G.~R. Raidl, ``Decomposition based hybrid metaheuristics,'' \emph{European
+  journal of operational research}, vol. 244, no.~1, pp. 66--76, 2015.
+
+\bibitem{hybrid-book1}
+\emph{\BIBforeignlanguage{eng}{Matheuristics: Hybridizing Metaheuristics and
+  Mathematical Programming}}, ser. Annals of Information Systems.\hskip 1em
+  plus 0.5em minus 0.4em\relax Boston, MA: Springer US, 2010, vol.~10.
+
+\bibitem{hybrid-book2}
+\emph{\BIBforeignlanguage{eng}{Hybrid Metaheuristics: An Emerging Approach to
+  Optimization}}, ser. Studies in Computational Intelligence.\hskip 1em plus
+  0.5em minus 0.4em\relax Berlin, Heidelberg: Springer Berlin Heidelberg, 2008,
+  vol. 114.
+
+\bibitem{matheuristics-new1}
+M.~Fischetti and M.~Fischetti, ``Matheuristics,'' in \emph{Handbook of
+  Heuristics}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2018, pp.
+  121--153.
+
+\bibitem{matheuristics-new2}
+C.~C. Ribeiro, V.~Maniezzo, T.~St{\"u}tzle, C.~Blum, A.~A. Juan, H.~Ramalhinho,
+  N.~Mladenovic, A.~Sifaleras, K.~S{\"o}rensen, and M.~Souza, ``Preface to the
+  special issue on matheuristics and metaheuristics,'' \emph{International
+  Transactions in Operational Research}, vol.~27, no.~1, pp. 5--8, 2020.
+
+\bibitem{singh}
+G.~Singh, D.~Sier, A.~T. Ernst, O.~Gavriliouk, R.~Oyston, T.~Giles, and
+  P.~Welgama, ``A mixed integer programming model for long term capacity
+  expansion planning: A case study from the hunter valley coal chain,''
+  \emph{European Journal of Operational Research}, vol. 220, no.~1, pp.
+  210--224, 2012.
+
+\bibitem{meagher}
+C.~Meagher, R.~Dimitrakopoulos, and D.~Avis,
+  ``\BIBforeignlanguage{English}{Optimized open pit mine design, pushbacks and
+  the gap problem--a review},'' \emph{\BIBforeignlanguage{English}{Journal of
+  Mining Science}}, vol.~50, no.~3, pp. 508--526, May 2014.
 
 \bibitem{cpit}
 R.~Chicoisne, D.~Espinoza, M.~Goycoolea, E.~Moreno, and E.~Rubio, ``A new
   algorithm for the open-pit mine production scheduling problem,''
   \emph{Operations Research}, vol.~60, no.~3, pp. 517--528, 2012.
 
-\bibitem{convex}
-S.~Boyd and L.~Vandenberghe, \emph{Convex optimization}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Cambridge university press, 2004.
+\bibitem{aggregate}
+E.~J\'{e}lvez, N.~Morales, P.~Nancel-Penard, J.~Peypouquet, and P.~Reyes,
+  ``Aggregation heuristic for the open-pit block scheduling problem,''
+  \emph{European Journal of Operational Research}, vol. 249, no.~3, pp.
+  1169--1177, 2016.
 
-\bibitem{Newman:2010}
-A.~M. Newman, E.~Rubio, R.~Caro, A.~Weintraub, and K.~Eurek, ``A review of
-  operations research in mine planning,'' \emph{Interfaces}, vol.~40, no.~3,
-  pp. 222--245, May 2010.
+\bibitem{hochbaum}
+D.~S. Hochbaum and A.~Chen, ``Performance {analysis} and {best}
+  {implementations} of {old} and {new} {algorithms} for the {open}-{pit}
+  {mining} {problem},'' \emph{Operations Research}, vol.~48, no.~6, pp.
+  894--914, Dec. 2000.
+
+\bibitem{toposort}
+G.~I. Mu{\~{n}}oz~Mart{\'{i}}nez, ``Modelos de optimizaci{\'{o}}n lineal entera
+  y aplicaciones a la miner{\'{i}}a,'' 2012.
+
+\bibitem{bz}
+D.~Bienstock and M.~Zuckerberg, ``\BIBforeignlanguage{en}{Solving {LP}
+  {pelaxations} of {large}-{scale} {precedence} {constrained} {problems}},'' in
+  \emph{\BIBforeignlanguage{en}{Integer {Programming} and {Combinatorial}
+  {Optimization}}}, ser. Lecture {Notes} in {Computer} {Science}, F.~Eisenbrand
+  and F.~B. Shepherd, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Springer
+  Berlin Heidelberg, Jun. 2010, no. 6080.
+
+\bibitem{np:karp}
+R.~M. Karp, ``Reducibility among combinatorial problems,'' in \emph{Complexity
+  of computer computations}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
+  1972, pp. 85--103.
+
+\bibitem{pd:polzin}
+T.~Polzin and S.~Vahdati, ``Primal-dual approaches to the steiner problem,'' in
+  \emph{International Workshop on Approximation Algorithms for Combinatorial
+  Optimization}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2000, pp.
+  214--225.
+
+\bibitem{algo:polzin}
+T.~Polzin, ``Algorithms for the steiner problem in networks,'' 2003.
+
+\bibitem{algo:daneshmand}
+S.~Vahdati~Daneshmand, ``Algorithmic approaches to the steiner problem in
+  networks,'' Ph.D. dissertation, Universit{\"a}t Mannheim, 2004.
+
+\bibitem{jpsomr:qu}
+R.~Qu, Y.~Xu, J.~P. Castro, and D.~Landa-Silva, ``Particle swarm optimization
+  for the steiner tree in graph and delay-constrained multicast routing
+  problems,'' \emph{Journal of Heuristics}, vol.~19, no.~2, pp. 317--342, 2013.
+
+\bibitem{grasp:skorin}
+N.~Skorin-Kapov and M.~Kos, ``A grasp heuristic for the delay-constrained
+  multicast routing problem,'' \emph{Telecommunication Systems}, vol.~32,
+  no.~1, pp. 55--69, 2006.
+
+\bibitem{pso:kennedy}
+J.~Kennedy, ``Particle swarm optimization,'' \emph{Encyclopedia of machine
+  learning}, pp. 760--766, 2010.
+
+\bibitem{jpso:consoli}
+S.~Consoli, J.~A. Moreno-P{\'e}rez, K.~Darby-Dowman, and N.~Mladenovi{\'c},
+  ``Discrete particle swarm optimization for the minimum labelling steiner tree
+  problem,'' \emph{Natural Computing}, vol.~9, no.~1, pp. 29--46, 2010.
+
+\bibitem{dijk:dijkstra}
+E.~W. Dijkstra, ``A note on two problems in connexion with graphs,''
+  \emph{Numerische mathematik}, vol.~1, no.~1, pp. 269--271, 1959.
+
+\bibitem{grasp:martins}
+S.~Martins, ``Greedy randomized adaptive search procedures for the steiner
+  problem in graphs sl martins, pm pardalos, mgc resende. and cc riheiro,'' in
+  \emph{Randomization Methods in Algorithm Design: DIMACS Workshop, December
+  12-14, 1997}, vol.~43.\hskip 1em plus 0.5em minus 0.4em\relax American
+  Mathematical Soc., 1999, p. 133.
+
+\bibitem{vlsi:cho}
+J.-D. Cho, ``Steiner tree problems in vlsi layout designs,'' in \emph{Steiner
+  Trees in Industry}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2001,
+  pp. 101--173.
+
+\bibitem{stpg-logistics}
+F.~Eisenbrand, F.~Grandoni, T.~Rothvo{\ss}, and G.~Sch{\"a}fer, ``Connected
+  facility location via random facility sampling and core detouring,''
+  \emph{Journal of Computer and System Sciences}, vol.~76, no.~8, pp. 709--726,
+  2010.
+
+\bibitem{phylo}
+L.~R. Foulds and R.~L. Graham, ``The steiner problem in phylogeny is
+  np-complete,'' \emph{Advances in Applied mathematics}, vol.~3, no.~1, pp.
+  43--49, 1982.
+
+\bibitem{history:brazil}
+M.~Brazil, R.~L. Graham, D.~A. Thomas, and M.~Zachariasen, ``On the history of
+  the euclidean steiner tree problem,'' \emph{Archive for history of exact
+  sciences}, vol.~68, no.~3, pp. 327--354, 2014.
+
+\bibitem{steiner:hwang}
+F.~K. Hwang and D.~S. Richards, ``Steiner tree problems,'' \emph{Networks},
+  vol.~22, no.~1, pp. 55--89, 1992.
+
+\bibitem{steinerbook}
+H.~J. Pr{\"o}mel and A.~Steger, \emph{The Steiner tree problem: a tour through
+  graphs, algorithms, and complexity}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer Science \& Business Media, 2012.
+
+\bibitem{steineradvance}
+D.-Z. Du, J.~Smith, and J.~H. Rubinstein, \emph{Advances in Steiner
+  trees}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Science \& Business
+  Media, 2013, vol.~6.
+
+\bibitem{kp:dowsland}
+K.~A. Dowsland, ``Hill-climbing, simulated annealing and the steiner problem in
+  graphs,'' \emph{Engineering Optimization}, vol.~17, no. 1-2, pp. 91--107,
+  1991.
+
+\bibitem{pp:duin}
+C.~Duin, ``Preprocessing the steiner problem in graphs,'' in \emph{Advances in
+  Steiner Trees}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2000, pp.
+  175--233.
 
 \end{thebibliography}

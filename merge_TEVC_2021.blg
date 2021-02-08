@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: merge_TEVC_2021.aux
 The style file: IEEEtran.bst
@@ -8,56 +8,29 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: TEVC_refs.bib
-Warning--I didn't find a database entry for "alg:levitin"
-Warning--I didn't find a database entry for "memetic:klau"
-Warning--I didn't find a database entry for "cg"
-Warning--I didn't find a database entry for "aggregate"
-Warning--I didn't find a database entry for "metacop"
-Warning--I didn't find a database entry for "talbi"
-Warning--I didn't find a database entry for "matheuristics"
-Warning--I didn't find a database entry for "Meagher2014"
-Warning--I didn't find a database entry for "Bley:2010"
-Warning--I didn't find a database entry for "espinoza_minelib:_2012"
-Warning--I didn't find a database entry for "fisher04"
-Warning--I didn't find a database entry for "Wolsey1998"
-Warning--I didn't find a database entry for "Geoffrion1972"
-Warning--I didn't find a database entry for "BOLAND2009"
-Warning--I didn't find a database entry for "Litvinchev:2003"
-Warning--I didn't find a database entry for "Rogers:1991"
-Warning--I didn't find a database entry for "Ahuja:2002"
-Warning--I didn't find a database entry for "Pisinger2010"
-Warning--I didn't find a database entry for "Mitchell:1996"
-Warning--I didn't find a database entry for "Gropp:1994"
-Warning--I didn't find a database entry for "Blum2016"
-Warning--I didn't find a database entry for "BlumBlesa16"
-Warning--I didn't find a database entry for "Blum16-2"
-Warning--I didn't find a database entry for "Lewis2019"
-Warning--I didn't find a database entry for "Thiruvady2019"
+Repeated entry---line 264 of file TEVC_refs.bib
+ : @article{grasp:feo
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Papadimitriou1982"
+Warning--I didn't find a database entry for "Blum2016"
 Warning--I didn't find a database entry for "Luke2009"
-Warning--I didn't find a database entry for "singh"
+Warning--I didn't find a database entry for "Pisinger2010"
+Warning--I didn't find a database entry for "Meagher2014"
+Warning--I didn't find a database entry for "espinoza_minelib:_2012"
 Warning--I didn't find a database entry for "Kenny:2017"
 Warning--I didn't find a database entry for "Kenny:2018"
 Warning--I didn't find a database entry for "Kenny:2019"
-Warning--I didn't find a database entry for "np:karp"
-Warning--I didn't find a database entry for "vlsi:cho"
-Warning--I didn't find a database entry for "history:brazil"
-Warning--I didn't find a database entry for "steiner:hwang"
-Warning--I didn't find a database entry for "pd:polzin"
-Warning--I didn't find a database entry for "algo:polzin"
-Warning--I didn't find a database entry for "algo:daneshmand"
+Warning--I didn't find a database entry for "memetic:klau"
 Warning--I didn't find a database entry for "aco:singh"
 Warning--I didn't find a database entry for "acogroup:nguyen"
 Warning--I didn't find a database entry for "fastls:uchoa"
 Warning--I didn't find a database entry for "effectivels:wade"
 Warning--I didn't find a database entry for "partition:leitner"
-Warning--I didn't find a database entry for "kp:dowsland"
 Warning--I didn't find a database entry for "Kenny:2016"
-Warning--I didn't find a database entry for "pp:duin"
 Warning--I didn't find a database entry for "pp:uchoa"
 Warning--I didn't find a database entry for "stpg-reduce"
 Warning--I didn't find a database entry for "goemans"
-Warning--I didn't find a database entry for "steinlib"
 Warning--I didn't find a database entry for "minelib-improved"
 Warning--I didn't find a database entry for "newman-improved"
 Warning--I didn't find a database entry for "zuck-small-improved"
@@ -68,47 +41,52 @@ Warning--I didn't find a database entry for "hypergraph"
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in copalg
+Warning--empty journal in merge-tsp
+Warning--empty author and editor in hybrid-book1
+Warning--empty author and editor in hybrid-book2
+Warning--empty journal in toposort
+Warning--empty journal in algo:polzin
 
 Done.
-You've used 10 entries,
+You've used 50 entries,
             4087 wiz_defined-function locations,
-            963 strings with 9654 characters,
-and the built_in function-call counts, 6981 in all, are:
-= -- 556
-> -- 167
-< -- 59
-+ -- 90
-- -- 29
-* -- 339
-:= -- 1065
-add.period$ -- 20
-call.type$ -- 10
-change.case$ -- 6
-chr.to.int$ -- 126
-cite$ -- 11
-duplicate$ -- 491
-empty$ -- 562
-format.name$ -- 38
-if$ -- 1611
+            1150 strings with 15702 characters,
+and the built_in function-call counts, 38042 in all, are:
+= -- 3141
+> -- 825
+< -- 360
++ -- 458
+- -- 130
+* -- 1841
+:= -- 5711
+add.period$ -- 110
+call.type$ -- 50
+change.case$ -- 44
+chr.to.int$ -- 804
+cite$ -- 56
+duplicate$ -- 2690
+empty$ -- 3020
+format.name$ -- 165
+if$ -- 8881
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 86
-newline$ -- 53
-num.names$ -- 10
-pop$ -- 197
+int.to.str$ -- 50
+missing$ -- 440
+newline$ -- 175
+num.names$ -- 50
+pop$ -- 961
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 547
+skip$ -- 2981
 stack$ -- 0
-substring$ -- 300
-swap$ -- 406
-text.length$ -- 17
+substring$ -- 1921
+swap$ -- 2273
+text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 10
-warning$ -- 1
-while$ -- 30
-width$ -- 12
-write$ -- 114
-(There were 57 warnings)
+type$ -- 50
+warning$ -- 6
+while$ -- 189
+width$ -- 52
+write$ -- 508
+(There was 1 error message)
