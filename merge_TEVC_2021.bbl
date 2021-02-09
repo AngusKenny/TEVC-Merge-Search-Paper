@@ -264,14 +264,60 @@ D.-Z. Du, J.~Smith, and J.~H. Rubinstein, \emph{Advances in Steiner
   trees}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Science \& Business
   Media, 2013, vol.~6.
 
+\bibitem{meta-essentials}
+S.~Luke, ``Essentials of metaheuristics,'' 2009.
+
+\bibitem{lns-book}
+D.~Pisinger and S.~Ropke, \emph{Large Neighborhood Search}, 09 2010, pp.
+  399--419.
+
+\bibitem{gecco17}
+A.~Kenny, X.~Li, A.~T. Ernst, and D.~Thiruvady, ``Towards solving large-scale
+  precedence constrained production scheduling problems in mining,'' in
+  \emph{Proceedings of the Genetic and Evolutionary Computation Conference},
+  ser. GECCO '17.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2017, pp.
+  1137--1144.
+
+\bibitem{gecco18}
+A.~Kenny, X.~Li, and A.~T. Ernst, ``A merge search algorithm and its
+  application to the constrained pit problem in mining,'' in \emph{Proceedings
+  of the Genetic and Evolutionary Computation Conference}, ser. GECCO
+  '18.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2018.
+
+\bibitem{gecco19}
+A.~Kenny, X.~Li, A.~T. Ernst, and Y.~Sun, ``An improved merge search algorithm
+  for the constrained pit problem in open-pit mining,'' in \emph{Proceedings of
+  the Genetic and Evolutionary Computation Conference}, ser. GECCO '19.\hskip
+  1em plus 0.5em minus 0.4em\relax ACM, 2019.
+
 \bibitem{kp:dowsland}
 K.~A. Dowsland, ``Hill-climbing, simulated annealing and the steiner problem in
   graphs,'' \emph{Engineering Optimization}, vol.~17, no. 1-2, pp. 91--107,
   1991.
 
+\bibitem{gecco16}
+A.~Kenny, X.~Li, A.~K. Qin, and A.~T. Ernst, ``A population-based local search
+  technique with random descent and jump for the steiner tree problem in
+  graphs,'' in \emph{Proceedings of the Genetic and Evolutionary Computation
+  Conference 2016}, 2016, pp. 333--340.
+
 \bibitem{pp:duin}
 C.~Duin, ``Preprocessing the steiner problem in graphs,'' in \emph{Advances in
   Steiner Trees}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2000, pp.
   175--233.
+
+\bibitem{pp:uchoa}
+E.~Uchoa, M.~Poggi~de Arag{\~a}o, and C.~C. Ribeiro, ``Preprocessing steiner
+  problems from vlsi layout,'' \emph{Networks: An International Journal},
+  vol.~40, no.~1, pp. 38--50, 2002.
+
+\bibitem{stpg-reduce}
+J.~H. Kingston and N.~P. Sheppard, ``On reductions for the steiner problem in
+  graphs,'' \emph{Journal of Discrete Algorithms}, vol.~1, no.~1, pp. 77--88,
+  2003.
+
+\bibitem{goemans}
+M.~X. Goemans and Y.-S. Myung, ``A catalog of steiner tree formulations,''
+  \emph{Networks}, vol.~23, no.~1, pp. 19--28, 1993.
 
 \end{thebibliography}

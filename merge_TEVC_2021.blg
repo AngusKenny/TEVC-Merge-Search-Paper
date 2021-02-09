@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: merge_TEVC_2021.aux
 The style file: IEEEtran.bst
@@ -8,29 +8,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: TEVC_refs.bib
-Repeated entry---line 264 of file TEVC_refs.bib
+Repeated entry---line 527 of file TEVC_refs.bib
  : @article{grasp:feo
  :                   ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Papadimitriou1982"
-Warning--I didn't find a database entry for "Blum2016"
-Warning--I didn't find a database entry for "Luke2009"
-Warning--I didn't find a database entry for "Pisinger2010"
-Warning--I didn't find a database entry for "Meagher2014"
 Warning--I didn't find a database entry for "espinoza_minelib:_2012"
 Warning--I didn't find a database entry for "Kenny:2017"
-Warning--I didn't find a database entry for "Kenny:2018"
-Warning--I didn't find a database entry for "Kenny:2019"
-Warning--I didn't find a database entry for "memetic:klau"
-Warning--I didn't find a database entry for "aco:singh"
-Warning--I didn't find a database entry for "acogroup:nguyen"
-Warning--I didn't find a database entry for "fastls:uchoa"
-Warning--I didn't find a database entry for "effectivels:wade"
-Warning--I didn't find a database entry for "partition:leitner"
-Warning--I didn't find a database entry for "Kenny:2016"
-Warning--I didn't find a database entry for "pp:uchoa"
-Warning--I didn't find a database entry for "stpg-reduce"
-Warning--I didn't find a database entry for "goemans"
 Warning--I didn't find a database entry for "minelib-improved"
 Warning--I didn't find a database entry for "newman-improved"
 Warning--I didn't find a database entry for "zuck-small-improved"
@@ -46,47 +29,49 @@ Warning--empty author and editor in hybrid-book1
 Warning--empty author and editor in hybrid-book2
 Warning--empty journal in toposort
 Warning--empty journal in algo:polzin
+Warning--empty journal in meta-essentials
+Warning--missing publisher in lns-book
 
 Done.
-You've used 50 entries,
+You've used 59 entries,
             4087 wiz_defined-function locations,
-            1150 strings with 15702 characters,
-and the built_in function-call counts, 38042 in all, are:
-= -- 3141
-> -- 825
-< -- 360
-+ -- 458
-- -- 130
-* -- 1841
-:= -- 5711
-add.period$ -- 110
-call.type$ -- 50
-change.case$ -- 44
-chr.to.int$ -- 804
-cite$ -- 56
-duplicate$ -- 2690
-empty$ -- 3020
-format.name$ -- 165
-if$ -- 8881
+            1174 strings with 16827 characters,
+and the built_in function-call counts, 44789 in all, are:
+= -- 3679
+> -- 976
+< -- 415
++ -- 540
+- -- 155
+* -- 2163
+:= -- 6700
+add.period$ -- 130
+call.type$ -- 59
+change.case$ -- 52
+chr.to.int$ -- 933
+cite$ -- 67
+duplicate$ -- 3182
+empty$ -- 3597
+format.name$ -- 198
+if$ -- 10470
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 440
-newline$ -- 175
-num.names$ -- 50
-pop$ -- 961
+int.to.str$ -- 59
+missing$ -- 528
+newline$ -- 202
+num.names$ -- 59
+pop$ -- 1169
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2981
+skip$ -- 3509
 stack$ -- 0
-substring$ -- 1921
-swap$ -- 2273
-text.length$ -- 92
+substring$ -- 2230
+swap$ -- 2663
+text.length$ -- 104
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 50
-warning$ -- 6
-while$ -- 189
-width$ -- 52
-write$ -- 508
+type$ -- 59
+warning$ -- 8
+while$ -- 221
+width$ -- 61
+write$ -- 593
 (There was 1 error message)

@@ -59,293 +59,6 @@
 
 \input TEVC_style.sty
 
-
-% Some very useful LaTeX packages include:
-% (uncomment the ones you want to load)
-
-
-% *** MISC UTILITY PACKAGES ***
-%
-%\usepackage{ifpdf}
-% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
-% compilation based on whether the output is pdf or dvi.
-% usage:
-% \ifpdf
-%   % pdf code
-% \else
-%   % dvi code
-% \fi
-% The latest version of ifpdf.sty can be obtained from:
-% http://www.ctan.org/pkg/ifpdf
-% Also, note that IEEEtran.cls V1.7 and later provides a builtin
-% \ifCLASSINFOpdf conditional that works the same way.
-% When switching from latex to pdflatex and vice-versa, the compiler may
-% have to be run twice to clear warning/error messages.
-
-
-
-
-
-
-% *** CITATION PACKAGES ***
-%
-% \usepackage{cite}
-% cite.sty was written by Donald Arseneau
-% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
-% \cite{} output to follow that of the IEEE. Loading the cite package will
-% result in citation numbers being automatically sorted and properly
-% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
-% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
-% \cite will automatically add leading space, if needed. Use cite.sty's
-% noadjust option (cite.sty V3.8 and later) if you want to turn this off
-% such as if a citation ever needs to be enclosed in parenthesis.
-% cite.sty is already installed on most LaTeX systems. Be sure and use
-% version 5.0 (2009-03-20) and later if using hyperref.sty.
-% The latest version can be obtained at:
-% http://www.ctan.org/pkg/cite
-% The documentation is contained in the cite.sty file itself.
-
-
-
-
-
-
-% *** GRAPHICS RELATED PACKAGES ***
-%
-\ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
-  % declare the path(s) where your graphic files are
-  % \graphicspath{{../pdf/}{../jpeg/}}
-  % and their extensions so you won't have to specify these with
-  % every instance of \includegraphics
-  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
-\else
-  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
-  % will default to the driver specified in the system graphics.cfg if no
-  % driver is specified.
-  % \usepackage[dvips]{graphicx}
-  % declare the path(s) where your graphic files are
-  % \graphicspath{{../eps/}}
-  % and their extensions so you won't have to specify these with
-  % every instance of \includegraphics
-  % \DeclareGraphicsExtensions{.eps}
-\fi
-% graphicx was written by David Carlisle and Sebastian Rahtz. It is
-% required if you want graphics, photos, etc. graphicx.sty is already
-% installed on most LaTeX systems. The latest version and documentation
-% can be obtained at: 
-% http://www.ctan.org/pkg/graphicx
-% Another good source of documentation is "Using Imported Graphics in
-% LaTeX2e" by Keith Reckdahl which can be found at:
-% http://www.ctan.org/pkg/epslatex
-%
-% latex, and pdflatex in dvi mode, support graphics in encapsulated
-% postscript (.eps) format. pdflatex in pdf mode supports graphics
-% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
-% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
-% not a bitmapped formats (.jpeg, .png). The IEEE frowns on bitmapped formats
-% which can result in "jaggedy"/blurry rendering of lines and letters as
-% well as large increases in file sizes.
-%
-% You can find documentation about the pdfTeX application at:
-% http://www.tug.org/applications/pdftex
-
-
-
-
-
-% *** MATH PACKAGES ***
-%
-%\usepackage{amsmath}
-% A popular package from the American Mathematical Society that provides
-% many useful and powerful commands for dealing with mathematics.
-%
-% Note that the amsmath package sets \interdisplaylinepenalty to 10000
-% thus preventing page breaks from occurring within multiline equations. Use:
-%\interdisplaylinepenalty=2500
-% after loading amsmath to restore such page breaks as IEEEtran.cls normally
-% does. amsmath.sty is already installed on most LaTeX systems. The latest
-% version and documentation can be obtained at:
-% http://www.ctan.org/pkg/amsmath
-
-
-
-
-
-% *** SPECIALIZED LIST PACKAGES ***
-%
-%\usepackage{algorithmic}
-% algorithmic.sty was written by Peter Williams and Rogerio Brito.
-% This package provides an algorithmic environment fo describing algorithms.
-% You can use the algorithmic environment in-text or within a figure
-% environment to provide for a floating algorithm. Do NOT use the algorithm
-% floating environment provided by algorithm.sty (by the same authors) or
-% algorithm2e.sty (by Christophe Fiorio) as the IEEE does not use dedicated
-% algorithm float types and packages that provide these will not provide
-% correct IEEE style captions. The latest version and documentation of
-% algorithmic.sty can be obtained at:
-% http://www.ctan.org/pkg/algorithms
-% Also of interest may be the (relatively newer and more customizable)
-% algorithmicx.sty package by Szasz Janos:
-% http://www.ctan.org/pkg/algorithmicx
-
-
-
-
-% *** ALIGNMENT PACKAGES ***
-%
-%\usepackage{array}
-% Frank Mittelbach's and David Carlisle's array.sty patches and improves
-% the standard LaTeX2e array and tabular environments to provide better
-% appearance and additional user controls. As the default LaTeX2e table
-% generation code is lacking to the point of almost being broken with
-% respect to the quality of the end results, all users are strongly
-% advised to use an enhanced (at the very least that provided by array.sty)
-% set of table tools. array.sty is already installed on most systems. The
-% latest version and documentation can be obtained at:
-% http://www.ctan.org/pkg/array
-
-
-% IEEEtran contains the IEEEeqnarray family of commands that can be used to
-% generate multiline equations as well as matrices, tables, etc., of high
-% quality.
-
-
-
-
-% *** SUBFIGURE PACKAGES ***
-%\ifCLASSOPTIONcompsoc
-%  \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
-%\else
-%  \usepackage[caption=false,font=footnotesize]{subfig}
-%\fi
-% subfig.sty, written by Steven Douglas Cochran, is the modern replacement
-% for subfigure.sty, the latter of which is no longer maintained and is
-% incompatible with some LaTeX packages including fixltx2e. However,
-% subfig.sty requires and automatically loads Axel Sommerfeldt's caption.sty
-% which will override IEEEtran.cls' handling of captions and this will result
-% in non-IEEE style figure/table captions. To prevent this problem, be sure
-% and invoke subfig.sty's "caption=false" package option (available since
-% subfig.sty version 1.3, 2005/06/28) as this is will preserve IEEEtran.cls
-% handling of captions.
-% Note that the Computer Society format requires a larger sans serif font
-% than the serif footnote size font used in traditional IEEE formatting
-% and thus the need to invoke different subfig.sty package options depending
-% on whether compsoc mode has been enabled.
-%
-% The latest version and documentation of subfig.sty can be obtained at:
-% http://www.ctan.org/pkg/subfig
-
-
-
-
-% *** FLOAT PACKAGES ***
-%
-%\usepackage{fixltx2e}
-% fixltx2e, the successor to the earlier fix2col.sty, was written by
-% Frank Mittelbach and David Carlisle. This package corrects a few problems
-% in the LaTeX2e kernel, the most notable of which is that in current
-% LaTeX2e releases, the ordering of single and double column floats is not
-% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
-% single column figure to be placed prior to an earlier double column
-% figure.
-% Be aware that LaTeX2e kernels dated 2015 and later have fixltx2e.sty's
-% corrections already built into the system in which case a warning will
-% be issued if an attempt is made to load fixltx2e.sty as it is no longer
-% needed.
-% The latest version and documentation can be found at:
-% http://www.ctan.org/pkg/fixltx2e
-
-
-%\usepackage{stfloats}
-% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
-% the ability to do double column floats at the bottom of the page as well
-% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
-% LaTeX2e). It also provides a command:
-%\fnbelowfloat
-% to enable the placement of footnotes below bottom floats (the standard
-% LaTeX2e kernel puts them above bottom floats). This is an invasive package
-% which rewrites many portions of the LaTeX2e float routines. It may not work
-% with other packages that modify the LaTeX2e float routines. The latest
-% version and documentation can be obtained at:
-% http://www.ctan.org/pkg/stfloats
-% Do not use the stfloats baselinefloat ability as the IEEE does not allow
-% \baselineskip to stretch. Authors submitting work to the IEEE should note
-% that the IEEE rarely uses double column equations and that authors should try
-% to avoid such use. Do not be tempted to use the cuted.sty or midfloat.sty
-% packages (also by Sigitas Tolusis) as the IEEE does not format its papers in
-% such ways.
-% Do not attempt to use stfloats with fixltx2e as they are incompatible.
-% Instead, use Morten Hogholm'a dblfloatfix which combines the features
-% of both fixltx2e and stfloats:
-%
-% \usepackage{dblfloatfix}
-% The latest version can be found at:
-% http://www.ctan.org/pkg/dblfloatfix
-
-
-
-
-%\ifCLASSOPTIONcaptionsoff
-%  \usepackage[nomarkers]{endfloat}
-% \let\MYoriglatexcaption\caption
-% \renewcommand{\caption}[2][\relax]{\MYoriglatexcaption[#2]{#2}}
-%\fi
-% endfloat.sty was written by James Darrell McCauley, Jeff Goldberg and 
-% Axel Sommerfeldt. This package may be useful when used in conjunction with 
-% IEEEtran.cls'  captionsoff option. Some IEEE journals/societies require that
-% submissions have lists of figures/tables at the end of the paper and that
-% figures/tables without any captions are placed on a page by themselves at
-% the end of the document. If needed, the draftcls IEEEtran class option or
-% \CLASSINPUTbaselinestretch interface can be used to increase the line
-% spacing as well. Be sure and use the nomarkers option of endfloat to
-% prevent endfloat from "marking" where the figures would have been placed
-% in the text. The two hack lines of code above are a slight modification of
-% that suggested by in the endfloat docs (section 8.4.1) to ensure that
-% the full captions always appear in the list of figures/tables - even if
-% the user used the short optional argument of \caption[]{}.
-% IEEE papers do not typically make use of \caption[]'s optional argument,
-% so this should not be an issue. A similar trick can be used to disable
-% captions of packages such as subfig.sty that lack options to turn off
-% the subcaptions:
-% For subfig.sty:
-% \let\MYorigsubfloat\subfloat
-% \renewcommand{\subfloat}[2][\relax]{\MYorigsubfloat[]{#2}}
-% However, the above trick will not work if both optional arguments of
-% the \subfloat command are used. Furthermore, there needs to be a
-% description of each subfigure *somewhere* and endfloat does not add
-% subfigure captions to its list of figures. Thus, the best approach is to
-% avoid the use of subfigure captions (many IEEE journals avoid them anyway)
-% and instead reference/explain all the subfigures within the main caption.
-% The latest version of endfloat.sty and its documentation can obtained at:
-% http://www.ctan.org/pkg/endfloat
-%
-% The IEEEtran \ifCLASSOPTIONcaptionsoff conditional can also be used
-% later in the document, say, to conditionally put the References on a 
-% page by themselves.
-
-
-
-
-% *** PDF, URL AND HYPERLINK PACKAGES ***
-%
-%\usepackage{url}
-% url.sty was written by Donald Arseneau. It provides better support for
-% handling and breaking URLs. url.sty is already installed on most LaTeX
-% systems. The latest version and documentation can be obtained at:
-% http://www.ctan.org/pkg/url
-% Basically, \url{my_url_here}.
-
-
-
-
-% *** Do not adjust lengths that control margins, column widths, etc. ***
-% *** Do not use packages that alter fonts (such as pslatex).         ***
-% There should be no need to do such things with IEEEtran.cls V1.6 and later.
-% (Unless specifically asked to do so by the journal or conference you plan
-% to submit to, of course. )
-
-
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
 
@@ -358,7 +71,7 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Bare Demo of IEEEtran.cls\\ for IEEE Journals}
+\title{Merge Search: a Matheuristic Framework for Combinatorial Optimisation Problems}
 %
 %
 % author names and IEEE memberships
@@ -369,16 +82,6 @@
 % a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
 % was not built to handle multiple paragraphs
 %
-
-% \author{Michael~Shell,~\IEEEmembership{Member,~IEEE,}
-%         John~Doe,~\IEEEmembership{Fellow,~OSA,}
-%         and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
-
-% \thanks{M. Shell was with the Department
-% of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
-% GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}% <-this % stops a space
-% \thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
-% \thanks{Manuscript received April 19, 2005; revised August 26, 2015.}}
 
 \author{Angus~Kenny$^a$, Dhananjay~Thiruvady$^b$, Davaatseren~Baatar$^c$, Andreas~T.~Ernst$^c$, Xiaodong~Li$^d$, Mohan~Krishnamoorthy$^e$, Gaurav~Singh$^f$%
 
@@ -444,8 +147,6 @@ This paper presents a matheuristic called merge search, an iterative decompositi
 
 Merge search is applied to two very different NP-Hard problems: the constrained pit limit (CPIT) problem, from the field of open-pit mining; and the well-studied Steiner tree problem in graphs (STPG). The CPIT results are used to show the effectiveness of merge search, improving the best-known bounds in two of the six instances tested; while the STPG results demonstrate the versatility of this method. 
 
-% Open-pit mine scheduling is a challenging optimisation problem in the mining industry. It tries to create the best possible open-cut mine plan in order to maximise the 
-% net present value of an ore body. This leads to very large mixed integer programming problems that have a strong network structure which can be exploited to obtain a solution to the linear programming relaxation by repeatedly solving maximum flow problems. As these problems are too large and challenging to solve exactly, we have developed an efficient parallel  optimisation method to search for good heuristic solutions. The novel matheuristic proposed in this paper, called {\it Merge Search},  is able to combine a very large pool of solutions via variable aggregation, thereby using their best components to find higher quality solutions. The approach is built around a mixed integer programming formulation, where the formulation is made efficient via preprocessing. A key aspect of this study is to investigate an efficient parallelisation of Merge Search through distributed computing. We demonstrate empirically that this is the best performing method for the mine scheduling problem, finding better quality solutions for a number of problem instances available in the literature. The parallelisation also substantially improves the convergence characteristics of the method, even providing drastic improvements at the beginning of the search. Furthermore, we investigate the efficacy a parallel Branch \& Bound search. While the problems are too hard to be solved exactly, this improves upon the best known upper (relaxed) bounds for all problem instances. 
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -483,7 +184,6 @@ Optimisation problems modelling situations in the real-world can be very messy a
 
 There are two large factors that can contribute to how difficult a problem is to solve~\cite{int_and_cop}. The first being the number of decision variables that need to be considered. The time complexity of many exact solvers is exponential~\cite{convex}, meaning that a problem with many decision variables can quickly become intractable. 
 The second factor (although there are many others) is the interaction between decision variables. If a problem is completely separable, it can be solved by completely decomposing it into its individual variables and optimising them separately. The other extreme to this is when it is completely inseparable, meaning the entire problem must be solved at once. Most problems tend to fall somewhere between these two ends of the spectrum, making a search for an effective way to ascertain these interactions an important area of research~\cite{decomp,omidvar}.
-% Finally (although there are many others), the number, and type, of constraints are also a factor that can contribute to a problem's complexity. Constraints can take many different forms, from production limits~\cite{introlinear}; to precedence constraints, where a variable may not be selected until all variables from a specified set are also selected~\cite{cpit}; to constraints on the types of values the variables can take --- restricting decision variables to integer values can make a problem much harder than if they were real-valued~\cite{convex}. 
 
 The method proposed in this paper is a \emph{divide-and-conquer}~\cite{alg:levitin} algorithm that addresses both these factors. Using information from across a locally generated population of solutions, the set of decision variables is partitioned with each partition being treated as a single variable. This reduced sub-problem, can then be solved using some exact method (e.g., MIP solver), as the number of decision variables has been significantly decreased. By partitioning the variables in this way, relationships between decision variables are preserved, so the groupings are more meaningful than if they were generated arbitrarily. The granularity of solutions produced by merge search can be controlled by randomly splitting the partitions. Without this mechanism, it is not guaranteed that all possible solutions can be produced.
 
@@ -494,52 +194,6 @@ Being a less complicated problem, the STPG is used to explore the diversificatio
 As well as investigating the different properties of the algorithm, by applying it to these significantly different problems, it can be demonstrated that merge search is generalisable across many problems from different domains. The results from both sets of experiments are compared against state-of-the-art published results and also a baseline of a custom greedy randomised adaptive search procedure (GRASP)~\cite{grasp:feo} algorithm, developed for each problem.
 
 This paper is organised as follows. Section~\ref{sec:back} highlights some related work in the field of matheuristics and solution merging techniques; it also introduces the two problems, CPIT and STPG, and summarises some of the literature surrounding them. The merge search algorithm itself is discussed as a general framework for solving combinatorial optimisation problems in Section~\ref{sec:merge}. A description of how merge search is applied to the given problems is provided in Section~\ref{sec:apply}. Section~\ref{sec:exper} details the experimental setup and the datasets used; with results of these experiments being discussed and analysed in Section~\ref{sec:results}. Finally, Section~\ref{sec:conc} concludes the paper and outlines some possible future research.
-
-%Optimisation as a research field is huge and an introductory chapter cannot possibly do justice to the whole area; for further information the reader is directed to the following textbook resources~\cite{copalg,int_and_cop,convex}.\par
-
-% The most effective method of solving large scale problems is by a method called \emph{divide-and-conquer}~\cite{alg:levitin}. In this technique, a large problem is decomposed into several smaller problems with fewer variables or constraints, which can then be solved and the information from the solutions to these sub-problems used to inform the over-all global search. There are many ways to decompose problems to make them more manageable. One way is to divide the variables into subsets and solve a version of the main problem on each subset of variables and then perform some repair operation to ``stitch together'' the results of all the sub-problems~\cite{memetic:klau}. Another way is to start with a small subset of variables and solve the problem for those variables, and iteratively add more and more variables to the main problem by solving smaller sub-problems to choose them~\cite{cg}. Still another way is to aggregate the variables into a number of groups that each act as a single variable in the sub-problem, which is then solved and the groups iteratively disaggregated to achieve better quality solutions~\cite{aggregate}. Whichever method is chosen, it is not trivial to decide the best way to decompose any problem; so an efficient method of automatically determining an effective problem decomposition would be very valuable to the research community at-large.\par
-
-% Another major issue that arises when solving large scale combinatorial problems is the problem of global vs. local search~\cite{metacop}. The exponential size of the search space and the intricate interactions between decision variables mean that the fitness landscape for many problems can be extremely complex, with many local optima and basins of attraction that must be escaped in order to find the global optimum. This complex fitness landscape and integer values for variables mean that most gradient-based search methods are not very effective tools for solving these problems.\par
-
-% Population-based meta-heuristic algorithms are particularly adept at performing global search, as they use various techniques to intelligently sample a wide region of the search space. This wide-ranging sampling allows them to identify areas of the search space that are the most promising and helps them to avoid getting caught in local optima; however, having identified these promising regions, they are typically not very good at producing refined solutions from within them~\cite{metacop}. Conversely, mathematical programming methods are very poor at global search, as the large number of decision variables and constraints make the problems intractable; but once a good area of the search space has been identified, and the problem can be reduced to the variables and constraints only concerning this area, these techniques are very good at finding the locally optimum solution.\par
-
-% It is this trade-off between exploration and exploitation that is the basis for the family of algorithms called \emph{hybrid meta-heuristics}~\cite{talbi,matheuristics}. These methods typically combine a meta-heuristic, which performs general global search or decomposes the problem into a reduced sub-problem; and a mathematical programming solver which provides refined solutions to the sub-problems that the meta-heuristic produces. This interplay between the two elements goes back-and-forth, iteratively improving the solutions they are producing by harnessing the strengths of both kinds of algorithms. These techniques have become a subject of a great deal of research lately~\cite{hybridmeta}, as they have been shown to be effective on many different types of problems; and a good way to address a lot of the issues encountered when attempting to solve complex, large scale problems.\par
-
-% Finally, many techniques in the literature are very good at solving a particular problem, but cannot be generalised to solve other problems. These techniques often rely on domain knowledge of the problem having being ``hard-coded'' into the problem model, or on some customised representation of the problem that does not translate well to another domain. As the solution to most combinatorial optimisation problems can be represented as a binary string, there is opportunity for a technique that operates purely on these basic representations to generalised into a framework for solving any problem of this type, irrespective of the domain.\par
-
-
-
-% \IEEEPARstart{I}{n} the mining industry in Australia, open-pit mining is a problem of significant interest~\cite{Newman:2010}. The planning and production scheduling 
-% associated with mines can lead to significant cost savings and profits for the operators of the mines. In particular, determining the value of a mine 
-% and the areas of excavation in the shortest possible time-frame can lead to very large gains~\cite{Meagher2014}. 
-
-% Extracting and processing the ore from the pits is the main focus of open pit mining. Specifically, the order in which materials are extracted and processed 
-% can lead to significant profits and savings~\cite{Meagher2014}. In determining the order, there are several constraints that must be satisfied, including precedences between blocks and resource limits. Hence, the open-pit block scheduling problem is referred to as the {\it precedence constrained production scheduling problem} (PCPSP)~\cite{Bley:2010,
-% espinoza_minelib:_2012}. 
-
-% The PCPSP requires  identifying a schedule to extract blocks in a pit that maximises the net present value (NPV) of the blocks over time. Each block is associated 
-% with a positive value (profit) or a negative value (cost) and if mined, it is either processed or discarded (specified as destinations). The mining of 
-% blocks is subject to resource and precedence constraints. Resource limits apply to the amount of ore mined and processed during a period, while precedences 
-% between blocks exist due to pit slope constraints. That is, in order to reach certain blocks, other blocks on top of them need to be extracted and processed or 
-% discarded first.
-
-% The PCPSP can be formulated as a Mixed Integer Program (MIP). For real world instances, solving the MIP or even the linear programming (LP) relaxation of the problem is challenging due to the 
-% large number of variables and constraints. For example, the problem instances currently available in the literature 
-% can be very large with nearly 100,000 blocks and over a million precedence constraints. These need to be replicated over multiple time periods resulting 
-% in MIP formulations with an excess of 10 million constraints. 
- 
-% Finding ways to solve large MIPs with reasonable computational resources has been given attention recently. The methods include decomposition approaches, hierarchical methods and MIP-based large neighbourhood search. Among MIP-based decompositions, Lagrangian relaxation \cite{fisher04}, column generation \cite{Wolsey1998} and Benders' decomposition \cite{Geoffrion1972} have been widely applied and proved very effective. Other approaches for efficiently solving MIPs is to identify aggregations of variables so that a problem of reduced size can be solved \cite{BOLAND2009, Litvinchev:2003, Rogers:1991}. Another class of methods are based on a large neighbourhood search (LNS) \cite{Ahuja:2002}. The main idea underlying these methods is to start with a feasible solution, identify a neighbourhood (possibly a very large), and find efficient ways to search the neighbourhood. When LNS is combined with MIPs, the resulting methods have proved very effective \cite{Ahuja:2002,Pisinger2010}. 
-
-% The main contribution of this study is a novel matheuristic algorithm, called {\it Merge Search}. It combines concepts from LNS, genetic algorithms \cite{Mitchell:1996} and the efficiency of solving MIPs. However, it is substantially different to any of these or other existing methods in two main aspects. First, the neighbourhood leading to the restricted MIP is obtained from an aggregation of variables in original model using a population of solutions (potentially very large populations). Using different input parameters (e.g. population size), the solving time of the restricted MIP can be systematically controlled. Second, Merge Search is particularly designed for parallel or distributed computing, thus allowing additional computing resources to be used effectively in tackling these challenging problems. Hence, a second contribution of this study is develop and investigate parallel implementations of Merge Search via the Message Passing Interface (MPI)~\cite{Gropp:1994}. A third contribution of this study is a Branch \& Bound method built around the LP relaxation of the problem. This is intended to show that even though the LP relaxation of the large MIPs can be solved relatively efficiently, the associated problems cannot be solved to optimality by a standard branch and bound approach. Despite this, we find that this method leads to identifying the best known upper bounds for benchmark instances of open pit mining. 
-
-% Recently, a method which uses a population of solutions to identify a search space for MIP model is construct, solve, merge and adapt (CMSA) \cite{Blum2016,BlumBlesa16,Blum16-2,Lewis2019,Thiruvady2019}. \cite{Blum2016} show that CMSA can be effectively applied to the minimum common string partition and minimum covering arborescence problems. \cite{BlumBlesa16} investigate CMSA for the repetition-free longest common subsequence problem with very good results can be obtained with this method and \cite{Blum16-2} show the same outcomes of CMSA for the unbalanced common string partition problem. \cite{Lewis2019} apply CMSA to happy colourings and show that this approach can find good solutions on hard problem instances where exact approaches struggle. \cite{Thiruvady2019} develop a parallel hyrbid of CMSA and ACO and show that it is effective on project scheduling with the aim of maximising the NPV.  
-
-% Merge Search was developed independently but uses similar ideas as that of CMSA at a high level. The crucial differences are in its ability to deal with extremely large populations of solutions and parallelisation. Like CMSA, the search iterative builds improving solutions to a problem by using the following steps: (a) maintain a population of feasible solutions, initially found through a heuristic (b) determine active variables in the MIP model from the population of solutions, (c) solve the resulting restricted MIP, thereby merging solutions, (d) use the solution information from the MIP to update the population, and (e) continue this process until some termination criteria is satisfied. Merge Search can be thought of as a generic matheuristic, combining integer programming and heuristic search,  but in this paper we only focus on its application to the PCPSP (Precedence Constrained Pit Scheduling Problem).
-
-% This document is organised as follows.  Section~\ref{sec:opbs} discusses the
-% details of the problem. This includes MIP formulations considered in this study and
-% equivalences to others published in the literature.  Next we introduce our new Merge Search heuristic and show how this can be applied to our problem in Section~\ref{sec:MS}. The details of how to apply this method to the PCPSP are described in Section~\ref{sec:meth}, including preprocessing, parallelisation and other implementational details that are important in obtaining good performance. Finally, we 
-% provide detailed computational results in Section~\ref{sec:expts_res} and show that we are able to produce both better feasible solutions and tighter bounds for most of the benchmarks that are available in the literature.
 
 \section{Background}\label{sec:back}
 This section gives some background information on mathueristics and solution merging techniques.
@@ -567,7 +221,7 @@ In order to model something so complex as a combinatorial optimisation problem, 
 
 Problems in mine planning and production scheduling are very large and tend to have few side-constraints (often well under a hundred), but many blocks and many, many more precedence constraints governing when blocks can be mined. This means traditional mathematical solvers are unable to solve these problems without first using some form of decomposition, making these problems perfect candidates for hybrid meta-heuristics, despite there being very little in the literature.
 
-Due to the sensitive nature of information surrounding mining enterprises, obtaining problem data for academic research can be challenging, however \emph{minelib}~\cite{minelib} provides a repository of problems and results that are freely available to the general public. These sets contain data for versions of the problem such as the ultimate pit limit (UPIT), constrained pit-limit and the precedence constrained production scheduling problem (PCPSP). It is the CPIT problem that will be the focus of these experiments. A mathematical formulation of this problem can be found in this paper and is omitted here to save space.
+Due to the sensitive nature of information surrounding mining enterprises, obtaining problem data for academic research can be challenging, however \emph{minelib}~\cite{minelib} provides a repository of problems and results that are freely available to the general public. These sets contain data for versions of the problem such as the ultimate pit limit (UPIT), constrained pit-limit and the precedence constrained production scheduling problem (PCPSP). It is the CPIT problem that will be the focus of these experiments. A mathematical formulation of this problem can be found in this paper and is included in Appendix~\ref{app:cpit} (Equation~\ref{eq:cpit_form}).
 
 % ---- REWRITE BEFORE SUBMISSION
 
@@ -593,8 +247,6 @@ Given an undirected, weighted graph $G = (V,E,c)$ where $V$ is the set of vertic
 
 Exact methods for solving the STPG have been developed using techniques such as integer linear programming (ILP), lagrangian relaxation and primal-dual strategies~\cite{pd:polzin}; however these approaches suffer from exponential worst-case computation times which can make some large-scale instances intractable. The current state-of-the-art exact approaches to solving the STPG are hybrid~\cite{algo:polzin,algo:daneshmand}; several algorithmic, graph reduction, metaheuristic and mathematical programming techniques, working together to produce provably optimal solutions in a much faster time than traditional optimisation techniques alone.
 
-% There are a number of ways that a Steiner tree can be represented. The most common ways are edge representation, where a candidate solution is represented by the set of member edges; vertex representation, where a candidate solution is represented by the set of member vertices; and key path represenation, where a candidate solution is represented by the set of member key paths.
-
 % % ---
 
 The experiments performed in this study were evaluated by comparing merge search to the published results of two current metaheuristic algorithms for solving the multicast routing problem and its underlying mathematical structure, the STPG; the \emph{JPSOMR} algorithm developed by Qu et. al. \cite{jpsomr:qu} and the more famous \emph{GRASP} algorithm, adapted for multicast routing and the STPG by Skorin-Kapov and Kos \cite{grasp:skorin}.
@@ -603,116 +255,63 @@ The \emph{jumping particle swarm optimisation for multicast routing} (JPSOMR) al
 
 The GRASP algorithm was adapted for the multicast routing problem and the STPG by Skorin-Kapov and Kos \cite{grasp:skorin}. It constructs good quality initial solutions by using Dijkstra's algorithm \cite{dijk:dijkstra}. The local search phase incorporates tabu search, with some modifications, applied iteratively until no better solution can be found or a certain number of iterations are performed with no improvement. More information on the GRASP algorithm and its application to the STPG can be found in \cite{grasp:feo, grasp:skorin} and \cite{grasp:martins}.
 
-% Another metaheuristic algorithm for approximating the STPG worthy of mention is the memetic algorithm described in \cite{memetic:ljubic}. It is an algorithm based on the construction, recombination and mutation of a population of solutions represented as edge sets. This algorithm is not used for comparison in this paper as it was designed to solve a variant of the STPG called  \textit{the prize-collecting Steiner tree problem}, which incorporates knapsack problem-like constraints and as such, was not tested on the same datasets.
-
 The STPG has applications ranging widely from integrated circuit design~\cite{vlsi:cho}, to distribution and logistics network design~\cite{stpg-logistics}, to computing phylogenetic trees in biology~\cite{phylo} --- and it has been of interest to mathematicians since before the advent of digital computers. For more information on the history of the STPG and methods of solving it, the reader is directed to~\cite{history:brazil,steiner:hwang,steinerbook,steineradvance}. 
 
-% The STPG is extremely well-researched, with many sophisticated pre-processing techniques and methods of finding good quality solutions already available in the literature. The purpose of including it in this paper is not to improve the current state-of-the-art results; but to provide a simple test-bed, upon which the properties of the proposed merge search algorithm can be investigated --- much more easily than with a more complex, real-world problem such as the constrained pit-limit problem, mentioned above.
-
-% \section{Related Work}\label{sec:related}
-% This section outlines some 
-
-% Despite being around for centuries~\cite{history:brazil}, the STPG has also gained
-% much attention in recent decades due to it being the mathematical structure behind 
-% multicast networking problems~\cite{steiner:hwang}. Exact methods for solving the STPG 
-% have been developed using techniques such as integer linear programming (ILP), 
-% lagrangian relaxation and primal-dual strategies~\cite{pd:polzin}; however these approaches suffer from
-% exponential worst-case computation times which can make some large-scale instances intractable. The current state-of-the-art 
-% exact approaches to solving the STPG are hybrid~\cite{algo:polzin,algo:daneshmand}; 
-% several algorithmic, graph reduction, metaheuristic and 
-% mathematical programming techniques, working together to produce provably optimal solutions
-% in a much faster time than traditional optimisation techniques alone.
-% When good quality, but not necessarily optimal, solutions are required in a reasonable amount of
-% time, metaheuristics and decomposition techniques have been used to tackle this problem; some of the
-% more successful approaches in this manner have been memetic algorithms \cite{memetic:klau}, ant colony optimisation
-% \cite{aco:singh,acogroup:nguyen}, local search techniques 
-% \cite{fastls:uchoa,effectivels:wade} and voronoi-based 
-% decomposition heuristics \cite{partition:leitner}.\par
-
 \section{Merge Search}\label{sec:merge}
-For extremely large problems such as open pit mining, a method that is able to efficiently combine solutions (potentially obtained from different sources) can be beneficial. This is particularly important in a parallel or distributed framework where multiple threads or processes are independently finding improved solutions. In such cases we do not want to just take the best solution, thereby discarding any improvements made by all other processes, but to learn from each of them. For this purpose, the key procedure proposed in this paper and used throughout 
-the distributed solver method is the {\it Merge Search}. The aim of this is to combine the best features of multiple solutions that may have been 
-arrived at independently, often by starting from the previously best known solution. Merge Search achieves this by solving an integer program over the space of combinations of solutions. That is it breaks all of the solutions into fragments (a set of variables) and re-assembles a new solution from these fragments. 
+
+This section provides a description merge search as a general matheuristic framework for solving combinatorial optimisation problems with binary decision variables. It gives the pseudocode and details of the steps involved, before discussing some of its properties and giving a comparison with the CMSA heuristic mentioned in Section~\ref{sec:back}.
+
+\subsection{Description}
+The pseudocode for merge search is outlined in Algorithm~\ref{alg:MS} and comprises the following steps.
 
 \begin{algorithm}[htb!]
 \caption{{\sf Merge Search Matheuristic}} \label{alg:MS}
 \begin{algorithmic}[1]
-  \Require A combinatorial optimisation problem with variables $x$: $\max f(x) : x\in {\cal F}$
+  \Require A combinatorial optimisation problem: $\max f(x) : x\in {\cal F}$ (where ${\cal F}$ is the feasible set)
   \Require Initial solution $x^0\in \cal F$
   \For{$k=1,2,\ldots$}
     \For{$j=1,2,\ldots,m$}
-    \State Generate a solution $s^j$ in a large neighbourhood of $x^{k-1}$
+    \State Let $s^j$ be a neighbouring solution to $x^{k-1}$
     \label{step:nbhd}
       \EndFor
     \State Let  $S=\{s^1,\ldots,s^m\}\cup\{x^{k-1}\}$ be all such solutions
     \State Let ${\cal P}=\{P_1,\ldots,P_p\}$ be a partition of the variables into sets for which all solutions are constant:\label{step:P}
-  $$ \bigcup_{P\in {\cal P}} P=\{1,\ldots,n\},\qquad P \cap Q=\emptyset\ \forall\ P\ne Q\in
-  {\cal P},\quad \text{ and }\quad
-  s_i = s_j \ \forall\ s\in S,\ P\in {\cal P},\ i,j\in P$$
+    \begin{align*}
+      \bigcup_{P\in {\cal P}} P&=\{1,\ldots,n\},\quad P \cap Q=\emptyset\ \forall\ P\ne Q\in  {\cal P},\\
+      \text{ and } s_i &= s_j, \quad \forall\ s\in S,\ P\in {\cal P},\ i,j\in P
+    \end{align*}
   \State {\bf if} \ {$|\mathcal{P}| < K$} {\bf then} split subsets until $|\mathcal{P}|=K$ \label{step:RandSplit}
-  \State Solve $x^k=\text{arg}\max f(x) : x\in {\cal F}\ \&\ x_i=x_j\ \forall
+  \State Solve $x^k=\text{arg}\max f(x) : x\in {\cal F},\ x_i=x_j,\ \forall
   i,j\in P\in{\cal P}$\label{step:merge}
 \EndFor
 \end{algorithmic}
 \end{algorithm}
 
-\subsection{Description}
-Merge Search is a general matheuristic that operates
-as outlined in Algorithm~\ref{alg:MS}. It carries out the following steps:
+\subsubsection*{\bf Finding an initial solution}
+In order to produce a population of solutions, an initial, feasible solution $x^0$ must first be found. Some problems are so large and complex that even producing a feasible solution is quite computationally expensive --- let alone one that is of guaranteed good quality. Although there are cases where finding a feasible solution is reasonably easy; in general, finding a feasible solution to a combinatorial problem is as hard as finding an optimal one~\cite{copalg}.
 
-\subsubsection*{Finding an initial solution}
-In order to produce a population of solutions, an initial solution $x^0$ must first be produced.
-Some problems, such as the PCPSP considered here, are so large and complex, that even producing a feasible solution is quite computationally expensive --- let alone one that is of guaranteed good quality. In contrast, other problems are structured such that producing a reasonable quality solution is not computationally expensive at all; however, often the methods of producing solutions to these problems are deterministic, creating issues with solution diversity. Although there are cases where finding a feasible solution is reasonably easy; in general, finding a feasible solution to a combinatorial problem is as hard as finding an optimal one~\cite{Papadimitriou1982}.
+When considering merge search as a general framework for solving constrained optimisation problems, the ideal circumstance would be when there already exists a custom heuristic for constructing a solution to the problem. However, if no such heuristic exists, then because it can be shown (Lemma~\ref{thm:optimal}) that the random splitting aspect of merge search makes it theoretically capable of producing any solution in the search space, it is possible to start with a completely random (feasible) solution and still find the optimal solution --- if given enough time. Of course, in practice, ``enough time'' can be infeasibly long for large search spaces, so a more intelligent method of producing an initial solution is preferable.
 
-When considering Merge Search as a general framework for solving constrained optimisation problems, the method by which the initial solution is produced is not important. The ideal circumstance would be when there already exists a custom heuristic for constructing a solution to the problem. However, if no such heuristic exists, then because it can be shown (Lemma~\ref{thm:optimal}) that the random splitting aspect of Merge Search makes it theoretically capable of producing any solution in the search space, it is possible to start with a completely random (feasible) solution and still find the optimal solution --- if given enough time.
+\subsubsection*{\bf Neighbourhood search (Step~\ref{step:nbhd})}
 
-Of course, in practice, ``enough time'' can be infeasibly long for large search spaces, so a more intelligent method of producing an initial solution is required. Equation~\ref{eq:mip-init} gives a method of finding a feasible solution for problems which can be formulated as a mixed integer program (MIP) with $n$ variables and $m$ linear constraints.
-%
-\begin{align}\label{eq:mip-init}
-              \Min \quad &\V{c}^T\V{x} + C^{max} \sum_{v_i \in \V{v}} v_i\\
-              \ST  \quad  &\M{A}\V{x} \ge \V{b}-M\V{v}\nonumber\\
-                   \quad & \V{x} \in \Bin^n, \quad \V{v} \in \Bin^m.\nonumber
-\end{align}
-%
-Here, $\V{v} \in \Bin^m$ is a vector and $M$ is a constant sufficiently big enough such that $v_i = 1$ if constraint $i$ is violated and $C^{max} = \sum_{c_i \in \V{c}} |c_i|$ is a penalising constant that is added to the objective value every time a constraint is violated. The value of $C^{max}$ is calculated by summing the magnitude of every value in the $\V{c}$ vector, which means that it can be guaranteed that even the worst feasible solution will have a better objective value than the best infeasible one.
-
-By solving this MIP model, a feasible solution to the problem is produced, which can then be used as an initial solution to generate a population\footnote{Actually, for sufficiently large \(C^{max}\), solving \eqref{eq:mip-init} is equivalent to solving the original problem (and will produce the same optimal solution) so, theoretically, there is no need to run the algorithm twice. In practice however, solving it in this way would be intractable for any problem that is large enough to be of interest, and so would not be a practical way of finding a feasible, initial solution. Any binary \(\V{x}\) can be used to produce a feasible initial solution for \eqref{eq:mip-init} by simply setting \(v_i=1\) iff the corresponding \(i\)th original constraint of \(\M{A} \V{x} \ge \V{b}\) is violated.}.
-
-\subsubsection*{Neighbourhood search (Step~\ref{step:nbhd})}
-
-Many solution merging meta-heuristics such as the construct, merge, solve and adapt (CMSA) heuristic~\cite{Blum2016} require a method that constructs solutions from scratch in order to produce a population to merge. However, for some large and complex problems, producing a feasible solution from scratch can be very computationally expensive. Merge search generates its population by defining a local-search operator for the problem and sampling the neighbourhood of a given solution; because it is generally easier to produce a new solution from an existing one, than it is to generate a solution from scratch. 
+Many solution merging meta-heuristics such as the construct, merge, solve and adapt (CMSA) heuristic~\cite{cmsa} require a method that constructs solutions from scratch in order to produce a population to merge. However, for some large and complex problems, producing a feasible solution from scratch can be very computationally expensive. Because it is generally easier to produce a new solution from an existing one, than it is to start from scratch, merge search generates its population by defining a local-search operator for the problem and sampling the neighbourhood of a given solution.
 
 The local-search neighbourhood can be as simple, or as sophisticated, as is required. It can be a custom-built, problem specific, heuristic that always produces feasible solutions; or it can be a heuristic that simply generates random bit-strings. So long as there is at least one feasible solution in the population, it can be shown (Lemma~\ref{thm:improve}) that the merge operation will always produce a feasible solution and the random splitting heuristic ensures that any possible solution in the search space can be produced.
 
-When considering Merge Search as a general meta-heuristic framework, it does not matter how the population is produced; some methods will produce populations that lead to more efficient searches, and some methods will produce populations that require a very long time to find the optimal solution. As with most hybrid meta-heuristic search techniques, it becomes about finding a good balance between how much computational effort is spent on exploration through, ensuring diversity of the population, and how much is spent on exploitation, through focusing on one particular area of the search space.
-
-A generic neighbourhood search method can be defined for MIPs by fixing all but \(u\) variables (where \(u\) is a given fraction of the full set of decision variables) to the value of a given solution and solving this subproblem over the remaining \(u\) variables. Alternatively, a neighbourhood search can be performed generically using the machinery of Merge Search itself: define a random partition of variables, split that partition randomly and solve the subproblem induced by that partition. The number of neighbouring solutions $m$ is an algorithm parameter.
+When considering merge search as a general meta-heuristic framework, it does not matter how the population is produced; some methods will produce populations that lead to more efficient searches, and some methods will produce populations that require a very long time to find the optimal solution. As with most hybrid meta-heuristic search techniques, it becomes about finding a good balance between how much computational effort is spent on exploration through, ensuring diversity of the population, and how much is spent on exploitation, through focusing on one particular area of the search space.
 
 Once a population has been generated, it can be used to define a partition on the decision variables.
 
-\subsubsection*{Defining the partition (Step~\ref{step:P})}
+\subsubsection*{\bf Defining the partition (Step~\ref{step:P})}
 
-% can be implemented either by
-%   starting with a single set $\{1,\ldots,n\}$ and iteratively partitioning it
-%   where variables take on different values. Alternatively, we can define it
-%   based on the unique set of solution values for $v\in\mathbb{R}^{|S|}$:
-%   $P(v)=\{i\mid s_i = v_i\ \forall s\in S\}$ and $\mathcal{P}=\{P(v)\mid
-%   P(v)\ne \emptyset\}$. At worst each set is a singleton, though in practice
-%   we expect a quite small number of sets because (a) we are dealing with
-%   combinatorial problems where most variables are either zero or one (or take
-%   on a small number of values), and (b) the neighbourhood search tends to
-%   generate a population of solutions with more similarity than just randomly
-%   constructed solutions.
+The simplest way to partition the decision variables for a problem with a population of solutions $S = \{s_1,\dots,s_m\}\cup \{x^{k-1}\}$ is to divide them into three groups: variables that \emph{always} take the value 0 across all solutions; variables that \emph{always} take the value 1 across all solutions; and variables that take \emph{either} 0 or 1 across all solutions. This partition can be used to produce a reduced sub-problem with the variables that are in the first group fixed to 0; the variables that are in the second group fixed to 1; and the variables that are in the third group allowed to take either.
 
-The simplest way to partition the decision variables for a problem with a population of solutions $S = \{s_1,\dots,s_m\}\cup \{x^{k-1}\}$ is to divide them into three groups: variables that \emph{always} take the value 0 across all solutions; variables that \emph{always} take the value 1 across all solutions; and variables that take \emph{either} 0 or 1 across all solutions. This partition can be used to produce a reduced subproblem with the variables that are in the first group fixed to 0; the variables that are in the second group fixed to 1; and the variables that are in the third group allowed to take either 0 or 1.
+In this sense, merge search can be thought of as a generalisation of an optimised, multi-parent uniform crossover operator similar to that used in the genetic algorithm (GA). In the uniform crossover operator for GA~\cite{meta-essentials}, each decision variable is considered in turn and its value selected from one of two parents with some probability. Because the value for every decision variable must be taken from either parent, no matter how many offspring are produced from these two parents the set of decision variables that are 1 for both parents will \emph{always} take the value 1, and the set of variables that are 0 for both parents will \emph{always} take the value 0. Effectively, these variables have been fixed and the only variables that are free to take either 0 or 1 are those that are not in either of these sets. This is exactly equivalent to performing a simple merge operation, without grouping, on a population consisting of two solutions; but where uniform crossover merely randomly samples the sub-space of solutions produced by the two parents, the merge operation searches that sub-space for the (locally) optimal offspring. Uniform crossover is also \emph{restricted} to a population of size two, whereas merge search generalises this idea to any arbitrary population size.
 
-In this sense, Merge Search can be thought of as a generalisation of an optimised, multi-parent uniform crossover operator similar to that used in the genetic algorithm (GA). In the uniform crossover operator for GA~\cite{Luke2009}, each decision variable is considered in turn and its value selected from one of two parents with some probability. Because the value for every decision variable must be taken from either parent, no matter how many offspring are produced from these two parents the set of decision variables that are 1 for both parents will \emph{always} take the value 1, and the set of variables that are 0 for both parents will \emph{always} take the value 0. Effectively, these variables have been fixed and the only variables that are free to take either 0 or 1 are those that are not in either of these sets. This is exactly equivalent to performing a simple merge operation, without grouping, on a population consisting of two solutions; but where uniform crossover merely randomly samples the sub-space of solutions produced by the two parents, the merge operation searches that sub-space for the (locally) optimal offspring. Uniform crossover is also \emph{restricted} to a population of size two, whereas Merge Search generalises this idea to any arbitrary population size.
-
-Using this na{\"\i}ve method of partitioning, with a very diverse population, when considering each variable in the $0/1$ region individually can result in very little reduction in the size of the subproblem produced. For this reason, a more sophisticated way of partitioning the decision variables is defined.
+Using this na{\"\i}ve method of partitioning, with a very diverse population, when considering each variable in the $0/1$ region individually can result in very little reduction in the size of the sub-problem produced. For this reason, a more sophisticated way of partitioning the decision variables is defined.
 
 \begin{definition}\label{prop:part}
-Let $x$ be the set of decision variables for a given problem, then the set $s_i \subseteq x$ is the set of decision variables that take the value 1 in a given solution $i$ and $S = \{s_1,\dots,s_m\}$ is a population of $m$ solutions. Now, a \bemph{merge partition} is the set ${\cal P} = \{P \mid \bigcap_{i=1}^{m} s^{b_i}_i,\ b \in \Bin^m\}$ %\mynotes{(are we allowed to say $\S{Z} \neq \emptyset$? isn't the empty-set an element of every set anyway, so subtracting it makes no sense..?)},
- % \{\S{Z}_1,\S{Z}_2,\dots,\S{Z}_k\}$ is defined such that each $\S{Z}_i$ is the (non-empty) intersection of $\S{S}_1^1$ or $\S{S}_1^0$ through to $\S{S}_m^1$ or $\S{S}_m^0$, 
+Let $x$ be the set of decision variables for a given problem, then the set $s_i \subseteq x$ is the set of decision variables that take the value 1 in a given solution $i$ and $S = \{s_1,\dots,s_m\}$ is a population of $m$ solutions. Now, a \bemph{merge partition} is the set ${\cal P} = \{P \mid \bigcap_{i=1}^{m} s^{b_i}_i,\ b \in \Bin^m\}$, 
 where $s_i^1 = s_i$ and $s_i^0 = s \setminus s_i$.
 \end{definition}
 
@@ -727,18 +326,18 @@ where $s_i^1 = s_i$ and $s_i^0 = s \setminus s_i$.
 
 Figure~\ref{fig:group_part} illustrates all possible partitions that can be induced by a population of three solutions. The shaded circles indicate all of the variable assignments that are included in a particular solution. Here, partition $P_1=s^0_1 \cap s^0_2 \cap s^0_3$, which corresponds to the set of decision variables that take the value 0 across all solutions; partition $P_6=s^1_1 \cap s^1_2 \cap s^1_3$, which corresponds to the set of decision variables that take the value 1 across all solutions; and the other partitions correspond to sets of decision variables that, while they do not take the same value across all solutions, \emph{agree amongst themselves} across all solutions. For example, all decision variables in partition $P_5$ take a 0 in $s_2$ and a 1 in $s_1$ and $s_3$.
  
-By partitioning the decision variables in this manner, it is reasonable to assume that --- given a big enough population size --- were a new solution to be generated, the majority of the decision variables in the new solution would agree with the other variables in their respective partitions. Therefore, the decision variables can be aggregated into groups in the reduced subproblem, with each partition being considered as an individual variable. 
+By partitioning the decision variables in this manner, it is reasonable to assume that --- given a big enough population size --- were a new solution to be generated, the majority of the decision variables in the new solution would agree with the other variables in their respective partitions. Therefore, the decision variables can be aggregated into groups in the reduced sub-problem, with each partition being considered as an individual variable. 
 
-The theoretical maximum number of partitions (and therefore, decision variables in the reduced subproblem) possible in a merge population of $m$ solutions is $2^m$. This theoretical maximum is only achieved when,
+The theoretical maximum number of partitions (and therefore, decision variables in the reduced sub-problem) possible in a merge population of $m$ solutions is $2^m$. This theoretical maximum is only achieved when,
 \begin{equation*}
 \forall (s_i,s_j) \in S^2,\ s^b_i \cap s^c_j \neq \emptyset, \forall b,c \in \Bin; \label{sec:merge:part:bound}
 \end{equation*}
 
 however, typically not all solutions in a population will interact with all other solutions (i.e., there exist some pairs of solutions $(s_i,s_j) \in S^2$ such that $s^b_i \cap s^c_j \neq \emptyset, \forall b,c \in \Bin$), so $|{\cal P}| << 2^{|S|}$, in practice.
 
-\subsubsection*{Random splitting (Step~\ref{step:RandSplit})}
+\subsubsection*{\bf Random splitting (Step~\ref{step:RandSplit})}
 
-When generating a population by sampling the neighbourhood around an initial solution, the size of the partition induced by this set of solutions is typically quite small. As the size of this partition directly affects the size of the reduced subproblem, it is useful to be able to control the size of partition to increase the size of the merge neighbourhood that is searched. One way to do this is through a process called \emph{random splitting}. 
+When generating a population by sampling the neighbourhood around an initial solution, the size of the partition induced by this set of solutions is typically quite small. As the size of this partition directly affects the size of the reduced sub-problem, it is useful to be able to control the size of partition to increase the size of the merge neighbourhood that is searched. One way to do this is through a process called \emph{random splitting}. 
 %
 \begin{definition}\label{def:split}
 Given a set $\S{S}$, a \bemph{random split} is some heuristic process that produces two sets, $\S{S}_1$ and $\S{S}_2$, such that $\S{S}_1 \cup \S{S}_2 = \S{S}$ and $\S{S}_1 \cap \S{S}_2 = \emptyset$.
@@ -762,15 +361,25 @@ There are many ways that a random splitting heuristic can be designed. The simpl
 \label{fig:random_split}
 \end{figure}
 
+\begin{figure*}[t]
+  \centering
+  \subfloat[Optimal solution $x^*$\label{fig:merge-opt}]{\includegraphics[width = 0.23\textwidth]{merge-opt2.eps}}\quad 
+  \subfloat[Merge partitions ${\cal P}$\label{fig:merge-nhood}]{\includegraphics[width = 0.23\textwidth]{merge-nhood_red.eps}}\quad%\\ 
+  \subfloat[Sub-problem solution $z^*$\label{fig:merge-sol}]{\includegraphics[width = 0.23\textwidth]{merge-sol.eps}}\quad
+  \subfloat[Merged $f(x^k) \leq f(x^*)$\label{fig:merge-approx}]{\includegraphics[width = 0.23\textwidth]{merge-approx.eps}}
+  \caption{Solving the reduced sub-problem induced by the partitions ${\cal P}$, gives an approximate solution to the master problem.} 
+    \label{fig:merge-solve}
+\end{figure*}
+
 In this figure, the ``natural'' partitions for the population $\{s_1,s_2,s_3\}$ are indicated by the blocks with shades of red, shades of blue and shades of green. By adding the random bit string $s_M$ to the population, each natural partition has been arbitrarily split into two, indicated by the light and dark colour shades.
 
 While this method is the simplest, it does not take into account any of the constraints, or the implicit structure of the problem. This means that, for highly constrained problems, the partitioning produced by this method is likely to be no more effective than the natural partitioning induced by the population itself. Therefore, in practice, it is wise to design a heuristic splitting method with these considerations in mind; however, if no such method is possible, it is theoretically possible to produce the optimal solution by simply using random splitting alone --- when allowed enough time.
 
 \medskip
 
-If defining a partition on a set of solutions can be said to be analgous to the crossover operator for GA, then splitting the partition is analogous to its mutation operator. As has been already established, crossover only allows solutions to be sampled from the sub-space induced by the properties of the two parents, not the entire search space; the same is true for defining a partition on the decision variables as described in the previous section --- if $x_i = x_j$ across all solutions, any solution produced by merging in this way will also have $x_i = x_j$. In order to allow GA to produce any solution in the entire search space, a mutation operator is introduced; the simplest version of which selects a gene at random and flips its corresponding bit. This can be seen as a special case of the Merge Search heuristic, where a population consisting of a single solution and a single bit string with only one arbitrary 1 in it is merged. Here, the decision variables are partitioned into three groups: the group of variables that took the value 0 in the original solution; the group of variables that took the value 1 in the original solution; and the single variable to be ``mutated''. Again, as with the crossover analogy, whereas the mutation operator for GA merely samples the sub-space, Merge Search searches it to find the (locally) optimal choice.
+If defining a partition on a set of solutions can be said to be analgous to the crossover operator for GA, then splitting the partition is analogous to its mutation operator. As has been already established, crossover only allows solutions to be sampled from the sub-space induced by the properties of the two parents, not the entire search space; the same is true for defining a partition on the decision variables as described in the previous section --- if $x_i = x_j$ across all solutions, any solution produced by merging in this way will also have $x_i = x_j$. In order to allow GA to produce any solution in the entire search space, a mutation operator is needed; the simplest version of which selects a gene at random and flips its corresponding bit. This can be seen as a special case of merge search, where a population consisting of a single solution and a single bit string with only one arbitrary 1 in it is merged. Here, the decision variables are partitioned into three groups: the group of variables that took the value 0 in the original solution; the group of variables that took the value 1 in the original solution; and the single variable to be ``mutated''. Again, as with the crossover analogy, whereas the mutation operator for GA merely samples the sub-space, merge search searches it to find the (locally) optimal choice.
 
-By extending this idea further, it can also be shown that large neighbourhood search (LNS)~\cite{Pisinger2010}, or indeed any \emph{destroy-and-repair} heuristic, is a special case of Merge Search. To demonstrate this, a population is constructed that consists of a single solution $s$ and a set of unique bit string masks $\{M_1,M_2,\dots,M_m\}$, each with a single arbitrary bit flipped to 1, the rest of the bits are all zeroes. 
+By extending this idea further, it can also be shown that large neighbourhood search (LNS)~\cite{lns-book}, or indeed any \emph{destroy-and-repair} heuristic, is a special case of merge search. To demonstrate this, a population is constructed that consists of a single solution $s$ and a set of unique bit string masks $\{M_1,M_2,\dots,M_m\}$, each with a single arbitrary bit flipped to 1, the rest of the bits are all zeroes. 
 
 \begin{figure}[h]
 \centering
@@ -782,72 +391,25 @@ By extending this idea further, it can also be shown that large neighbourhood se
 \label{fig:lns-merge}
 \end{figure}
 
-Figure~\ref{fig:lns-merge} shows that when this population is merged, the decision variables are partitioned into $m+2$ groups: variables that took the value 0 in the original solution (red); variables that took the value 1 in the original solution (green); and $m$ partitions containing a single variable, associated with each of the bit string masks (shades of blue). If the ratio of $m$ to $n$ is sufficient, such that enough of the original solution structure is maintained, then all those variables that took 0 or 1 in the original solution will be effectively fixed to their respective values in the reduced subproblem, and all those variables in the $m$ singleton partitions are free to take either 0 or 1 in the solution to the reduced subproblem. This is equivalent to LNS, where a subset of the variables in a given solution is selected for ``destruction'' (i.e., removed from the solution) and the solution is ``repaired'' by solving the partial solution to (local) optimality. 
+Figure~\ref{fig:lns-merge} shows that when this population is merged, the decision variables are partitioned into $m+2$ groups: variables that took the value 0 in the original solution (red); variables that took the value 1 in the original solution (green); and $m$ partitions containing a single variable, associated with each of the bit string masks (shades of blue). If the ratio of $m$ to $n$ is sufficient, such that enough of the original solution structure is maintained, then all those variables that took 0 or 1 in the original solution will be effectively fixed to their respective values in the reduced sub-problem, and all those variables in the $m$ singleton partitions are free to take either 0 or 1 in the solution to the reduced sub-problem. This is equivalent to LNS, where a subset of the variables in a given solution is selected for ``destruction'' (i.e., removed from the solution) and the solution is ``repaired'' by solving the partial solution to (local) optimality. 
 
-\subsubsection*{Solution merging (Step~\ref{step:merge})}
-All of the steps leading up to this point have been working to construct a reduced subproblem, which can now be solved, using an exact solver or some other method, to produce a locally optimal solution for use in the next iteration of the process. In very general terms, the reduced subproblem takes the following form:
-\begin{align}
+\subsubsection*{\bf Solution merging (Step~\ref{step:merge})}
+All of the steps leading up to this point have been working to construct a reduced sub-problem, which can now be solved, using an exact solver or some other method, to produce a locally optimal solution for use in the next iteration of the process. In very general terms, the reduced sub-problem takes the following form:
+\begin{align*}
               \Min \quad & f(\V{x})\label{eq:merge_group}\\
               \ST \quad  &\V{x} \in \S{F} \subseteq \Int_2^{|\V{x}|},\nonumber\\
               & x_i = x_j \quad \forall i,j \in P, P \in {\cal P}.\nonumber
-\end{align}
+\end{align*}
 Recall, $S$ is the generated population of solutions and ${\cal P} = \{P_1,P_2,\dots,P_p\}$ is the set of merge partitions produced by the population and the random splitting heuristic.
 
-For problems with large numbers of decision variables, it can be practical to replace the set of problem variables $x$ with a vector of partition variables $z$. This will often create a certain amount of overhead in constructing the model for the reduced subproblem as constraints need to be transformed to be in terms of partition variables instead of decision variables --- and then again, when the produced solution must be re-expressed in terms of the problem variables. However, this usually results in the model taking up much less space in memory.
+For problems with large numbers of decision variables, it can be practical to replace the set of problem variables $x$ with a vector of partition variables $z$. This will often create a certain amount of overhead in constructing the model for the reduced sub-problem as constraints need to be transformed to be in terms of partition variables instead of decision variables --- and then again, when the produced solution must be re-expressed in terms of the problem variables. However, this usually results in the model taking up much less space in memory.
 
-Finding the globally optimal solution to the reduced subproblem will give a locally optimal solution to the master problem Figure~\ref{fig:merge-solve} gives an illustration of this process.
+Finding the globally optimal solution to the reduced sub-problem will give a locally optimal solution to the master problem Figure~\ref{fig:merge-solve} gives an illustration of this process.
 
-\begin{figure*}[h]
-  \centering
-  \subfloat[Optimal solution $x^*$\label{fig:merge-opt}]{\includegraphics[width = 0.23\textwidth]{merge-opt2.eps}}\quad 
-  \subfloat[Merge partitions ${\cal P}$\label{fig:merge-nhood}]{\includegraphics[width = 0.23\textwidth]{merge-nhood_red.eps}}\quad%\\ 
-  \subfloat[Sub-problem solution $z^*$\label{fig:merge-sol}]{\includegraphics[width = 0.23\textwidth]{merge-sol.eps}}\quad
-  \subfloat[Merged $f(x^k) \leq f(x^*)$\label{fig:merge-approx}]{\includegraphics[width = 0.23\textwidth]{merge-approx.eps}}
-  \caption[Solving the reduced subproblem gives an approximate solution to the master problem]{Solving the reduced subproblem induced by the merge partitions ${\cal P}$ to optimality, gives an approximate solution to the master problem.} 
-    \label{fig:merge-solve}
-\end{figure*}
-
-The partition on the decision variables representing the optimal solution $x^* \in {\cal F}$ is shown in blue in Figure~\ref{fig:merge-opt}. Figure~\ref{fig:merge-nhood} shows the merge partitions produced by merging the population $S$ and applying the random splitting heuristic. Here, the initial solution $x^{k-1}$ is the straight red partition boundary and each neighbouring solution in the population is represented by two triangular regions protruding from either side of this boundary. These regions represent the decision variables that take different values in the neighbouring solution, with respect to the initial --- regions on the left of the boundary indicate variables that have changed from 0 to 1 in the new solution, regions on the right indicate those that have changed from 1 to 0. The population is merged and split to produce the reduced subproblem which is expressed in terms of a set of partition variables $z$. This reduced subproblem is then solved using an exact solver or some other method. Figure~\ref{fig:merge-sol} shows that the optimal solution to the subproblem $z^*$ is a partition constructed from a subset of the boundaries of the merge partitions. Finally, $z^*$ is mapped back to a solution to the master problem $x^k$ (Figure~\ref{fig:merge-sol}), an approximation of $x^*$. If the stopping criteria is not yet met, then the merged solution $x^k$ is used as the initial solution for the next iteration.
+The partition on the decision variables representing the optimal solution $x^* \in {\cal F}$ is shown in blue in Figure~\ref{fig:merge-opt}. Figure~\ref{fig:merge-nhood} shows the merge partitions produced by merging the population $S$ and applying the random splitting heuristic. Here, the initial solution $x^{k-1}$ is the straight red partition boundary and each neighbouring solution in the population is represented by two triangular regions protruding from either side of this boundary. These regions represent the decision variables that take different values in the neighbouring solution, with respect to the initial --- regions on the left of the boundary indicate variables that have changed from 0 to 1 in the new solution, regions on the right indicate those that have changed from 1 to 0. The population is merged and split to produce the reduced sub-problem which is expressed in terms of a set of partition variables $z$. This reduced sub-problem is then solved using an exact solver or some other method. Figure~\ref{fig:merge-sol} shows that the optimal solution to the sub-problem $z^*$ is a partition constructed from a subset of the boundaries of the merge partitions. Finally, $z^*$ is mapped back to a solution to the master problem $x^k$ (Figure~\ref{fig:merge-sol}), an approximation of $x^*$. If the stopping criteria is not yet met, then the merged solution $x^k$ is used as the initial solution for the next iteration.
 
 Provided there is at least one feasible solution in the population at the time of merging, the merged solution $x^k$ will always be feasible. As the merge partitions are formed by the intersections of all the members in the population $S$ (and then randomly split), any solution $s_i \in S$ can be reconstructed by simply including all partitions that are associated with that solution. This is illustrated in Figure~\ref{fig:group_part} above, where $s_1$ can be constructed by the union of partitions $P_2 \cup P_3 \cup P_5 \cup P_6$. If $s_i$ is feasible, then the final merge operation is able to produce $s_i$ as $x^k$; meaning that, so long as the initial solution $x^{k-1}$ is feasible, $x^{k-1}$ will be a lower bound on the solution produced by merging and $f(x^{k-1}) \leq f(x^k) \leq f(x^*)$, even if the entire rest of the population consists of randomly generated bit strings, representing infeasible solutions.
 
-% \begin{itemize}
-% \item Neighbourhood Search (Step~\ref{step:nbhd}): This generates a population
-%   of solutions for the merge step. While any heuristic method could be used
-%   here, it will be assumed that it produces a randomised solution (so that the
-%   solutions are nearly always different) and that the neighbourhood is sufficiently
-%   large that the solutions produced will differ from the original $x^{k-1}$ in
-%   several variables. The number of neighbouring solutions $m$ is an algorithm
-%   parameter.
-% \item Partitioning (Step~\ref{step:P}) can be implemented either by
-%   starting with a single set $\{1,\ldots,n\}$ and iteratively partitioning it
-%   where variables take on different values. Alternatively, we can define it
-%   based on the unique set of solution values for $v\in\mathbb{R}^{|S|}$:
-%   $P(v)=\{i\mid s_i = v_i\ \forall s\in S\}$ and $\mathcal{P}=\{P(v)\mid
-%   P(v)\ne \emptyset\}$. At worst each set is a singleton, though in practice
-%   we expect a quite small number of sets because (a) we are dealing with
-%   combinatorial problems where most variables are either zero or one (or take
-%   on a small number of values), and (b) the neighbourhood search tends to
-%   generate a population of solutions with more similarity than just randomly
-%   constructed solutions.
-% \item Random Splitting (Step~\ref{step:RandSplit}) allows more control
-%   over the size of $\mathcal{P}$ and hence the size of the problem solved in
-%   the next step as typically $|\mathcal{P}|$ is quite small. Hence, this step creates 
-%   a larger neighbourhood by carrying out random splitting of subsets. In fact it is
-%   possible to run an extreme form of this algorithm with $m=0$ so that only
-%   the random splitting in this step is used to define a neighbourhood. 
-%   The choice of how to split subsets (perhaps with some biased randomisation) 
-%   should be done in a problem dependent manner, as the choice of neighbourhood 
-%   generated in this manner will clearly affect the effectiveness of the overall 
-%   algorithm.
-% \item Merging of solutions occurs in Step~\ref{step:merge}. It should be noted that this is
-%   essentially a variant of the original problem but with significantly fewer
-%   variables (one variable per $P\in\mathcal{P}$, $|\mathcal{P}|=K\ll n$). This
-%   makes the step particularly amenable to use with integer or constraint
-%   programming, where general purpose solvers generally cope well with small to
-%   medium sized problems but solve times deteriorate rapidly as the problem
-%   size increases. 
-% \end{itemize}
 
 \subsection{Properties of Merge Search}
 There are some simple but important properties that follow directly from the way this matheuristic has been defined.
@@ -883,92 +445,34 @@ challenging task. Furthermore, the following property holds:
 \end{proof}
 While convergence to the optimal solution is of course extremely unlikely for practical sized instances, the lemma shows that it is at least theoretically possible. Furthermore, while $2^{m+2}$ appears quite large, the only real requirement is that $K$ is sufficiently large to allow each element of $\cal P$ to be split once, with $|\mathcal{P}|$ typically much smaller than $2^{m+1}$ in practice. Hence, while Merge Search is a hill-climbing method, it is at least in principle possible for the method to reach a global optimum from any starting point.
 
-
 \subsection{Comparison with CMSA}
-As mentioned previously, it may be noted here that this meta-heuristic has some similarity to the
-recently published CMSA heuristic by~\cite{Blum2016}. Starting with an empty subinstance of the problem $\mathcal{C}^\prime$, solutions are probabilistically generated in this method, from scratch, and their components added to $\mathcal{C}^\prime$. This reduced subinstance is then solved using an exact solver and a so-called ``ageing'' mechanism is used to remove components from $\mathcal{C}^\prime$ that have not been useful in the preceding iterations. 
-
-Although there are some similarities between Merge Search and CMSA, there are two areas where Merge Search diverges significantly from it. These are:
+As mentioned previously, it may be noted here that this meta-heuristic has some similarity to the recently published CMSA heuristic by~\cite{cmsa}. Although there are some similarities between merge search and CMSA, there are two areas where merge search diverges significantly from it. These are:
 \begin{itemize}
 \item the generation of candidate solutions to be merged; and
-\item the aggregation of decision variables in the reduced subproblem.
+\item the aggregation of decision variables in the reduced sub-problem.
 \end{itemize}
-The CMSA subproblems are still defined based on a population of solutions, however these solutions are constructed probabilistically, with each solution being generated from scratch. This has the two-fold effect of reducing the capacity of CMSA to learn from the best individual solution found so far, and also makes it impractical when trying to solve large-scale, or very complicated, problems for which constructing a feasible solution is extremely time consuming, such as the PCPSP that is considered here. Merge search avoids this issue by heuristically constructing an initial solution and then sampling its neighbourhood in order to generate a population, which is then used to define its subproblems. The effect of this is to make the time taken to generate the population of solutions dependent on the local search algorithm used to sample the neighbourhood of a given feasible solution which is often much faster than the algorithm used to find feasible solutions from scratch. Of course, this leaves Merge Search potentially susceptible to being overly sensitive to the quality of the initial solution --- as discussed previously in this section --- however, this can be mitigated by increasing the diversity of the population, or further splitting the merge partitions. 
+The CMSA sub-problems are still defined based on a population of solutions, however these solutions are constructed probabilistically, with each solution being generated from scratch. This has the two-fold effect of reducing the capacity of CMSA to learn from the best individual solution found so far, and also makes it impractical when trying to solve large-scale, or very complicated, problems for which constructing a feasible solution is extremely time consuming, such as the CPIT problem that is considered here. Merge search avoids this issue by heuristically constructing an initial solution and then sampling its neighbourhood in order to generate a population, which is then used to define its sub-problems. The effect of this is to make the time taken to generate the population of solutions dependent on the local search algorithm used to sample the neighbourhood of a given feasible solution which is often much faster than the algorithm used to find feasible solutions from scratch. Of course, this leaves merge search potentially susceptible to being overly sensitive to the quality of the initial solution; however, this can be mitigated by increasing the diversity of the population, or further splitting the merge partitions. 
 
-The second area where there is a significant divergence between the two methods is in the aggregation of decision variables. CMSA uses its population of constructed solutions to determine the variables that are to be included in its reduced subproblem. If a variable is represented by an element of one of the candidate solutions in the population, it is automatically included in the reduced subproblem. These variables are added to the subproblem individually, and as such this aspect functions similarly to large neighbourhood search (LNS). One consequence of this is that the subproblems can become very large, especially for problems where there are naturally many non-zero values in a solution. To combat this, a so-called ``ageing'' mechanism is introduced in CMSA to ensure that elements that have not been useful in producing good quality solutions recently are removed from the pool of solution elements. In contrast, Merge Search uses information from across the entire population to determine which variables are added into the reduced subproblem as well as to aggregate variables that share common values across the population, and so likely share some kind of dependency. This grouping allows for more compact subproblems and a much larger region of the search space can be covered for the same computational power. The trade-off for this is much coarser-grained solutions, however this can be alleviated by the introduction of random splitting to these groups to help escape local optima.
+The second area where there is a significant divergence between the two methods is in the aggregation of decision variables. CMSA uses its population of constructed solutions to determine the variables that are to be included in its reduced sub-problem. If a variable is represented by an element of one of the candidate solutions in the population, it is automatically included in the reduced sub-problem. These variables are added to the sub-problem individually, and as such this aspect functions similarly to large neighbourhood search (LNS). One consequence of this is that the sub-problems can become very large, especially for problems where there are naturally many non-zero values in a solution. To combat this, a so-called ``ageing'' mechanism is introduced in CMSA to ensure that elements that have not been useful in producing good quality solutions recently are removed from the pool of solution elements. In contrast, merge search uses information from across the entire population to determine which variables are added into the reduced sub-problem as well as to aggregate variables that share common values across the population, and so likely share some kind of dependency. This grouping allows for more compact sub-problems and a much larger region of the search space can be covered for the same computational power. The trade-off for this is much coarser-grained solutions, however this can be alleviated by the introduction of random splitting to these groups to help escape local optima.
 
-% there are some significant differences. Most
-% important is that the CMSA subproblems, while still defined based on a
-% population of solutions, does not involve any aggregation of variables so that these
-% subproblems can become very large unless the problem naturally has few
-% non-zero values in the solution. Hence, the method as proposed in \cite{Blum2016}
-% would be completely impractical for the problem considered here, because it has
-% millions of non-zero variable values in solutions to large instances.
-% Furthermore, CMSA relies on random construction to create populations of
-% solutions, which reduces the ability to learn from the best solution found
-% so far. The reliance purely on populations of feasible solutions (without the random splitting) also means that it relies purely on the random solution construction to escape any local optima. Finally, CMSA introduces an aging process to manage solution
-% components, which is absent here.
+\section{Merge Search in Practice}
+Section~\ref{sec:back} introduced the two problems that merge search was applied to in order to demonstrate its effectiveness and versatility: the constrained pit-limit (CPIT) problem; and the Steiner tree problem in graphs (STPG). This section gives the details of how merge search was applied to solve them.
 
+\subsection{The CPIT problem}
 
-\section{Applying Merge Search to solve problems}
-Merge Search is presented here as a general hybrid meta-heuristic framework for solving constrained combinatorial optimisation problems. In order to demonstrate its effectiveness and versatility, Merge Search is applied to two problems from two different domains: the constrained pit-limit (CPIT) problem, an abstraction of a real-life problem from open-pit mining; and the Steiner tree problem in graphs (STPG), a famous NP-Complete problem which is very well-studied in the literature.
-
-\subsection{Open-pit mining problems}
-Open-pit mining is a very important industry in Australia and around the world~\cite{singh}. Two of the most critical tasks within the life-cycle of an open-pit mine is planning and production scheduling. These tasks allow the mine operator to estimate the total value of the mine over its life and also to identify areas for excavation that will yield the most value. Proper planning of a mine ensures maximum profit for the operator and, because this is typically talked about in the hundreds of millions of dollars, it is an excellent application for optimisation techniques as very small changes in efficiency can still translate to significant sums of money.\par
-
-In order to model something so complex as a combinatorial optimisation problem, the earth to be mined (known as the \emph{orebody}) is typically discretised into a three-dimensional array of \emph{blocks} with each assigned a value based on the ore content and the cost required to excavate it. These values are calculated by taking core samples and using geological and statistical methods to estimate the value of each block. The aim is to maximise the net present value (NPV) of the mine by determining the set of blocks to extract and the order in which to extract them~\cite{Meagher2014}.\par
-
-Problems in mine planning and production scheduling are very large and tend to have few side-constraints (often well under a hundred), but many blocks and many, many more precedence constraints governing when blocks can be mined. This means traditional mathematical solvers are unable to solve these problems without first using some form of decomposition, making these problems perfect candidates for hybrid meta-heuristics, despite there being very little in the literature.\par
-
-Due to the sensitive nature of information surrounding mining enterprises, obtaining problem data for academic research can be challenging, however the website \emph{minelib}~\cite{espinoza_minelib:_2012} has a repository of problems and results that are freely available to the general public. These sets contain data for versions of the problem such as the ultimate pit limit (UPIT), constrained pit-limit and the precedence constrained production scheduling problem (PCPSP). It is the CPIT problem that will be the focus of these experiments.\par
-
-\subsubsection{Solving CPIT with Merge Search}
-
-\cite{Kenny:2017} describe a novel representation for the this type of problem and a greedy randomised adaptive search procedure (GRASP) algorithm for solving it. They build on this with local search operator for the CPIT problem, and use it in a simple merge search algorithm that operates without variable partitioning or random splitting~\cite{Kenny:2018}. By incorporating a variable partitioning mechanism, a much larger region of the search space is able to be explored for the same computational budget~\cite{Kenny:2019}. They exploit the structure of the problem, and treat many decision variables as a single group. This allows the size of the mixed-integer programming sub-problem to be greatly reduced and hence, the time required to solve it.\par
+Kenny et al. \cite{gecco17} describe a novel representation for the precedence constrained production scheduling problem (PCPSP) --- a related problem to CPIT --- and a greedy randomised adaptive search procedure (GRASP) algorithm for solving it. They build on this with local search operator for the CPIT problem, and use it in a simple merge search framework that operates without variable partitioning or random splitting~\cite{gecco18}. By incorporating a variable partitioning mechanism, they show that a much larger region of the search space is able to be explored for the same computational budget~\cite{gecco19}. They exploit the structure of the problem, and treat many decision variables as a single group. This allows the size of the mixed-integer programming sub-problem to be greatly reduced and hence, the time required to solve it. A modified version of the CPIT formulation is given in Appendix~\ref{app:cpit} (Equation~\ref{eq:cpit_merge}).
 
 The algorithm presented in this paper is an exentsion of this work, with two additions: a random splitting heuristic, to allow greater granularity in the solutions produced; and a ``solution polishing'' technique, based on the local improvement heuristic from the GRASP algorithm.
 
-% \cmnt[angus]{is this enough information? should i include the pseudocode or something?}
+The random splitting heuristic is based on the local search neighbourhood. An arbitrary variable in a partition is selected and all other variables that are in the predecessor cone for that variable, in the time-expanded problem graph, are computed and split from the partition. This preserves the precedence relationships between the relative position of blocks in time and space. As the number of variables in the reduced sub-problem increases with each split that is made, the size of the reduced sub-problem can be controlled; and this splitting process performed until the desired size is reached.
+
+A solution polishing step is used to locally improve the best solution produced by merge search. A ``sliding window'' mechanism is employed which solves a reduced sub-problem that has all decision variables fixed except for those in time period $t$ and $t+1$, effectively allowing blocks to swap between time periods. The window of free variables is then moved to $t-1$ and $t$, and the process continues until the stopping conditions are met. This produces higher quality solutions, however the results in Section~\ref{sec:results} show that the combination of merge search and this polishing technique produces better results than by polishing alone.
 
 \subsection{The Steiner tree problem in graphs}
 
-The Steiner tree problem in graphs (STPG) is a classic problem in the field
-of combinatorial optimisation, the decision version being one of the original 
-21 NP-complete problems outlined by \cite{np:karp} in his seminal paper.
-Aside from being a fundamental problem in the abstract world of computing theory, 
-the STPG has numerous real-world applications in communications, pipeline and transport network
-design, computational biology and very
-large-scale integrated circuit (VLSI) design~\cite{vlsi:cho}.\par 
-Despite being around for centuries~\cite{history:brazil}, the STPG has also gained
-much attention in recent decades due to it being the mathematical structure behind 
-multicast networking problems~\cite{steiner:hwang}. Exact methods for solving the STPG 
-have been developed using techniques such as integer linear programming (ILP), 
-lagrangian relaxation and primal-dual strategies~\cite{pd:polzin}; however these approaches suffer from
-exponential worst-case computation times which can make some large-scale instances intractable. The current state-of-the-art 
-exact approaches to solving the STPG are hybrid~\cite{algo:polzin,algo:daneshmand}; 
-several algorithmic, graph reduction, metaheuristic and 
-mathematical programming techniques, working together to produce provably optimal solutions
-in a much faster time than traditional optimisation techniques alone.
-When good quality, but not necessarily optimal, solutions are required in a reasonable amount of
-time, metaheuristics and decomposition techniques have been used to tackle this problem; some of the
-more successful approaches in this manner have been memetic algorithms \cite{memetic:klau}, ant colony optimisation
-\cite{aco:singh,acogroup:nguyen}, local search techniques 
-\cite{fastls:uchoa,effectivels:wade} and voronoi-based 
-decomposition heuristics \cite{partition:leitner}.\par
+First described by Dowsland \cite{kp:dowsland}, but subsequently used widely by many researchers, is the so-called key path neighbourhood. A key path is defined as a path within a Steiner tree where the two end vertices are either terminal vertices or vertices of degree at least 3; all intermediate  vertices (if any) are of degree 2 and are not terminal. The useful property of such structures is that their removal from a solution to the STPG will always result in two disconnected trees which can then be subsequently reconnected. This local search neighbourhood was extended by Kenny et al.~\cite{gecco16}, by adding a so-called ``jump'' operator which aids in escaping local minima, and is used as the basis of the merge search algorithm presented in this paper.
 
-The STPG is extremely well-travelled, with many sophisticated pre-processing techniques and methods of finding good quality solutions already available in the literature. The purpose of including it in this paper is not to improve the current state-of-the-art results; but to provide a simple test-bed, upon which the properties of the proposed merge search algorithm can be investigated --- much more easily than with a more complex, real-world problem such as the constrained pit-limit problem, mentioned above.
-
-\subsubsection{Solving the STPG with Merge Search}
-
-First described by \cite{kp:dowsland}, but subsequently used widely by 
-many researchers, is the so-called key path neighbourhood.
-A key path is defined as a path within a Steiner tree where the two end vertices are
-either terminal vertices or vertices of degree at least 3; all intermediate 
-vertices (if any) are of degree 2 and are not terminal. The useful property of such
-structures is that their removal from a solution to the STPG will always result in two disconnected
-trees which can then be subsequently reconnected. This local search neighbourhood was extended by~\cite{Kenny:2016}, by adding a so-called ``jump'' operator which aids in escaping local minima, and is used as the basis of the Merge Search algorithm presented in this paper.
-
-The problem instance is first pre-processed using some of the techniques described in~\cite{pp:duin,pp:uchoa,stpg-reduce} to reduce the number of decision variables. An initial solution is constructed and a neighbouring population produced, using the methods described in~\cite{Kenny:2016}. This population of solutions is used to partition the decision variables in the manner described in Section~\ref{sec:MS}.
+The problem instance is first pre-processed using some of the techniques described in~\cite{pp:duin,pp:uchoa,stpg-reduce} to reduce the number of decision variables. An initial solution is constructed and a neighbouring population produced, using the methods described in~\cite{gecco16}. This population of solutions is used to partition the decision variables in the manner described in Section~\ref{sec:merge}.
 
 \begin{figure}[h]
 \centering
@@ -980,11 +484,11 @@ The problem instance is first pre-processed using some of the techniques describ
 
 These partitions can be split by selecting an arbitrary partition, and an arbitrary variable in that partition, and separating all variables representing vertices and edges that are connected to that arbitrary variable. This ensures that any partition is split such that all variables removed from the original partition comprise a connected sub-graph, and as such should be able to be included in the resultant merged solution on its own, without the original partition. If a partition is split such that all variables are separated, leaving the original partition empty, then the last variable added to the split is kept in the original partition. As the connected variables are added using DFS, this is always a variable on the boundary, and so this method will not suffer from the problems present with truely random splitting. 
 
-Having partitioned and split the decision variables, the resulting reduced subproblem can be solved using a version of the~\cite{goemans} MIP formulation that has been modified be expressed in terms of a single set of partition variables, instead of edge and vertex variables.
+Having partitioned and split the decision variables, the resulting reduced sub-problem can be solved using a version of the~\cite{goemans} MIP formulation that has been modified be expressed in terms of a single set of partition variables, instead of edge and vertex variables.
 
 % \cmnt[angus]{should i actually include the formulation (or pseudocode) here?}
 
-\section{Experiments}
+\section{Experiments}\label{sec:exper}
 This section details the experimental set up, the experiments performed and finally presents the results and discusses the implications those results suggest.
 \subsection{Datasets}
 \subsubsection*{The CPIT problem:}
@@ -1064,7 +568,7 @@ There are many techniques available in the literature for pre-processing instanc
 The experiments were carried out on an \emph{Intel{\textsuperscript{\textregistered}} Core{\textsuperscript{TM}} i5-2320} processor (3.0GHz) with 24GB RAM running Linux. All code was implemented in C++ with GCC-4.8.0. CPLEX Studio 12.7, operating with a single thread due to the need for callbacks, was employed as the mixed integer programming (MIP) solver. For the CPIT problem experiments, the boost library implementation of the Boykov-Kolmogorov algorithm was used to solve the UPIT sub-problem during the pre-processing stage.
 
 \subsubsection*{The CPIT problem:}
-The merge search algorithm was compared against the baselines of the results published on the \emph{minelib}~\cite{espinoza_minelib:_2012} website and the results from using a greedy randomised adaptive search procedure (GRASP) heuristic for the precedence constrained production scheduling problem (PCPSP)~\cite{Kenny:2017}, adapted for use with the CPIT problem. Also provided are the results for a variant of the merge search algorithm that uses variable grouping but no random splitting, previously published in~\cite{Kenny:2018} --- these results are included in order to illustrate the effect that random splitting has on solution quality. 
+The merge search algorithm was compared against the baselines of the results published on the \emph{minelib}~\cite{minelib} website and the results from using a greedy randomised adaptive search procedure (GRASP) heuristic for the precedence constrained production scheduling problem (PCPSP)~\cite{gecco17}, adapted for use with the CPIT problem. Also provided are the results for a variant of the merge search algorithm that uses variable grouping but no random splitting, previously published in~\cite{gecco18} --- these results are included in order to illustrate the effect that random splitting has on solution quality. 
 
 Each algorithm was run 20 times on each instance, recording the mean objective value and standard deviation of the resulting solution produced by each run. Finally, the last experiment performed was to use the local improvement heuristic from the GRASP algorithm to ``polish'' the best result produced by the merge algorithm.
 
@@ -1077,7 +581,7 @@ Additional experiments were performed to investigate the difference between usin
 % \cmnt[angus]{(will add appendix later)}
 % \cmnt[angus]{should i add some details about the parameters used here?}
 
-\section{Results and discussion}
+\section{Results and discussion}\label{sec:results}
 \subsection{The CPIT problem:}
 Table~\ref{tab:mine:main} provides the results of the three algorithms tested on the six problem instances from the \emph{minelib} dataset, along with the linear programming (LP) upper bound and the current best solution as published on the \emph{minelib} website, ordered from smallest problem instance to largest.
 
@@ -1661,21 +1165,11 @@ Although demonstrating that merge search can be applied to two very different pr
 %
 
 
-\appendices
-\section{Proof of the First Zonklar Equation}
-Appendix one text goes here.
-
-% you can choose not to have a title for an appendix
-% if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
+% % use section* for acknowledgment
+% \section*{Acknowledgment}
 
 
-% use section* for acknowledgment
-\section*{Acknowledgment}
-
-
-The authors would like to thank...
+% The authors would like to thank...
 
 
 % Can use something like this to put references on a page
@@ -1716,6 +1210,112 @@ The authors would like to thank...
 %   0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
 
 % \end{thebibliography}
+\newpage
+\appendices
+\section{CPIT Formulations}\label{app:cpit}
+\subsection*{Espinoza formulation}
+Espinoza et al. describe a mathematical programming formulation for the CPIT problem~\cite{minelib} which maximises the discounted profit summed over all blocks $b \in \S{B}$ and time periods $t \in \S{T}$, multiplied by the value of the decision variables $x_{bt}$. In their formulation, the variable $x_{bt}$ is equal to 1 if block $b$ is excavated at time $t$ and 0 otherwise.\par 
+
+The data for the CPIT problem consists of the following sets and parameters:
+
+% {\renewcommand{\arraystretch}{1.2}% for the vertical padding
+\begin{tabular}{p{0.05\linewidth}p{0.85\linewidth}}
+$\S{B}$ & the set of blocks;\\
+$\S{T}$ & the set of time periods;\\
+$\S{R}$ & the set of resources. Typically, $|\S{R}| = 2$;\\
+$\mathcal{P}$ & the set of precedences. $a \to b$ if $(a,b) \in \mathcal{P}$
+                means block $a$ must be mined before block $b$;\\
+$\hat{p}_{bt}$  & the discounted profit for mining block $b$ at time $t$
+            (can be negative if it is a cost only). This
+            is simply $\frac{p_b}{(1+\alpha)^t}$ for some base cost
+            $p_b$ and a discount value typically 0.1;\\
+$q_{br}$ & the amount of resources required to extract block $b$;\\
+$\overline{\S{R}}_{rt}$ & the maximum amount of resource $r$ available in time period $t$; and\\\hfill\\
+$\underline{\S{R}}_{rt}$ & the minimum amount of resource $r$ that must be consumed in time period $t$ (typically 0).\\\hfill\\
+\end{tabular}
+% }
+\par
+The variables used to solve this problem are:\\\hfill\\
+\begin{tabular}{p{0.05\linewidth}p{0.85\linewidth}}
+$x_{bt}$ & is a matrix of binary variables in $\Bin^{|\S{B}||\S{T}|}$ that are 1 if block $b$ is mined in
+                      period $t$ and 0 otherwise.\\\hfill\\
+\end{tabular}
+
+Using this notation, the problem is written as:
+\begin{align}
+\Max \quad & \displaystyle\sum_{b \in \S{B}}\displaystyle\sum_{t \in \S{T}} \hat{p}_{bt}x_{bt},\label{eq:cpit_form}\\
+\ST \quad & \displaystyle\sum_{\tau \leq t}x_{b\tau} \leq \displaystyle\sum_{\tau \leq t}x_{a\tau} \qquad \qquad & \forall\ (a,b) \in \mathcal{P}, t \in \S{T},\nonumber\\
+& \displaystyle\sum_{t \in \S{T}}x_{bt} \leq 1 & \forall\ b \in \S{B},\nonumber\\
+& \underline{\S{R}}_{rt} \leq \displaystyle\sum_{b \in \S{B}}q_{br}x_{bt} \leq \overline{\S{R}}_{rt} & \forall\ r \in \S{R}, t \in \S{T},\nonumber\\
+& x_{bt} \in \Bin & \forall\ b \in \S{B}, t \in \S{T}\nonumber.
+\end{align}
+
+\subsection*{Merge search formulation}
+
+By aggregating the block-time decision variables into groups, the problem can be reduced significantly by modifying the Espinoza formulation given above such that each group $G_i \in \S{G}^p$ is represented by a new variable $z_i$: 
+\begin{align}
+\Max \qquad & \displaystyle\sum_{G_i \in \S{G}^p} p_{i}z_i,\label{eq:cpit_merge}\\
+\ST \qquad & z_j \leq z_i \qquad \qquad & \forall\ (i,j) \in \mathcal{P}^G, \nonumber\\
+& \displaystyle\sum_{G_i \in \S{G}^p}q_{ir}z_i \leq \displaystyle\sum_{t \in \S{T}}\overline{R}_{r} & \forall\ r \in \S{R}, \nonumber\\
+% & \displaystyle\sum_{b \in B}q_{b}(x_{bt} - x_{bt-1}) \leq \overline{R}_{t} & \forall\ t \in T,\label{res-t}\\
+& z_i \in \Bin & \forall\ G_i \in \S{G}^p \nonumber.
+\end{align}
+Here, the objective value now becomes the sum of the cumulative profits for all groups that are included in a solution. Because the $x_{bt}$ variables were cumulative, but the $z_i$ variables are not, computing the total value of a given group or its resource usage becomes a bit complicated.
+
+\begin{definition}
+Let $G_i \in \S{G}^p$ be a group of cumulative \(x_{bt}\) binary decision variables where \(x_{bt} = 1\) means that block $b$ is extracted at time $t$ or earlier. Then, \(\alpha_{bi} = \min\{t \mid x_{bt} \in G_i \land x_{bt} = 1\}\) is the earliest time that block \(b\) appears in group \(G_i\) and \(\omega_{bi} = \min\{t \mid x_{bt} \in G_i \land x_{bt} = 1\}\) is the latest.
+\end{definition}
+
+\begin{prop}\label{prop:merge-group-profit}
+The total value that $G_i$ contributes to the NPV of the mine is given by: $p_i = \sum_{b \in \S{B}} \hat{p}_{b\alpha_{bi}} - \hat{p}_{b\omega_{bi}+1}$. If $\omega_{bi} = |\S{T}|$ then $\hat{p}_{b\omega_{bi}+1} = 0$ and if \(\alpha_{bi} = \emptyset\) then \(\hat{p}_{b\alpha_{bi}} - \hat{p}_{b\omega_{bi}+1} = 0\).
+\end{prop}
+%
+Because the $z_i$ variables are not cumulative, the time-precedence constraints can be merged with the space-precedence ones. 
+\begin{prop}\label{prop:merge-group-prec}
+The set of group precedences $\mathcal{P}^G \subseteq \S{G}^p \times \S{G}^p$ is: $\{(G_i,G_j) \mid (a,b) \in \mathcal{P}, x_{at} \in G_i, x_{bt} \in G_j, \forall t \in \S{T}\} \cup \{(G_i,G_j) \mid x_{bt} \in G_i, x_{bt+1} \in G_j, \forall b \in \S{B}\}$.
+\end{prop}
+
+The cumulative resource usage for a given group $G_i$ can be computed in much the same way as the cumulative profit. This differs to the Espinoza formulation in that the sum of the cumulative resource usage must be less than or equal to the total resource limit over the entire life of the mine, not per period.
+\begin{prop}\label{prop:merge-group-resource}
+The total amount that $G_i$ contributes to the resource consumption is: $q_{ir} = \sum_{b \in \S{B}} q_{br}x_{b\alpha_{bi}} - q_{br}x_{b\omega_{bi}+1},\ \forall r \in \S{R}$. If $\omega_{bi} = |\S{T}|$ then $q_{br}x_{b\omega_{bi}+1} = 0$ and if \(\alpha_{bi} = \emptyset\) then \(q_{br}x_{b\alpha_{bi}} - q_{br}x_{b\omega_{bi}+1} = 0\).
+\end{prop}
+%
+Having constructed this reduced sub-problem in terms of the new $z_i$ group variables, it can be solved using a MIP solver and the solution is then used as the seed solution for a new population.
+
+% you can choose not to have a title for an appendix
+% if you want by leaving the argument blank
+\section{STPG Formulations}\label{app:stpg}
+\subsection*{Goemans and Myung formulation}
+The following formulation is from Goemans and Myung~\cite{goemans}. This formulation was chosen for its relative simplicity and is by no means the best formulation available in the literature; however, it has already been stated that the purpose of including the STPG in this research is not to improve the current state-of-the-art results, but to provide a test-bed upon which to investigate the proposed merge search algorithm.
+
+\begin{align}
+\Min \quad & \displaystyle\sum_{(i,j) \in E} c_{ij}x_{ij},\label{eq:stpg_form}\\
+\ST \quad & \displaystyle\sum_{k \in V}y_{k} - \displaystyle\sum_{(i,j) \in E}x_{ij} = 1,\nonumber\\
+& \displaystyle\sum_{k \in S\setminus \{l\}}y_{k} - \displaystyle\sum_{(i,j) \in E(S)}x_{ij} \geq 0 & \forall\ l \in S \subseteq V,\nonumber\\
+% & \displaystyle\sum_{(i,j) \in E(S)}x_{ij} \leq \displaystyle\sum_{k \in S \setminus \{l\}}y_{k} & \forall\ l \in S \subseteq V,\label{cycle2-stpg}\\
+& y_k = 1 & \forall\ k \in T,\nonumber\\
+& x_{ij} \in \Bin,\ y_k \in \Bin & \forall\ (i,j) \in E, k \in V\nonumber.
+\end{align}
+
+In this formulation, for ease of writing, \(V\) is the set of vertices \(V(G)\), \(E\) is the set of edges \(E(G)\) and \(E(S) = \{(i,j) \in E \mid i,j \in S \subseteq V\}\). There are two binary decision variable vectors, \(\V{x} \in \Bin^{|E|}\) and \(\V{y} \in \Bin^{|V|}\), representing the set of edges and vertices, respectively.
+
+\subsection*{Merge search formulation}
+By merging the population into groups and performing some arbitrary splitting, a reduced sub-problem can be constructed and solved with far fewer variables than the original problem instance. Before it can be solved however, the problem needs to be mapped from the original vertices and edges to a new set of variables, representing each of the groups in the merge partition.
+
+Given a set of weighted edges \(E\), vertices \(V\), terminals \(T\) and merge partitions \(\S{P}\), the formulation for the reduced sub-problem can be constructed, based on the Goemans and Myung formulation above. This formulation uses one set of decision variables \(z_p\), \(\forall p \in \S{P}\), which correspond to the merge partitions.
+{\small
+\begin{align}
+\Min \quad & \displaystyle\sum_{p \in \S{P}}\left(\displaystyle\sum_{(i,j) \in E \cap p} c_{ij}\right)z_{p},\label{eq:stpg_merge}\\
+\ST \quad & \displaystyle\sum_{p \in \S{P}}\left(|V\cap p| - |E\cap p|\right)z_{p} = 1,\nonumber\\
+& \displaystyle\sum_{p \in \S{P}}\left(|(S\setminus\{l\}) \cap p| - |E(S)\cap p|\right)z_{p} \geq 0 & \forall\ l \in S \subseteq V,\nonumber\\
+& z_p \leq z_q & \forall  p,q\in \S{P},(i,j) \in E : p \ni (i,j),q \ni i,p \neq q \nonumber\\
+% & \displaystyle\sum_{(i,j) \in E(S)}x_{ij} \leq \displaystyle\sum_{k \in S \setminus \{l\}}y_{k} & \forall\ l \in S \subseteq V,\label{cycle2-stpgm}\\
+& z_p = 1 &  \forall\ p \in \S{P} :  p \cap T \neq \emptyset,\nonumber\\
+& z_p \in \Bin & \forall\ p \in \S{P}\nonumber.
+\end{align}
+}
+%
+Here, \(E(S) = \{(i,j) \in E \mid i \in S \land j \in S\}.\)
 
 % biography section
 % 
@@ -1728,22 +1328,22 @@ The authors would like to thank...
 %\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
 % or if you just want to reserve a space for a photo:
 
-\begin{IEEEbiography}{Michael Shell}
-Biography text here.
-\end{IEEEbiography}
+% \begin{IEEEbiography}{Michael Shell}
+% Biography text here.
+% \end{IEEEbiography}
 
-% if you will not have a photo at all:
-\begin{IEEEbiographynophoto}{John Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
+% % if you will not have a photo at all:
+% \begin{IEEEbiographynophoto}{John Doe}
+% Biography text here.
+% \end{IEEEbiographynophoto}
 
-% insert where needed to balance the two columns on the last page with
-% biographies
-%\newpage
+% % insert where needed to balance the two columns on the last page with
+% % biographies
+% %\newpage
 
-\begin{IEEEbiographynophoto}{Jane Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
+% \begin{IEEEbiographynophoto}{Jane Doe}
+% Biography text here.
+% \end{IEEEbiographynophoto}
 
 % You can push biographies down or up by placing
 % a \vfill before or after them. The appropriate

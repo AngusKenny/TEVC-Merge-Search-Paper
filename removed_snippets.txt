@@ -1,0 +1,492 @@
+*** HEADER ****
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
+% compilation based on whether the output is pdf or dvi.
+% usage:
+% \ifpdf
+%   % pdf code
+% \else
+%   % dvi code
+% \fi
+% The latest version of ifpdf.sty can be obtained from:
+% http://www.ctan.org/pkg/ifpdf
+% Also, note that IEEEtran.cls V1.7 and later provides a builtin
+% \ifCLASSINFOpdf conditional that works the same way.
+% When switching from latex to pdflatex and vice-versa, the compiler may
+% have to be run twice to clear warning/error messages.
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+% \usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of the IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off
+% such as if a citation ever needs to be enclosed in parenthesis.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 5.0 (2009-03-20) and later if using hyperref.sty.
+% The latest version can be obtained at:
+% http://www.ctan.org/pkg/cite
+% The documentation is contained in the cite.sty file itself.
+
+
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  % \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation
+% can be obtained at: 
+% http://www.ctan.org/pkg/graphicx
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found at:
+% http://www.ctan.org/pkg/epslatex
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png). The IEEE frowns on bitmapped formats
+% which can result in "jaggedy"/blurry rendering of lines and letters as
+% well as large increases in file sizes.
+%
+% You can find documentation about the pdfTeX application at:
+% http://www.tug.org/applications/pdftex
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+%\usepackage{amsmath}
+% A popular package from the American Mathematical Society that provides
+% many useful and powerful commands for dealing with mathematics.
+%
+% Note that the amsmath package sets \interdisplaylinepenalty to 10000
+% thus preventing page breaks from occurring within multiline equations. Use:
+%\interdisplaylinepenalty=2500
+% after loading amsmath to restore such page breaks as IEEEtran.cls normally
+% does. amsmath.sty is already installed on most LaTeX systems. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/pkg/amsmath
+
+
+
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+%\usepackage{algorithmic}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as the IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/pkg/algorithms
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/pkg/algorithmicx
+
+
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls. As the default LaTeX2e table
+% generation code is lacking to the point of almost being broken with
+% respect to the quality of the end results, all users are strongly
+% advised to use an enhanced (at the very least that provided by array.sty)
+% set of table tools. array.sty is already installed on most systems. The
+% latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/array
+
+
+% IEEEtran contains the IEEEeqnarray family of commands that can be used to
+% generate multiline equations as well as matrices, tables, etc., of high
+% quality.
+
+
+
+
+% *** SUBFIGURE PACKAGES ***
+%\ifCLASSOPTIONcompsoc
+%  \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+%\else
+%  \usepackage[caption=false,font=footnotesize]{subfig}
+%\fi
+% subfig.sty, written by Steven Douglas Cochran, is the modern replacement
+% for subfigure.sty, the latter of which is no longer maintained and is
+% incompatible with some LaTeX packages including fixltx2e. However,
+% subfig.sty requires and automatically loads Axel Sommerfeldt's caption.sty
+% which will override IEEEtran.cls' handling of captions and this will result
+% in non-IEEE style figure/table captions. To prevent this problem, be sure
+% and invoke subfig.sty's "caption=false" package option (available since
+% subfig.sty version 1.3, 2005/06/28) as this is will preserve IEEEtran.cls
+% handling of captions.
+% Note that the Computer Society format requires a larger sans serif font
+% than the serif footnote size font used in traditional IEEE formatting
+% and thus the need to invoke different subfig.sty package options depending
+% on whether compsoc mode has been enabled.
+%
+% The latest version and documentation of subfig.sty can be obtained at:
+% http://www.ctan.org/pkg/subfig
+
+
+
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure.
+% Be aware that LaTeX2e kernels dated 2015 and later have fixltx2e.sty's
+% corrections already built into the system in which case a warning will
+% be issued if an attempt is made to load fixltx2e.sty as it is no longer
+% needed.
+% The latest version and documentation can be found at:
+% http://www.ctan.org/pkg/fixltx2e
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/pkg/stfloats
+% Do not use the stfloats baselinefloat ability as the IEEE does not allow
+% \baselineskip to stretch. Authors submitting work to the IEEE should note
+% that the IEEE rarely uses double column equations and that authors should try
+% to avoid such use. Do not be tempted to use the cuted.sty or midfloat.sty
+% packages (also by Sigitas Tolusis) as the IEEE does not format its papers in
+% such ways.
+% Do not attempt to use stfloats with fixltx2e as they are incompatible.
+% Instead, use Morten Hogholm'a dblfloatfix which combines the features
+% of both fixltx2e and stfloats:
+%
+% \usepackage{dblfloatfix}
+% The latest version can be found at:
+% http://www.ctan.org/pkg/dblfloatfix
+
+
+
+
+%\ifCLASSOPTIONcaptionsoff
+%  \usepackage[nomarkers]{endfloat}
+% \let\MYoriglatexcaption\caption
+% \renewcommand{\caption}[2][\relax]{\MYoriglatexcaption[#2]{#2}}
+%\fi
+% endfloat.sty was written by James Darrell McCauley, Jeff Goldberg and 
+% Axel Sommerfeldt. This package may be useful when used in conjunction with 
+% IEEEtran.cls'  captionsoff option. Some IEEE journals/societies require that
+% submissions have lists of figures/tables at the end of the paper and that
+% figures/tables without any captions are placed on a page by themselves at
+% the end of the document. If needed, the draftcls IEEEtran class option or
+% \CLASSINPUTbaselinestretch interface can be used to increase the line
+% spacing as well. Be sure and use the nomarkers option of endfloat to
+% prevent endfloat from "marking" where the figures would have been placed
+% in the text. The two hack lines of code above are a slight modification of
+% that suggested by in the endfloat docs (section 8.4.1) to ensure that
+% the full captions always appear in the list of figures/tables - even if
+% the user used the short optional argument of \caption[]{}.
+% IEEE papers do not typically make use of \caption[]'s optional argument,
+% so this should not be an issue. A similar trick can be used to disable
+% captions of packages such as subfig.sty that lack options to turn off
+% the subcaptions:
+% For subfig.sty:
+% \let\MYorigsubfloat\subfloat
+% \renewcommand{\subfloat}[2][\relax]{\MYorigsubfloat[]{#2}}
+% However, the above trick will not work if both optional arguments of
+% the \subfloat command are used. Furthermore, there needs to be a
+% description of each subfigure *somewhere* and endfloat does not add
+% subfigure captions to its list of figures. Thus, the best approach is to
+% avoid the use of subfigure captions (many IEEE journals avoid them anyway)
+% and instead reference/explain all the subfigures within the main caption.
+% The latest version of endfloat.sty and its documentation can obtained at:
+% http://www.ctan.org/pkg/endfloat
+%
+% The IEEEtran \ifCLASSOPTIONcaptionsoff conditional can also be used
+% later in the document, say, to conditionally put the References on a 
+% page by themselves.
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/url
+% Basically, \url{my_url_here}.
+
+
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+*** BODY ***
+
+AUTHOR:
+=======
+% \author{Michael~Shell,~\IEEEmembership{Member,~IEEE,}
+%         John~Doe,~\IEEEmembership{Fellow,~OSA,}
+%         and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
+
+% \thanks{M. Shell was with the Department
+% of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
+% GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}% <-this % stops a space
+% \thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
+% \thanks{Manuscript received April 19, 2005; revised August 26, 2015.}}
+
+
+ABSTRACT:
+=========
+
+% Open-pit mine scheduling is a challenging optimisation problem in the mining industry. It tries to create the best possible open-cut mine plan in order to maximise the 
+% net present value of an ore body. This leads to very large mixed integer programming problems that have a strong network structure which can be exploited to obtain a solution to the linear programming relaxation by repeatedly solving maximum flow problems. As these problems are too large and challenging to solve exactly, we have developed an efficient parallel  optimisation method to search for good heuristic solutions. The novel matheuristic proposed in this paper, called {\it Merge Search},  is able to combine a very large pool of solutions via variable aggregation, thereby using their best components to find higher quality solutions. The approach is built around a mixed integer programming formulation, where the formulation is made efficient via preprocessing. A key aspect of this study is to investigate an efficient parallelisation of Merge Search through distributed computing. We demonstrate empirically that this is the best performing method for the mine scheduling problem, finding better quality solutions for a number of problem instances available in the literature. The parallelisation also substantially improves the convergence characteristics of the method, even providing drastic improvements at the beginning of the search. Furthermore, we investigate the efficacy a parallel Branch \& Bound search. While the problems are too hard to be solved exactly, this improves upon the best known upper (relaxed) bounds for all problem instances. 
+
+
+INTRO:
+======
+% Finally (although there are many others), the number, and type, of constraints are also a factor that can contribute to a problem's complexity. Constraints can take many different forms, from production limits~\cite{introlinear}; to precedence constraints, where a variable may not be selected until all variables from a specified set are also selected~\cite{cpit}; to constraints on the types of values the variables can take --- restricting decision variables to integer values can make a problem much harder than if they were real-valued~\cite{convex}. 
+
+%Optimisation as a research field is huge and an introductory chapter cannot possibly do justice to the whole area; for further information the reader is directed to the following textbook resources~\cite{copalg,int_and_cop,convex}.\par
+
+% The most effective method of solving large scale problems is by a method called \emph{divide-and-conquer}~\cite{alg:levitin}. In this technique, a large problem is decomposed into several smaller problems with fewer variables or constraints, which can then be solved and the information from the solutions to these sub-problems used to inform the over-all global search. There are many ways to decompose problems to make them more manageable. One way is to divide the variables into subsets and solve a version of the main problem on each subset of variables and then perform some repair operation to ``stitch together'' the results of all the sub-problems~\cite{memetic:klau}. Another way is to start with a small subset of variables and solve the problem for those variables, and iteratively add more and more variables to the main problem by solving smaller sub-problems to choose them~\cite{cg}. Still another way is to aggregate the variables into a number of groups that each act as a single variable in the sub-problem, which is then solved and the groups iteratively disaggregated to achieve better quality solutions~\cite{aggregate}. Whichever method is chosen, it is not trivial to decide the best way to decompose any problem; so an efficient method of automatically determining an effective problem decomposition would be very valuable to the research community at-large.\par
+
+% Another major issue that arises when solving large scale combinatorial problems is the problem of global vs. local search~\cite{metacop}. The exponential size of the search space and the intricate interactions between decision variables mean that the fitness landscape for many problems can be extremely complex, with many local optima and basins of attraction that must be escaped in order to find the global optimum. This complex fitness landscape and integer values for variables mean that most gradient-based search methods are not very effective tools for solving these problems.\par
+
+% Population-based meta-heuristic algorithms are particularly adept at performing global search, as they use various techniques to intelligently sample a wide region of the search space. This wide-ranging sampling allows them to identify areas of the search space that are the most promising and helps them to avoid getting caught in local optima; however, having identified these promising regions, they are typically not very good at producing refined solutions from within them~\cite{metacop}. Conversely, mathematical programming methods are very poor at global search, as the large number of decision variables and constraints make the problems intractable; but once a good area of the search space has been identified, and the problem can be reduced to the variables and constraints only concerning this area, these techniques are very good at finding the locally optimum solution.\par
+
+% It is this trade-off between exploration and exploitation that is the basis for the family of algorithms called \emph{hybrid meta-heuristics}~\cite{talbi,matheuristics}. These methods typically combine a meta-heuristic, which performs general global search or decomposes the problem into a reduced sub-problem; and a mathematical programming solver which provides refined solutions to the sub-problems that the meta-heuristic produces. This interplay between the two elements goes back-and-forth, iteratively improving the solutions they are producing by harnessing the strengths of both kinds of algorithms. These techniques have become a subject of a great deal of research lately~\cite{hybridmeta}, as they have been shown to be effective on many different types of problems; and a good way to address a lot of the issues encountered when attempting to solve complex, large scale problems.\par
+
+% Finally, many techniques in the literature are very good at solving a particular problem, but cannot be generalised to solve other problems. These techniques often rely on domain knowledge of the problem having being ``hard-coded'' into the problem model, or on some customised representation of the problem that does not translate well to another domain. As the solution to most combinatorial optimisation problems can be represented as a binary string, there is opportunity for a technique that operates purely on these basic representations to generalised into a framework for solving any problem of this type, irrespective of the domain.\par
+
+
+
+% \IEEEPARstart{I}{n} the mining industry in Australia, open-pit mining is a problem of significant interest~\cite{Newman:2010}. The planning and production scheduling 
+% associated with mines can lead to significant cost savings and profits for the operators of the mines. In particular, determining the value of a mine 
+% and the areas of excavation in the shortest possible time-frame can lead to very large gains~\cite{Meagher2014}. 
+
+% Extracting and processing the ore from the pits is the main focus of open pit mining. Specifically, the order in which materials are extracted and processed 
+% can lead to significant profits and savings~\cite{Meagher2014}. In determining the order, there are several constraints that must be satisfied, including precedences between blocks and resource limits. Hence, the open-pit block scheduling problem is referred to as the {\it precedence constrained production scheduling problem} (PCPSP)~\cite{Bley:2010,
+% espinoza_minelib:_2012}. 
+
+% The PCPSP requires  identifying a schedule to extract blocks in a pit that maximises the net present value (NPV) of the blocks over time. Each block is associated 
+% with a positive value (profit) or a negative value (cost) and if mined, it is either processed or discarded (specified as destinations). The mining of 
+% blocks is subject to resource and precedence constraints. Resource limits apply to the amount of ore mined and processed during a period, while precedences 
+% between blocks exist due to pit slope constraints. That is, in order to reach certain blocks, other blocks on top of them need to be extracted and processed or 
+% discarded first.
+
+% The PCPSP can be formulated as a Mixed Integer Program (MIP). For real world instances, solving the MIP or even the linear programming (LP) relaxation of the problem is challenging due to the 
+% large number of variables and constraints. For example, the problem instances currently available in the literature 
+% can be very large with nearly 100,000 blocks and over a million precedence constraints. These need to be replicated over multiple time periods resulting 
+% in MIP formulations with an excess of 10 million constraints. 
+ 
+% Finding ways to solve large MIPs with reasonable computational resources has been given attention recently. The methods include decomposition approaches, hierarchical methods and MIP-based large neighbourhood search. Among MIP-based decompositions, Lagrangian relaxation \cite{fisher04}, column generation \cite{Wolsey1998} and Benders' decomposition \cite{Geoffrion1972} have been widely applied and proved very effective. Other approaches for efficiently solving MIPs is to identify aggregations of variables so that a problem of reduced size can be solved \cite{BOLAND2009, Litvinchev:2003, Rogers:1991}. Another class of methods are based on a large neighbourhood search (LNS) \cite{Ahuja:2002}. The main idea underlying these methods is to start with a feasible solution, identify a neighbourhood (possibly a very large), and find efficient ways to search the neighbourhood. When LNS is combined with MIPs, the resulting methods have proved very effective \cite{Ahuja:2002,Pisinger2010}. 
+
+% The main contribution of this study is a novel matheuristic algorithm, called {\it Merge Search}. It combines concepts from LNS, genetic algorithms \cite{Mitchell:1996} and the efficiency of solving MIPs. However, it is substantially different to any of these or other existing methods in two main aspects. First, the neighbourhood leading to the restricted MIP is obtained from an aggregation of variables in original model using a population of solutions (potentially very large populations). Using different input parameters (e.g. population size), the solving time of the restricted MIP can be systematically controlled. Second, Merge Search is particularly designed for parallel or distributed computing, thus allowing additional computing resources to be used effectively in tackling these challenging problems. Hence, a second contribution of this study is develop and investigate parallel implementations of Merge Search via the Message Passing Interface (MPI)~\cite{Gropp:1994}. A third contribution of this study is a Branch \& Bound method built around the LP relaxation of the problem. This is intended to show that even though the LP relaxation of the large MIPs can be solved relatively efficiently, the associated problems cannot be solved to optimality by a standard branch and bound approach. Despite this, we find that this method leads to identifying the best known upper bounds for benchmark instances of open pit mining. 
+
+% Recently, a method which uses a population of solutions to identify a search space for MIP model is construct, solve, merge and adapt (CMSA) \cite{Blum2016,BlumBlesa16,Blum16-2,Lewis2019,Thiruvady2019}. \cite{Blum2016} show that CMSA can be effectively applied to the minimum common string partition and minimum covering arborescence problems. \cite{BlumBlesa16} investigate CMSA for the repetition-free longest common subsequence problem with very good results can be obtained with this method and \cite{Blum16-2} show the same outcomes of CMSA for the unbalanced common string partition problem. \cite{Lewis2019} apply CMSA to happy colourings and show that this approach can find good solutions on hard problem instances where exact approaches struggle. \cite{Thiruvady2019} develop a parallel hyrbid of CMSA and ACO and show that it is effective on project scheduling with the aim of maximising the NPV.  
+
+% Merge Search was developed independently but uses similar ideas as that of CMSA at a high level. The crucial differences are in its ability to deal with extremely large populations of solutions and parallelisation. Like CMSA, the search iterative builds improving solutions to a problem by using the following steps: (a) maintain a population of feasible solutions, initially found through a heuristic (b) determine active variables in the MIP model from the population of solutions, (c) solve the resulting restricted MIP, thereby merging solutions, (d) use the solution information from the MIP to update the population, and (e) continue this process until some termination criteria is satisfied. Merge Search can be thought of as a generic matheuristic, combining integer programming and heuristic search,  but in this paper we only focus on its application to the PCPSP (Precedence Constrained Pit Scheduling Problem).
+
+% This document is organised as follows.  Section~\ref{sec:opbs} discusses the
+% details of the problem. This includes MIP formulations considered in this study and
+% equivalences to others published in the literature.  Next we introduce our new Merge Search heuristic and show how this can be applied to our problem in Section~\ref{sec:MS}. The details of how to apply this method to the PCPSP are described in Section~\ref{sec:meth}, including preprocessing, parallelisation and other implementational details that are important in obtaining good performance. Finally, we 
+% provide detailed computational results in Section~\ref{sec:expts_res} and show that we are able to produce both better feasible solutions and tighter bounds for most of the benchmarks that are available in the literature.
+
+
+BACKGROUND:
+===========
+% There are a number of ways that a Steiner tree can be represented. The most common ways are edge representation, where a candidate solution is represented by the set of member edges; vertex representation, where a candidate solution is represented by the set of member vertices; and key path represenation, where a candidate solution is represented by the set of member key paths.
+
+% Another metaheuristic algorithm for approximating the STPG worthy of mention is the memetic algorithm described in \cite{memetic:ljubic}. It is an algorithm based on the construction, recombination and mutation of a population of solutions represented as edge sets. This algorithm is not used for comparison in this paper as it was designed to solve a variant of the STPG called  \textit{the prize-collecting Steiner tree problem}, which incorporates knapsack problem-like constraints and as such, was not tested on the same datasets.
+
+% The STPG is extremely well-researched, with many sophisticated pre-processing techniques and methods of finding good quality solutions already available in the literature. The purpose of including it in this paper is not to improve the current state-of-the-art results; but to provide a simple test-bed, upon which the properties of the proposed merge search algorithm can be investigated --- much more easily than with a more complex, real-world problem such as the constrained pit-limit problem, mentioned above.
+
+% \section{Related Work}\label{sec:related}
+% This section outlines some 
+
+% Despite being around for centuries~\cite{history:brazil}, the STPG has also gained
+% much attention in recent decades due to it being the mathematical structure behind 
+% multicast networking problems~\cite{steiner:hwang}. Exact methods for solving the STPG 
+% have been developed using techniques such as integer linear programming (ILP), 
+% lagrangian relaxation and primal-dual strategies~\cite{pd:polzin}; however these approaches suffer from
+% exponential worst-case computation times which can make some large-scale instances intractable. The current state-of-the-art 
+% exact approaches to solving the STPG are hybrid~\cite{algo:polzin,algo:daneshmand}; 
+% several algorithmic, graph reduction, metaheuristic and 
+% mathematical programming techniques, working together to produce provably optimal solutions
+% in a much faster time than traditional optimisation techniques alone.
+% When good quality, but not necessarily optimal, solutions are required in a reasonable amount of
+% time, metaheuristics and decomposition techniques have been used to tackle this problem; some of the
+% more successful approaches in this manner have been memetic algorithms \cite{memetic:klau}, ant colony optimisation
+% \cite{aco:singh,acogroup:nguyen}, local search techniques 
+% \cite{fastls:uchoa,effectivels:wade} and voronoi-based 
+% decomposition heuristics \cite{partition:leitner}.\par
+
+
+MERGE SEARCH:
+=============
+% For extremely large problems such as open pit mining, a method that is able to efficiently combine solutions (potentially obtained from different sources) can be beneficial. This is particularly important in a parallel or distributed framework where multiple threads or processes are independently finding improved solutions. In such cases we do not want to just take the best solution, thereby discarding any improvements made by all other processes, but to learn from each of them. For this purpose, the key procedure proposed in this paper and used throughout 
+% the distributed solver method is the {\it Merge Search}. The aim of this is to combine the best features of multiple solutions that may have been 
+% arrived at independently, often by starting from the previously best known solution. Merge Search achieves this by solving an integer program over the space of combinations of solutions. That is it breaks all of the solutions into fragments (a set of variables) and re-assembles a new solution from these fragments. 
+
+Initial solution:
+-----------------
+%In contrast, other problems are structured such that producing a decent quality solution is not computationally expensive at all; however, often the methods of producing solutions to these problems are deterministic, creating issues with solution diversity. 
+
+
+%  Equation~\ref{eq:mip-init} gives a method of finding a feasible solution for problems which can be formulated as a mixed integer program (MIP) with $n$ variables and $m$ linear constraints.
+% %
+% \begin{align}\label{eq:mip-init}
+%               \Min \quad &\V{c}^T\V{x} + C^{max} \sum_{v_i \in \V{v}} v_i\\
+%               \ST  \quad  &\M{A}\V{x} \ge \V{b}-M\V{v}\nonumber\\
+%                    \quad & \V{x} \in \Bin^n, \quad \V{v} \in \Bin^m.\nonumber
+% \end{align}
+% %
+% Here, $\V{v} \in \Bin^m$ is a vector and $M$ is a constant sufficiently big enough such that $v_i = 1$ if constraint $i$ is violated and $C^{max} = \sum_{c_i \in \V{c}} |c_i|$ is a penalising constant that is added to the objective value every time a constraint is violated. The value of $C^{max}$ is calculated by summing the magnitude of every value in the $\V{c}$ vector, which means that it can be guaranteed that even the worst feasible solution will have a better objective value than the best infeasible one.
+
+% By solving this MIP model, a feasible solution to the problem is produced, which can then be used as an initial solution to generate a population\footnote{Actually, for sufficiently large \(C^{max}\), solving \eqref{eq:mip-init} is equivalent to solving the original problem (and will produce the same optimal solution) so, theoretically, there is no need to run the algorithm twice. In practice however, solving it in this way would be intractable for any problem that is large enough to be of interest, and so would not be a practical way of finding a feasible, initial solution. Any binary \(\V{x}\) can be used to produce a feasible initial solution for \eqref{eq:mip-init} by simply setting \(v_i=1\) iff the corresponding \(i\)th original constraint of \(\M{A} \V{x} \ge \V{b}\) is violated.}.
+
+
+Neighbourhood search:
+---------------------
+
+% A generic neighbourhood search method can be defined for MIPs by fixing all but \(u\) variables (where \(u\) is a given fraction of the full set of decision variables) to the value of a given solution and solving this subproblem over the remaining \(u\) variables. Alternatively, a neighbourhood search can be performed generically using the machinery of Merge Search itself: define a random partition of variables, split that partition randomly and solve the subproblem induced by that partition. The number of neighbouring solutions $m$ is an algorithm parameter.
+
+
+Defining the partition:
+-----------------------
+
+% can be implemented either by
+%   starting with a single set $\{1,\ldots,n\}$ and iteratively partitioning it
+%   where variables take on different values. Alternatively, we can define it
+%   based on the unique set of solution values for $v\in\mathbb{R}^{|S|}$:
+%   $P(v)=\{i\mid s_i = v_i\ \forall s\in S\}$ and $\mathcal{P}=\{P(v)\mid
+%   P(v)\ne \emptyset\}$. At worst each set is a singleton, though in practice
+%   we expect a quite small number of sets because (a) we are dealing with
+%   combinatorial problems where most variables are either zero or one (or take
+%   on a small number of values), and (b) the neighbourhood search tends to
+%   generate a population of solutions with more similarity than just randomly
+%   constructed solutions.
+
+Solution merging:
+-----------------
+
+% \begin{itemize}
+% \item Neighbourhood Search (Step~\ref{step:nbhd}): This generates a population
+%   of solutions for the merge step. While any heuristic method could be used
+%   here, it will be assumed that it produces a randomised solution (so that the
+%   solutions are nearly always different) and that the neighbourhood is sufficiently
+%   large that the solutions produced will differ from the original $x^{k-1}$ in
+%   several variables. The number of neighbouring solutions $m$ is an algorithm
+%   parameter.
+% \item Partitioning (Step~\ref{step:P}) can be implemented either by
+%   starting with a single set $\{1,\ldots,n\}$ and iteratively partitioning it
+%   where variables take on different values. Alternatively, we can define it
+%   based on the unique set of solution values for $v\in\mathbb{R}^{|S|}$:
+%   $P(v)=\{i\mid s_i = v_i\ \forall s\in S\}$ and $\mathcal{P}=\{P(v)\mid
+%   P(v)\ne \emptyset\}$. At worst each set is a singleton, though in practice
+%   we expect a quite small number of sets because (a) we are dealing with
+%   combinatorial problems where most variables are either zero or one (or take
+%   on a small number of values), and (b) the neighbourhood search tends to
+%   generate a population of solutions with more similarity than just randomly
+%   constructed solutions.
+% \item Random Splitting (Step~\ref{step:RandSplit}) allows more control
+%   over the size of $\mathcal{P}$ and hence the size of the problem solved in
+%   the next step as typically $|\mathcal{P}|$ is quite small. Hence, this step creates 
+%   a larger neighbourhood by carrying out random splitting of subsets. In fact it is
+%   possible to run an extreme form of this algorithm with $m=0$ so that only
+%   the random splitting in this step is used to define a neighbourhood. 
+%   The choice of how to split subsets (perhaps with some biased randomisation) 
+%   should be done in a problem dependent manner, as the choice of neighbourhood 
+%   generated in this manner will clearly affect the effectiveness of the overall 
+%   algorithm.
+% \item Merging of solutions occurs in Step~\ref{step:merge}. It should be noted that this is
+%   essentially a variant of the original problem but with significantly fewer
+%   variables (one variable per $P\in\mathcal{P}$, $|\mathcal{P}|=K\ll n$). This
+%   makes the step particularly amenable to use with integer or constraint
+%   programming, where general purpose solvers generally cope well with small to
+%   medium sized problems but solve times deteriorate rapidly as the problem
+%   size increases. 
+% \end{itemize}
+
+
+CMSA:
+-----
+% Starting with an empty subinstance of the problem $\mathcal{C}^\prime$, solutions are probabilistically generated in this method, from scratch, and their components added to $\mathcal{C}^\prime$. This reduced subinstance is then solved using an exact solver and a so-called ``ageing'' mechanism is used to remove components from $\mathcal{C}^\prime$ that have not been useful in the preceding iterations. 
+
+% there are some significant differences. Most
+% important is that the CMSA sub-problems, while still defined based on a
+% population of solutions, does not involve any aggregation of variables so that these
+% sub-problems can become very large unless the problem naturally has few
+% non-zero values in the solution. Hence, the method as proposed in \cite{Blum2016}
+% would be completely impractical for the problem considered here, because it has
+% millions of non-zero variable values in solutions to large instances.
+% Furthermore, CMSA relies on random construction to create populations of
+% solutions, which reduces the ability to learn from the best solution found
+% so far. The reliance purely on populations of feasible solutions (without the random splitting) also means that it relies purely on the random solution construction to escape any local optima. Finally, CMSA introduces an aging process to manage solution
+% components, which is absent here.
