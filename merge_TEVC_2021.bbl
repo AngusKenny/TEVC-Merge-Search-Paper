@@ -320,4 +320,21 @@ J.~H. Kingston and N.~P. Sheppard, ``On reductions for the steiner problem in
 M.~X. Goemans and Y.-S. Myung, ``A catalog of steiner tree formulations,''
   \emph{Networks}, vol.~23, no.~1, pp. 19--28, 1993.
 
+\bibitem{minelib-improved}
+E.~J{\'e}lvez, N.~Morales, and P.~Nancel-Penard, ``Open-pit mine production
+  scheduling: Improvements to minelib library problems,'' in \emph{Proceedings
+  of the 27th International Symposium on Mine Planning and Equipment
+  Selection-MPES 2018}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2019,
+  pp. 223--232.
+
+\bibitem{newman-improved}
+M.~Samavati, D.~Essam, M.~Nehring, and R.~Sarker, ``A methodology for the
+  large-scale multi-period precedence-constrained knapsack problem: an
+  application in the mining industry,'' \emph{International Journal of
+  Production Economics}, vol. 193, pp. 12--20, 2017.
+
+\bibitem{zuck-small-improved}
+------, ``A new methodology for the open-pit mine production scheduling
+  problem,'' \emph{Omega}, vol.~81, pp. 169--182, 2018.
+
 \end{thebibliography}

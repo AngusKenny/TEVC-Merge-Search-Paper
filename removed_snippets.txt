@@ -490,3 +490,29 @@ CMSA:
 % solutions, which reduces the ability to learn from the best solution found
 % so far. The reliance purely on populations of feasible solutions (without the random splitting) also means that it relies purely on the random solution construction to escape any local optima. Finally, CMSA introduces an aging process to manage solution
 % components, which is absent here.
+
+
+RESULTS:
+========
+
+STPG:
+-----
+Additional results:
+...................
+\begin{table}[h!]
+\centering
+\caption[Deterministic vs. random construction heuristic results]{Representative sample of results across \emph{steinlib} dataset instances, investigating the difference between the deterministic and random construction heuristics. Given are the average objective value and standard deviation for solutions produced by both heuristics over 30 runs and the difference between the averages, expressed as a percentage of the larger value.}\label{tab:stpg:init:trunc} 
+\begin{adjustbox}{width=0.45\textwidth}
+\begin{tabular}{lrrrrr} \toprule
+ & \multicolumn{2}{c}{deterministic} & \multicolumn{2}{c}{random}\\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} 
+Instance & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & difference\\ \midrule
+%
+\input stpg/tables/trunc_init.tex
+%
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+Table~\ref{tab:stpg:init:trunc} illustrates the difference between using the deterministic solution construction heuristic and the random solution construction heuristic. It is very clear to see that the quality of the deterministic heuristic is much better than the average random construction heuristic, especially for the larger datasets, where the difference can be up to over \(95\%\). The full set of results are available in Table~\ref{tab:app:init} of the appendix.
+% \cmnt[angus]{(will add appendix later)}
