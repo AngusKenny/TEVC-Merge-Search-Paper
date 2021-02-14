@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex merge_TEVC_2021"] 1612939551 "merge_TEVC_2021.aux" "merge_TEVC_2021.bbl" "merge_TEVC_2021" 1612940010
+["bibtex merge_TEVC_2021"] 1613027674 "merge_TEVC_2021.aux" "merge_TEVC_2021.bbl" "merge_TEVC_2021" 1613027677
   "/usr/share/texlive/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "TEVC_refs.bib" 1612938902 19252 0eed67f01e6f08d248199417788841b8 ""
-  "merge_TEVC_2021.aux" 1612940009 12299 d1a795fc008697829d251853caf701e4 "pdflatex"
+  "TEVC_refs.bib" 1613025619 20258 fc0f935e8416f79c53c0834d19ba24fe ""
+  "merge_TEVC_2021.aux" 1613027677 12968 8f1256259f439d9adf5609d6f52a1d3f "pdflatex"
   (generated)
-  "merge_TEVC_2021.blg"
   "merge_TEVC_2021.bbl"
-["pdflatex"] 1612940007 "merge_TEVC_2021.tex" "merge_TEVC_2021.pdf" "merge_TEVC_2021" 1612940010
+  "merge_TEVC_2021.blg"
+["pdflatex"] 1613027674 "merge_TEVC_2021.tex" "merge_TEVC_2021.pdf" "merge_TEVC_2021" 1613027677
   "/etc/texmf/web2c/texmf.cnf" 1599592942 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -317,9 +317,9 @@
   "img/merge-sol.eps" 1612760397 11413 7e2ed631044643f2f1620abbcde41fb3 ""
   "img/split1.tikz" 1612760397 1613 305404e055230d0beeb629ed3107ff73 ""
   "img/stpg_merge.tikz" 1612760397 15757 83a004e2b01974cb72bb55a2953476f0 ""
-  "merge_TEVC_2021.aux" 1612940009 12299 d1a795fc008697829d251853caf701e4 "pdflatex"
-  "merge_TEVC_2021.bbl" 1612939552 14367 408c807a7e88d8b88ac2673c3d0c193d "bibtex merge_TEVC_2021"
-  "merge_TEVC_2021.tex" 1612940006 130301 430eea26344da047faa09d0583df8541 ""
+  "merge_TEVC_2021.aux" 1613027677 12968 8f1256259f439d9adf5609d6f52a1d3f "pdflatex"
+  "merge_TEVC_2021.bbl" 1613027674 15259 0961d564213b2b69b42369a054b26663 "bibtex merge_TEVC_2021"
+  "merge_TEVC_2021.tex" 1613027671 127553 95b86e940f577b5f2e814498ebd4a133 ""
   "mine/plots/conv/kd_conv.csv" 1612760397 685 98802463ff7ca2cc349fd1db31295f34 ""
   "mine/plots/conv/kd_conv.tikz" 1612760397 371 15783880ac9644b49aa2f0510b39f355 ""
   "mine/plots/conv/kd_grasp_conv.csv" 1612760397 1581 209b5a3591911efad312811b1847ddb8 ""
@@ -368,8 +368,11 @@
   "stpg/plots/e10_pop_plot.dat" 1612760397 490 94498607013ac4c3ac596c7878a69a5b ""
   "stpg/plots/e10_pop_plot.tikz" 1612760397 348 d6f7c9308ad75a6f41ed22cf9e364429 ""
   "stpg/plots/e10_pop_plot_lines.dat" 1612760397 23 56bd71fee4c22199cb79cd2e160c64c7 ""
-  "stpg/tables/bd_data.tex" 1612760397 4497 fd9a94dd82cd4cbcbe5b4aa705f01456 ""
-  "stpg/tables/ce_data.tex" 1612760397 4193 8490f8005f6c69f40dd9e6be442cf5b5 ""
+  "stpg/tables/bd_data.tex" 1613024903 5239 87fbb6c3dce5d96faef4edce83084ab5 ""
+  "stpg/tables/bd_pop.tex" 1612760397 3314 1f2509f75d3f00036589f688ebc4becd ""
+  "stpg/tables/ce_data.tex" 1613025072 5691 c94cdeceeff440e631cfa8afad903bbe ""
+  "stpg/tables/ce_pop.tex" 1612760397 3585 49772ec6c91c5745d3e35bdef9bbbd8c ""
+  "stpg/tables/trunc_gap.tex" 1613024722 1723 20dce9ffb9accd2904f211cb12107390 ""
   "stpg/tables/trunc_pop.tex" 1612760397 1448 d5cd67c284c3544e651c818e5e47d249 ""
   (generated)
   "merge_TEVC_2021.log"

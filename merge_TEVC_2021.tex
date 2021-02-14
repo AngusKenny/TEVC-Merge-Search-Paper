@@ -233,13 +233,13 @@ Bley et al. strengthen the MIP formulation for open-pit mining problems by addin
 %
 The \emph{minelib} results used for comparison in this paper are taken from the masters thesis of Gonzalo Mu\~noz \cite{toposort}. Mu\~noz uses a modified version of the Bienstock and Zuckerberg algorithm \cite{bz} to solve the LP relaxation, then uses a topological sorting algorithm, similar to Chicoisine et al. to produce a feasible solution.
 
-(ADD LATEST PAPERS AND ALSO OUR GECCO PAPERS)
+{\color{red}(ADD RECENT PAPERS AND OUR GECCO PAPERS)}
 
 % ----
 
 \subsection{Steiner tree problem in graphs (STPG)}
 
-The Steiner tree problem in graphs (STPG) is a classic problem in the field of combinatorial optimisation, the decision version being one of the original 21 NP-complete problems outlined by Karp~\cite{np:karp} in his seminal paper.
+The Steiner tree problem in graphs (STPG) is a classic problem in the field of combinatorial optimisation, the decision version being one of the original 21 NP-Complete problems outlined by Karp~\cite{np:karp} in his seminal paper.
 
 Given an undirected, weighted graph $G = (V,E,c)$ where $V$ is the set of vertices in $G$, $T \subseteq V$ is a special subset of $V$ called the \emph{terminal vertices}, $E$ is the set of edges in $G$ and $c : E \to \mathbb{Z^+}$ is a function that maps each edge to some positive, integer weight. The STPG aims to find a set of vertices $V' \subseteq V$ such that $T \subseteq V'$ and $V'$ induces a spanning tree over $T$ in $G$ of minimum total weight. Vertices that are in the set $V' \setminus T$ are called \emph{Steiner vertices}.
 
@@ -289,12 +289,12 @@ The pseudocode for merge search is outlined in Algorithm~\ref{alg:MS} and compri
 \end{algorithmic}
 \end{algorithm}
 
-\subsubsection*{\bf Finding an initial solution}
+\subsubsection*{\textbf{Finding an initial solution}}
 In order to produce a population of solutions, an initial, feasible solution $x^0$ must first be found. Some problems are so large and complex that even producing a feasible solution is quite computationally expensive --- let alone one that is of guaranteed good quality. Although there are cases where finding a feasible solution is reasonably easy; in general, finding a feasible solution to a combinatorial problem is as hard as finding an optimal one~\cite{copalg}.
 
 When considering merge search as a general framework for solving constrained optimisation problems, the ideal circumstance would be when there already exists a custom heuristic for constructing a solution to the problem. However, if no such heuristic exists, then because it can be shown (Lemma~\ref{thm:optimal}) that the random splitting aspect of merge search makes it theoretically capable of producing any solution in the search space, it is possible to start with a completely random (feasible) solution and still find the optimal solution --- if given enough time. Of course, in practice, ``enough time'' can be infeasibly long for large search spaces, so a more intelligent method of producing an initial solution is preferable.
 
-\subsubsection*{\bf Neighbourhood search (Step~\ref{step:nbhd})}
+\subsubsection*{\textbf{Neighbourhood search (Step~\ref{step:nbhd})}}
 
 Many solution merging meta-heuristics such as the construct, merge, solve and adapt (CMSA) heuristic~\cite{cmsa} require a method that constructs solutions from scratch in order to produce a population to merge. However, for some large and complex problems, producing a feasible solution from scratch can be very computationally expensive. Because it is generally easier to produce a new solution from an existing one, than it is to start from scratch, merge search generates its population by defining a local-search operator for the problem and sampling the neighbourhood of a given solution.
 
@@ -304,7 +304,7 @@ When considering merge search as a general meta-heuristic framework, it does not
 
 Once a population has been generated, it can be used to define a partition on the decision variables.
 
-\subsubsection*{\bf Defining the partition (Step~\ref{step:P})}
+\subsubsection*{\textbf{Defining the partition (Step~\ref{step:P})}}
 
 The simplest way to partition the decision variables for a problem with a population of solutions $S = \{s_1,\dots,s_m\}\cup \{x^{k-1}\}$ is to divide them into three groups: variables that \emph{always} take the value 0 across all solutions; variables that \emph{always} take the value 1 across all solutions; and variables that take \emph{either} 0 or 1 across all solutions. This partition can be used to produce a reduced sub-problem with the variables that are in the first group fixed to 0; the variables that are in the second group fixed to 1; and the variables that are in the third group allowed to take either.
 
@@ -337,7 +337,7 @@ The theoretical maximum number of partitions (and therefore, decision variables 
 
 however, typically not all solutions in a population will interact with all other solutions (i.e., there exist some pairs of solutions $(s_i,s_j) \in S^2$ such that $s^b_i \cap s^c_j \neq \emptyset, \forall b,c \in \Bin$), so $|{\cal P}| << 2^{|S|}$, in practice.
 
-\subsubsection*{\bf Random splitting (Step~\ref{step:RandSplit})}
+\subsubsection*{\textbf{Random splitting (Step~\ref{step:RandSplit})}}
 
 When generating a population by sampling the neighbourhood around an initial solution, the size of the partition induced by this set of solutions is typically quite small. As the size of this partition directly affects the size of the reduced sub-problem, it is useful to be able to control the size of partition to increase the size of the merge neighbourhood that is searched. One way to do this is through a process called \emph{random splitting}. 
 %
@@ -395,7 +395,7 @@ By extending this idea further, it can also be shown that large neighbourhood se
 
 Figure~\ref{fig:lns-merge} shows that when this population is merged, the decision variables are partitioned into $m+2$ groups: variables that took the value 0 in the original solution (red); variables that took the value 1 in the original solution (green); and $m$ partitions containing a single variable, associated with each of the bit string masks (shades of blue). If the ratio of $m$ to $n$ is sufficient, such that enough of the original solution structure is maintained, then all those variables that took 0 or 1 in the original solution will be effectively fixed to their respective values in the reduced sub-problem, and all those variables in the $m$ singleton partitions are free to take either 0 or 1 in the solution to the reduced sub-problem. This is equivalent to LNS, where a subset of the variables in a given solution is selected for ``destruction'' (i.e., removed from the solution) and the solution is ``repaired'' by solving the partial solution to (local) optimality. 
 
-\subsubsection*{\bf Solution merging (Step~\ref{step:merge})}
+\subsubsection*{\textbf{Solution merging (Step~\ref{step:merge})}}
 All of the steps leading up to this point have been working to construct a reduced sub-problem, which can now be solved, using an exact solver or some other method, to produce a locally optimal solution for use in the next iteration of the process. In very general terms, the reduced sub-problem takes the following form:
 \begin{align}
               \Min \quad & f(\V{x})\label{eq:merge_group}\\
@@ -457,6 +457,8 @@ The CMSA sub-problems are still defined based on a population of solutions, howe
 
 The second area where there is a significant divergence between the two methods is in the aggregation of decision variables. CMSA uses its population of constructed solutions to determine the variables that are to be included in its reduced sub-problem. If a variable is represented by an element of one of the candidate solutions in the population, it is automatically included in the reduced sub-problem. These variables are added to the sub-problem individually, and as such this aspect functions similarly to large neighbourhood search (LNS). One consequence of this is that the sub-problems can become very large, especially for problems where there are naturally many non-zero values in a solution. To combat this, a so-called ``ageing'' mechanism is introduced in CMSA to ensure that elements that have not been useful in producing good quality solutions recently are removed from the pool of solution elements. In contrast, merge search uses information from across the entire population to determine which variables are added into the reduced sub-problem as well as to aggregate variables that share common values across the population, and so likely share some kind of dependency. This grouping allows for more compact sub-problems and a much larger region of the search space can be covered for the same computational power. The trade-off for this is much coarser-grained solutions, however this can be alleviated by the introduction of random splitting to these groups to help escape local optima.
 
+For a more thorough comparison between merge search and CMSA, see~\cite{ms-vs-cmsa}.
+
 \section{Merge Search in Practice}\label{sec:pract}
 Section~\ref{sec:back} introduced the two problems that merge search was applied to in order to demonstrate its effectiveness and versatility: the constrained pit-limit (CPIT) problem; and the Steiner tree problem in graphs (STPG). This section gives the details of how merge search was applied to solve them.
 
@@ -477,9 +479,6 @@ A solution polishing step is used to locally improve the best solution produced 
 First described by Dowsland \cite{kp:dowsland}, but subsequently used widely by many researchers, is the so-called key path neighbourhood. A key path is defined as a path within a Steiner tree where the two end vertices are either terminal vertices or vertices of degree at least 3; all intermediate  vertices (if any) are of degree 2 and are not terminal. The useful property of such structures is that their removal from a solution to the STPG will always result in two disconnected trees which can then be subsequently reconnected. This local search neighbourhood was extended by Kenny et al.~\cite{gecco16}, by adding a so-called ``jump'' operator which aids in escaping local minima, and is used as the basis of the merge search algorithm presented in this paper.
 
 % ----
-
-The problem instance is first pre-processed using some of the techniques described in~\cite{pp:duin,pp:uchoa,stpg-reduce} to reduce the number of decision variables. An initial solution is constructed and a neighbouring population produced, using the methods described in~\cite{gecco16}. This population of solutions is used to partition the decision variables in the manner described in Section~\ref{sec:merge}.
-
 \begin{figure}[h]
 \centering
 \resizebox{0.9\linewidth}{!}{{}
@@ -487,6 +486,9 @@ The problem instance is first pre-processed using some of the techniques describ
     }
     \caption[Partitioning variables by merging solutions]{By merging two solutions (top left and right), the decision variables are partitioned into four disjoint sets, indicated here (bottom) by: red; blue; red and blue; and no colour.}\label{fig:stpg-partition} 
 \end{figure}
+
+The problem instance is first pre-processed using some of the techniques described in~\cite{pp:duin,pp:uchoa,stpg-reduce} to reduce the number of decision variables. An initial solution is constructed and a neighbouring population produced, using the methods described in~\cite{gecco16}. This population of solutions is used to partition the decision variables in the manner described in Section~\ref{sec:merge}, illustrated in Figure~\ref{fig:stpg-partition}.
+
 
 These partitions can be split by selecting an arbitrary decision variable, and separating all variables representing vertices and edges that are connected to it and in the same partition. This ensures that any partition is split such that all variables removed from the original partition comprise a connected sub-graph, and as such should be able to be included in the resultant merged solution on its own, without the original partition. If a partition is split such that all variables are separated, leaving the original partition empty, then the last variable added to the split is kept in the original partition. As the connected variables are added using DFS, this is always a variable on the boundary, and so this method will not suffer from the problems present with truely random splitting. 
 
@@ -497,7 +499,7 @@ Having partitioned and split the decision variables, the resulting reduced sub-p
 \section{Experiments}\label{sec:exper}
 This section details the experimental set up, the experiments performed and finally presents the results and discusses the implications those results suggest.
 \subsection{Datasets}
-\subsubsection*{The CPIT problem}
+\subsubsection*{\textbf{The CPIT problem}}
 Table~\ref{tab:datasets} details the properties of the problem instances used to test the algorithm in this paper. The instance name is given in the first column; followed by the number of blocks in the orebody model; the number of precedence arcs for each instance is provided in the third column; the fourth column gives the total number of time periods available; the number of decision variables is shown in the second last column; with the last column giving the total number of constraints in the problem model.\par
 %
 \begin{table}[h!]
@@ -520,7 +522,7 @@ Instance & Blocks & Precedences & Periods & Variables & Constraints\\
 %
 A few instances from the full \emph{minelib} dataset were omitted due to missing files, referencing more than two resources or being too large for the algorithm in its current incarnation.
 
-\subsubsection*{The Steiner tree problem in graphs}
+\subsubsection*{\textbf{The Steiner tree problem in graphs}}
 
 The experiments were were carried out on categories $B$, $C$, $D$ and $E$ of the STPG problems from the \textit{steinlib} library~\cite{steinlib}, a standard dataset used by many researchers. The smaller-scale, category $B$ instances are 18 randomised networks with 50 to 100 vertices and 63 to 200 edges. The $C$ and $D$ datasets consists of 20 larger randomised networks, with 500 and 1,000 vertices, respectively, and between 625 to 25,000 edges. Finally, the $E$ dataset contains the largest instances, each with 2,500 vertices and between 3,125 and 62,500 edges. Details of the individual instances can be found in Table~\ref{tab:stpgprobs1} of Appendix~\ref{app:stein_data}. 
 
@@ -535,19 +537,17 @@ Being graph-based problems, both the CPIT problem and STPG are amenable to some 
 \subsection{Experimental setup}
 The experiments were carried out on an \emph{Intel{\textsuperscript{\textregistered}} Core{\textsuperscript{TM}} i5-2320} processor (3.0GHz) with 24GB RAM running Linux. All code was implemented in C++ with GCC-4.8.0. CPLEX Studio 12.7, operating with a single thread due to the need for callbacks, was employed as the mixed integer programming (MIP) solver. For the CPIT problem experiments, the boost library implementation of the Boykov-Kolmogorov algorithm was used to solve the UPIT sub-problem during the pre-processing stage.
 
-\subsubsection*{The CPIT problem}
-The merge search algorithm was compared against the baselines of the results published on the \emph{minelib}~\cite{minelib} website and the results from using a greedy randomised adaptive search procedure (GRASP) heuristic for the precedence constrained production scheduling problem (PCPSP)~\cite{gecco17}, adapted for use with the CPIT problem. Also provided are the results for a variant of the merge search algorithm that uses variable grouping but no random splitting, previously published in~\cite{gecco18} --- these results are included in order to illustrate the effect that random splitting has on solution quality.
+\subsubsection*{\textbf{The CPIT problem}}
+The merge search algorithm was compared against the baselines of the original results published on the \emph{minelib}~\cite{minelib} website, the most recent state-of-the-art results published in~\cite{minelib-improved} and the results from using a greedy randomised adaptive search procedure (GRASP) heuristic, adapted from~\cite{gecco17}. 
 
-Each algorithm was run 20 times on each instance, recording the mean objective value and standard deviation of the resulting solution produced by each run. Finally, the last experiment performed was to use the local improvement heuristic from the GRASP algorithm to ``polish'' the best result produced by the merge algorithm.
+Also provided are the results for a variant of the merge search algorithm that uses variable grouping but no random splitting, previously published in~\cite{gecco18}; and the results of combining merge search with a solution polishing phase. These are included in order to illustrate the effect that random splitting has on solution quality, and to demonstrate the effectiveness of combining an explorative technique with an exploitative one.Each algorithm was run 20 times on each instance, recording the mean objective value and standard deviation of the resulting solution produced by each run. 
 
-\subsubsection*{The Steiner tree problem in graphs}
+\subsubsection*{\textbf{The Steiner tree problem in graphs}}
 The merge search algorithm was compared against three separate baseline algorithms, the greedy randomised adaptive search (GRASP) heuristic, pure local search and pure MIP. The method of constructing initial solutions was different between the GRASP and merge search algorithms, so pure local search and pure MIP were included to ensure any improvement was not solely based on this factor. Aside from population merging, the merge search algorithm comprises two main components, local search and MIP search; so by isolating these two factors, it can be shown that merge search is greater than the sum of its parts.
 
-Each algorithm was run 30 times on each (pre-processed) instance from the datasets, recording the mean objective value and standard deviation across all of the runs. All instances in the datasets used are supplied with their optimal objective values and this is used for the main stopping criteria. Otherwise, the stopping criteria of the merge search algorithm is generally dictated by the number of seconds spent in the MIP search so the time taken for each search is not provided, as it does not give much information about the performance of the algorithm. However, special mention is made when the algorithm terminated early for all runs.
-
-\begin{table*}[t]
+\begin{table*}[h]
 \centering
-\caption[Results on \emph{minelib} dataset instances]{Results on \emph{minelib} dataset instances. Given are the LP upper bound, the percentage gap between the LP bound and the best solution from the \emph{minelib} website; the best known solution as published in~\cite{minelib-improved}; the mean result from the GRASP heuristic; and the mean results from the merge search heuristic with no splitting, splitting and solution polishing, respectively.
+\caption[Results on \emph{minelib} dataset instances]{Results on \emph{minelib} dataset instances. Given are the LP upper bound, the percentage gap between the LP bound and the best solution from the \emph{minelib} website; the best known solutions as published in~\cite{minelib-improved} (with references to the original publications containing these results); the mean result from the GRASP heuristic; and the mean results from the merge search heuristic with no splitting, splitting and solution polishing, respectively.
 }\label{tab:mine:main}
 \begin{adjustbox}{width=0.8\textwidth}
 \begin{tabular}{lrrrrrrrrrr} \toprule
@@ -559,55 +559,34 @@ Instance & \multicolumn{1}{c}{LP UB} & \multicolumn{1}{c}{\emph{minelib}} & \mul
 %
 \bottomrule
 
-% \multicolumn{5}{l}{$^*$ this result was beaten by polishing the best merge search solution with the GRASP local improvement heuristic (Table~\ref{tab:mine:polish}).}
 \end{tabular}
 \end{adjustbox}
 \end{table*}
 
-% \begin{table*}[t]
-% \centering
-% \caption[Results on \emph{minelib} dataset instances]{Results on \emph{minelib} dataset instances. Given are the LP upper bound, current best solution from the \emph{minelib} website, the mean objective values (\(\mu\)) and standard deviations (\(\sigma\)) for the GRASP heuristic, merge search without random splitting and full merge search heuristic.% The final column gives the result of using the local improvement heuristic from the GRASP algorithm to polish the best solution found with merge search.
-% }\label{tab:mine:main}
-% \begin{adjustbox}{width=\textwidth}
-% \begin{tabular}{lrrrrrrrrrr} \toprule
-%  & \multicolumn{1}{c}{LP UB} & \multicolumn{1}{c}{\emph{minelib}} & \multicolumn{2}{c}{GRASP heuristic} & \multicolumn{2}{c}{merge search (no splitting)} & \multicolumn{2}{c}{merge search (with splitting)}\\
-% \cmidrule(lr){2-2}\cmidrule(lr){3-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9}
-% Instance & & & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}  \\ \midrule
-% %
-% \input mine/tables/main_table.tex
-% %
-% \bottomrule
+Each algorithm was run 30 times on each (pre-processed) instance from the datasets, recording the mean objective value and standard deviation across all of the runs. All instances in the datasets used are supplied with their optimal objective values and this is used for the main stopping criteria. Otherwise, the stopping criteria of the merge search algorithm is generally dictated by the number of seconds spent in the MIP search so the time taken for each search is not provided, as it does not give much information about the performance of the algorithm. However, special mention is made when the algorithm terminated early for all runs.
 
-% % \multicolumn{5}{l}{$^*$ this result was beaten by polishing the best merge search solution with the GRASP local improvement heuristic (Table~\ref{tab:mine:polish}).}
-% \end{tabular}
-% \end{adjustbox}
-% \end{table*}
 
-Additional experiments were performed to investigate the difference between using the random and deterministic solution construction heuristics and the effect of population size on the size of the reduced sub-problem. In order to preserve space, a representative subset of the problem instances is used to illustrate the outcome of these experiments; however, these results are not ``cherry-picked'' and the full tables are available in the appendix. 
-% \cmnt[angus]{(will add appendix later)}
-% \cmnt[angus]{should i add some details about the parameters used here?}
+Additional experiments were performed to investigate the difference between using the random and deterministic solution construction heuristics and the effect of population size on the size of the reduced sub-problem. In order to preserve space, a representative subset of the problem instances is used to illustrate the outcome of these experiments; however, these results are not ``cherry-picked'' and the full tables are available in Appendix~\ref{app:stpg_results}. 
 
 \section{Results and discussion}\label{sec:results}
 \subsection{The CPIT problem}
-Table~\ref{tab:mine:main} provides the results of the three algorithms tested on the six problem instances from the \emph{minelib} dataset, along with the linear programming (LP) upper bound and the current best solution as published on the \emph{minelib} website, ordered from smallest problem instance to largest.
+Table~\ref{tab:mine:main} provides the results of the three algorithms tested on the six problem instances from the \emph{minelib} dataset, along with the linear programming (LP) upper bound, the best solution as published on the \emph{minelib} website and the current best state-of-the-art solution as published in the survey paper from J{\'e}lvez et al. in 2019 --- ordered in ascending problem size.
 
-In this table, it can be seen that the two merge search algorithms consistently produce better results than the \emph{minelib} and the GRASP heuristic results, except for \newman{} and \zucklarge{}. The results for \newman{} are similar because the problem instance is so small and it can be assumed that the objective value of 2.418E+07 is quite close to the optimal solution, as all three algorithms agree on this as an average value and when the search is performed without any stopping criteria, the maximum objective value that is found is 2.41798E+07.
+In this table, it can be seen that all three merge search variants consistently produce better results than the \emph{minelib} and the GRASP heuristic results, except for \newman{} and \zucklarge{}. The results for \newman{} are similar because the problem instance is so small and it can be assumed that the LP gap of 1.26\% is quite close to the optimal solution.
 
-Comparing the results of the two variants of merge search illustrates the effect that random splitting has on the quality of the solution produced. For smaller problem instances, the two algorithms produce very similar quality solutions, indicating that the random splitting has little effect. 
-\footnotetext{{This result was beaten by polishing the best merge search solution with the GRASP local improvement heuristic (Table~\ref{tab:mine:polish}).}}% footnote mark is in table source
-However, as the size of the problem increases, the effect of the random splitting becomes more pronounced, with the biggest effect being on the two largest instances \zuckmed{} and \zucklarge{}\footnote{Although it is technically a larger problem than \zuckmed, solving the UPIT problem on the \marvin{} instance, as part of the pre-processing stage, eliminates many blocks and makes its effective size much smaller than \zuckmed.}. 
+Comparing the results of the two variants of merge search (without polishing) illustrates the effect that random splitting has on the quality of the solution produced. For smaller problem instances, the two algorithms produce very similar quality solutions, indicating that the random splitting has little effect. However, as the size of the problem increases, the effect of the random splitting becomes more pronounced, with the biggest effect being on the two largest instances \zuckmed{} and \zucklarge{}\footnote{Although it is technically a larger problem than \zuckmed, solving the UPIT problem on the \marvin{} instance, as part of the pre-processing stage, eliminates many blocks and makes its effective size much smaller than \zuckmed.}. 
 
 If there are no overlaps at all between variables across solutions, then the partitions in the reduced sub-problem are simply the set differences of the variables in each solution and the seed solution. In this extreme case, the merge operation is unable to produce a solution that does not already exist in the population, unless some random splitting of the partitions is performed. As the size of the problem instance decreases, the likelihood that there will be overlaps between variables across solutions increases. These overlaps in the variable sets produce splits in the partitions when producing the reduced sub-problem, reducing the need for additional random splitting to produce a different solution to those already existing in the generated population. This is not to suggest that random splitting would not be beneficial; but the problem with random splitting is that it is \emph{random}, and there is no way of guaranteeing that a particular split will improve the quality of a solution after merging, any more than a split produced by overlapping variable sets will.
 
 The GRASP heuristic produces consistently worse results than merge search. This is expected as the sliding window heuristic used in the local improvement phase of the algorithm is better suited to incrementally improving a good solution than turning a mediocre solution into a good one, as it only operates on a small subset of the variables at one time. This means that it is good for ``tweaking'' a solution by shifting the time that a block is mined forward or backward one or two periods; but it is no good if the time that the block is mined must be moved by many periods, as this would take a lot of passes to achieve.
 
-\subsubsection*{Convergence behaviour}
+\subsubsection*{\textbf{Convergence behaviour}}
 
 This idea of GRASP being better suited to incrementally improving an already good solution is demonstrated in Figure~\ref{plot:mine:runtime}. This figure gives the plots of the convergence behaviour of both the GRASP algorithm and merge search on all six of the CPIT instances. It can be seen in these plots that merge search converges quicker in nearly all instances, except for \dmine{}. 
 
 \begin{figure*}[!]
     \centering
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.25\textwidth}
     \centering
     \resizebox{\linewidth}{!}{
     \includegraphics{mine/plots/conv/newman1_conv.tikz}
@@ -616,7 +595,7 @@ This idea of GRASP being better suited to incrementally improving an already goo
     \label{plot:newman-conv}
     \end{subfigure}
     \quad
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.25\textwidth}
     \centering
     \resizebox{\linewidth}{!}{
     \includegraphics{mine/plots/conv/zuck_small_conv.tikz}
@@ -625,7 +604,7 @@ This idea of GRASP being better suited to incrementally improving an already goo
     \label{plot:zuck-small-conv}
     \end{subfigure}
     \quad
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.25\textwidth}
     \centering
     \resizebox{\linewidth}{!}{
     \includegraphics{mine/plots/conv/kd_conv.tikz}
@@ -636,7 +615,7 @@ This idea of GRASP being better suited to incrementally improving an already goo
     %
     \\[5mm]
     %
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.25\textwidth}
     \centering
     \resizebox{\linewidth}{!}{
     \includegraphics{mine/plots/conv/zuck_med_conv.tikz}
@@ -645,7 +624,7 @@ This idea of GRASP being better suited to incrementally improving an already goo
     \label{plot:zuck-med-conv}
     \end{subfigure}
     \quad
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.25\textwidth}
     \centering
     \resizebox{\linewidth}{!}{
     \includegraphics{mine/plots/conv/marvin_conv.tikz}
@@ -654,7 +633,7 @@ This idea of GRASP being better suited to incrementally improving an already goo
     \label{plot:marvin-conv}
     \end{subfigure}
     \quad
-    \begin{subfigure}[t]{0.3\textwidth}
+    \begin{subfigure}[t]{0.25\textwidth}
     \centering
     \resizebox{\linewidth}{!}{
     \includegraphics{mine/plots/conv/zuck_large_conv.tikz}
@@ -662,22 +641,22 @@ This idea of GRASP being better suited to incrementally improving an already goo
     \vspace*{-5mm}\caption{\zucklarge{}}
     \label{plot:zuck-large-conv}
     \end{subfigure}
-    \caption[Convergence plots for merge search on CPIT instances]{Convergence plots for merge search on CPIT instances. Merge search data is shown in blue and GRASP is shown in red.}
+    \caption[Convergence plots for merge search on CPIT instances]{Convergence plots for CPIT instances. Merge search data is shown in blue and GRASP is shown in red.}
     \label{plot:mine:runtime}
 \end{figure*}
 
-The difference here, is that the initial solution is already quite close in value to the resultant solution, so there are not a lot of improvements that can be made. This means that the more exhaustive search for small improvements of the GRASP algorithm is more likely to be effective, early on, than the more global search of the merge search algorithm, which relies on the stochastic natures of the local search operator and arbitrary splitting heuristic to find its improvements. Merge search does get there in the end --- and manages to find a slightly better solution in this case --- but it takes longer and with a more gentle curve. For all the other instances, where the gap between the initial solution and the resultant one is much larger, merge search is demonstrably more suited to the task.
+The difference here, is that the initial solution is already quite close in value to the resultant solution, so there are not a lot of improvements that can be made. This means that the more exhaustive search for small improvements of the GRASP algorithm is more likely to be effective, early on, than the more global search of the merge search algorithm, which relies on the stochastic natures of the local search operator and arbitrary splitting heuristic to find its improvements. Merge search does get there in the end --- and manages to find a slightly better solution in this case --- but it takes longer and with a more gentle curve. For all the other instances, where the gap between the initial and resultant solutions is much larger, merge search is demonstrably more suited to the task.
 
-It can also be seen from these plots that once the algorithm has seemingly converged, it can sometimes find a way out of the local optima and find a much better solution. This is evidenced in the plots for \zuckmed{}~(Figure ~\ref{plot:zuck-med-conv}), \marvin{}~(Figure~\ref{plot:marvin-conv}) and also Figure~\ref{plot:polish.med1} below. This behaviour is expected in such large problem instances, as once it has started to converge there are many ways to make the solution worse, but only a few to make it better; but once it has found a way out of the local optima, often several other improving moves will become apparent as well.
+It can also be seen from these plots that once the algorithm has seemingly converged, it can sometimes find a way out of the local optima and locate a much better solution. This is evidenced in the plots for \zuckmed{}~(Figure ~\ref{plot:zuck-med-conv}), \marvin{}~(Figure~\ref{plot:marvin-conv}) and also Figure~\ref{plot:polish.med1} below. This behaviour is expected in such large problem instances, as once it has started to converge there are many ways to make the solution worse, but only a few to make it better; but once it has found a way out of the local optima, often several other improving moves will become apparent as well.
 
-\subsubsection*{Runtime information}
+\subsubsection*{\textbf{Runtime information}}
 
-Table~\ref{tab:mine:runtime} gives the runtime information (wall time and CPU time) for both the GRASP and merge search algorithms. As they use a MIP solver to solve their restricted sub-problems, the runtime of both GRASP and merge search is reasonably easily configured by controlling how long the solver is allowed to run for each iteration. The parameters of the GRASP algorithm were chosen so that the search would take roughly the same amount of time as that of the merge search --- and for the most part, they are pretty similar. 
+Table~\ref{tab:mine:runtime} gives the runtime information (wall time and CPU time) for both GRASP and merge search. As they use a MIP solver to solve their restricted sub-problems, the runtime of both algorithms is reasonably easily configured by controlling how long the solver is allowed to run for each iteration. The parameters of the GRASP algorithm were chosen so that the search would take roughly the same amount of time as that of the merge search --- and for the most part, they are pretty similar. 
 
 \begin{table}[h!]
 \centering
 \caption[Runtime information for experiments on CPIT]{Runtime information for experiments on CPIT. Given are the mean (\(\mu\)) and standard deviations (\(\sigma\)) of the wall and CPU time for the GRASP and merge search algorithms, in seconds.}\label{tab:mine:runtime}
-\begin{adjustbox}{width=0.45\textwidth}
+\begin{adjustbox}{width=0.48\textwidth}
 \begin{tabular}{lrrrrrrrr} \toprule
  & \multicolumn{4}{c}{GRASP} & \multicolumn{4}{c}{merge search}\\
 \cmidrule(lr){2-5} \cmidrule(lr){6-9}
@@ -719,39 +698,7 @@ Instance & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multico
 
 The two instances that are significantly different in runtime between GRASP and merge search are \dmine{} and \zucklarge{}. The reason that \zucklarge{} is so different is that it was impossible to run the merge search algorithm with a population of 1,000 on such a large problem instance, due to memory issues (even with 23 GB of RAM!); so a smaller population size of 500 was used, which took much less time to produce and to compute the merge partitions.
 
-The reason for the differences in runtime on \dmine{} is illustrated in Figure~\ref{plot:mine:time}.
-This figure shows plots of the amount of wall time in seconds consumed per iteration of the respective algorithms. The GRASP algorithm is measured by ``window movements'', which counts the number of times the window has incremented forwards or backwards along the solution. The merge search algorithm is measured by iterations; each the time for each iteration is measured at the point when a new candidate solution is generated for the population, so it is clear to see that, with a population size of one thousand, every thousandth iteration will include an extra amount of time to include the merge operation itself. 
-
-It is important to remember here that the \dmine{} instance only has a maximum of 12 periods allowed, while \zucksmall{} has 20. So the difference in time between GRASP and merge search is easy to explain, because GRASP is dependent on the number of periods in the solution as that determines how many window movements will be made; whereas merge search will generate the same size population and perform the same number of merges, no matter how many periods are allowed. This is demonstrated very clearly in Figure~\ref{plot:time.2}, where there is very little difference between the two instances. It can be seen that the population is generated reasonably quickly (indicated by the flat parts of the curve) and then each point where there is a sudden jump in the amount of time taken indicates that a merge operation has taken place.
-
-But this is not the end of the story. In these two examples, GRASP took 2,979 seconds to complete the search on \dmine{} and it took 4,180 to complete the search on \zucksmall{}. If there was a direct linear relationship between time taken to complete the search and number of periods, the amount of time GRASP should take to complete its search on \zucksmall{} should be \(\frac{2,979\times20}{12} = 4,965\). So where did the other 13 minutes go?
-
-Looking at Figure~\ref{plot:time.1}, the main thing that can be noticed here is that the shape of the plot for \zucksmall{} is significantly different to the shape of the plot for \dmine{}. The regular flat spots in the plot for \zucksmall{} indicate that there is a group of periods for that problem that are not used by the solution, or do not contain any blocks that can be moved around, and therefore the MIP solver will not take the full amount of allowed time to solve the reduced sub-problem. It so happens that the solution to \zucksmall{} does not use any period after period 16, so the first and last few window moves of each full pass take very little time at all. In contrast the \dmine{} instance uses periods right up until period 10, so there are fewer window moves that will be skipped over, as evidenced by the straighter line on the plot.
-
-\subsubsection*{Solution polishing}
-
-As the quality of the solutions produced by the random construction heuristic is not extremely high, too much of the local improvement phase is spent moving the times that blocks are mined over long temporal distances; so the algorithm is unable to produce high quality solutions in the allowed computational budget. It was observed however, that the quality of the solutions produced by the GRASP algorithm greatly depended on the quality of the initial solution that was constructed. So it was decided to see what would happen if the local improvement heuristic from the GRASP algorithm was applied to ``polish'' the best solution obtained by the merge search algorithm. These results are given in Table~\ref{tab:mine:polish}.
-
-% \begin{table}[h!]
-% \centering
-% \caption[Results of polishing the best merge search solution]{Results of polishing the best merge search solution with the local improvement heursistic from the GRASP algorithm. Given is the LP upper bound and current best solution from the \emph{minelib} website, the objective value of the best solution produced by the merge search algorithm and the value of that solution when polished by the local improvement heuristic.}\label{tab:mine:polish}
-% \begin{adjustbox}{width=0.45\textwidth}
-% \begin{tabular}{lrrrr} \toprule
-% Instance & \multicolumn{1}{c}{LP UB} & \multicolumn{1}{c}{\emph{minelib}} & \multicolumn{1}{c}{merge search} & polished merge\\ 
-% \midrule
-% %
-% \input mine/tables/polish_table.tex
-% %
-% \bottomrule
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
-
-This table clearly demonstrates that the sliding window heuristic is very effective in improving solutions produced by merge search, even surpassing the \emph{minelib} result for \zucklarge{} --- something that merge search could not achieve on its own, without polishing. For these experiments, the best solution from the merge search runs is taken and then three passes of the sliding window heuristic is applied. Although doing this effectively increases the allowed computational budget, the quality of the solutions produced by doing this is better than if the computational budget is increased for either of the two algorithms on their own. In the case of the GRASP algorithm, the quality of the solution at the end of its run is still too low to be able to improve the objective value by very much in only three passes. In the case of the merge search algorithm, because both the population generation and merge partition splitting occurs stochastically, as the quality of the solution increases the chances of finding an improving solution, or partition split, by chance decreases. This means that the search is likely to have converged by the end of its run, so increasing the computational budget at this point is unlikely to produce much of an improvement in the quality of the solution, if any at all.
-
-Applying the sliding window heuristic at the end of the merge search process solves both of these problems. The sliding window heuristic performs a much more methodical and exhaustive search to find small improvements that can be made to the solution which might be difficult to find by random sampling, in such a large search space. Additionally, by starting the sliding window heuristic with a much higher quality initial solution, computational effort does not need to be wasted on the ``low hanging fruit'' that can be found easily by sampling the search space. As the heuristic only considers a small subset of the variables at a time, it cannot make large changes to the solution in a single iteration. 
-
-\begin{figure*}[t!]
+\begin{figure*}[h]
     \centering
     \begin{subfigure}[t]{0.23\textwidth}
     \centering
@@ -795,70 +742,60 @@ Applying the sliding window heuristic at the end of the merge search process sol
     \label{plot:mine:polish}
 \end{figure*}
 
+The reason for the differences in runtime on \dmine{} is illustrated in Figure~\ref{plot:mine:time}.
+This figure shows plots of the amount of wall time in seconds consumed per iteration of the respective algorithms. The GRASP algorithm is measured by ``window movements'', which counts the number of times the window has incremented forwards or backwards along the solution. The merge search algorithm is measured by iterations; each the time for each iteration is measured at the point when a new candidate solution is generated for the population, so it is clear to see that, with a population size of one thousand, every thousandth iteration will include an extra amount of time to include the merge operation itself. 
+
+It is important to remember here that the \dmine{} instance only has a maximum of 12 periods allowed, while \zucksmall{} has 20. So, while the number operations for GRASP is dependent on the number of periods (and therefore window movements), merge search is dependent on population size. This is demonstrated very clearly in Figure~\ref{plot:time.2}, where there is very little difference between the two instances. It can be seen that the population is generated reasonably quickly (indicated by the flat parts of the curve) and then each point where there is a sudden jump in the amount of time taken indicates that a merge operation has taken place.
+
+
+But this is not the end of the story. In these two examples, GRASP took 2,979 seconds to complete the search on \dmine{} and it took 4,180 to complete the search on \zucksmall{}. If there was a direct linear relationship between time taken to complete the search and number of periods, the amount of time GRASP should take to complete its search on \zucksmall{} should be \(\frac{2,979\times20}{12} = 4,965\). So where did the other 13 minutes go?
+
+Looking at Figure~\ref{plot:time.1}, the main thing that can be noticed here is that the shape of the plot for \zucksmall{} is significantly different to the shape of the plot for \dmine{}. The regular flat spots in the plot for \zucksmall{} indicate that there is a group of periods for that problem that are not used by the solution, or do not contain any blocks that can be moved around, and therefore the MIP solver will not take the full amount of allowed time to solve the reduced sub-problem. It so happens that the solution to \zucksmall{} does not use any period after period 16, so the first and last few window moves of each full pass take very little time at all. In contrast the \dmine{} instance uses periods right up until period 10, so there are fewer window moves that will be skipped over, as evidenced by the straighter line on the plot.
+
+
+\subsubsection*{\textbf{Solution polishing}}
+ 
+The results in the last column of Table~\ref{tab:mine:main} show the effect of combining merge search with the local improvement heuristic from the GRASP algorithm. These results clearly demonstrate the effectiveness of this combination, even improving the best known bounds for \dmine{} and \zucklarge{}. 
+
+For these experiments, the best solution from the merge search runs is taken and then three passes of the sliding window heuristic is applied. Although doing this effectively increases the allowed computational budget, the quality of the solutions produced by doing this is better than if the computational budget is increased for either of the two algorithms on their own. In the case of the GRASP algorithm, the quality of the solution at the end of its run is still too low to be able to improve the objective value by very much in only three passes. In the case of the merge search algorithm, because both the population generation and merge partition splitting occurs stochastically, as the quality of the solution increases the chances of finding an improving solution, or partition split, by chance decreases. This means that the search is likely to have converged by the end of its run, so increasing the computational budget at this point is unlikely to produce much of an improvement in the quality of the solution, if any at all.
+
+Applying the sliding window heuristic at the end of the merge search process solves both of these problems. The sliding window heuristic performs a much more methodical and exhaustive search to find small improvements that can be made to the solution which might be difficult to find by random sampling, in such a large search space. Additionally, by starting the sliding window heuristic with a much higher quality initial solution, computational effort does not need to be wasted on the ``low hanging fruit'' that can be found easily by sampling the search space. As the heuristic only considers a small subset of the variables at a time, it cannot make large changes to the solution in a single iteration. 
+
 Figure~\ref{plot:mine:polish} contains plots that illustrate this concept on two instances of the CPIT problem, \zuckmed{} and \zucklarge{}. The left-hand sub-figures show the full process with both merge phase (shown in blue) and polishing phase (shown in red). Figure~\ref{plot:polish.med1} demonstrates the power of intensification of the search with the sliding window heuristic. Here, the blue merge plot can seen to have effectively converged as there has been no significant improvement in objective value for over half an hour of wall time. Applying the sliding window heuristic to this ``converged'' solution results in an almost immediate improvement, followed by subsequent improvements, before this too converges to its local optimum.
 
 Not as emphatic in demonstrating this point are the results presented in Figure~\ref{plot:polish.large1}. It can be seen in this figure that merge search was still a ways off from converging, although it had started to slow its progress. It could be argued that, were merge search allowed to continue, it would have found the same solution eventually. Although, it can be seen in the plot that applying the polishing heuristic to this unconverged solution did still result in an initial rapid increase in solution quality; and as merge search was beginning to tail off, it probably would have taken longer to reach its goal.
 
 The results from these experiments suggest that, while merge search is adept at finding a good quality global solution, it benefits from the addition of a more exhaustive local method to intensify its search. 
 
-\subsubsection*{Updated state-of-the-art results}
-
-When this research was first undertaken, the current published state-of-the-art results were indeed those available on the \emph{minelib} website. However, since then, there have been several developments as published in a recent paper by~\cite{minelib-improved} that has collated all reported improvements to the \emph{minelib} dataset.
-
-According to this aggregation of results, recently there are three separate studies that have improved the most on the \emph{minelib} results for the CPIT problem instances used for this research~\cite{newman-improved,zuck-small-improved,aggregate}. These improved results are given in Table~\ref{tab:mine:update} in terms of their LP gap, and are compared with the original \emph{minelib} results and the polished merge results from earlier in this section.
-
-% \begin{table}[h!]
-% \centering
-% \caption[Recent updates to state-of-the-art results for \emph{minelib} CPIT instances]{Recent updates to state-of-the-art results for \emph{minelib} CPIT instances. Given is the percentage gap between the LP upper bound and the best result achieved for each respective study, compared with the original \emph{minelib} results and the best results from this research.}\label{tab:mine:update}
-% \begin{adjustbox}{width=0.45\textwidth}
-% \begin{tabular}{lrrrrr} \toprule
-% & & & & \multicolumn{2}{c}{new results}\\ 
-% \cmidrule(lr){5-6}
-% Instance & \multicolumn{1}{c}{LP UB} & \multicolumn{1}{c}{\emph{minelib}} & \multicolumn{1}{c}{polished merge} & \multicolumn{1}{c}{publication} & \multicolumn{1}{c}{gap}\\ 
-% \midrule
-% %
-% \input mine/tables/updated_table.tex
-% %
-% \bottomrule
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
-
-Although the results from this study do not improve on every known bound in the literature, they certainly are competitive with the state-of-the-art and actually do improve the current best-known bound for the \dmine{} and the \zucklarge{} instances.
 
 \subsection{The Steiner tree problem in graphs}
 
-Table~\ref{tab:stpg:results} in Appendix~\ref{app:stpg_results} provides the mean objective value and standard deviation for the experiments performed to compare the merge search algorithm to the three base-line algorithms of GRASP, pure local search and pure MIP. The best results for each problem instance are indicated in bold; and, as the optimal solution is known for each instance, if the algorithm managed to find the optimal solution in any of its runs, this is indicated by an asterisk --- clearly, if a result has an asterisk and a standard deviation of 0.00, this indicates the optimal solution was found in every run.
+Table~\ref{tab:stpg:results:trunc} provides a representative sample of the results for the experiments performed to compare the merge search algorithm to the three base-line algorithms of GRASP, pure local search and pure MIP. Given is the known optimal solution, and the percentage gap between the optimal and the mean objective value from all of the runs. The best results for each problem instance are indicated in bold; and, as the optimal solution is known for each instance, if the algorithm managed to find the optimal solution in any of its runs, this is indicated by an asterisk --- clearly, if a result has a gap of 0.00\%, this indicates the optimal solution was found in every run. The full results are available in Appendix~\ref{app:stpg_results}.
+
 
 The results for the \(B\) dataset show that merge search demonstrably outperformed all of the algorithms it was tested against, as do the rest of the datasets. In this first dataset comprised of all the smallest sized instances (around 60 to 290 decision variables, pre-processed), merge search performed the best; managing to find the optimal solution in every run for every problem instance, with many terminating in the first couple of iterations. The next most successful algorithm was the pure MIP algorithm\footnote{It should be pointed out here that the pure MIP algorithm failed to produce even a single integer solution for most of the problem instances in the time allotted to it, if it was not given a heuristically constructed solution as a warm start. Therefore the success of the pure MIP algorithm over the GRASP algorithm for this dataset should be attributed to the fact that the MIP search was initially seeded with a higher quality solution than the GRASP algorithm.}, which just edges out pure local search and finally followed by GRASP at the end. The fact that both pure local search and pure MIP outperformed GRASP suggests that the quality of the initial solution is very important to the quality of the resultant solution --- especially in these smaller problem instances --- so, as pure local search and pure MIP both use the same, deterministic, solution construction as merge search, they are likely to perform better than GRASP, which uses the random solution construction heuristic.
 
-
-The picture begins to change slightly with the results for the \(C\) dataset. Merge search is still the clear winner of the four here; although it has not managed to achieve the optimal solution in every single one of its runs and has actually failed to reach the optimal solution in a few of the instances. The big change here is the fact that pure MIP has fallen to last place for almost every single problem instance, even with the warm start seeding; and by the \(D\) dataset it is last in every problem instance. This suggests that, by the time the problem instances reach even this moderate size (between 400 and 5,280 decision variables), the problem is too large to be solved by a MIP solver alone, using comparable computing resources. This is evidenced by the fact that the standard deviation is 0.00 for many of the instances, suggesting that it had a hard time finding a better solution than the one it was seeded with. 
-
-It is worth mentioning that some of the state-of-the-art results in the \emph{steinlib} library have been produced by a combination of pre-processing and integral LP formulation, so this does not mean that these results suggest the problems are too large for MIP solvers in general, merely that they are too large for the simple formulation used for this research. Better, more complicated MIP formulations for the STPG are available~\cite{goemans,stpg-improved,hypergraph}; however, these experiments are not intended to advance the state-of-the-art for STPG solvers, but to demonstrate the application of merge search to the STPG and that there is a non-trivial benefit that can be gained from doing so. If both pure MIP and merge search used better formulations, and more sophisticated pre-processing techniques, they would indeed be able to achieve better quality solutions; but one could expect a similar gulf in quality between the pure MIP and the hybrid meta-heuristic to emerge --- albeit, on much larger problem instances.
-
-The trend of pure local search outperforming the GRASP heuristic continues throughout the rest of the datasets, with the exception of problem instances \texttt{c11}, \texttt{d06}, \texttt{d16} and \texttt{e02}. Differences between the mean objective values for these instances are small enough to suggest that these are anomalous and probably the result of the random construction heuristic finding a better initial solution to the deterministic heuristic, or simple luck during the local search. 
-
-The fact that pure local search outperformed GRASP in nearly every problem instance suggests that the choice of initial solution is very important to the quality of the solution produced, as otherwise, these two algorithms are nearly identical; so the use of the deterministic construction heuristic is preferable to the random one. Added to this, the fact that merge search equals --- or outperforms --- pure local search in every problem instance suggests that there is indeed a benefit to creating a hybrid meta-heuristic using a MIP solver that solves a reduced sub-problem induced by merging a population of solutions produced by the local search neighbourhood. Finally, the fact that the merge search algorithm equals --- or outperforms --- the pure MIP algorithm in every problem instance suggests that these benefits that are gained are not simply from the addition of a MIP solver itself; and therefore, must be the result of the hybridisation and population merging processes.
-
-\subsubsection*{Additional experiments}
-\begin{table}[t!]
+\begin{table}[h!]
 \centering
-\caption[Size of reduced sub-problem results]{Representative sample of results across \emph{steinlib} dataset instances, investigating the effect that population size has on the number of partitions in the reduced sub-problem. Given are the size of the instance (\(|V|+|E|\)) and average number of partitions and standard deviation over 30 runs for population sizes 50, 100, 1,500 and 10,000.}\label{tab:stpg:pop:trunc} 
-\begin{adjustbox}{width=0.45\textwidth}
-\begin{tabular}{lrrrrrrrrr} \toprule
- &  & \multicolumn{2}{c}{50} & \multicolumn{2}{c}{100} & \multicolumn{2}{c}{1,500} & \multicolumn{2}{c}{10,000}\\
-\cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10} 
-Instance & size & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}\\ \midrule
+\caption{Representative sample of results across \emph{steinlib} dataset instances, giving the optimality gap for the mean objective value of pure local search, pure MIP, GRASP and merge search, respectively. An asterisk indicates that the optimal solution was found at least once in all the runs.}\label{tab:stpg:results:trunc} 
+% \begin{adjustbox}{width=0.45\textwidth}
+\begin{tabular}{lrrrrr} \toprule
+Instance & Opt. & pure LS & pure MIP & GRASP & merge search\\ \midrule
 %
-\input stpg/tables/trunc_pop.tex
+\input stpg/tables/trunc_gap.tex
 %
 \bottomrule
 \end{tabular}
-\end{adjustbox}
+% \end{adjustbox}
 \end{table}
 
+The picture begins to change slightly with the results for the \(C\) dataset. Merge search is still the clear winner of the four here; although it has not managed to achieve the optimal solution in every single one of its runs and has actually failed to reach the optimal solution in a few of the instances. The big change here is the fact that pure MIP has fallen to last place for almost every single problem instance, even with the warm start seeding; and by the \(D\) dataset it is last in every problem instance. This suggests that, by the time the problem instances reach even this moderate size (between 400 and 5,280 decision variables), the problem is too large to be solved by a MIP solver alone, using comparable computing resources. This is evidenced by the fact that the standard deviation is zero (see Appendix~\ref{app:stpg_results}) for many of the instances, suggesting that it had a hard time finding a better solution than it was seeded with. 
 
+It is worth mentioning that some of the state-of-the-art results in the \emph{steinlib} library have been produced by a combination of pre-processing and integral LP formulation, so this does not mean that these results suggest the problems are too large for MIP solvers in general, merely that they are too large for the simple formulation used for this research. Better, more complicated MIP formulations for the STPG are available~\cite{goemans,stpg-improved,hypergraph}; however, these experiments are not intended to advance the state-of-the-art for STPG solvers, but to demonstrate the application of merge search to the STPG and that there is a non-trivial benefit that can be gained from doing so. If both pure MIP and merge search used better formulations, and more sophisticated pre-processing techniques, they would indeed be able to achieve better quality solutions; but one could expect a similar gulf in quality between the pure MIP and merge search to emerge --- albeit, on much larger problem instances.
+
+The trend of pure local search outperforming the GRASP heuristic continues throughout the rest of the datasets, with the exception of problem instances \texttt{c11}, \texttt{d06}, \texttt{d16} and \texttt{e02}. Differences between the mean objective values for these instances are small enough to suggest that these are anomalous and probably the result of the random construction heuristic finding a better initial solution to the deterministic heuristic, or simple luck during the local search. 
+
+%
 \begin{center}
 \begin{figure*}[ht]
     \centering
@@ -902,18 +839,38 @@ Instance & size & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \
 \end{figure*}
 \end{center}
 %
+
+The fact that pure local search outperformed GRASP in nearly every problem instance suggests that the choice of initial solution is very important to the quality of the solution produced, as otherwise, these two algorithms are nearly identical; so the use of the deterministic construction heuristic is preferable to the random one. Added to this, the fact that merge search equals --- or outperforms --- pure local search in every problem instance suggests that there is indeed a benefit to creating a hybrid meta-heuristic using a MIP solver that solves a reduced sub-problem induced by merging a population of solutions produced by the local search neighbourhood. Finally, the fact that the merge search algorithm equals --- or outperforms --- the pure MIP algorithm in every problem instance suggests that these benefits that are gained are not simply from the addition of a MIP solver itself; and therefore, must be the result of the hybridisation and population merging processes.
+
+\subsubsection*{\textbf{Additional experiments}}
+
 The results in Table~\ref{tab:stpg:pop:trunc} show the effect that changing the population size has on the number of partitions in the resultant reduced sub-problem, before random splitting is applied. It can be seen from the data that as the size of the population increases, the number of partitions also increases. This is to be expected, as two variables are included in the same partition only if they agree on values across the entire population of solutions; therefore, if more solutions are considered, the less likely variables are to agree across them all and the more partitions in the reduced sub-problem. Again, these are just a representative set of the problem instances, the full results are given in Table~\ref{tab:app:pop} of the appendix.
 
-Figure~\ref{fig:stpg_pop_plots} shows some of the plots that were used in the sensitivity analysis done to determine an appropriate population size for these experiments. The number of partitions in the reduced sub-problem was plotted against population size from 0 to 5,000 and a population size of 1,500 was decided upon for two main reasons. The first reason is that it can be seen in the plots that although the number of partitions is proportional to the population size, it is not directly proportional, and after a certain inflection point there are significant diminishing returns in the number of partitions for population size. It can be seen from the plots that the position of this inflection point moves further to the right with the size of the problem and it was decided that 1,500 was a decent value that could be used across the whole dataset. It is slightly after the inflection point for most of the \(C\) dataset instances and slightly before the inflection point for most of the \(D\) dataset instances. The \(B\) dataset instances are small enough that it doesnt matter that 1,500 is probably too many and, although it falls very short of the \(E\) dataset instances inflection point, larger population sizes produce too many partitions for the MIP solver to handle.
 
-The second reason for choosing this population size is that in order for the MIP solver to be effective, the number of decision variables must be kept at a reasonable amount. It was decided that the number of partitions in the reduced sub-problem, after random splitting, should a maximum of around 2,000, on average. The number of random splits was set at 500, therefore the number of partitions before splitting should be around a maximum of 1,500 --- which occurs at a population size of around 1,500 for many of the problem instances. For larger problem instances which need a larger reduced sub-problem, an extra parameter was added \(M_{factor}\), which ensures that the reduced sub-problem is some fraction of the total instance size.
-% \cmnt[angus]{should i go into more detail with the parameters? its already pretty long}
+Figure~\ref{fig:stpg_pop_plots} shows some of the plots that were used in the sensitivity analysis done to determine an appropriate population size for these experiments. The number of partitions in the reduced sub-problem was plotted against population size from 0 to 5,000 and a population size of 1,500 was decided upon for two main reasons. The first reason is that it can be seen in the plots that although the number of partitions is proportional to the population size, it is not directly proportional, and after a certain inflection point there are significant diminishing returns in the number of partitions for population size. It can be seen from the plots that the position of this inflection point moves further to the right with the size of the problem and it was decided that 1,500 was a decent value that could be used across the whole dataset. It is slightly after the inflection point for most of the \(C\) dataset instances and slightly before the inflection point for most of the \(D\) dataset instances. The \(B\) dataset instances are small enough that it doesnt matter that 1,500 is probably too many and, although it falls very short of the \(E\) dataset instances inflection point, larger population sizes produce too many partitions for the MIP solver to handle.
+\begin{table}[h]
+\centering
+\caption[Size of reduced sub-problem results]{Representative sample of results across \emph{steinlib} dataset instances, investigating the effect that population size has on the number of partitions in the reduced sub-problem. Given are the size of the instance (\(|V|+|E|\)) and average number of partitions and standard deviation over 30 runs for population sizes 50, 100, 1,500 and 10,000.}\label{tab:stpg:pop:trunc} 
+\begin{adjustbox}{width=0.45\textwidth}
+\begin{tabular}{lrrrrrrrrr} \toprule
+ &  & \multicolumn{2}{c}{50} & \multicolumn{2}{c}{100} & \multicolumn{2}{c}{1,500} & \multicolumn{2}{c}{10,000}\\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10} 
+Instance & size & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}\\ \midrule
+%
+\input stpg/tables/trunc_pop.tex
+%
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+The second reason for choosing this population size is that in order for the MIP solver to be effective, the number of decision variables must be kept at a reasonable amount. It was decided that the number of partitions in the reduced sub-problem, after random splitting, should a maximum of around 2,000, on average. The number of random splits was set at 500, therefore the number of partitions before splitting should be around a maximum of 1,500 --- which occurs at a population size of around 1,500 for many of the problem instances. For larger problem instances which need a larger reduced sub-problem, an extra parameter was added, which ensures that the reduced sub-problem is some fraction of the total instance size.
 
 \section{Conclusion and future work}
 
 Constrained optimisation problems involve the search for an optimal object in (often \emph{very} large) search spaces --- in the case of combinatorial optimisation, these spaces are finite and discrete. As well as this, problems that are abstractions of real-world processes can be extremely complex; having many additional side-constraints, separate to the main problem constraints themselves, which must be considered when modelling the problem mathematically.
 
-\cite{np:karp} showed that these (\NP-Complete) problems are all theoretically reducible to one another; but in practice, they often require specific domain knowledge that means custom algorithms must be developed for each problem, individually. The discovery of a ``one size fits all'' solution for this whole class of problems would be a vital achievement in the field of operations research, and the purpose of this thesis was to attempt to provide a material step in the direction towards this goal.
+Karp~\cite{np:karp} showed that NP-Complete problems are all theoretically reducible to one another; however, in practice, they often require specific domain knowledge that requires the development of custom algorithms for each case. The discovery of a ``one size fits all'' solution for this class of problems would be a vital achievement in the field of operations research, and the purpose of this research is to attempt to provide a material step in the direction towards this goal.
 
 Merge search, the algorithm proposed here, is a generalised hybrid meta-heuristic framework for solving large-scale and complex constrained optimisation problems --- with, or without specific domain knowledge. The operation of this framework can be broken down into several phases:
 \begin{itemize}
@@ -923,11 +880,11 @@ Merge search, the algorithm proposed here, is a generalised hybrid meta-heuristi
 \item \emph{Solving reduced sub-problem:} new local optima can be found by solving a reduced version of the problem which uses each partition as a meta-variable, either with a MIP solver or by some other method. By grouping the decision variables, this sub-problem requires much less computational effort to solve --- the trade-off being that the solution produced becomes an approximation of the optimal one.
 \end{itemize}
 
-A theoretical description of merge search was given along with a generic version which, although not as efficient as methods which utilise \emph{some} domain-specific knowledge, would serve to operate as a black-box solver for any combinatorial optimisation problem, provided a MIP model exists for it. It was also shown that merge search can be considered a generalisation of many optimisation techniques such as crossover and mutation operators in genetic algorithms, or search techniques like large neighbourhood search.
+A theoretical description of merge search was given and it was also shown that merge search can be considered a generalisation of many optimisation techniques such as crossover and mutation operators in genetic algorithms, or search techniques like large neighbourhood search.
 
-Practically, two problems were used as testing-grounds to demonstrate the effectiveness of merge search and explore some of its features and facets. The first was a complex, real-world problem from the field of open-pit mining called the constrained pit-limit (CPIT) problem and the second was a well-known problem from Karp's original 21 \NP-Complete problems, the Steiner tree problem in graphs (STPG). These two problems were chosen because they are very dissimilar and require very different approaches to solve them, which allowed the versatility and flexibility of this hybrid meta-heuristic framework to be showcased.
+Practically, two problems were used as testing-grounds to demonstrate the effectiveness of merge search and explore some of its features and facets. The first was a complex, real-world problem from the field of open-pit mining called the constrained pit-limit (CPIT) problem and the second was a well-known problem from Karp's original 21 NP-Complete problems, the Steiner tree problem in graphs (STPG). These two problems were chosen because they are very dissimilar and require very different approaches to solve them, which allowed the versatility and flexibility of this hybrid meta-heuristic framework to be showcased.
 
-As it is a much simpler problem, the experiments on the STPG were used to investigate some of the main properties and design choices that need to be made when constructing merge search algorithms, specifically solution construction methods, population size, method of variable partitioning and methods of solving the reduced sub-problem. In contrast, the experiments on the CPIT problem highlighted the effectiveness of merge search in solving large scale, highly constrained, problems through its automatic decomposition aspects. They also investigated the effect that additional arbitrary splitting of the merge partitions has on the quality of the solutions produced.
+As it is a much simpler problem, the experiments on the STPG were used to investigate some of the main properties and design choices of merge search. In contrast, the experiments on the CPIT problem highlighted the effectiveness of merge search in solving large scale, highly constrained, problems through its automatic decomposition aspects. They also investigated the effect that additional arbitrary splitting of the merge partitions has on the quality of the solutions produced and also the inclusion of a solution polishing phase afterwards.
 
 While the datasets used for the STPG experiments already had been solved to optimality, and therefore were only being used to demonstrate the versatility of merge search and investigate its various aspects; the experiments on the CPIT problem produced solutions which improved on the upper-bounds of all six of the problem instances, as published on the \emph{minelib} website, and two of the most recent published upper-bounds as reported in~\cite{minelib-improved}.
 
@@ -1331,6 +1288,50 @@ Inst. & Opt. & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \mul
 Inst. & Opt. & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}\\ \midrule
 %
 \input stpg/tables/ce_data.tex
+%
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+% \end{adjustbox}
+% \end{table}
+\end{tabular}
+% \end{sidewaystable}
+\end{table*}
+
+\begin{table*}
+% \begin{sidewaystable}
+\centering
+\caption[Size of reduced sub-problem (full results)]{Results on \emph{steinlib} dataset problem instances, investigating the effect that population size has on the number of partitions in the reduced sub-problem. Given are the size of the instance (\(|V|+|E|\)) and average number of partitions and standard deviation over 30 runs for population sizes 50, 100, 1,000 and 10,000.}\label{tab:app:pop}
+% \begin{adjustbox}{width=\textwidth}
+\begin{tabular}{ccc}
+% \begin{table}[h!]
+\centering
+% \caption{Results on \emph{steinlib} dataset \(C\) instances, investigating the difference between the deterministic and random construction heuristics. Given are the average objective value and standard deviation for solutions produced by both heuristics over 20 runs and the difference between the averages, expressed as a percentage.}\label{tab:stpg:init:b}
+% \begin{adjustbox}{width=\textwidth}
+\begin{adjustbox}{width=0.48\textwidth}
+\begin{tabular}{lrrrrrrrrr} \toprule
+ &  & \multicolumn{2}{c}{50} & \multicolumn{2}{c}{100} & \multicolumn{2}{c}{1,500} & \multicolumn{2}{c}{10,000}\\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10} 
+Instance & size & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}\\ \midrule
+%
+\input{stpg/tables/bd_pop}
+%
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+% \end{adjustbox}
+% \end{table}
+&  &
+% \begin{table}[h!]
+\centering
+\begin{adjustbox}{width=0.48\textwidth}
+\begin{tabular}{lrrrrrrrrr} \toprule
+ &  & \multicolumn{2}{c}{50} & \multicolumn{2}{c}{100} & \multicolumn{2}{c}{1,500} & \multicolumn{2}{c}{10,000}\\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10} 
+Instance & size & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}& \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}\\ \midrule
+%
+\input{stpg/tables/ce_pop}
 %
 \bottomrule
 \end{tabular}

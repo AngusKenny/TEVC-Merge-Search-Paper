@@ -271,6 +271,13 @@ S.~Luke, ``Essentials of metaheuristics,'' 2009.
 D.~Pisinger and S.~Ropke, \emph{Large Neighborhood Search}, 09 2010, pp.
   399--419.
 
+\bibitem{ms-vs-cmsa}
+\BIBentryALTinterwordspacing
+D.~Thiruvady, C.~Blum, and A.~T. Ernst, ``Solution merging in matheuristics for
+  resource constrained job scheduling,'' \emph{Algorithms}, vol.~13, no.~10,
+  2020. [Online]. Available: \url{https://www.mdpi.com/1999-4893/13/10/256}
+\BIBentrySTDinterwordspacing
+
 \bibitem{gecco17}
 A.~Kenny, X.~Li, A.~T. Ernst, and D.~Thiruvady, ``Towards solving large-scale
   precedence constrained production scheduling problems in mining,'' in
@@ -336,5 +343,17 @@ M.~Samavati, D.~Essam, M.~Nehring, and R.~Sarker, ``A methodology for the
 \bibitem{zuck-small-improved}
 ------, ``A new methodology for the open-pit mine production scheduling
   problem,'' \emph{Omega}, vol.~81, pp. 169--182, 2018.
+
+\bibitem{stpg-improved}
+J.~Byrka, F.~Grandoni, T.~Rothvo{\ss}, and L.~Sanit{\`a}, ``An improved
+  lp-based approximation for steiner tree,'' in \emph{Proceedings of the
+  forty-second ACM symposium on Theory of computing}.\hskip 1em plus 0.5em
+  minus 0.4em\relax ACM, 2010, pp. 583--592.
+
+\bibitem{hypergraph}
+D.~Chakrabarty, J.~K{\"o}nemann, and D.~Pritchard, ``Hypergraphic lp
+  relaxations for steiner trees,'' in \emph{International Conference on Integer
+  Programming and Combinatorial Optimization}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2010, pp. 383--396.
 
 \end{thebibliography}

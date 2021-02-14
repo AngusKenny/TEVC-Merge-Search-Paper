@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.9)  10 FEB 2021 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.9)  11 FEB 2021 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1356,25 +1356,25 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 ) [8]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 51
-0.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-36.
+38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./mine/tables/gap_table.tex) [9]
+(./mine/tables/gap_table.tex)
 
-LaTeX Warning: Reference `tab:mine:polish' on page 10 undefined on input line 5
-97.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[9]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 608.
+               Default added (so using `!tbp') on input line 587.
 
 (./mine/plots/conv/newman1_conv.tikz
 Missing character: There is no . in font nullfont!
@@ -1538,16 +1538,11 @@ PGFPlots: reading {mine/plots/conv/zuck_large_conv.csv }
 Underfull \vbox (badness 3148) has occurred while \output is active []
 
  [10]
-(./mine/tables/runtime_table.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(./mine/plots/time/zuck_small_grasp_time.tikz
+(./mine/tables/runtime_table.tex) (./mine/plots/time/zuck_small_grasp_time.tikz
 Missing character: There is no . in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
-
 
 Package pgfplots Warning: You requested to open table 'mine/plots/time/zuck_sma
 ll_grasp_time.csv ', but there is also a 'mine/plots/time/zuck_small_grasp_time
@@ -1600,14 +1595,6 @@ PGFPlots: reading {mine/plots/time/kd_merge_time.csv }
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 2126) has occurred while \output is active []
-
- [11]
-
-LaTeX Warning: Reference `tab:mine:polish' on page 12 undefined on input line 7
-33.
-
 (./mine/plots/polish/zuck_med_polish.tikz
 PGFPlots: reading {mine/plots/polish/zuck_med_merge_polish.csv}
 PGFPlots: reading {mine/plots/polish/zuck_med_grasp_polish_add.csv}
@@ -1621,42 +1608,43 @@ PGFPlots: reading {mine/plots/polish/zuck_large_grasp_polish_add.csv}
 )
 (./mine/plots/polish/zuck_large_grasp_polish.tikz
 PGFPlots: reading {mine/plots/polish/zuck_large_grasp_polish.csv}
-) [12]
+)
 
-LaTeX Warning: Reference `tab:mine:update' on page 13 undefined on input line 8
-08.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[11] [12] (./stpg/tables/trunc_gap.tex)
 
-LaTeX Warning: Citation `stpg-improved' on page 13 undefined on input line 838.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-
-LaTeX Warning: Citation `hypergraph' on page 13 undefined on input line 838.
-
-[13] (./stpg/tables/trunc_pop.tex) (./stpg/plots/b10_pop_plot.tikz
+(./stpg/plots/b10_pop_plot.tikz
 PGFPlots: reading {stpg/plots/b10_pop_plot.dat}
 PGFPlots: reading {stpg/plots/b10_pop_plot_lines.dat}
-)
-(./stpg/plots/c10_pop_plot.tikz
+) (./stpg/plots/c10_pop_plot.tikz
 PGFPlots: reading {stpg/plots/c10_pop_plot.dat}
 PGFPlots: reading {stpg/plots/c10_pop_plot_lines.dat}
-) (./stpg/plots/d10_pop_plot.tikz
+)
+(./stpg/plots/d10_pop_plot.tikz
 PGFPlots: reading {stpg/plots/d10_pop_plot.dat}
 PGFPlots: reading {stpg/plots/d10_pop_plot_lines.dat}
-)
-(./stpg/plots/e10_pop_plot.tikz
+) (./stpg/plots/e10_pop_plot.tikz
 PGFPlots: reading {stpg/plots/e10_pop_plot.dat}
 PGFPlots: reading {stpg/plots/e10_pop_plot_lines.dat}
-)
+) [13]
+(./stpg/tables/trunc_pop.tex)
 
-LaTeX Warning: Reference `tab:app:pop' on page 14 undefined on input line 905.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] (./merge_TEVC_2021.bbl [15]
+
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [14]
+(./merge_TEVC_2021.bbl
 Underfull \hbox (badness 2856) in paragraph at lines 89--91
 []\T1/ptm/m/n/8 ------, ``Scat-ter search,'' in \T1/ptm/m/it/8 Ad-vances in evo
 -lu-tion-ary com-put-ing\T1/ptm/m/n/8 .
  []
 
+[15]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `eng'. Using the pattern for
 ** the default language instead.
@@ -1675,82 +1663,85 @@ Underfull \hbox (badness 2856) in paragraph at lines 89--91
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-[16]) [17
-
-]
-Overfull \hbox (3.32336pt too wide) in paragraph at lines 1160--1160
+) [16]
+Overfull \hbox (3.32336pt too wide) in paragraph at lines 1117--1117
 []|$[][]$| 
  []
 
 
-Overfull \hbox (3.32336pt too wide) in paragraph at lines 1161--1161
+Overfull \hbox (3.32336pt too wide) in paragraph at lines 1118--1118
 []|$[][]$| 
  []
 
 
-Overfull \hbox (8.8023pt too wide) in paragraph at lines 1149--1164
+Overfull \hbox (8.8023pt too wide) in paragraph at lines 1106--1121
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1165--1170
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1127
 
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 1185--1187
+Underfull \hbox (badness 1466) in paragraph at lines 1142--1144
 []\T1/ptm/m/n/10 By ag-gre-gat-ing the block-time de-ci-sion vari-ables into
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 1205--1206
+Underfull \hbox (badness 2452) in paragraph at lines 1162--1163
 \T1/ptm/m/n/10 precedence con-straints can be merged with the space-
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 1212--1213
+Underfull \hbox (badness 2035) in paragraph at lines 1169--1170
 \T1/ptm/m/it/10 the re-source con-sump-tion is: $\OML/cmm/m/it/10 q[] \OT1/cmr/
 m/n/10 = [][] \OML/cmm/m/it/10 q[]x[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1222
+Underfull \hbox (badness 10000) in paragraph at lines 1178--1179
 []\T1/ptm/m/n/10 The fol-low-ing for-mu-la-tion is from Goe-mans and
  []
 
-[18
+[17
 
 ]
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/it' instead on input line 1263.
+(Font)              using `T1/ptm/m/it' instead on input line 1220.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./stpg/tables/bd_data.tex) (./stpg/tables/ce_data.tex)
-Overfull \hbox (3.37424pt too wide) in paragraph at lines 1306--1343
+Overfull \hbox (3.37259pt too wide) in paragraph at lines 1263--1300
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19
+(./stpg/tables/bd_pop.tex) (./stpg/tables/ce_pop.tex)
+Overfull \hbox (15.37692pt too wide) in paragraph at lines 1307--1344
+ [][] 
+ []
 
-] [20] (./merge_TEVC_2021.aux)
+[18
+
+] [19] [20] (./merge_TEVC_2021.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 34352 strings out of 481239
- 828409 string characters out of 5920378
- 1394817 words of memory out of 5000000
- 48807 multiletter control sequences out of 15000+600000
- 670894 words of font info for 194 fonts, out of 8000000 for 9000
+ 34364 strings out of 481239
+ 828619 string characters out of 5920378
+ 1489394 words of memory out of 5000000
+ 48809 multiletter control sequences out of 15000+600000
+ 671990 words of font info for 195 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 69i,18n,100p,1550b,2346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,19n,100p,1550b,2342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-
@@ -1777,7 +1768,7 @@ xlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on merge_TEVC_2021.pdf (20 pages, 459506 bytes).
+Output written on merge_TEVC_2021.pdf (20 pages, 466093 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams

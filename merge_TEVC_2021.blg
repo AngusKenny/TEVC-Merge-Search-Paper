@@ -8,12 +8,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: TEVC_refs.bib
-Repeated entry---line 264 of file TEVC_refs.bib
+Repeated entry---line 263 of file TEVC_refs.bib
  : @article{grasp:feo
  :                   ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "stpg-improved"
-Warning--I didn't find a database entry for "hypergraph"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -27,45 +25,45 @@ Warning--empty journal in meta-essentials
 Warning--missing publisher in lns-book
 
 Done.
-You've used 62 entries,
+You've used 65 entries,
             4087 wiz_defined-function locations,
-            1182 strings with 17322 characters,
-and the built_in function-call counts, 47475 in all, are:
-= -- 3896
-> -- 1045
-< -- 442
-+ -- 578
-- -- 166
-* -- 2292
-:= -- 7079
-add.period$ -- 137
-call.type$ -- 62
-change.case$ -- 55
-chr.to.int$ -- 999
-cite$ -- 70
-duplicate$ -- 3367
-empty$ -- 3805
-format.name$ -- 212
-if$ -- 11105
+            1196 strings with 17929 characters,
+and the built_in function-call counts, 49907 in all, are:
+= -- 4088
+> -- 1104
+< -- 462
++ -- 610
+- -- 176
+* -- 2412
+:= -- 7435
+add.period$ -- 145
+call.type$ -- 65
+change.case$ -- 58
+chr.to.int$ -- 1047
+cite$ -- 73
+duplicate$ -- 3539
+empty$ -- 4014
+format.name$ -- 225
+if$ -- 11679
 int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 558
-newline$ -- 211
-num.names$ -- 62
-pop$ -- 1239
+int.to.str$ -- 65
+missing$ -- 588
+newline$ -- 222
+num.names$ -- 65
+pop$ -- 1311
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3714
+skip$ -- 3900
 stack$ -- 0
-substring$ -- 2387
-swap$ -- 2823
-text.length$ -- 109
+substring$ -- 2502
+swap$ -- 2961
+text.length$ -- 113
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 62
+type$ -- 65
 warning$ -- 8
-while$ -- 236
-width$ -- 64
-write$ -- 622
+while$ -- 247
+width$ -- 67
+write$ -- 653
 (There was 1 error message)

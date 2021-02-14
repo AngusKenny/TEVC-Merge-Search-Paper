@@ -494,6 +494,60 @@ CMSA:
 
 RESULTS:
 ========
+CPIT:
+-----
+
+% \begin{table*}[t]
+% \centering
+% \caption[Results on \emph{minelib} dataset instances]{Results on \emph{minelib} dataset instances. Given are the LP upper bound, current best solution from the \emph{minelib} website, the mean objective values (\(\mu\)) and standard deviations (\(\sigma\)) for the GRASP heuristic, merge search without random splitting and full merge search heuristic.% The final column gives the result of using the local improvement heuristic from the GRASP algorithm to polish the best solution found with merge search.
+% }\label{tab:mine:main}
+% \begin{adjustbox}{width=\textwidth}
+% \begin{tabular}{lrrrrrrrrrr} \toprule
+%  & \multicolumn{1}{c}{LP UB} & \multicolumn{1}{c}{\emph{minelib}} & \multicolumn{2}{c}{GRASP heuristic} & \multicolumn{2}{c}{merge search (no splitting)} & \multicolumn{2}{c}{merge search (with splitting)}\\
+% \cmidrule(lr){2-2}\cmidrule(lr){3-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9}
+% Instance & & & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)} & \multicolumn{1}{c}{\(\mu\)}&\multicolumn{1}{c}{\(\sigma\)}  \\ \midrule
+% %
+% \input mine/tables/main_table.tex
+% %
+% \bottomrule
+
+% % \multicolumn{5}{l}{$^*$ this result was beaten by polishing the best merge search solution with the GRASP local improvement heuristic (Table~\ref{tab:mine:polish}).}
+% \end{tabular}
+% \end{adjustbox}
+% \end{table*}
+
+Improved results:
+.................
+\subsubsection*{\textbfUpdated state-of-the-art results}
+
+% When this research was first undertaken, the current published state-of-the-art results were indeed those available on the \emph{minelib} website. However, since then, there have been several developments as published in a recent paper by~\cite{minelib-improved} that has collated all reported improvements to the \emph{minelib} dataset.
+
+% According to this aggregation of results, recently there are three separate studies that have improved the most on the \emph{minelib} results for the CPIT problem instances used for this research~\cite{newman-improved,zuck-small-improved,aggregate}. These improved results are given in Table~\ref{tab:mine:update} in terms of their LP gap, and are compared with the original \emph{minelib} results and the polished merge results from earlier in this section.
+
+% % \begin{table}[h!]
+% % \centering
+% % \caption[Recent updates to state-of-the-art results for \emph{minelib} CPIT instances]{Recent updates to state-of-the-art results for \emph{minelib} CPIT instances. Given is the percentage gap between the LP upper bound and the best result achieved for each respective study, compared with the original \emph{minelib} results and the best results from this research.}\label{tab:mine:update}
+% % \begin{adjustbox}{width=0.45\textwidth}
+% % \begin{tabular}{lrrrrr} \toprule
+% % & & & & \multicolumn{2}{c}{new results}\\ 
+% % \cmidrule(lr){5-6}
+% % Instance & \multicolumn{1}{c}{LP UB} & \multicolumn{1}{c}{\emph{minelib}} & \multicolumn{1}{c}{polished merge} & \multicolumn{1}{c}{publication} & \multicolumn{1}{c}{gap}\\ 
+% % \midrule
+% % %
+% % \input mine/tables/updated_table.tex
+% % %
+% % \bottomrule
+% % \end{tabular}
+% % \end{adjustbox}
+% % \end{table}
+
+% Although the results from this study do not improve on every known bound in the literature, they certainly are competitive with the state-of-the-art and actually do improve the current best-known bound for the \dmine{} and the \zucklarge{} instances.
+
+Polishing:
+.......
+
+% As the quality of the initial solutions is not very high, too much of the local improvement phase of the GRASP algorithm is spent shuffling blocks over long temporal distances. This means the algorithm is unable to produce high quality solutions in the allowed computational budget. It was observed however, that the quality of the solutions produced by the GRASP algorithm greatly depended on the quality of the initial solution that it was given. Conversely, merge search tended to converge to a reasonable solution quite quickly, but then take a long time to improve from that point. Therefore, it was decided to see what would happen if the local improvement heuristic from the GRASP algorithm was applied to ``polish'' the best solution obtained by the merge search algorithm.
+
 
 STPG:
 -----
