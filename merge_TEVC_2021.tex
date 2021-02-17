@@ -62,6 +62,9 @@
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
 
+\newcommand{\xl}[1]{\textbf{\textcolor{red}{(XL: #1)}}}
+\newcommand{\ae}[1]{\textbf{\textcolor{blue}{(AE: #1)}}}
+\newcommand{\ak}[1]{\textbf{\textcolor{green}{(AK: #1)}}}
 
 \begin{document}
 %
@@ -85,7 +88,7 @@
 
 \author{Angus~Kenny$^a$, Dhananjay~Thiruvady$^b$, Davaatseren~Baatar$^c$, Andreas~T.~Ernst$^c$, Xiaodong~Li$^d$, Mohan~Krishnamoorthy$^e$, Gaurav~Singh$^f$%
 
-\thanks{The authors are with: $^a$School of Engineering and Information Technology, University of New South Wales, Canberra ACT, Australia; $^b$School of Information Technology, Deakin University, Geelong VIC, Australia; $^c$School of Mathematics, Monash University, Clayton VIC, Australia; $^d$School of Science, RMIT University, Melbourne VIC, Australia; $^e$School of Information Technology and Electrical Engineering, The University of Queensland, St Lucia QLD, Australia; $^f$BHP, Perth WA, Australia.}}
+\thanks{The authors are with: $^a$School of Engineering and Information Technology, University of New South Wales, Canberra ACT, Australia; $^b$School of Information Technology, Deakin University, Geelong VIC, Australia; $^c$School of Mathematics, Monash University, Clayton VIC, Australia; $^d$School of Computing Technologies, RMIT University, Melbourne VIC, Australia; $^e$School of Information Technology and Electrical Engineering, The University of Queensland, St Lucia QLD, Australia; $^f$BHP, Perth WA, Australia.}}
 
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
@@ -157,8 +160,6 @@ IEEE, IEEEtran, journal, \LaTeX, paper, template.
 
 
 
-
-
 % For peer review papers, you can put extra information on the cover
 % page as needed:
 % \ifCLASSOPTIONpeerreview
@@ -189,10 +190,11 @@ The method proposed in this paper is a \emph{divide-and-conquer}~\cite{alg:levit
 
 The effectiveness and versatility of merge search is demonstrated in this paper by applying it to two very different combinatorial optimisation problems from the literature. The first is the constrained pit limit (CPIT) problem from the field of open-pit mining; and the second is the well-studied Steiner tree problem in graphs (STPG). By applying it to the CPIT problem, merge search is shown to be competitive with current state-of-the-art techniques, improving the best-known bounds on two of the six problems conisdered from the \emph{minelib}~\cite{minelib} dataset. The intensification aspects of the algorithm are also investigated in these experiments, by analysing the effect that splitting the partitions has on solution quality.
 
-Being a less complicated problem, the STPG is used to explore the diversification aspects of merge search, along with some properties of its individual components. Experiments are carried out to examine the effect that different population sizes have on the operation of the algorithm, along with comparing the performance of the full merge search against each of its two main constituent parts (local search and a MIP solver). As the STPG is such a well-studied problem, improving any known bounds for the \emph{steinlib}~\cite{steinlib} dataset would require very sophisticated formulations and pre-processing techniques --- neither of which are the focus of this research --- therefore, the experiments are used primarily to investigate the properties of merge search, and demonstrate its versatility.
+Being a less complicated problem, the STPG is used to explore the diversification aspects of merge search, along with some properties of its individual components. Experiments are carried out to examine the effect that different population sizes have on the operation of the algorithm, along with comparing the performance of the full merge search against each of its two main constituent parts (local search and a MIP solver). As the STPG is such a well-studied problem, improving any known bounds for the \emph{steinlib}~\cite{steinlib} dataset would require very sophisticated formulations and pre-processing techniques --- neither of which are the focus of this research --- therefore, the experiments are used primarily to investigate the properties of merge search, and demonstrate its versatility. \xl{this paragraph on STPG can be much reduced to just 1 or 2 sentences, as the emphasis is on CPIT}
 
-As well as investigating the different properties of the algorithm, by applying it to these significantly different problems, it can be demonstrated that merge search is generalisable across many problems from different domains. The results from both sets of experiments are compared against state-of-the-art published results and also a baseline of a custom greedy randomised adaptive search procedure (GRASP)~\cite{grasp:feo} algorithm, developed for each problem.
+As well as investigating the different properties of the algorithm, by applying it to these significantly different problems, it can be demonstrated that merge search is generalisable across many problems from different domains. The results from both sets of experiments are compared against state-of-the-art published results and also a baseline of a custom greedy randomised adaptive search procedure (GRASP)~\cite{grasp:feo} algorithm, developed for each problem. \xl{I think this paragraph can be shortened and merged into the previous one, as it still says about "generalization across different problems". Isn't it the same message already mentioned?}
 
+\xl{what you could add here perhaps a list of explicit stated novel contributions, and how this current work differs from our previous GECCO work and other similar work on merge search}.
 This paper is organised as follows. Section~\ref{sec:back} highlights some related work in the field of matheuristics and solution merging techniques; it also introduces the two problems, CPIT and STPG, and summarises some of the literature surrounding them. The merge search algorithm itself is discussed as a general framework for solving combinatorial optimisation problems in Section~\ref{sec:merge}. A description of how merge search is applied to the specified problems is provided in Section~\ref{sec:pract}. Section~\ref{sec:exper} details the experimental setup and the datasets used; with results of these experiments being discussed and analysed in Section~\ref{sec:results}. Finally, Section~\ref{sec:conc} concludes the paper and outlines some possible future research.
 
 \section{Background}\label{sec:back}
@@ -234,6 +236,7 @@ Bley et al. strengthen the MIP formulation for open-pit mining problems by addin
 The \emph{minelib} results used for comparison in this paper are taken from the masters thesis of Gonzalo Mu\~noz \cite{toposort}. Mu\~noz uses a modified version of the Bienstock and Zuckerberg algorithm \cite{bz} to solve the LP relaxation, then uses a topological sorting algorithm, similar to Chicoisine et al. to produce a feasible solution.
 
 {\color{red}(ADD RECENT PAPERS AND OUR GECCO PAPERS)}
+\xl{what is missing here is the information on why such a large scale combinatorial problem is so challenging, and conventional techniques cannot be applied directly. We want to make clear problem reduction is crucial step, and this is especially true for this CPIT problem}
 
 % ----
 
@@ -256,6 +259,8 @@ The \emph{jumping particle swarm optimisation for multicast routing} (JPSOMR) al
 The GRASP algorithm was adapted for the multicast routing problem and the STPG by Skorin-Kapov and Kos \cite{grasp:skorin}. It constructs good quality initial solutions by using Dijkstra's algorithm \cite{dijk:dijkstra}. The local search phase incorporates tabu search, with some modifications, applied iteratively until no better solution can be found or a certain number of iterations are performed with no improvement. More information on the GRASP algorithm and its application to the STPG can be found in \cite{grasp:feo, grasp:skorin} and \cite{grasp:martins}.
 
 The STPG has applications ranging widely from integrated circuit design~\cite{vlsi:cho}, to distribution and logistics network design~\cite{stpg-logistics}, to computing phylogenetic trees in biology~\cite{phylo} --- and it has been of interest to mathematicians since before the advent of digital computers. For more information on the history of the STPG and methods of solving it, the reader is directed to~\cite{history:brazil,steiner:hwang,steinerbook,steineradvance}. 
+
+\xl{this section on STPG can be substantially reduced}
 
 \section{Merge Search}\label{sec:merge}
 
