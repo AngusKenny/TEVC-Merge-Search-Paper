@@ -1,0 +1,541 @@
+\begin{thebibliography}{65}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Angelelli et~al.(2010)Angelelli, Mansini \& Speranza}]{kernel2}
+\bibinfo{author}{Angelelli, E.}, \bibinfo{author}{Mansini, R.}, \&
+  \bibinfo{author}{Speranza, M.~G.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Kernel search: A general heuristic for the
+  multi-dimensional knapsack problem}.
+\newblock {\it \bibinfo{journal}{Computers \& Operations Research}\/},  {\it
+  \bibinfo{volume}{37}\/}, \bibinfo{pages}{2017--2026}.
+%Type = Article
+\bibitem[{Angelelli et~al.(2012)Angelelli, Mansini \& Speranza}]{kernel1}
+\bibinfo{author}{Angelelli, E.}, \bibinfo{author}{Mansini, R.}, \&
+  \bibinfo{author}{Speranza, M.~G.} (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{Kernel search: A new heuristic framework for
+  portfolio selection}.
+\newblock {\it \bibinfo{journal}{Computational Optimization and
+  Applications}\/},  {\it \bibinfo{volume}{51}\/}, \bibinfo{pages}{345--361}.
+%Type = Article
+\bibitem[{Applegate et~al.(1998)Applegate, Bixby, Cook \&
+  Chv{\'a}tal}]{merge-tsp}
+\bibinfo{author}{Applegate, D.}, \bibinfo{author}{Bixby, R.},
+  \bibinfo{author}{Cook, W.}, \& \bibinfo{author}{Chv{\'a}tal, V.}
+  (\bibinfo{year}{1998}).
+\newblock \bibinfo{title}{On the solution of traveling salesman problems}, .
+%Type = Incollection
+\bibitem[{Bienstock \& Zuckerberg(2010)}]{bz}
+\bibinfo{author}{Bienstock, D.}, \& \bibinfo{author}{Zuckerberg, M.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Solving {LP} {pelaxations} of {large}-{scale}
+  {precedence} {constrained} {problems}}.
+\newblock In \bibinfo{editor}{F.~Eisenbrand}, \& \bibinfo{editor}{F.~B.
+  Shepherd} (Eds.), {\it \bibinfo{booktitle}{Integer {Programming} and
+  {Combinatorial} {Optimization}}\/} number \bibinfo{number}{6080} in
+  \bibinfo{series}{Lecture {Notes} in {Computer} {Science}}.
+\newblock \bibinfo{publisher}{Springer Berlin Heidelberg}.
+%Type = Article
+\bibitem[{Blum et~al.(2016)Blum, Pinacho, L\'{o}pez-Ib\'{a}$\tilde{\text{n}}$ez
+  \& Lozano}]{cmsa}
+\bibinfo{author}{Blum, C.}, \bibinfo{author}{Pinacho, P.},
+  \bibinfo{author}{L\'{o}pez-Ib\'{a}$\tilde{\text{n}}$ez, M.}, \&
+  \bibinfo{author}{Lozano, J.~A.} (\bibinfo{year}{2016}).
+\newblock \bibinfo{title}{Construct, merge, solve \& adapt a new general
+  algorithm for combinatorial optimization}.
+\newblock {\it \bibinfo{journal}{Computers \& Operations Research}\/},  {\it
+  \bibinfo{volume}{68}\/}, \bibinfo{pages}{75 -- 88}.
+%Type = Article
+\bibitem[{Blum et~al.(2011)Blum, Puchinger, Raidl \& Roli}]{hybridmeta}
+\bibinfo{author}{Blum, C.}, \bibinfo{author}{Puchinger, J.},
+  \bibinfo{author}{Raidl, G.~R.}, \& \bibinfo{author}{Roli, A.}
+  (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{Hybrid metaheuristics in combinatorial optimization:
+  A survey}.
+\newblock {\it \bibinfo{journal}{Applied Soft Computing}\/},  {\it
+  \bibinfo{volume}{11}\/}, \bibinfo{pages}{4135--4151}.
+%Type = Book
+\bibitem[{Blum et~al.(2008)Blum, Roli \& Sampels}]{hybrid-book2}
+\bibinfo{author}{Blum, C.}, \bibinfo{author}{Roli, A.}, \&
+  \bibinfo{author}{Sampels, M.} (\bibinfo{year}{2008}).
+\newblock {\it \bibinfo{title}{Hybrid Metaheuristics: An Emerging Approach to
+  Optimization}\/}.
+\newblock Studies in Computational Intelligence.
+\newblock \bibinfo{publisher}{Springer Berlin Heidelberg}.
+\newblock \URLprefix \url{https://books.google.com.au/books?id=4s9sCQAAQBAJ}.
+%Type = Inproceedings
+\bibitem[{Boschetti et~al.(2009)Boschetti, Maniezzo, Roffilli \&
+  R{\"o}hler}]{matheuristics}
+\bibinfo{author}{Boschetti, M.~A.}, \bibinfo{author}{Maniezzo, V.},
+  \bibinfo{author}{Roffilli, M.}, \& \bibinfo{author}{R{\"o}hler, A.~B.}
+  (\bibinfo{year}{2009}).
+\newblock \bibinfo{title}{Matheuristics: Optimization, simulation and control}.
+\newblock In {\it \bibinfo{booktitle}{International Workshop on Hybrid
+  Metaheuristics}\/} (pp. \bibinfo{pages}{171--177}).
+\newblock \bibinfo{organization}{Springer}.
+%Type = Book
+\bibitem[{Boyd \& Vandenberghe(2004)}]{convex}
+\bibinfo{author}{Boyd, S.}, \& \bibinfo{author}{Vandenberghe, L.}
+  (\bibinfo{year}{2004}).
+\newblock {\it \bibinfo{title}{Convex optimization}\/}.
+\newblock \bibinfo{publisher}{Cambridge university press}.
+%Type = Article
+\bibitem[{Brazil et~al.(2014)Brazil, Graham, Thomas \&
+  Zachariasen}]{history:brazil}
+\bibinfo{author}{Brazil, M.}, \bibinfo{author}{Graham, R.~L.},
+  \bibinfo{author}{Thomas, D.~A.}, \& \bibinfo{author}{Zachariasen, M.}
+  (\bibinfo{year}{2014}).
+\newblock \bibinfo{title}{On the history of the euclidean steiner tree
+  problem}.
+\newblock {\it \bibinfo{journal}{Archive for history of exact sciences}\/},
+  {\it \bibinfo{volume}{68}\/}, \bibinfo{pages}{327--354}.
+%Type = Inproceedings
+\bibitem[{Byrka et~al.(2010)Byrka, Grandoni, Rothvo{\ss} \&
+  Sanit{\`a}}]{stpg-improved}
+\bibinfo{author}{Byrka, J.}, \bibinfo{author}{Grandoni, F.},
+  \bibinfo{author}{Rothvo{\ss}, T.}, \& \bibinfo{author}{Sanit{\`a}, L.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{An improved lp-based approximation for steiner tree}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the forty-second ACM
+  symposium on Theory of computing}\/} (pp. \bibinfo{pages}{583--592}).
+\newblock \bibinfo{organization}{ACM}.
+%Type = Inproceedings
+\bibitem[{Chakrabarty et~al.(2010)Chakrabarty, K{\"o}nemann \&
+  Pritchard}]{hypergraph}
+\bibinfo{author}{Chakrabarty, D.}, \bibinfo{author}{K{\"o}nemann, J.}, \&
+  \bibinfo{author}{Pritchard, D.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Hypergraphic lp relaxations for steiner trees}.
+\newblock In {\it \bibinfo{booktitle}{International Conference on Integer
+  Programming and Combinatorial Optimization}\/} (pp.
+  \bibinfo{pages}{383--396}).
+\newblock \bibinfo{organization}{Springer}.
+%Type = Article
+\bibitem[{Chicoisne et~al.(2012)Chicoisne, Espinoza, Goycoolea, Moreno \&
+  Rubio}]{cpit}
+\bibinfo{author}{Chicoisne, R.}, \bibinfo{author}{Espinoza, D.},
+  \bibinfo{author}{Goycoolea, M.}, \bibinfo{author}{Moreno, E.}, \&
+  \bibinfo{author}{Rubio, E.} (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{A new algorithm for the open-pit mine production
+  scheduling problem}.
+\newblock {\it \bibinfo{journal}{Operations Research}\/},  {\it
+  \bibinfo{volume}{60}\/}, \bibinfo{pages}{517--528}.
+%Type = Incollection
+\bibitem[{Cho(2001)}]{vlsi:cho}
+\bibinfo{author}{Cho, J.-D.} (\bibinfo{year}{2001}).
+\newblock \bibinfo{title}{Steiner tree problems in vlsi layout designs}.
+\newblock In {\it \bibinfo{booktitle}{Steiner Trees in Industry}\/} (pp.
+  \bibinfo{pages}{101--173}).
+\newblock \bibinfo{publisher}{Springer}.
+%Type = Article
+\bibitem[{Consoli et~al.(2010)Consoli, Moreno-P{\'e}rez, Darby-Dowman \&
+  Mladenovi{\'c}}]{jpso:consoli}
+\bibinfo{author}{Consoli, S.}, \bibinfo{author}{Moreno-P{\'e}rez, J.~A.},
+  \bibinfo{author}{Darby-Dowman, K.}, \& \bibinfo{author}{Mladenovi{\'c}, N.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Discrete particle swarm optimization for the minimum
+  labelling steiner tree problem}.
+\newblock {\it \bibinfo{journal}{Natural Computing}\/},  {\it
+  \bibinfo{volume}{9}\/}, \bibinfo{pages}{29--46}.
+%Type = Article
+\bibitem[{Dantzig \& Wolfe(1960)}]{decomp}
+\bibinfo{author}{Dantzig, G.~B.}, \& \bibinfo{author}{Wolfe, P.}
+  (\bibinfo{year}{1960}).
+\newblock \bibinfo{title}{Decomposition principle for linear programs}.
+\newblock {\it \bibinfo{journal}{Operations research}\/},  {\it
+  \bibinfo{volume}{8}\/}, \bibinfo{pages}{101--111}.
+%Type = Book
+\bibitem[{Deb(2012)}]{deb_book}
+\bibinfo{author}{Deb, K.} (\bibinfo{year}{2012}).
+\newblock {\it \bibinfo{title}{Optimization for engineering design: Algorithms
+  and examples}\/}.
+\newblock \bibinfo{publisher}{PHI Learning Pvt. Ltd.}
+%Type = Article
+\bibitem[{Dijkstra(1959)}]{dijk:dijkstra}
+\bibinfo{author}{Dijkstra, E.~W.} (\bibinfo{year}{1959}).
+\newblock \bibinfo{title}{A note on two problems in connexion with graphs}.
+\newblock {\it \bibinfo{journal}{Numerische mathematik}\/},  {\it
+  \bibinfo{volume}{1}\/}, \bibinfo{pages}{269--271}.
+%Type = Article
+\bibitem[{Dowsland(1991)}]{kp:dowsland}
+\bibinfo{author}{Dowsland, K.~A.} (\bibinfo{year}{1991}).
+\newblock \bibinfo{title}{Hill-climbing, simulated annealing and the steiner
+  problem in graphs}.
+\newblock {\it \bibinfo{journal}{Engineering Optimization}\/},  {\it
+  \bibinfo{volume}{17}\/}, \bibinfo{pages}{91--107}.
+%Type = Book
+\bibitem[{Du et~al.(2013)Du, Smith \& Rubinstein}]{steineradvance}
+\bibinfo{author}{Du, D.-Z.}, \bibinfo{author}{Smith, J.}, \&
+  \bibinfo{author}{Rubinstein, J.~H.} (\bibinfo{year}{2013}).
+\newblock {\it \bibinfo{title}{Advances in Steiner trees}\/}
+  volume~\bibinfo{volume}{6}.
+\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
+%Type = Incollection
+\bibitem[{Duin(2000)}]{pp:duin}
+\bibinfo{author}{Duin, C.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Preprocessing the steiner problem in graphs}.
+\newblock In {\it \bibinfo{booktitle}{Advances in Steiner Trees}\/} (pp.
+  \bibinfo{pages}{175--233}).
+\newblock \bibinfo{publisher}{Springer}.
+%Type = Article
+\bibitem[{Eisenbrand et~al.(2010)Eisenbrand, Grandoni, Rothvo{\ss} \&
+  Sch{\"a}fer}]{stpg-logistics}
+\bibinfo{author}{Eisenbrand, F.}, \bibinfo{author}{Grandoni, F.},
+  \bibinfo{author}{Rothvo{\ss}, T.}, \& \bibinfo{author}{Sch{\"a}fer, G.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Connected facility location via random facility
+  sampling and core detouring}.
+\newblock {\it \bibinfo{journal}{Journal of Computer and System Sciences}\/},
+  {\it \bibinfo{volume}{76}\/}, \bibinfo{pages}{709--726}.
+%Type = Article
+\bibitem[{Espinoza et~al.(2012)Espinoza, Goycoolea, Moreno \& Newman}]{minelib}
+\bibinfo{author}{Espinoza, D.}, \bibinfo{author}{Goycoolea, M.},
+  \bibinfo{author}{Moreno, E.}, \& \bibinfo{author}{Newman, A.~N.}
+  (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{Minelib: A library of open-pit mining problems}.
+\newblock {\it \bibinfo{journal}{Annals of Operations Research}\/},  {\it
+  \bibinfo{volume}{206(1)}\/}, \bibinfo{pages}{91--114}. \URLprefix
+  \url{http://mansci-web.uai.cl/minelib/}.
+%Type = Article
+\bibitem[{Feo \& Resende(1995)}]{grasp:feo}
+\bibinfo{author}{Feo, T.~A.}, \& \bibinfo{author}{Resende, M.~G.}
+  (\bibinfo{year}{1995}).
+\newblock \bibinfo{title}{Greedy randomized adaptive search procedures}.
+\newblock {\it \bibinfo{journal}{Journal of global optimization}\/},  {\it
+  \bibinfo{volume}{6}\/}, \bibinfo{pages}{109--133}.
+%Type = Incollection
+\bibitem[{Fischetti \& Fischetti(2018)}]{matheuristics-new1}
+\bibinfo{author}{Fischetti, M.}, \& \bibinfo{author}{Fischetti, M.}
+  (\bibinfo{year}{2018}).
+\newblock \bibinfo{title}{Matheuristics}.
+\newblock In {\it \bibinfo{booktitle}{Handbook of Heuristics}\/} (pp.
+  \bibinfo{pages}{121--153}).
+\newblock \bibinfo{publisher}{Springer}.
+%Type = Article
+\bibitem[{Foulds \& Graham(1982)}]{phylo}
+\bibinfo{author}{Foulds, L.~R.}, \& \bibinfo{author}{Graham, R.~L.}
+  (\bibinfo{year}{1982}).
+\newblock \bibinfo{title}{The steiner problem in phylogeny is np-complete}.
+\newblock {\it \bibinfo{journal}{Advances in Applied mathematics}\/},  {\it
+  \bibinfo{volume}{3}\/}, \bibinfo{pages}{43--49}.
+%Type = Article
+\bibitem[{Glover et~al.(2000)Glover, Laguna \& Mart{\'i}}]{path-relinking}
+\bibinfo{author}{Glover, F.}, \bibinfo{author}{Laguna, M.}, \&
+  \bibinfo{author}{Mart{\'i}, R.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Fundamentals of scatter search and path relinking}.
+\newblock {\it \bibinfo{journal}{Control and cybernetics}\/},  {\it
+  \bibinfo{volume}{29}\/}, \bibinfo{pages}{653--684}.
+%Type = Incollection
+\bibitem[{Glover et~al.(2003)Glover, Laguna \& Mart{\'i}}]{scatter-search}
+\bibinfo{author}{Glover, F.}, \bibinfo{author}{Laguna, M.}, \&
+  \bibinfo{author}{Mart{\'i}, R.} (\bibinfo{year}{2003}).
+\newblock \bibinfo{title}{Scatter search}.
+\newblock In {\it \bibinfo{booktitle}{Advances in evolutionary computing}\/}
+  (pp. \bibinfo{pages}{519--537}).
+\newblock \bibinfo{publisher}{Springer}.
+%Type = Article
+\bibitem[{Goemans \& Myung(1993)}]{goemans}
+\bibinfo{author}{Goemans, M.~X.}, \& \bibinfo{author}{Myung, Y.-S.}
+  (\bibinfo{year}{1993}).
+\newblock \bibinfo{title}{A catalog of steiner tree formulations}.
+\newblock {\it \bibinfo{journal}{Networks}\/},  {\it \bibinfo{volume}{23}\/},
+  \bibinfo{pages}{19--28}.
+%Type = Article
+\bibitem[{Hochbaum \& Chen(2000)}]{hochbaum}
+\bibinfo{author}{Hochbaum, D.~S.}, \& \bibinfo{author}{Chen, A.}
+  (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Performance {analysis} and {best} {implementations}
+  of {old} and {new} {algorithms} for the {open}-{pit} {mining} {problem}}.
+\newblock {\it \bibinfo{journal}{Operations Research}\/},  {\it
+  \bibinfo{volume}{48}\/}, \bibinfo{pages}{894--914}.
+%Type = Article
+\bibitem[{Hwang \& Richards(1992)}]{steiner:hwang}
+\bibinfo{author}{Hwang, F.~K.}, \& \bibinfo{author}{Richards, D.~S.}
+  (\bibinfo{year}{1992}).
+\newblock \bibinfo{title}{Steiner tree problems}.
+\newblock {\it \bibinfo{journal}{Networks}\/},  {\it \bibinfo{volume}{22}\/},
+  \bibinfo{pages}{55--89}.
+%Type = Inproceedings
+\bibitem[{J{\'e}lvez et~al.(2019)J{\'e}lvez, Morales \&
+  Nancel-Penard}]{minelib-improved}
+\bibinfo{author}{J{\'e}lvez, E.}, \bibinfo{author}{Morales, N.}, \&
+  \bibinfo{author}{Nancel-Penard, P.} (\bibinfo{year}{2019}).
+\newblock \bibinfo{title}{Open-pit mine production scheduling: Improvements to
+  minelib library problems}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the 27th International
+  Symposium on Mine Planning and Equipment Selection-MPES 2018}\/} (pp.
+  \bibinfo{pages}{223--232}).
+\newblock \bibinfo{organization}{Springer}.
+%Type = Article
+\bibitem[{J\'{e}lvez et~al.(2016)J\'{e}lvez, Morales, Nancel-Penard, Peypouquet
+  \& Reyes}]{aggregate}
+\bibinfo{author}{J\'{e}lvez, E.}, \bibinfo{author}{Morales, N.},
+  \bibinfo{author}{Nancel-Penard, P.}, \bibinfo{author}{Peypouquet, J.}, \&
+  \bibinfo{author}{Reyes, P.} (\bibinfo{year}{2016}).
+\newblock \bibinfo{title}{Aggregation heuristic for the open-pit block
+  scheduling problem}.
+\newblock {\it \bibinfo{journal}{European Journal of Operational Research}\/},
+  {\it \bibinfo{volume}{249}\/}, \bibinfo{pages}{1169--1177}.
+%Type = Incollection
+\bibitem[{Karp(1972)}]{np:karp}
+\bibinfo{author}{Karp, R.~M.} (\bibinfo{year}{1972}).
+\newblock \bibinfo{title}{Reducibility among combinatorial problems}.
+\newblock In {\it \bibinfo{booktitle}{Complexity of computer computations}\/}
+  (pp. \bibinfo{pages}{85--103}).
+\newblock \bibinfo{publisher}{Springer}.
+%Type = Article
+\bibitem[{Kennedy(2010)}]{pso:kennedy}
+\bibinfo{author}{Kennedy, J.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Particle swarm optimization}.
+\newblock {\it \bibinfo{journal}{Encyclopedia of machine learning}\/},  (pp.
+  \bibinfo{pages}{760--766}).
+%Type = Inproceedings
+\bibitem[{Kenny et~al.(2018)Kenny, Li \& Ernst}]{gecco18}
+\bibinfo{author}{Kenny, A.}, \bibinfo{author}{Li, X.}, \&
+  \bibinfo{author}{Ernst, A.~T.} (\bibinfo{year}{2018}).
+\newblock \bibinfo{title}{A merge search algorithm and its application to the
+  constrained pit problem in mining}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the Genetic and
+  Evolutionary Computation Conference}\/} GECCO '18.
+\newblock \bibinfo{publisher}{ACM}.
+%Type = Inproceedings
+\bibitem[{Kenny et~al.(2019)Kenny, Li, Ernst \& Sun}]{gecco19}
+\bibinfo{author}{Kenny, A.}, \bibinfo{author}{Li, X.}, \bibinfo{author}{Ernst,
+  A.~T.}, \& \bibinfo{author}{Sun, Y.} (\bibinfo{year}{2019}).
+\newblock \bibinfo{title}{An improved merge search algorithm for the
+  constrained pit problem in open-pit mining}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the Genetic and
+  Evolutionary Computation Conference}\/} GECCO '19.
+\newblock \bibinfo{publisher}{ACM}.
+%Type = Inproceedings
+\bibitem[{Kenny et~al.(2017)Kenny, Li, Ernst \& Thiruvady}]{gecco17}
+\bibinfo{author}{Kenny, A.}, \bibinfo{author}{Li, X.}, \bibinfo{author}{Ernst,
+  A.~T.}, \& \bibinfo{author}{Thiruvady, D.} (\bibinfo{year}{2017}).
+\newblock \bibinfo{title}{Towards solving large-scale precedence constrained
+  production scheduling problems in mining}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the Genetic and
+  Evolutionary Computation Conference}\/} GECCO '17 (pp.
+  \bibinfo{pages}{1137--1144}).
+\newblock \bibinfo{publisher}{ACM}.
+%Type = Inproceedings
+\bibitem[{Kenny et~al.(2016)Kenny, Li, Qin \& Ernst}]{gecco16}
+\bibinfo{author}{Kenny, A.}, \bibinfo{author}{Li, X.}, \bibinfo{author}{Qin,
+  A.~K.}, \& \bibinfo{author}{Ernst, A.~T.} (\bibinfo{year}{2016}).
+\newblock \bibinfo{title}{A population-based local search technique with random
+  descent and jump for the steiner tree problem in graphs}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the Genetic and
+  Evolutionary Computation Conference 2016}\/} (pp. \bibinfo{pages}{333--340}).
+%Type = Article
+\bibitem[{Kingston \& Sheppard(2003)}]{stpg-reduce}
+\bibinfo{author}{Kingston, J.~H.}, \& \bibinfo{author}{Sheppard, N.~P.}
+  (\bibinfo{year}{2003}).
+\newblock \bibinfo{title}{On reductions for the steiner problem in graphs}.
+\newblock {\it \bibinfo{journal}{Journal of Discrete Algorithms}\/},  {\it
+  \bibinfo{volume}{1}\/}, \bibinfo{pages}{77--88}.
+%Type = Incollection
+\bibitem[{Koch et~al.(2001)Koch, Martin \& Vo{\ss}}]{steinlib}
+\bibinfo{author}{Koch, T.}, \bibinfo{author}{Martin, A.}, \&
+  \bibinfo{author}{Vo{\ss}, S.} (\bibinfo{year}{2001}).
+\newblock \bibinfo{title}{Steinlib: An updated library on steiner tree problems
+  in graphs}.
+\newblock In {\it \bibinfo{booktitle}{Steiner trees in industry}\/} (pp.
+  \bibinfo{pages}{285--325}).
+\newblock \bibinfo{publisher}{Springer}.
+%Type = Book
+\bibitem[{Levitin(2012)}]{alg:levitin}
+\bibinfo{author}{Levitin, A.} (\bibinfo{year}{2012}).
+\newblock {\it \bibinfo{title}{Introduction to the Design and Analysis of
+  Algorithms (3rd Ed.)}\/}.
+\newblock \bibinfo{publisher}{Pearson Education}.
+%Type = Article
+\bibitem[{Luke(2009)}]{meta-essentials}
+\bibinfo{author}{Luke, S.} (\bibinfo{year}{2009}).
+\newblock \bibinfo{title}{Essentials of metaheuristics}, .
+%Type = Book
+\bibitem[{Maniezzo et~al.(2009)Maniezzo, St{\"u}tzle \& Vo{\ss}}]{hybrid-book1}
+\bibinfo{author}{Maniezzo, V.}, \bibinfo{author}{St{\"u}tzle, T.}, \&
+  \bibinfo{author}{Vo{\ss}, S.} (\bibinfo{year}{2009}).
+\newblock {\it \bibinfo{title}{Matheuristics: Hybridizing Metaheuristics and
+  Mathematical Programming}\/}.
+\newblock Annals of Information Systems.
+\newblock \bibinfo{publisher}{Springer US}.
+\newblock \URLprefix \url{https://books.google.com.au/books?id=3uN95LwxRlAC}.
+%Type = Inproceedings
+\bibitem[{Martins(1999)}]{grasp:martins}
+\bibinfo{author}{Martins, S.} (\bibinfo{year}{1999}).
+\newblock \bibinfo{title}{Greedy randomized adaptive search procedures for the
+  steiner problem in graphs sl martins, pm pardalos, mgc resende. and cc
+  riheiro}.
+\newblock In {\it \bibinfo{booktitle}{Randomization Methods in Algorithm
+  Design: DIMACS Workshop, December 12-14, 1997}\/} (p. \bibinfo{pages}{133}).
+\newblock \bibinfo{organization}{American Mathematical Soc.}
+  volume~\bibinfo{volume}{43}.
+%Type = Article
+\bibitem[{Meagher et~al.(2014)Meagher, Dimitrakopoulos \& Avis}]{meagher}
+\bibinfo{author}{Meagher, C.}, \bibinfo{author}{Dimitrakopoulos, R.}, \&
+  \bibinfo{author}{Avis, D.} (\bibinfo{year}{2014}).
+\newblock \bibinfo{title}{Optimized open pit mine design, pushbacks and the gap
+  problem--a review}.
+\newblock {\it \bibinfo{journal}{Journal of Mining Science}\/},  {\it
+  \bibinfo{volume}{50}\/}, \bibinfo{pages}{508--526}.
+%Type = Article
+\bibitem[{Mu{\~{n}}oz~Mart{\'{i}}nez(2012)}]{toposort}
+\bibinfo{author}{Mu{\~{n}}oz~Mart{\'{i}}nez, G.~I.} (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{Modelos de optimizaci{\'{o}}n lineal entera y
+  aplicaciones a la miner{\'{i}}a}, .
+%Type = Article
+\bibitem[{Omidvar et~al.(2013)Omidvar, Li, Mei \& Yao}]{omidvar}
+\bibinfo{author}{Omidvar, M.~N.}, \bibinfo{author}{Li, X.},
+  \bibinfo{author}{Mei, Y.}, \& \bibinfo{author}{Yao, X.}
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Cooperative co-evolution with differential grouping
+  for large scale optimization}.
+\newblock {\it \bibinfo{journal}{IEEE Transactions on evolutionary
+  computation}\/},  {\it \bibinfo{volume}{18}\/}, \bibinfo{pages}{378--393}.
+%Type = Article
+\bibitem[{Papadimitrou \& Steiglitz(1982)}]{copalg}
+\bibinfo{author}{Papadimitrou, C.~H.}, \& \bibinfo{author}{Steiglitz, K.}
+  (\bibinfo{year}{1982}).
+\newblock \bibinfo{title}{Combinatorial optimization: algorithms and
+  complexity}, .
+%Type = Inbook
+\bibitem[{Pisinger \& Ropke(2010)}]{lns-book}
+\bibinfo{author}{Pisinger, D.}, \& \bibinfo{author}{Ropke, S.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Large neighborhood search}.
+\newblock (pp. \bibinfo{pages}{399--419}).
+\newblock \DOIprefix\doi{10.1007/978-1-4419-1665-5_13}.
+%Type = Article
+\bibitem[{Polzin(2003)}]{algo:polzin}
+\bibinfo{author}{Polzin, T.} (\bibinfo{year}{2003}).
+\newblock \bibinfo{title}{Algorithms for the steiner problem in networks}, .
+%Type = Inproceedings
+\bibitem[{Polzin \& Vahdati(2000)}]{pd:polzin}
+\bibinfo{author}{Polzin, T.}, \& \bibinfo{author}{Vahdati, S.}
+  (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Primal-dual approaches to the steiner problem}.
+\newblock In {\it \bibinfo{booktitle}{International Workshop on Approximation
+  Algorithms for Combinatorial Optimization}\/} (pp.
+  \bibinfo{pages}{214--225}).
+\newblock \bibinfo{organization}{Springer}.
+%Type = Book
+\bibitem[{Pr{\"o}mel \& Steger(2012)}]{steinerbook}
+\bibinfo{author}{Pr{\"o}mel, H.~J.}, \& \bibinfo{author}{Steger, A.}
+  (\bibinfo{year}{2012}).
+\newblock {\it \bibinfo{title}{The Steiner tree problem: a tour through graphs,
+  algorithms, and complexity}\/}.
+\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
+%Type = Article
+\bibitem[{Qu et~al.(2013)Qu, Xu, Castro \& Landa-Silva}]{jpsomr:qu}
+\bibinfo{author}{Qu, R.}, \bibinfo{author}{Xu, Y.}, \bibinfo{author}{Castro,
+  J.~P.}, \& \bibinfo{author}{Landa-Silva, D.} (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Particle swarm optimization for the steiner tree in
+  graph and delay-constrained multicast routing problems}.
+\newblock {\it \bibinfo{journal}{Journal of Heuristics}\/},  {\it
+  \bibinfo{volume}{19}\/}, \bibinfo{pages}{317--342}.
+%Type = Article
+\bibitem[{Raidl(2015)}]{hybrid-decomp}
+\bibinfo{author}{Raidl, G.~R.} (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{Decomposition based hybrid metaheuristics}.
+\newblock {\it \bibinfo{journal}{European journal of operational research}\/},
+  {\it \bibinfo{volume}{244}\/}, \bibinfo{pages}{66--76}.
+%Type = Article
+\bibitem[{Ribeiro et~al.(2020)Ribeiro, Maniezzo, St{\"u}tzle, Blum, Juan,
+  Ramalhinho, Mladenovic, Sifaleras, S{\"o}rensen \&
+  Souza}]{matheuristics-new2}
+\bibinfo{author}{Ribeiro, C.~C.}, \bibinfo{author}{Maniezzo, V.},
+  \bibinfo{author}{St{\"u}tzle, T.}, \bibinfo{author}{Blum, C.},
+  \bibinfo{author}{Juan, A.~A.}, \bibinfo{author}{Ramalhinho, H.},
+  \bibinfo{author}{Mladenovic, N.}, \bibinfo{author}{Sifaleras, A.},
+  \bibinfo{author}{S{\"o}rensen, K.}, \& \bibinfo{author}{Souza, M.}
+  (\bibinfo{year}{2020}).
+\newblock \bibinfo{title}{Preface to the special issue on matheuristics and
+  metaheuristics}.
+\newblock {\it \bibinfo{journal}{International Transactions in Operational
+  Research}\/},  {\it \bibinfo{volume}{27}\/}, \bibinfo{pages}{5--8}.
+%Type = Article
+\bibitem[{Samavati et~al.(2017)Samavati, Essam, Nehring \&
+  Sarker}]{newman-improved}
+\bibinfo{author}{Samavati, M.}, \bibinfo{author}{Essam, D.},
+  \bibinfo{author}{Nehring, M.}, \& \bibinfo{author}{Sarker, R.}
+  (\bibinfo{year}{2017}).
+\newblock \bibinfo{title}{A methodology for the large-scale multi-period
+  precedence-constrained knapsack problem: an application in the mining
+  industry}.
+\newblock {\it \bibinfo{journal}{International Journal of Production
+  Economics}\/},  {\it \bibinfo{volume}{193}\/}, \bibinfo{pages}{12--20}.
+%Type = Article
+\bibitem[{Samavati et~al.(2018)Samavati, Essam, Nehring \&
+  Sarker}]{zuck-small-improved}
+\bibinfo{author}{Samavati, M.}, \bibinfo{author}{Essam, D.},
+  \bibinfo{author}{Nehring, M.}, \& \bibinfo{author}{Sarker, R.}
+  (\bibinfo{year}{2018}).
+\newblock \bibinfo{title}{A new methodology for the open-pit mine production
+  scheduling problem}.
+\newblock {\it \bibinfo{journal}{Omega}\/},  {\it \bibinfo{volume}{81}\/},
+  \bibinfo{pages}{169--182}.
+%Type = Article
+\bibitem[{Singh et~al.(2012)Singh, Sier, Ernst, Gavriliouk, Oyston, Giles \&
+  Welgama}]{singh}
+\bibinfo{author}{Singh, G.}, \bibinfo{author}{Sier, D.},
+  \bibinfo{author}{Ernst, A.~T.}, \bibinfo{author}{Gavriliouk, O.},
+  \bibinfo{author}{Oyston, R.}, \bibinfo{author}{Giles, T.}, \&
+  \bibinfo{author}{Welgama, P.} (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{A mixed integer programming model for long term
+  capacity expansion planning: A case study from the hunter valley coal chain}.
+\newblock {\it \bibinfo{journal}{European Journal of Operational Research}\/},
+  {\it \bibinfo{volume}{220}\/}, \bibinfo{pages}{210--224}.
+%Type = Article
+\bibitem[{Skorin-Kapov \& Kos(2006)}]{grasp:skorin}
+\bibinfo{author}{Skorin-Kapov, N.}, \& \bibinfo{author}{Kos, M.}
+  (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{A grasp heuristic for the delay-constrained multicast
+  routing problem}.
+\newblock {\it \bibinfo{journal}{Telecommunication Systems}\/},  {\it
+  \bibinfo{volume}{32}\/}, \bibinfo{pages}{55--69}.
+%Type = Article
+\bibitem[{Talbi(2002)}]{talbi}
+\bibinfo{author}{Talbi, E.-G.} (\bibinfo{year}{2002}).
+\newblock \bibinfo{title}{A taxonomy of hybrid metaheuristics}.
+\newblock {\it \bibinfo{journal}{Journal of heuristics}\/},  {\it
+  \bibinfo{volume}{8}\/}, \bibinfo{pages}{541--564}.
+%Type = Article
+\bibitem[{Thiruvady et~al.(2020)Thiruvady, Blum \& Ernst}]{ms-vs-cmsa}
+\bibinfo{author}{Thiruvady, D.}, \bibinfo{author}{Blum, C.}, \&
+  \bibinfo{author}{Ernst, A.~T.} (\bibinfo{year}{2020}).
+\newblock \bibinfo{title}{Solution merging in matheuristics for resource
+  constrained job scheduling}.
+\newblock {\it \bibinfo{journal}{Algorithms}\/},  {\it \bibinfo{volume}{13}\/}.
+  \URLprefix \url{https://www.mdpi.com/1999-4893/13/10/256}.
+  \DOIprefix\doi{10.3390/a13100256}.
+%Type = Article
+\bibitem[{Uchoa et~al.(2002)Uchoa, Poggi~de Arag{\~a}o \& Ribeiro}]{pp:uchoa}
+\bibinfo{author}{Uchoa, E.}, \bibinfo{author}{Poggi~de Arag{\~a}o, M.}, \&
+  \bibinfo{author}{Ribeiro, C.~C.} (\bibinfo{year}{2002}).
+\newblock \bibinfo{title}{Preprocessing steiner problems from vlsi layout}.
+\newblock {\it \bibinfo{journal}{Networks: An International Journal}\/},  {\it
+  \bibinfo{volume}{40}\/}, \bibinfo{pages}{38--50}.
+%Type = Phdthesis
+\bibitem[{Vahdati~Daneshmand(2004)}]{algo:daneshmand}
+\bibinfo{author}{Vahdati~Daneshmand, S.} (\bibinfo{year}{2004}).
+\newblock {\it \bibinfo{title}{Algorithmic approaches to the Steiner problem in
+  networks}\/}.
+\newblock Ph.D. thesis Universit{\"a}t Mannheim.
+%Type = Book
+\bibitem[{Wolsey \& Nemhauser(1999)}]{int_and_cop}
+\bibinfo{author}{Wolsey, L.~A.}, \& \bibinfo{author}{Nemhauser, G.~L.}
+  (\bibinfo{year}{1999}).
+\newblock {\it \bibinfo{title}{Integer and combinatorial optimization}\/}
+  volume~\bibinfo{volume}{55}.
+\newblock \bibinfo{publisher}{John Wiley \& Sons}.
+
+\end{thebibliography}
