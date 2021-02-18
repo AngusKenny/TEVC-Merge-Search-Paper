@@ -1,4 +1,4 @@
-\documentclass[review]{elsarticle}
+\documentclass[preprint]{elsarticle}
 
 \usepackage{hyperref}
 
@@ -83,7 +83,7 @@ Merge search is applied to two very different NP-Hard problems: the constrained 
 
 \end{frontmatter}
 
-\linenumbers
+% \linenumbers
 
 \section{Introduction}\label{sec:intro}
 
@@ -805,8 +805,6 @@ While the datasets used for the STPG experiments already had been solved to opti
 \smallskip
 
 Although demonstrating that merge search can be applied to two very different problems shows that the algorithm is very versatile, making the claim that it is a general framework that can be applied to \emph{any} combinatorial optimisation problem would require significantly more evidence than only two problems. Therefore, the most obvious future research that can be performed is in applying the technique to many more (and varying types of) problems. Aside from this, some further work could be done into developing a truly generic algorithm which operates entirely on the decision variables, and is completely problem agnostic; the interaction of different heuristics and other techniques, within the framework; the effectiveness of merge search with other exact solvers (such as constraint programming); the limits at which merge search is most effective; and, applying merge search to different classes (possibly non-discrete) of problems.
-
-\section*{References}
 
 \bibliography{merge_refs.bib}
 

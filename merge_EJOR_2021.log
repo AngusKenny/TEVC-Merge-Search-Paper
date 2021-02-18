@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.1)  18 FEB 2021 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.1)  18 FEB 2021 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1215,51 +1215,36 @@ Overfull \hbox (2.22168pt too wide) has occurred while \output is active
 [1
 
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-! Undefined control sequence.
-l.86 \linenumbers
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 
-[2] [3]
+LaTeX Warning: Reference `sec:conc' on page 3 undefined on input line 105.
 
-LaTeX Warning: Reference `sec:conc' on page 4 undefined on input line 105.
-
-[4] [5] [6]
+[3] [4]
 Overfull \hbox (4.24246pt too wide) in paragraph at lines 133--134
 \T1/cmr/m/n/10 ob-tain-ing prob-lem data for aca-demic re-search can be chal-le
 ng-ing, how-ever \T1/cmr/m/it/10 minelib
  []
 
-[7] [8]
+[5] [6]
 Overfull \hbox (8.45792pt too wide) in paragraph at lines 168--169
 []\T1/cmr/m/n/10 The STPG has ap-pli-ca-tions rang-ing widely from in-te-grated
  cir-cuit de-sign ([]Cho[],
  []
 
-[9]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 180.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
 80.
- (c:/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd
+(c:/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [10] [11] [12]
+) [7] [8]
 (./img/group_part.tikz) (./img/group_part.tikz) (./img/group_part.tikz)
 (./img/group_part.tikz) (./img/group_part.tikz) (./img/group_part.tikz)
 (./img/group_part.tikz)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14] (./img/split1.tikz)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15] [16] (./img/lns-merge.tikz) [17]
+[9] [10] (./img/split1.tikz) [11] (./img/lns-merge.tikz) [12]
 Package epstopdf Info: Source file: <img/merge-opt2.eps>
 (epstopdf)                    date: 2021-02-02 09:35:57
 (epstopdf)                    size: 9072 bytes
@@ -1270,7 +1255,7 @@ Package epstopdf Info: Source file: <img/merge-opt2.eps>
 ed-to.pdf img/merge-opt2.eps>
 (epstopdf)             \includegraphics on input line 316.
 Package epstopdf Info: Output file is already uptodate.
-<img/merge-opt2-eps-converted-to.pdf, id=415, 589.20125pt x 312.16624pt>
+<img/merge-opt2-eps-converted-to.pdf, id=394, 589.20125pt x 312.16624pt>
 File: img/merge-opt2-eps-converted-to.pdf Graphic file (type pdf)
 <use img/merge-opt2-eps-converted-to.pdf>
 Package pdftex.def Info: img/merge-opt2-eps-converted-to.pdf  used on input lin
@@ -1286,7 +1271,7 @@ Package epstopdf Info: Source file: <img/merge-nhood_red.eps>
 nverted-to.pdf img/merge-nhood_red.eps>
 (epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
-<img/merge-nhood_red-eps-converted-to.pdf, id=416, 589.20125pt x 311.1625pt>
+<img/merge-nhood_red-eps-converted-to.pdf, id=395, 589.20125pt x 311.1625pt>
 File: img/merge-nhood_red-eps-converted-to.pdf Graphic file (type pdf)
 <use img/merge-nhood_red-eps-converted-to.pdf>
 Package pdftex.def Info: img/merge-nhood_red-eps-converted-to.pdf  used on inpu
@@ -1302,7 +1287,7 @@ Package epstopdf Info: Source file: <img/merge-sol.eps>
 d-to.pdf img/merge-sol.eps>
 (epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
-<img/merge-sol-eps-converted-to.pdf, id=417, 589.20125pt x 312.16624pt>
+<img/merge-sol-eps-converted-to.pdf, id=396, 589.20125pt x 312.16624pt>
 File: img/merge-sol-eps-converted-to.pdf Graphic file (type pdf)
 <use img/merge-sol-eps-converted-to.pdf>
 Package pdftex.def Info: img/merge-sol-eps-converted-to.pdf  used on input line
@@ -1318,16 +1303,15 @@ Package epstopdf Info: Source file: <img/merge-approx.eps>
 rted-to.pdf img/merge-approx.eps>
 (epstopdf)             \includegraphics on input line 319.
 Package epstopdf Info: Output file is already uptodate.
-<img/merge-approx-eps-converted-to.pdf, id=418, 589.20125pt x 312.16624pt>
+<img/merge-approx-eps-converted-to.pdf, id=397, 589.20125pt x 312.16624pt>
 File: img/merge-approx-eps-converted-to.pdf Graphic file (type pdf)
 <use img/merge-approx-eps-converted-to.pdf>
 Package pdftex.def Info: img/merge-approx-eps-converted-to.pdf  used on input l
 ine 319.
 (pdftex.def)             Requested size: 137.9979pt x 73.11137pt.
- [18] [19 <./img/merge-opt2-eps-converted-to.pdf> <./img/merge-nhood_red-eps-co
+ [13] [14 <./img/merge-opt2-eps-converted-to.pdf> <./img/merge-nhood_red-eps-co
 nverted-to.pdf> <./img/merge-sol-eps-converted-to.pdf> <./img/merge-approx-eps-
-converted-to.pdf>] [20] [21] [22] [23]
-(./img/stpg_merge.tikz
+converted-to.pdf>] [15] [16] [17] (./img/stpg_merge.tikz
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1418,21 +1402,17 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) [24] [25]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26]
+) [18] [19]
 Overfull \hbox (5.01321pt too wide) in paragraph at lines 448--449
 []\T1/cmr/m/n/10 Being graph-based prob-lems, both the CPIT prob-lem and STPG a
 re amenable
  []
 
-[27] [28] (./mine/tables/gap_table_EJOR.tex)
+[20] (./mine/tables/gap_table_EJOR.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29] [30]
+[21] [22]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 501.
@@ -1595,7 +1575,7 @@ TeX will automatically append the suffix '.tex', so I will now open 'mine/plots
 eX files - this may produce unrecoverable errors. on input line 4.
 
 PGFPlots: reading {mine/plots/conv/zuck_large_conv.csv }
-) [31] [32] (./mine/tables/runtime_table.tex) [33]
+) [23] (./mine/tables/runtime_table.tex)
 (./mine/plots/time/zuck_small_grasp_time.tikz
 Missing character: There is no . in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -1650,7 +1630,11 @@ e/kd_merge_time.csv .tex'. Please make sure you don't accidentally load TeX fil
 es - this may produce unrecoverable errors. on input line 4.
 
 PGFPlots: reading {mine/plots/time/kd_merge_time.csv }
-) [34] [35] (./mine/plots/polish/zuck_med_polish.tikz
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24] [25] (./mine/plots/polish/zuck_med_polish.tikz
 PGFPlots: reading {mine/plots/polish/zuck_med_merge_polish.csv}
 PGFPlots: reading {mine/plots/polish/zuck_med_grasp_polish_add.csv}
 )
@@ -1667,12 +1651,11 @@ PGFPlots: reading {mine/plots/polish/zuck_large_grasp_polish.csv}
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36] [37] (./stpg/tables/trunc_gap.tex)
+[26] [27] (./stpg/tables/trunc_gap.tex) [28] (./stpg/tables/trunc_pop.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38] [39] [40] (./stpg/tables/trunc_pop.tex) [41]
-(./stpg/plots/b10_pop_plot.tikz
+[29] (./stpg/plots/b10_pop_plot.tikz
 PGFPlots: reading {stpg/plots/b10_pop_plot.dat}
 PGFPlots: reading {stpg/plots/b10_pop_plot_lines.dat}
 ) (./stpg/plots/c10_pop_plot.tikz
@@ -1689,34 +1672,35 @@ PGFPlots: reading {stpg/plots/e10_pop_plot_lines.dat}
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42] [43] [44] [45] (./merge_EJOR_2021.bbl [46] [47] [48] [49] [50] [51])
-Overfull \hbox (4.50316pt too wide) in paragraph at lines 821--836
+[30] [31] [32] (./merge_EJOR_2021.bbl [33] [34] [35] [36]) [37]
+Overfull \hbox (4.50316pt too wide) in paragraph at lines 819--834
 [][] 
  []
 
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 837--842
+
+Underfull \hbox (badness 10000) in paragraph at lines 835--840
 
  []
 
-[53] [54] [55]
+[38] [39]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./stpg/tables/bd_data.tex) (./stpg/tables/ce_data.tex)
-Overfull \hbox (10.19606pt too wide) in paragraph at lines 978--1015
+Overfull \hbox (10.19606pt too wide) in paragraph at lines 976--1013
  [][] 
  []
 
+[40]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./stpg/tables/bd_pop.tex) (./stpg/tables/ce_pop.tex)
-Overfull \hbox (22.20084pt too wide) in paragraph at lines 1022--1059
+Overfull \hbox (22.20084pt too wide) in paragraph at lines 1020--1057
  [][] 
  []
 
-[56] [57] [58] [59] (./merge_EJOR_2021.aux)
+[41] [42] (./merge_EJOR_2021.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1724,9 +1708,9 @@ Package rerunfilecheck Info: File `merge_EJOR_2021.out' has not changed.
 (rerunfilecheck)             Checksum: E00E5DCD83DB9F55E1ECB9199646782E;1526.
  ) 
 Here is how much of TeX's memory you used:
- 38223 strings out of 479304
- 885967 string characters out of 5871220
- 1565702 words of memory out of 5000000
+ 38205 strings out of 479304
+ 885837 string characters out of 5871220
+ 1581151 words of memory out of 5000000
  54312 multiletter control sequences out of 15000+600000
  424842 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1763,10 +1747,10 @@ uper/sfti0700.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0
 800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c
 :/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/
 2020/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on merge_EJOR_2021.pdf (59 pages, 756885 bytes).
+Output written on merge_EJOR_2021.pdf (42 pages, 750233 bytes).
 PDF statistics:
- 990 PDF objects out of 1000 (max. 8388607)
- 864 compressed objects within 9 object streams
- 208 named destinations out of 1000 (max. 500000)
+ 915 PDF objects out of 1000 (max. 8388607)
+ 806 compressed objects within 9 object streams
+ 190 named destinations out of 1000 (max. 500000)
  225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
